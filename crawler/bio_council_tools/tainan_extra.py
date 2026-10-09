@@ -16,10 +16,5 @@ add('翁語含',[('崑科大碩士畢業',)+S('第十一選舉區'),('立委服�
 add('許又仁',[('國立臺灣師範大學畢業',)+S('第十一選舉區'),('臺南市第三屆市議員',)+S('第十一選舉區'),('臺南市立永康國民中學學務主任',)+S('第十一選舉區'),('臺南市教育產業工會第一、二屆理事長',)+S('第十一選舉區')])
 add('李美素',[('真理大學休閒遊憩事業學系碩士',)+S('第十二及第十三選舉區'),('臺南市政府原住民族事務委員會族群委員',)+S('第十二及第十三選舉區'),('臺南市原住民文化發展協會理事長',)+S('第十二及第十三選舉區'),('社團法人大臺南發展促進會理事',)+S('第十二及第十三選舉區')])
 
-import json,os,re
-_p='/private/tmp/claude-501/-Users-highker-claudecode/448a02b8-57b3-449e-a12d-74a66c9bd512/scratchpad/tainan_news.json'
-if os.path.exists(_p):
-    for n,v in json.load(open(_p)).items():
-        k=re.sub(r'[A-Za-z．\.].*','',n)
-        if k in EXTRA: continue
-        EXTRA[k]={'items':[tuple(i) for i in v['items']],'note':v.get('note','')}
+import news_merge
+news_merge.merge(EXTRA,'tainan')

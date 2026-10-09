@@ -3175,16 +3175,53 @@
  "臺北市": {
   "第1選舉區": {
    "謝閔弘": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "曾讀國立臺灣海洋大學海洋法政學士學位學程；國立臺灣師範大學東亞學系在學（2022年填報）",
+      "tier": "official",
+      "src_title": "中央選舉委員會 臺北市北投區裕民里第14屆里長選舉公報",
+      "src_url": "https://eebulletin.cec.gov.tw/111/02%E8%87%BA%E5%8C%97%E5%B8%82/05%E6%9D%91%E9%87%8C%E9%95%B7/%E5%8C%97%E6%8A%95%E5%8D%80/%E5%8C%97%E6%8A%95%E5%8D%80%E8%A3%95%E6%B0%91%E9%87%8C%E9%87%8C%E9%95%B7.pdf",
+      "src_date": ""
+     },
+     {
+      "text": "曾任三陽航空貨運代理業務代表、柳吟文理教育全科班級導師、臺大律師助理（2022年填報）",
+      "tier": "official",
+      "src_title": "中央選舉委員會 臺北市北投區裕民里第14屆里長選舉公報",
+      "src_url": "https://eebulletin.cec.gov.tw/111/02%E8%87%BA%E5%8C%97%E5%B8%82/05%E6%9D%91%E9%87%8C%E9%95%B7/%E5%8C%97%E6%8A%95%E5%8D%80/%E5%8C%97%E6%8A%95%E5%8D%80%E8%A3%95%E6%B0%91%E9%87%8C%E9%87%8C%E9%95%B7.pdf",
+      "src_date": ""
+     },
+     {
+      "text": "2022年參選北投區裕民里里長",
+      "tier": "official",
+      "src_title": "中央選舉委員會 臺北市北投區裕民里第14屆里長選舉公報",
+      "src_url": "https://eebulletin.cec.gov.tw/111/02%E8%87%BA%E5%8C%97%E5%B8%82/05%E6%9D%91%E9%87%8C%E9%95%B7/%E5%8C%97%E6%8A%95%E5%8D%80/%E5%8C%97%E6%8A%95%E5%8D%80%E8%A3%95%E6%B0%91%E9%87%8C%E9%87%8C%E9%95%B7.pdf",
+      "src_date": ""
+     },
+     {
+      "text": "現職教師",
+      "tier": "news",
+      "src_title": "大媒體 LINE TODAY 謝閔弘參選士林北投",
+      "src_url": "https://today.line.me/tw/v3/article/LXyRNmV",
+      "src_date": "2026-08-11"
+     }
+    ],
+    "note": "學歷經歷取自2022年里長選舉公報"
    },
    "李文": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "曾參選士林北投區立法委員（約六年前）",
+      "tier": "news",
+      "src_title": "Storm.mg 登記參戰士林北投市議員 李敖女兒",
+      "src_url": "https://www.storm.mg/article/11160808",
+      "src_date": "2026-09-01"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "陳彥廷": {
     "bio": [],
-    "note": "待補"
+    "note": "查無公開學經歷"
    },
    "鍾佩玲": {
     "bio": [
@@ -3227,8 +3264,44 @@
     "note": ""
    },
    "紀建漢": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "國立臺北科技大學碩士畢業",
+      "tier": "news",
+      "src_title": "UDN 紀建漢退黨宣布無黨參選",
+      "src_url": "https://udn.com/news/story/124652/9321327",
+      "src_date": "2026-02-10"
+     },
+     {
+      "text": "北臺科學技術學院電子系畢業（2022年填報）",
+      "tier": "official",
+      "src_title": "中央選舉委員會 臺北市士林區後港里第14屆里長選舉公報",
+      "src_url": "https://eebulletin.cec.gov.tw/111/02%E8%87%BA%E5%8C%97%E5%B8%82/05%E6%9D%91%E9%87%8C%E9%95%B7/%E5%A3%AB%E6%9E%97%E5%8D%80/%E5%A3%AB%E6%9E%97%E5%8D%80%E5%BE%8C%E6%B8%AF%E9%87%8C%E9%87%8C%E9%95%B7.pdf",
+      "src_date": ""
+     },
+     {
+      "text": "士林區後港里里長（3屆）",
+      "tier": "news",
+      "src_title": "UDN 紀建漢退黨宣布無黨參選",
+      "src_url": "https://udn.com/news/story/124652/9321327",
+      "src_date": "2026-02-10"
+     },
+     {
+      "text": "曾任華碩電腦研發工程師、後港墘社區發展協會理事長（2022年填報）",
+      "tier": "official",
+      "src_title": "中央選舉委員會 臺北市士林區後港里第14屆里長選舉公報",
+      "src_url": "https://eebulletin.cec.gov.tw/111/02%E8%87%BA%E5%8C%97%E5%B8%82/05%E6%9D%91%E9%87%8C%E9%95%B7/%E5%A3%AB%E6%9E%97%E5%8D%80/%E5%A3%AB%E6%9E%97%E5%8D%80%E5%BE%8C%E6%B8%AF%E9%87%8C%E9%87%8C%E9%95%B7.pdf",
+      "src_date": ""
+     },
+     {
+      "text": "士林區垃圾焚化廠回饋經費管理委員會主任委員（2屆）",
+      "tier": "news",
+      "src_title": "UDN 紀建漢退黨宣布無黨參選",
+      "src_url": "https://udn.com/news/story/124652/9321327",
+      "src_date": "2026-02-10"
+     }
+    ],
+    "note": "部分項目取自2022年里長選舉公報"
    },
    "陳賢蔚": {
     "bio": [
@@ -3351,8 +3424,16 @@
     "note": ""
    },
    "林揚庭": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "曾任立法委員李彥秀國會辦公室主任",
+      "tier": "news",
+      "src_title": "理財周刊 登記參選士林北投議員 林揚庭",
+      "src_url": "https://www.moneyweekly.com.tw/ArticleData/Info/Article/246648",
+      "src_date": "2026-09-03"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "陳慈慧": {
     "bio": [
@@ -3435,8 +3516,37 @@
     "note": ""
    },
    "陳怡潔": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "國立銘傳大學管理學院研究所博士",
+      "tier": "official",
+      "src_title": "立法院全球資訊網 陳怡潔委員（第9屆）",
+      "src_url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=1869",
+      "src_date": ""
+     },
+     {
+      "text": "第8屆親民黨全國不分區立法委員",
+      "tier": "official",
+      "src_title": "立法院全球資訊網 陳怡潔委員（第9屆）",
+      "src_url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=1869",
+      "src_date": ""
+     },
+     {
+      "text": "第9屆親民黨全國不分區立法委員",
+      "tier": "official",
+      "src_title": "立法院全球資訊網 陳怡潔委員（第9屆）",
+      "src_url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=1869",
+      "src_date": ""
+     },
+     {
+      "text": "曾任臺北市政府青年事務委員會副主任委員、銘傳大學助理教授",
+      "tier": "official",
+      "src_title": "立法院全球資訊網 陳怡潔委員（第9屆）",
+      "src_url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=1869",
+      "src_date": ""
+     }
+    ],
+    "note": ""
    },
    "林杏兒": {
     "bio": [
@@ -3512,8 +3622,37 @@
     "note": ""
    },
    "賴苡任": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "亞洲大學財經法律學系五年一貫學制取得學士及碩士學位",
+      "tier": "news",
+      "src_title": "自由時報 賴苡任法學世家背景曝",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5015966",
+      "src_date": "2025-04-18"
+     },
+     {
+      "text": "2016年考取北京大學法學院博士班",
+      "tier": "news",
+      "src_title": "自由時報 賴苡任法學世家背景曝",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5015966",
+      "src_date": "2025-04-18"
+     },
+     {
+      "text": "曾任國民黨副發言人、立法委員傅崐萁辦公室助理",
+      "tier": "news",
+      "src_title": "自由時報 國民黨青年軍恐成棄子",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5032391",
+      "src_date": "2025-05-04"
+     },
+     {
+      "text": "罷免立委吳思瑤團體召集人",
+      "tier": "news",
+      "src_title": "自由時報 國民黨青年軍恐成棄子",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5032391",
+      "src_date": "2025-05-04"
+     }
+    ],
+    "note": ""
    },
    "汪志冰": {
     "bio": [
@@ -3556,8 +3695,23 @@
     "note": ""
    },
    "劉致妤": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "曾任臺北市議員侯漢廷服務處主任／助理，約8年",
+      "tier": "news",
+      "src_title": "鏡週刊 昔日童星改行從政 劉致妤",
+      "src_url": "https://www.mirrormedia.mg/story/20260906edi022",
+      "src_date": "2026-09-06"
+     },
+     {
+      "text": "曾為演員（童星出身，演出《新十二生肖》）",
+      "tier": "news",
+      "src_title": "自由娛樂 《新十二生肖》貝瑪宣布參選議員",
+      "src_url": "https://ent.ltn.com.tw/news/breakingnews/5564523",
+      "src_date": "2026-09-06"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "林延鳳": {
     "bio": [
@@ -3640,8 +3794,30 @@
     "note": ""
    },
    "林聖峰": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "東海大學資訊工程研究所碩士班畢業；東吳大學資訊科學系畢業（2022年填報）",
+      "tier": "official",
+      "src_title": "中央選舉委員會 臺北市北投區文林里第14屆里長選舉公報",
+      "src_url": "https://eebulletin.cec.gov.tw/111/02%E8%87%BA%E5%8C%97%E5%B8%82/05%E6%9D%91%E9%87%8C%E9%95%B7/%E5%8C%97%E6%8A%95%E5%8D%80/%E5%8C%97%E6%8A%95%E5%8D%80%E6%96%87%E6%9E%97%E9%87%8C%E9%87%8C%E9%95%B7.pdf",
+      "src_date": ""
+     },
+     {
+      "text": "曾任源一資訊股份有限公司軟體工程師十年；青少年純潔運動協會服務員五年（2022年填報）",
+      "tier": "official",
+      "src_title": "中央選舉委員會 臺北市北投區文林里第14屆里長選舉公報",
+      "src_url": "https://eebulletin.cec.gov.tw/111/02%E8%87%BA%E5%8C%97%E5%B8%82/05%E6%9D%91%E9%87%8C%E9%95%B7/%E5%8C%97%E6%8A%95%E5%8D%80/%E5%8C%97%E6%8A%95%E5%8D%80%E6%96%87%E6%9E%97%E9%87%8C%E9%87%8C%E9%95%B7.pdf",
+      "src_date": ""
+     },
+     {
+      "text": "世界和平統一家庭聯合會志工（2022年填報）",
+      "tier": "official",
+      "src_title": "中央選舉委員會 臺北市北投區文林里第14屆里長選舉公報",
+      "src_url": "https://eebulletin.cec.gov.tw/111/02%E8%87%BA%E5%8C%97%E5%B8%82/05%E6%9D%91%E9%87%8C%E9%95%B7/%E5%8C%97%E6%8A%95%E5%8D%80/%E5%8C%97%E6%8A%95%E5%8D%80%E6%96%87%E6%9E%97%E9%87%8C%E9%87%8C%E9%95%B7.pdf",
+      "src_date": ""
+     }
+    ],
+    "note": "依2022年里長公報之姓名、行政區與所屬團體比對，無2026年報導可再核對"
    }
   },
   "第2選舉區": {
@@ -3719,12 +3895,56 @@
     "note": ""
    },
    "陳冠安": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "國立臺灣大學政治學研究所博士班就讀中",
+      "tier": "news",
+      "src_title": "Storm.mg 趙少康力挺陳冠安選港湖",
+      "src_url": "https://www.storm.mg/article/11107422",
+      "src_date": "2026-03-03"
+     },
+     {
+      "text": "曾任立委羅智強、李彥秀、江啟臣、柯志恩、前總統馬英九、前臺北市長郝龍斌等人之幕僚",
+      "tier": "news",
+      "src_title": "Storm.mg 趙少康力挺陳冠安選港湖",
+      "src_url": "https://www.storm.mg/article/11107422",
+      "src_date": "2026-03-03"
+     }
+    ],
+    "note": ""
    },
    "高嘉瑜": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "國立臺灣大學國家發展研究所兩岸組碩士",
+      "tier": "official",
+      "src_title": "立法院全球資訊網 高嘉瑜委員（第10屆）",
+      "src_url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=38067",
+      "src_date": ""
+     },
+     {
+      "text": "臺灣大學法律系畢業",
+      "tier": "official",
+      "src_title": "立法院全球資訊網 高嘉瑜委員（第10屆）",
+      "src_url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=38067",
+      "src_date": ""
+     },
+     {
+      "text": "第10屆立法委員（民主進步黨，臺北市第4選舉區）",
+      "tier": "official",
+      "src_title": "立法院全球資訊網 高嘉瑜委員（第10屆）",
+      "src_url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=38067",
+      "src_date": ""
+     },
+     {
+      "text": "第11至13屆臺北市議員",
+      "tier": "official",
+      "src_title": "立法院全球資訊網 高嘉瑜委員（第10屆）",
+      "src_url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=38067",
+      "src_date": ""
+     }
+    ],
+    "note": ""
    },
    "王孝維": {
     "bio": [
@@ -3888,7 +4108,7 @@
    },
    "何恕懷": {
     "bio": [],
-    "note": "待補"
+    "note": "查無公開學經歷"
    },
    "闕枚莎": {
     "bio": [
@@ -3931,8 +4151,30 @@
     "note": ""
    },
    "陳又新": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "國立交通大學科技法律研究所碩士（2018年填報）",
+      "tier": "official",
+      "src_title": "中央選舉委員會 臺北市第13屆市議員選舉公報（第2選舉區，2018）",
+      "src_url": "https://eebulletin.cec.gov.tw/107/02%E8%87%BA%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC02%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+      "src_date": ""
+     },
+     {
+      "text": "國立臺灣大學法律系、社會工作學系雙學士（2018年填報）",
+      "tier": "official",
+      "src_title": "中央選舉委員會 臺北市第13屆市議員選舉公報（第2選舉區，2018）",
+      "src_url": "https://eebulletin.cec.gov.tw/107/02%E8%87%BA%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC02%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+      "src_date": ""
+     },
+     {
+      "text": "律師（曾任弘鼎法律事務所合夥律師，2018年填報）",
+      "tier": "official",
+      "src_title": "中央選舉委員會 臺北市第13屆市議員選舉公報（第2選舉區，2018）",
+      "src_url": "https://eebulletin.cec.gov.tw/107/02%E8%87%BA%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC02%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+      "src_date": ""
+     }
+    ],
+    "note": "公報為2018年填報，當時登記推薦政黨為社會民主黨"
    },
    "吳世正": {
     "bio": [
@@ -3976,13 +4218,21 @@
    },
    "黃啟彬": {
     "bio": [],
-    "note": "待補"
+    "note": "查無公開學經歷"
    }
   },
   "第3選舉區": {
    "鄧樂強": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "空軍服役近30年，退役空軍上校",
+      "tier": "news",
+      "src_title": "自由時報 台灣前進陣線挺鄧樂強選松信議員",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5384306",
+      "src_date": "2026-03-27"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "詹為元": {
     "bio": [
@@ -4065,12 +4315,49 @@
     "note": ""
    },
    "郭凡": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "澳洲雪梨大學國際關係學位",
+      "tier": "news",
+      "src_title": "PChome Online新聞 被藍白鎖定擠掉 郭凡出招搭洋流",
+      "src_url": "https://news.pchome.com.tw/politics/cnews/20260924/index-79021542225238227001.html",
+      "src_date": "2026-09-24"
+     },
+     {
+      "text": "曾任立法委員王定宇、臺北市議員趙怡翔團隊助理",
+      "tier": "news",
+      "src_title": "PChome Online新聞 被藍白鎖定擠掉 郭凡出招搭洋流",
+      "src_url": "https://news.pchome.com.tw/politics/cnews/20260924/index-79021542225238227001.html",
+      "src_date": "2026-09-24"
+     }
+    ],
+    "note": ""
    },
    "李明璇": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "北京大學新聞與傳播學院傳播學碩士",
+      "tier": "news",
+      "src_title": "Newtalk（LINE TODAY）2024立委選戰 李明璇踏出從政第一步",
+      "src_url": "https://today.line.me/tw/v3/article/7NoyO5Z",
+      "src_date": "2023-08-18"
+     },
+     {
+      "text": "世新大學廣播電視電影學系畢業",
+      "tier": "news",
+      "src_title": "Newtalk（LINE TODAY）2024立委選戰 李明璇踏出從政第一步",
+      "src_url": "https://today.line.me/tw/v3/article/7NoyO5Z",
+      "src_date": "2023-08-18"
+     },
+     {
+      "text": "曾任中國國民黨發言人",
+      "tier": "news",
+      "src_title": "Storm.mg 國民黨松信議員初選揭曉 李明璇、許原榮出線",
+      "src_url": "https://www.storm.mg/article/11123743",
+      "src_date": "2026-04-22"
+     }
+    ],
+    "note": ""
    },
    "秦慧珠": {
     "bio": [
@@ -4193,12 +4480,34 @@
     "note": ""
    },
    "許甫": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "政治大學新聞系畢業",
+      "tier": "news",
+      "src_title": "信傳媒 坐穩第三大黨源自外貌徵才",
+      "src_url": "https://www.cmmedia.com.tw/home/articles/40816",
+      "src_date": "2023-06-27"
+     },
+     {
+      "text": "曾任TVBS新聞部政治記者兼主播、上海特派記者；中天新聞台主播",
+      "tier": "news",
+      "src_title": "信傳媒 坐穩第三大黨源自外貌徵才",
+      "src_url": "https://www.cmmedia.com.tw/home/articles/40816",
+      "src_date": "2023-06-27"
+     },
+     {
+      "text": "曾任台灣民眾黨副秘書長",
+      "tier": "news",
+      "src_title": "鏡新聞 民眾黨提名10人 許甫首戰松山信義",
+      "src_url": "https://www.mnews.tw/story/20260121nm019",
+      "src_date": "2026-01-21"
+     }
+    ],
+    "note": ""
    },
    "左曉明": {
     "bio": [],
-    "note": "待補"
+    "note": "查無公開學經歷"
    },
    "許淑華": {
     "bio": [
@@ -4281,14 +4590,51 @@
     "note": "2022年公報登記推薦政黨為時代力量"
    },
    "許原榮": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "立法院長韓國瑜辦公室主任",
+      "tier": "news",
+      "src_title": "聯合新聞網 韓國瑜主任許原榮拚北市議員初選",
+      "src_url": "https://udn.com/news/story/124652/9380393",
+      "src_date": "2026-03-14"
+     },
+     {
+      "text": "曾任前立委費鴻泰辦公室主任",
+      "tier": "news",
+      "src_title": "聯合新聞網 韓國瑜主任許原榮拚北市議員初選",
+      "src_url": "https://udn.com/news/story/124652/9380393",
+      "src_date": "2026-03-14"
+     }
+    ],
+    "note": "未查得學歷"
    }
   },
   "第4選舉區": {
    "朱政騏": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "臺北醫學大學保健營養學系畢業",
+      "tier": "news",
+      "src_title": "FTNN 蠻好的牛糞博士1 朱政騏生醫跨領域背景",
+      "src_url": "https://www.ftnn.com.tw/news/500350",
+      "src_date": "2025-11-17"
+     },
+     {
+      "text": "世新大學社會發展研究所碩士班；考取國立臺灣大學社會學系博士班",
+      "tier": "news",
+      "src_title": "FTNN 蠻好的牛糞博士1 朱政騏生醫跨領域背景",
+      "src_url": "https://www.ftnn.com.tw/news/500350",
+      "src_date": "2025-11-17"
+     },
+     {
+      "text": "曾任民進黨臺北市黨部執行長、立委何志偉助理、臺北市議員鍾佩玲助理；台灣新動力智庫執行長",
+      "tier": "news",
+      "src_title": "TVBS 中山大同泛綠大亂鬥",
+      "src_url": "https://news.tvbs.com.tw/politics/4023176",
+      "src_date": "2026-09-16"
+     }
+    ],
+    "note": ""
    },
    "顏若芳": {
     "bio": [
@@ -4331,16 +4677,60 @@
     "note": ""
    },
    "賴俊翰": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "國立高雄海洋科技大學航運技術系畢業（本人說明）",
+      "tier": "news",
+      "src_title": "LINE TODAY 從碩士變在學生？王世堅子弟兵學歷烏龍",
+      "src_url": "https://today.line.me/tw/v3/article/nXy3VPM",
+      "src_date": "2025-10-06"
+     },
+     {
+      "text": "臺北海洋科技大學航運管理系碩士班就讀（2025年10月報導時尚未畢業）",
+      "tier": "news",
+      "src_title": "LINE TODAY 從碩士變在學生？王世堅子弟兵學歷烏龍",
+      "src_url": "https://today.line.me/tw/v3/article/nXy3VPM",
+      "src_date": "2025-10-06"
+     },
+     {
+      "text": "曾任立委王世堅幕僚及服務處主任",
+      "tier": "news",
+      "src_title": "匯流新聞網 王世堅子弟兵競總成立未見花籃及本人",
+      "src_url": "https://cnews.com.tw/262170916a01/",
+      "src_date": "2026-09-16"
+     }
+    ],
+    "note": "學歷依本人更正後說法"
    },
    "熊羿": {
     "bio": [],
-    "note": "待補"
+    "note": "查無公開學經歷"
    },
    "李易儒": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "國立暨南國際大學高階經營管理學碩士（2022年填報）",
+      "tier": "official",
+      "src_title": "中央選舉委員會 臺北市大安區車層里第14屆里長選舉公報",
+      "src_url": "https://eebulletin.cec.gov.tw/111/02%E8%87%BA%E5%8C%97%E5%B8%82/05%E6%9D%91%E9%87%8C%E9%95%B7/%E5%A4%A7%E5%AE%89%E5%8D%80/%E5%A4%A7%E5%AE%89%E5%8D%80%E8%BB%8A%E5%B1%A4%E9%87%8C%E9%87%8C%E9%95%B7.pdf",
+      "src_date": ""
+     },
+     {
+      "text": "曾任中國國民黨大安區黨部委員、車層里小組長（2022年填報）",
+      "tier": "official",
+      "src_title": "中央選舉委員會 臺北市大安區車層里第14屆里長選舉公報",
+      "src_url": "https://eebulletin.cec.gov.tw/111/02%E8%87%BA%E5%8C%97%E5%B8%82/05%E6%9D%91%E9%87%8C%E9%95%B7/%E5%A4%A7%E5%AE%89%E5%8D%80/%E5%A4%A7%E5%AE%89%E5%8D%80%E8%BB%8A%E5%B1%A4%E9%87%8C%E9%87%8C%E9%95%B7.pdf",
+      "src_date": ""
+     },
+     {
+      "text": "臺北市大安區車層里里長",
+      "tier": "news",
+      "src_title": "自由時報 里長跨區參戰！國民黨北市議員中山大同初選揭曉",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5431809",
+      "src_date": "2026-05-10"
+     }
+    ],
+    "note": "部分項目取自2022年里長選舉公報"
    },
    "陳炳甫": {
     "bio": [
@@ -4383,8 +4773,30 @@
     "note": ""
    },
    "林子揚": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "曾任新文化基金會執行長",
+      "tier": "news",
+      "src_title": "LINE TODAY 從碩士變在學生？王世堅子弟兵學歷烏龍",
+      "src_url": "https://today.line.me/tw/v3/article/nXy3VPM",
+      "src_date": "2025-10-06"
+     },
+     {
+      "text": "政治大學博士班就讀（本人說法）",
+      "tier": "news",
+      "src_title": "LINE TODAY 從碩士變在學生？王世堅子弟兵學歷烏龍",
+      "src_url": "https://today.line.me/tw/v3/article/nXy3VPM",
+      "src_date": "2025-10-06"
+     },
+     {
+      "text": "曾任前行政院長謝長廷幕僚，並歷經行政院、總統府、外交官及中央部會（本人說法）",
+      "tier": "news",
+      "src_title": "鏡報 正國會學長王義川、李坤城助陣 張銘祐、林子揚搶頭香",
+      "src_url": "https://www.mirrordaily.news/story/82820",
+      "src_date": "2026-08-31"
+     }
+    ],
+    "note": ""
    },
    "柳采葳": {
     "bio": [
@@ -4507,8 +4919,23 @@
     "note": ""
    },
    "黃麗香": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "國立臺灣藝術大學戲劇學系碩士（2018年填報）",
+      "tier": "official",
+      "src_title": "中央選舉委員會 臺北市第13屆市議員選舉公報（第4選舉區，2018）",
+      "src_url": "https://eebulletin.cec.gov.tw/107/02%E8%87%BA%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC04%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+      "src_date": ""
+     },
+     {
+      "text": "曾為第九屆立法委員參選人；臺北圓山聯誼會理事；臺北市彰化縣同鄉會理事（2018年填報）",
+      "tier": "official",
+      "src_title": "中央選舉委員會 臺北市第13屆市議員選舉公報（第4選舉區，2018）",
+      "src_url": "https://eebulletin.cec.gov.tw/107/02%E8%87%BA%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC04%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+      "src_date": ""
+     }
+    ],
+    "note": "依2018年市議員公報之姓名、行政區比對"
    },
    "林珍羽": {
     "bio": [
@@ -4591,14 +5018,44 @@
     "note": ""
    },
    "李惠暄": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "律師，執業17年",
+      "tier": "news",
+      "src_title": "Newtalk 專訪 李惠暄",
+      "src_url": "https://today.line.me/tw/v3/article/2DqP51N",
+      "src_date": "2026-08-15"
+     },
+     {
+      "text": "曾任法律扶助基金會律師",
+      "tier": "news",
+      "src_title": "Newtalk 李惠暄今完成參選登記",
+      "src_url": "https://newtalk.tw/news/view/2026-09-04/1057866",
+      "src_date": "2026-09-04"
+     }
+    ],
+    "note": "未查得學歷"
    }
   },
   "第5選舉區": {
    "張銘祐": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "曾任「台灣加入聯合國大聯盟」策劃專員",
+      "tier": "news",
+      "src_title": "Yahoo新聞 台派戰鬥雞張銘祐登記初選",
+      "src_url": "https://tw.news.yahoo.com/%E5%8F%B0%E6%B4%BE%E6%88%B0%E9%AC%A5%E9%9B%9E-%E5%BC%B5%E9%8A%98%E7%A5%90%E7%99%BB%E8%A8%98%E5%88%9D%E9%81%B8-%E5%8A%9B%E6%8B%9A%E4%B8%AD%E6%AD%A3%E8%90%AC%E8%8F%AF%E9%97%9C%E9%8D%B5-%E5%B8%AD-035150311.html",
+      "src_date": "2026-02-08"
+     },
+     {
+      "text": "曾擔任新北市議員陳乃瑜競選總幹事",
+      "tier": "news",
+      "src_title": "三立新聞 冒雨力挺師兄 陳乃瑜陪張銘祐萬華車隊掃街",
+      "src_url": "https://www.setn.com/news/1802489",
+      "src_date": ""
+     }
+    ],
+    "note": "未查得學歷"
    },
    "吳志剛": {
     "bio": [
@@ -4682,11 +5139,26 @@
    },
    "陳力新": {
     "bio": [],
-    "note": "待補"
+    "note": "查無公開學經歷"
    },
    "王振庭": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "台灣綠黨政策部主任",
+      "tier": "news",
+      "src_title": "ETtoday 小黨聯盟再推7候選人參戰2026",
+      "src_url": "https://www.ettoday.net/news/20260310/3129658.htm",
+      "src_date": "2026-03-10"
+     },
+     {
+      "text": "社工系出身；曾任保險業務與補教老師",
+      "tier": "news",
+      "src_title": "三立新聞 插旗4縣市 台灣前進再推7人選議員",
+      "src_url": "https://www.setn.com/news/1805098",
+      "src_date": "2026-03-10"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "洪婉臻": {
     "bio": [
@@ -4769,8 +5241,30 @@
     "note": ""
    },
    "應佳妤": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "加拿大多倫多大學社會心理學與國際關係雙主修畢業",
+      "tier": "news",
+      "src_title": "Newtalk 應曉薇之女應佳妤傳選議員",
+      "src_url": "https://newtalk.tw/news/view/2025-12-06/1008301",
+      "src_date": "2025-12-06"
+     },
+     {
+      "text": "英國倫敦大學亞非學院（SOAS）碩士",
+      "tier": "news",
+      "src_title": "TVBS 代母出征選北市議員 應曉薇女兒應佳妤",
+      "src_url": "https://news.tvbs.com.tw/politics/3190665",
+      "src_date": "2026-04-29"
+     },
+     {
+      "text": "曾於市議會團隊擔任助理",
+      "tier": "news",
+      "src_title": "Newtalk 應曉薇之女應佳妤傳選議員",
+      "src_url": "https://newtalk.tw/news/view/2025-12-06/1008301",
+      "src_date": "2025-12-06"
+     }
+    ],
+    "note": ""
    },
    "劉耀仁": {
     "bio": [
@@ -4806,8 +5300,30 @@
     "note": ""
    },
    "張延廷": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "政戰學校（今國防大學政治作戰學院）政治系法學碩士、博士",
+      "tier": "news",
+      "src_title": "Yahoo新聞 北市中正萬華區議員國民黨初選前空軍中將張延廷勝出",
+      "src_url": "https://tw.news.yahoo.com/%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E8%90%AC%E8%8F%AF%E5%8D%80%E8%AD%B0%E5%93%A1-%E5%9C%8B%E6%B0%91%E9%BB%A8%E5%88%9D%E9%81%B8%E5%89%8D%E7%A9%BA%E8%BB%8D%E4%B8%AD%E5%B0%87%E5%BC%B5%E5%BB%B6%E5%BB%B7%E5%8B%9D%E5%87%BA-114758347.html",
+      "src_date": "2026-05-16"
+     },
+     {
+      "text": "退役空軍中將",
+      "tier": "news",
+      "src_title": "Yahoo新聞 北市中正萬華區議員國民黨初選前空軍中將張延廷勝出",
+      "src_url": "https://tw.news.yahoo.com/%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E8%90%AC%E8%8F%AF%E5%8D%80%E8%AD%B0%E5%93%A1-%E5%9C%8B%E6%B0%91%E9%BB%A8%E5%88%9D%E9%81%B8%E5%89%8D%E7%A9%BA%E8%BB%8D%E4%B8%AD%E5%B0%87%E5%BC%B5%E5%BB%B6%E5%BB%B7%E5%8B%9D%E5%87%BA-114758347.html",
+      "src_date": "2026-05-16"
+     },
+     {
+      "text": "國立清華大學沈崇誨榮譽講座教授；中國國民黨臺北市黨部副主委",
+      "tier": "news",
+      "src_title": "Yahoo新聞 北市中正萬華區議員國民黨初選前空軍中將張延廷勝出",
+      "src_url": "https://tw.news.yahoo.com/%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E8%90%AC%E8%8F%AF%E5%8D%80%E8%AD%B0%E5%93%A1-%E5%9C%8B%E6%B0%91%E9%BB%A8%E5%88%9D%E9%81%B8%E5%89%8D%E7%A9%BA%E8%BB%8D%E4%B8%AD%E5%B0%87%E5%BC%B5%E5%BB%B6%E5%BB%B7%E5%8B%9D%E5%87%BA-114758347.html",
+      "src_date": "2026-05-16"
+     }
+    ],
+    "note": ""
    },
    "徐立信": {
     "bio": [
@@ -4850,8 +5366,23 @@
     "note": ""
    },
    "馬郁雯": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "長榮大學大眾傳播學系畢業",
+      "tier": "news",
+      "src_title": "Storm.mg 馬郁雯欲轉戰議員",
+      "src_url": "https://www.storm.mg/article/11068307",
+      "src_date": "2025-09-18"
+     },
+     {
+      "text": "曾任三立電視台記者（2016年起，政治線）",
+      "tier": "news",
+      "src_title": "Storm.mg 馬郁雯欲轉戰議員",
+      "src_url": "https://www.storm.mg/article/11068307",
+      "src_date": "2025-09-18"
+     }
+    ],
+    "note": ""
    },
    "郭昭巖": {
     "bio": [
@@ -4895,21 +5426,51 @@
    },
    "譚傳紹": {
     "bio": [],
-    "note": "待補"
+    "note": "查無公開學經歷"
    }
   },
   "第6選舉區": {
    "李道翔": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "曾為台灣民眾黨黨員（2026年退黨）",
+      "tier": "news",
+      "src_title": "Newtalk 李道翔退黨參選仍用民眾黨黨徽",
+      "src_url": "https://newtalk.tw/news/view/2026-09-23/1061601",
+      "src_date": "2026-09-23"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "陳峙穎": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "輔仁大學經濟系",
+      "tier": "official",
+      "src_title": "中央選舉委員會 臺北市文山區華興里第14屆里長選舉公報",
+      "src_url": "https://eebulletin.cec.gov.tw/111/02%E8%87%BA%E5%8C%97%E5%B8%82/05%E6%9D%91%E9%87%8C%E9%95%B7/%E6%96%87%E5%B1%B1%E5%8D%80/%E6%96%87%E5%B1%B1%E5%8D%80%E8%8F%AF%E8%88%88%E9%87%8C%E9%87%8C%E9%95%B7.pdf",
+      "src_date": ""
+     },
+     {
+      "text": "第13、14屆臺北市文山區華興里里長",
+      "tier": "official",
+      "src_title": "中央選舉委員會 臺北市文山區華興里第14屆里長選舉公報",
+      "src_url": "https://eebulletin.cec.gov.tw/111/02%E8%87%BA%E5%8C%97%E5%B8%82/05%E6%9D%91%E9%87%8C%E9%95%B7/%E6%96%87%E5%B1%B1%E5%8D%80/%E6%96%87%E5%B1%B1%E5%8D%80%E8%8F%AF%E8%88%88%E9%87%8C%E9%87%8C%E9%95%B7.pdf",
+      "src_date": ""
+     },
+     {
+      "text": "曾服第172梯消防替代役",
+      "tier": "official",
+      "src_title": "中央選舉委員會 臺北市文山區華興里第14屆里長選舉公報",
+      "src_url": "https://eebulletin.cec.gov.tw/111/02%E8%87%BA%E5%8C%97%E5%B8%82/05%E6%9D%91%E9%87%8C%E9%95%B7/%E6%96%87%E5%B1%B1%E5%8D%80/%E6%96%87%E5%B1%B1%E5%8D%80%E8%8F%AF%E8%88%88%E9%87%8C%E9%87%8C%E9%95%B7.pdf",
+      "src_date": ""
+     }
+    ],
+    "note": ""
    },
    "李奇峯": {
     "bio": [],
-    "note": "待補"
+    "note": "查無公開學經歷"
    },
    "簡舒培": {
     "bio": [
@@ -5025,8 +5586,30 @@
     "note": ""
    },
    "游智彬": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "淡江大學中國大陸研究所經貿組（2022年填報）",
+      "tier": "official",
+      "src_title": "中央選舉委員會 桃園市議會第3屆議員選舉第7選舉區選舉公報（游智彬，中壢區）",
+      "src_url": "https://eebulletin.cec.gov.tw/111/04%E6%A1%83%E5%9C%92%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC3%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E7%AC%AC7%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+      "src_date": ""
+     },
+     {
+      "text": "2022年參選桃園市議員（第7選舉區，中壢區，新黨）",
+      "tier": "official",
+      "src_title": "中央選舉委員會 桃園市議會第3屆議員選舉第7選舉區選舉公報",
+      "src_url": "https://eebulletin.cec.gov.tw/111/04%E6%A1%83%E5%9C%92%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC3%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E7%AC%AC7%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+      "src_date": ""
+     },
+     {
+      "text": "新黨副秘書長",
+      "tier": "news",
+      "src_title": "TVBS 痛批鍾小平害慘李貞秀 游智彬放話",
+      "src_url": "https://news.tvbs.com.tw/politics/3160179",
+      "src_date": "2026-03-24"
+     }
+    ],
+    "note": ""
    },
    "耿葳": {
     "bio": [
@@ -5262,8 +5845,30 @@
     "note": ""
    },
    "劉品妡": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "英國倫敦大學文化與藝術管理碩士",
+      "tier": "news",
+      "src_title": "知新聞 北市議員新人戰將大盤點",
+      "src_url": "https://www.knews.com.tw/news/4E711410935A46B200DC19A3EC9B0E1C",
+      "src_date": "2026-09-09"
+     },
+     {
+      "text": "曾任臺北市議員（現任國安會副秘書長）趙怡翔辦公室執行長",
+      "tier": "news",
+      "src_title": "知新聞 北市議員新人戰將大盤點",
+      "src_url": "https://www.knews.com.tw/news/4E711410935A46B200DC19A3EC9B0E1C",
+      "src_date": "2026-09-09"
+     },
+     {
+      "text": "曾任立委羅美玲辦公室特助",
+      "tier": "news",
+      "src_title": "知新聞 北市議員新人戰將大盤點",
+      "src_url": "https://www.knews.com.tw/news/4E711410935A46B200DC19A3EC9B0E1C",
+      "src_date": "2026-09-09"
+     }
+    ],
+    "note": ""
    },
    "張志豪": {
     "bio": [
@@ -5420,7 +6025,7 @@
    },
    "張維學": {
     "bio": [],
-    "note": "待補"
+    "note": "查無公開學經歷"
    }
   },
   "第7選舉區（平地原住民）": {
@@ -5465,30 +6070,105 @@
     "note": ""
    },
    "林筱薇Icyang Tamana": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "曾任媒體記者；創辦秝芙策略（社會影響力策略顧問平台）",
+      "tier": "self",
+      "src_title": "林筱薇 Icyang Tamana 官方網站 關於",
+      "src_url": "https://www.imvlin.com/about",
+      "src_date": ""
+     },
+     {
+      "text": "TSISA台灣公共影響力暨永續策略協會發起人",
+      "tier": "self",
+      "src_title": "林筱薇 Icyang Tamana 官方網站 關於",
+      "src_url": "https://www.imvlin.com/about",
+      "src_date": ""
+     },
+     {
+      "text": "曾任屏東排灣酒廠品牌策略副總經理",
+      "tier": "self",
+      "src_title": "林筱薇 Icyang Tamana 官方網站 關於",
+      "src_url": "https://www.imvlin.com/about",
+      "src_date": ""
+     },
+     {
+      "text": "曾任小民參政歐巴桑聯盟發言人",
+      "tier": "self",
+      "src_title": "林筱薇 Icyang Tamana 官方網站 關於",
+      "src_url": "https://www.imvlin.com/about",
+      "src_date": ""
+     }
+    ],
+    "note": "未查得學歷"
    }
   },
   "第8選舉區（山地原住民）": {
    "林家豪": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "曾任行政院青年諮詢委員會委員",
+      "tier": "news",
+      "src_title": "聯合新聞網 藍山地原民涉弊案綠推人參選 吳沛憶",
+      "src_url": "https://udn.com/news/story/124652/9686378",
+      "src_date": "2026-08-12"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "李傅鈺婷": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "長期擔任臺北市議員辦公室特別助理",
+      "tier": "news",
+      "src_title": "聯合新聞網 北市4屆議員李傅中武不連任 國民黨徵召李傅鈺婷參選",
+      "src_url": "https://udn.com/news/story/124652/9564159",
+      "src_date": "2026-06-13"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "孔垂崢Haisul Islituan": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "長年擔任原住民立法委員國會辦公室幕僚，國會服務近17年（本人說法）",
+      "tier": "news",
+      "src_title": "Yahoo股市 銀行行員收佣案引關注 孔垂崢籌辦公益金融巡迴講座",
+      "src_url": "https://tw.stock.yahoo.com/news/%E9%8A%80%E8%A1%8C%E8%A1%8C%E5%93%A1%E6%94%B6%E4%BD%A3%E6%A1%88%E5%BC%95%E9%97%9C%E6%B3%A8-%E5%AD%94%E5%9E%82%E5%B4%A2%E7%B1%8C%E8%BE%A6%E5%85%AC%E7%9B%8A%E9%87%91%E8%9E%8D%E5%B7%A1%E8%BF%B4%E8%AC%9B%E5%BA%A7-%E6%89%93%E9%80%A0%E8%87%BA%E5%8C%97%E5%8E%9F%E6%B0%91%E9%87%91%E8%9E%8D%E5%AE%89%E5%85%A8%E7%B6%B2-032733136.html",
+      "src_date": "2026-06-24"
+     }
+    ],
+    "note": "未查得學歷"
    }
   }
  },
  "臺中市": {
   "第1選舉區": {
    "吳中源": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "靜宜大學西班牙語系畢業",
+      "tier": "news",
+      "src_title": "自由時報 前台中市議員吳敏濟長子吳中源接棒參選2026市議員",
+      "src_url": "https://today.line.me/tw/v3/article/eLQnR2K",
+      "src_date": "2024-02-12"
+     },
+     {
+      "text": "曾任立法委員陳亭妃國會助理",
+      "tier": "news",
+      "src_title": "自由時報 前台中市議員吳敏濟長子吳中源接棒參選2026市議員",
+      "src_url": "https://today.line.me/tw/v3/article/eLQnR2K",
+      "src_date": "2024-02-12"
+     },
+     {
+      "text": "曾任市議員服務處議員特助約12年",
+      "tier": "news",
+      "src_title": "新華報導 吳中源當選大甲國中今年度傑出校友",
+      "src_url": "https://ccss3172.blogspot.com/2024/11/blog-post_907.html",
+      "src_date": "2024-11-17"
+     }
+    ],
+    "note": ""
    },
    "楊啓邦": {
     "bio": [
@@ -5613,8 +6293,16 @@
   },
   "第2選舉區": {
    "陳永祥": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "沙鹿區六路里里長",
+      "tier": "news",
+      "src_title": "自由時報 民眾黨中市2選區提名陳永祥",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5397721",
+      "src_date": "2026-04-09"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "王立任": {
     "bio": [
@@ -5777,8 +6465,37 @@
     "note": ""
    },
    "陳怡潔": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "僑光科技大學企業管理碩士",
+      "tier": "news",
+      "src_title": "自由時報 台中市第二選區市議員 綠營出現4搶3",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5323244",
+      "src_date": "2026-01-27"
+     },
+     {
+      "text": "曾任民主進步黨台中市黨部執行長",
+      "tier": "news",
+      "src_title": "自由時報 台中市第二選區市議員 綠營出現4搶3",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5323244",
+      "src_date": "2026-01-27"
+     },
+     {
+      "text": "曾任台中市議員江肇國服務處主任",
+      "tier": "news",
+      "src_title": "自由時報 台中市第二選區市議員 綠營出現4搶3",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5323244",
+      "src_date": "2026-01-27"
+     },
+     {
+      "text": "曾任林佳龍市長室機要秘書",
+      "tier": "news",
+      "src_title": "自由時報 台中市第二選區市議員 綠營出現4搶3",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5323244",
+      "src_date": "2026-01-27"
+     }
+    ],
+    "note": ""
    },
    "陳廷秀": {
     "bio": [
@@ -5983,14 +6700,29 @@
     "note": ""
    },
    "林汝洲": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "曾任台中市議員（多屆）",
+      "tier": "news",
+      "src_title": "NOWnews 中市三選區登記 林昊佑交棒林汝洲",
+      "src_url": "https://news.pchome.com.tw/public/nownews/20260904/index-78850282196902207016.html",
+      "src_date": "2026-09-04"
+     },
+     {
+      "text": "曾任大肚鄉長",
+      "tier": "news",
+      "src_title": "NOWnews 中市三選區登記 林昊佑交棒林汝洲",
+      "src_url": "https://news.pchome.com.tw/public/nownews/20260904/index-78850282196902207016.html",
+      "src_date": "2026-09-04"
+     }
+    ],
+    "note": "未查得學歷"
    }
   },
   "第4選舉區": {
    "連小華": {
     "bio": [],
-    "note": "待補"
+    "note": "查無公開學經歷"
    },
    "邱愛珊": {
     "bio": [
@@ -6074,7 +6806,7 @@
    },
    "劉和豐": {
     "bio": [],
-    "note": "待補"
+    "note": "查無公開學經歷"
    },
    "謝志忠": {
     "bio": [
@@ -6117,12 +6849,49 @@
     "note": ""
    },
    "連佳振": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "豐原區翁子里里長（擔任四屆、共16年）",
+      "tier": "news",
+      "src_title": "自由時報 江啟臣重返從政出發地 助攻議員參選人連佳振",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5579160",
+      "src_date": "2026-09-19"
+     },
+     {
+      "text": "曾擔任江啟臣競選總幹事",
+      "tier": "news",
+      "src_title": "自由時報 江啟臣重返從政出發地 助攻議員參選人連佳振",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5579160",
+      "src_date": "2026-09-19"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "王朝坤": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "2018年當選台中市議員",
+      "tier": "news",
+      "src_title": "自由時報 台中4選區掀波瀾 70歲王朝坤再戰議員",
+      "src_url": "https://today.line.me/tw/v3/article/gzR15ez",
+      "src_date": "2026-08-11"
+     },
+     {
+      "text": "曾任后里鄉民代表會主席",
+      "tier": "news",
+      "src_title": "自由時報 台中4選區掀波瀾 70歲王朝坤再戰議員",
+      "src_url": "https://today.line.me/tw/v3/article/gzR15ez",
+      "src_date": "2026-08-11"
+     },
+     {
+      "text": "曾任后里農會常務監事、鎮瀾宮董事",
+      "tier": "news",
+      "src_title": "自由時報 台中4選區掀波瀾 70歲王朝坤再戰議員",
+      "src_url": "https://today.line.me/tw/v3/article/gzR15ez",
+      "src_date": "2026-08-11"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "黃朝淵": {
     "bio": [
@@ -6288,15 +7057,52 @@
    },
    "陳清崧": {
     "bio": [],
-    "note": "待補"
+    "note": "查無公開學經歷"
    },
    "陳映辰": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "英國諾丁漢特倫特大學碩士",
+      "tier": "news",
+      "src_title": "NOWnews 快訊 綠中市議員潭雅神民調出爐",
+      "src_url": "https://www.nownews.com/news/6800179",
+      "src_date": "2026-03-26"
+     },
+     {
+      "text": "大雅區上雅里里長",
+      "tier": "news",
+      "src_title": "NOWnews 快訊 綠中市議員潭雅神民調出爐",
+      "src_url": "https://www.nownews.com/news/6800179",
+      "src_date": "2026-03-26"
+     }
+    ],
+    "note": ""
    },
    "張烱春": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "曾任台中市北屯區仁和里里長（縣市合併後第一屆）",
+      "tier": "news",
+      "src_title": "Yahoo新聞 張烱春投入台中四選區市議員選戰",
+      "src_url": "https://tw.news.yahoo.com/%E5%BC%B5%E7%83%B1%E6%98%A5%E6%8A%95%E5%85%A5%E5%8F%B0%E4%B8%AD%E5%9B%9B%E9%81%B8%E5%8D%80%E5%B8%82%E8%AD%B0%E5%93%A1%E9%81%B8%E6%88%B0-12%E6%90%B65%E5%8F%83%E9%81%B8%E5%A4%A7%E7%88%86%E7%82%B8-085057612.html",
+      "src_date": "2022-08-24"
+     },
+     {
+      "text": "台中市街頭藝人協會創會理事長",
+      "tier": "news",
+      "src_title": "Yahoo新聞 張烱春投入台中四選區市議員選戰",
+      "src_url": "https://tw.news.yahoo.com/%E5%BC%B5%E7%83%B1%E6%98%A5%E6%8A%95%E5%85%A5%E5%8F%B0%E4%B8%AD%E5%9B%9B%E9%81%B8%E5%8D%80%E5%B8%82%E8%AD%B0%E5%93%A1%E9%81%B8%E6%88%B0-12%E6%90%B65%E5%8F%83%E9%81%B8%E5%A4%A7%E7%88%86%E7%82%B8-085057612.html",
+      "src_date": "2022-08-24"
+     },
+     {
+      "text": "曾開設幼稚園、補習班",
+      "tier": "news",
+      "src_title": "Yahoo新聞 張烱春投入台中四選區市議員選戰",
+      "src_url": "https://tw.news.yahoo.com/%E5%BC%B5%E7%83%B1%E6%98%A5%E6%8A%95%E5%85%A5%E5%8F%B0%E4%B8%AD%E5%9B%9B%E9%81%B8%E5%8D%80%E5%B8%82%E8%AD%B0%E5%93%A1%E9%81%B8%E6%88%B0-12%E6%90%B65%E5%8F%83%E9%81%B8%E5%A4%A7%E7%88%86%E7%82%B8-085057612.html",
+      "src_date": "2022-08-24"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "賴朝國": {
     "bio": [
@@ -6379,8 +7185,23 @@
     "note": ""
    },
    "林鈺梅": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "國立中興大學應用經濟碩士",
+      "tier": "news",
+      "src_title": "Newtalk新聞 林鈺梅宣布退出民進黨 以無黨籍參戰潭雅神議員",
+      "src_url": "https://newtalk.tw/news/view/2026-08-28/1056298",
+      "src_date": "2026-08-28"
+     },
+     {
+      "text": "曾擔任科技業國外業務7年",
+      "tier": "news",
+      "src_title": "自由時報 中市民進黨潭雅神初選2年輕女將挑戰資深議員",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5362075",
+      "src_date": "2026-03-07"
+     }
+    ],
+    "note": ""
    },
    "徐瑄灃": {
     "bio": [
@@ -6424,7 +7245,7 @@
    },
    "蔡慧君": {
     "bio": [],
-    "note": "待補"
+    "note": "查無公開學經歷"
    }
   },
   "第6選舉區": {
@@ -6469,8 +7290,30 @@
     "note": ""
    },
    "劉芩妤": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "碩士學歷（校系未載）",
+      "tier": "news",
+      "src_title": "Yahoo新聞 小草女神表態選議員",
+      "src_url": "https://tw.news.yahoo.com/%E5%B0%8F%E8%8D%89%E5%A5%B3%E7%A5%9E-%E8%A1%A8%E6%85%8B%E9%81%B8%E8%AD%B0%E5%93%A1-%E5%9B%9B%E5%8F%89%E8%B2%93%E6%8F%AD-%E6%9B%BE%E6%89%B9%E6%B7%98%E5%AF%B6%E8%B2%A8-%E7%BF%BB4%E5%80%8D%E8%B3%A3-102458538.html",
+      "src_date": "2025-12-04"
+     },
+     {
+      "text": "民眾黨台中市黨部發言人",
+      "tier": "news",
+      "src_title": "Yahoo新聞 小草女神表態選議員",
+      "src_url": "https://tw.news.yahoo.com/%E5%B0%8F%E8%8D%89%E5%A5%B3%E7%A5%9E-%E8%A1%A8%E6%85%8B%E9%81%B8%E8%AD%B0%E5%93%A1-%E5%9B%9B%E5%8F%89%E8%B2%93%E6%8F%AD-%E6%9B%BE%E6%89%B9%E6%B7%98%E5%AF%B6%E8%B2%A8-%E7%BF%BB4%E5%80%8D%E8%B3%A3-102458538.html",
+      "src_date": "2025-12-04"
+     },
+     {
+      "text": "「民眾台八線」節目主持人",
+      "tier": "news",
+      "src_title": "Yahoo新聞 小草女神表態選議員",
+      "src_url": "https://tw.news.yahoo.com/%E5%B0%8F%E8%8D%89%E5%A5%B3%E7%A5%9E-%E8%A1%A8%E6%85%8B%E9%81%B8%E8%AD%B0%E5%93%A1-%E5%9B%9B%E5%8F%89%E8%B2%93%E6%8F%AD-%E6%9B%BE%E6%89%B9%E6%B7%98%E5%AF%B6%E8%B2%A8-%E7%BF%BB4%E5%80%8D%E8%B3%A3-102458538.html",
+      "src_date": "2025-12-04"
+     }
+    ],
+    "note": ""
    },
    "楊大鋐": {
     "bio": [
@@ -7063,38 +7906,157 @@
     "note": "2022年公報登記推薦政黨為前進黨"
    },
    "曾咨耀": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "國立臺灣師範大學物理研究所碩士",
+      "tier": "news",
+      "src_title": "ETtoday新聞雲 曾朝榮兒子曾咨耀接棒參選 半導體工程師轉戰北屯",
+      "src_url": "https://www.ettoday.net/news/20261003/3248525.htm",
+      "src_date": "2026-10-03"
+     },
+     {
+      "text": "曾任科技公司半導體研發工程師",
+      "tier": "news",
+      "src_title": "ETtoday新聞雲 曾朝榮兒子曾咨耀接棒參選 半導體工程師轉戰北屯",
+      "src_url": "https://www.ettoday.net/news/20261003/3248525.htm",
+      "src_date": "2026-10-03"
+     },
+     {
+      "text": "曾任市議員服務處主任",
+      "tier": "news",
+      "src_title": "ETtoday新聞雲 曾朝榮兒子曾咨耀接棒參選 半導體工程師轉戰北屯",
+      "src_url": "https://www.ettoday.net/news/20261003/3248525.htm",
+      "src_date": "2026-10-03"
+     }
+    ],
+    "note": ""
    },
    "蔡佩珊": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "曾任外貿協會西語組人員、日商廣告行銷企畫",
+      "tier": "news",
+      "src_title": "臺灣導報 時力與歐巴桑聯盟推2候選人競選議員",
+      "src_url": "https://taiwanreports.com/archives/1010306",
+      "src_date": "2026-09-02"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "陳信秀": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "東海大學畢業",
+      "tier": "news",
+      "src_title": "Newtalk新聞 新潮流推陳信秀參選市議員",
+      "src_url": "https://newtalk.tw/news/view/2026-01-06/1013418",
+      "src_date": "2026-01-06"
+     },
+     {
+      "text": "曾任交通部觀光署署長室機要專門委員、國家發展委員會主委室機要專門委員",
+      "tier": "news",
+      "src_title": "Newtalk新聞 新潮流推陳信秀參選市議員",
+      "src_url": "https://newtalk.tw/news/view/2026-01-06/1013418",
+      "src_date": "2026-01-06"
+     },
+     {
+      "text": "曾任立法委員林靜儀服務處主任",
+      "tier": "news",
+      "src_title": "Newtalk新聞 新潮流推陳信秀參選市議員",
+      "src_url": "https://newtalk.tw/news/view/2026-01-06/1013418",
+      "src_date": "2026-01-06"
+     },
+     {
+      "text": "曾任立法委員徐富癸國會助理",
+      "tier": "news",
+      "src_title": "Newtalk新聞 新潮流推陳信秀參選市議員",
+      "src_url": "https://newtalk.tw/news/view/2026-01-06/1013418",
+      "src_date": "2026-01-06"
+     }
+    ],
+    "note": ""
    },
    "陳諭韋": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "曾任埔里鎮民代表會副主席",
+      "tier": "news",
+      "src_title": "自由時報 民眾黨台中北屯參選議員擠破頭",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5263411",
+      "src_date": "2025-12-01"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "吳宗學": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "嶺東科技大學財經系畢業",
+      "tier": "news",
+      "src_title": "聯合新聞網 擁有3張餐飲證照 吳宗學獲陳成添交棒",
+      "src_url": "https://udn.com/news/story/124652/9424776",
+      "src_date": "2026-04-06"
+     },
+     {
+      "text": "曾任台中市長盧秀燕秘書",
+      "tier": "news",
+      "src_title": "聯合新聞網 中市北屯區市議員參選人吳宗學登記",
+      "src_url": "https://udn.com/news/story/124652/9731981",
+      "src_date": "2026-09-03"
+     }
+    ],
+    "note": ""
    },
    "許育璿": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "曾任立法院副院長江啟臣秘書",
+      "tier": "news",
+      "src_title": "聯合新聞網 江啟臣參選市長登記後 簽名文昌筆轉贈許育璿",
+      "src_url": "https://udn.com/news/story/124652/9732393",
+      "src_date": "2026-09-03"
+     },
+     {
+      "text": "曾任國民黨台中市黨部發言人",
+      "tier": "news",
+      "src_title": "聯合新聞網 江啟臣參選市長登記後 簽名文昌筆轉贈許育璿",
+      "src_url": "https://udn.com/news/story/124652/9732393",
+      "src_date": "2026-09-03"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "楊政昱": {
     "bio": [],
-    "note": "待補"
+    "note": "查無公開學經歷"
    }
   },
   "第9選舉區": {
    "簡嘉佑": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "曾任時代力量台中黨部執行長、黨中央發言人",
+      "tier": "news",
+      "src_title": "自由時報 登記民進黨北區議員提名 簡嘉佑喊話",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5415076",
+      "src_date": "2026-04-24"
+     },
+     {
+      "text": "曾任立法委員洪慈庸首位助理",
+      "tier": "news",
+      "src_title": "自由時報 登記民進黨北區議員提名 簡嘉佑喊話",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5415076",
+      "src_date": "2026-04-24"
+     },
+     {
+      "text": "現任立法委員蔡其昌台中辦公室特助",
+      "tier": "news",
+      "src_title": "自由時報 登記民進黨北區議員提名 簡嘉佑喊話",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5415076",
+      "src_date": "2026-04-24"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "陳文政": {
     "bio": [
@@ -7299,8 +8261,16 @@
     "note": ""
    },
    "林靈": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "「人間台中」節目主持人",
+      "tier": "news",
+      "src_title": "兩岸犇報 台灣社會共好連線母親節公布民調",
+      "src_url": "https://chaiwanbenpost.net/article/%E5%8F%B0%E7%81%A3%E7%A4%BE%E6%9C%83%E5%85%B1%E5%A5%BD%E9%80%A3%E7%B7%9A%E6%AF%8D%E8%A6%AA%E7%AF%80%E5%85%AC%E5%B8%83%E6%B0%91%E8%AA%BF%EF%BC%9A%E7%B1%B2%E5%85%A9%E5%B2%B8%E5%92%8C%E8%A7%A3%E3%80%81%E3%80%8C%E5%92%8C%E5%B9%B3%E7%B4%85%E5%88%A9%E3%80%8D%E6%99%AE%E6%83%A0%E6%B0%91%E7%94%9F/4600",
+      "src_date": "2026-05-10"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "江肇國": {
     "bio": [
@@ -7345,8 +8315,23 @@
   },
   "第11選舉區": {
    "楊寶楨": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "曾任民眾黨發言人、立法院民眾黨團副主任",
+      "tier": "news",
+      "src_title": "匯流新聞網 楊寶楨欲脫黨參選議員",
+      "src_url": "https://cnews.com.tw/237260512a03/",
+      "src_date": "2026-05-12"
+     },
+     {
+      "text": "曾任新竹市政府發言人",
+      "tier": "news",
+      "src_title": "蕃新聞 勇敢女神 楊寶楨走中道",
+      "src_url": "https://n.yam.com/Article/20260917562747",
+      "src_date": "2026-09-17"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "陳雅惠": {
     "bio": [
@@ -7509,22 +8494,60 @@
     "note": ""
    },
    "何翊綾": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "曾任市議員何敏誠議會特別助理",
+      "tier": "news",
+      "src_title": "元丰傳媒 何翊綾競選總部成立",
+      "src_url": "https://yuanfengmedia.tw/detail.php?type=gallery&id=61538",
+      "src_date": "2026-10-03"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "林英成": {
     "bio": [],
-    "note": "待補"
+    "note": "查無公開學經歷"
    },
    "周啓揚": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "國立政治大學地政學系畢業",
+      "tier": "news",
+      "src_title": "Newtalk新聞 專訪 從土地專業到都市治理周啓揚",
+      "src_url": "https://newtalk.tw/news/view/2026-04-12/1029362",
+      "src_date": "2026-04-12"
+     },
+     {
+      "text": "國立成功大學都市計劃研究所畢業",
+      "tier": "news",
+      "src_title": "Newtalk新聞 專訪 從土地專業到都市治理周啓揚",
+      "src_url": "https://newtalk.tw/news/view/2026-04-12/1029362",
+      "src_date": "2026-04-12"
+     },
+     {
+      "text": "不動產代書（執業約十年）",
+      "tier": "news",
+      "src_title": "Newtalk新聞 專訪 從土地專業到都市治理周啓揚",
+      "src_url": "https://newtalk.tw/news/view/2026-04-12/1029362",
+      "src_date": "2026-04-12"
+     }
+    ],
+    "note": ""
    }
   },
   "第12選舉區": {
    "許書豪": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "擔任市議員江和樹執行長",
+      "tier": "news",
+      "src_title": "自由時報 民眾黨台中北屯參選議員擠破頭",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5263411",
+      "src_date": "2025-12-01"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "張玉嬿": {
     "bio": [
@@ -7687,12 +8710,28 @@
     "note": ""
    },
    "閻泰利": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "太平區中山里里長（連任四屆）",
+      "tier": "news",
+      "src_title": "鏡報 題名簿連簽3天 離譜女助理秒丟工作",
+      "src_url": "https://www.mirrordaily.news/story/66688",
+      "src_date": "2026-06-12"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "張書華": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "曾任國民黨台中市黨部副主委",
+      "tier": "news",
+      "src_title": "自由時報 張書華、周啟揚未退黨登記參選",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5562577",
+      "src_date": "2026-09-04"
+     }
+    ],
+    "note": "未查得學歷"
    }
   },
   "第13選舉區": {
@@ -8111,8 +9150,37 @@
     "note": ""
    },
    "詹智翔": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "國立中正大學法律學系學士、法律研究所碩士",
+      "tier": "news",
+      "src_title": "Newtalk新聞 北漂返鄉青年詹智翔持開放態度",
+      "src_url": "https://today.line.me/tw/v3/article/EX1rYmm",
+      "src_date": "2025-04-14"
+     },
+     {
+      "text": "曾任中央研究院研究助理",
+      "tier": "news",
+      "src_title": "Newtalk新聞 北漂返鄉青年詹智翔持開放態度",
+      "src_url": "https://today.line.me/tw/v3/article/EX1rYmm",
+      "src_date": "2025-04-14"
+     },
+     {
+      "text": "曾任立法委員法案助理（2016年起）",
+      "tier": "news",
+      "src_title": "Newtalk新聞 北漂返鄉青年詹智翔持開放態度",
+      "src_url": "https://today.line.me/tw/v3/article/EX1rYmm",
+      "src_date": "2025-04-14"
+     },
+     {
+      "text": "曾任立法委員蔡其昌山線服務處主任",
+      "tier": "news",
+      "src_title": "自由時報 民進黨台中市14選區市議員初選民調 詹智翔勝出",
+      "src_url": "https://news.ltn.com.tw/news/Taichung/breakingnews/5381816",
+      "src_date": "2026-03-25"
+     }
+    ],
+    "note": ""
    }
   },
   "第15選舉區（平地原住民）": {
@@ -8129,8 +9197,16 @@
     "note": ""
    },
    "楊玉花": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "曾任市議員陳成添服務處主任（前後服務近18年）",
+      "tier": "news",
+      "src_title": "聯合新聞網 選情初探 中市原民議員現任3席皆遇挑戰",
+      "src_url": "https://udn.com/news/story/124652/9690552",
+      "src_date": "2026-08-14"
+     }
+    ],
+    "note": "未查得學歷"
    }
   },
   "第16選舉區（山地原住民）": {
@@ -8175,14 +9251,30 @@
     "note": ""
    },
    "黃永光": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "退休教師",
+      "tier": "news",
+      "src_title": "聯合新聞網 選情初探 中市原民議員現任3席皆遇挑戰",
+      "src_url": "https://udn.com/news/story/124652/9690552",
+      "src_date": "2026-08-14"
+     }
+    ],
+    "note": "未查得學歷"
    }
   },
   "第17選舉區（山地原住民）": {
    "呂秀惠": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "國中畢業",
+      "tier": "news",
+      "src_title": "蕃新聞 Lumasan露瑪桑從基層走向公共服務",
+      "src_url": "https://n.yam.com/Article/20260614302458",
+      "src_date": "2026-06-15"
+     }
+    ],
+    "note": ""
    },
    "柯靜志": {
     "bio": [
@@ -8251,8 +9343,16 @@
     "note": ""
    },
    "瓦力司．比尤": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "退休警察",
+      "tier": "news",
+      "src_title": "聯合新聞網 選情初探 中市原民議員現任3席皆遇挑戰",
+      "src_url": "https://udn.com/news/story/124652/9690552",
+      "src_date": "2026-08-14"
+     }
+    ],
+    "note": "未查得學歷"
    }
   }
  },
@@ -8339,8 +9439,30 @@
     "note": ""
    },
    "侯陸太": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "2023年以無黨籍登記參選第11屆立法委員（臺南第1選區）",
+      "tier": "news",
+      "src_title": "自由時報 台南立委選舉登記 侯陸太、陳永和、賴惠員、魏耀乾4 人完成登記",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/4495623",
+      "src_date": "2023-11-20"
+     },
+     {
+      "text": "曾任陳水扁選舉榮譽顧問（自述）",
+      "tier": "news",
+      "src_title": "自由時報 台南立委選舉登記 侯陸太、陳永和、賴惠員、魏耀乾4 人完成登記",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/4495623",
+      "src_date": "2023-11-20"
+     },
+     {
+      "text": "無障礙設計管理工程師（自述）",
+      "tier": "news",
+      "src_title": "自由時報 台南立委選舉登記 侯陸太、陳永和、賴惠員、魏耀乾4 人完成登記",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/4495623",
+      "src_date": "2023-11-20"
+     }
+    ],
+    "note": "資料取自2023年立委登記報導，與2026年參選人是否同一人未完全確認"
    },
    "沈家鳳": {
     "bio": [
@@ -8449,8 +9571,30 @@
     "note": ""
    },
    "張新斛": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "東山天皇宮總幹事",
+      "tier": "news",
+      "src_title": "視傳媒 張新斛(阿牛)宣布競選台南市第一選區議員選舉",
+      "src_url": "https://nvns.net/news_view.php?new_sn=126982&new_csn=1467",
+      "src_date": "2026-05-04"
+     },
+     {
+      "text": "六腳鄉鄉鎮顧問",
+      "tier": "news",
+      "src_title": "視傳媒 張新斛(阿牛)宣布競選台南市第一選區議員選舉",
+      "src_url": "https://nvns.net/news_view.php?new_sn=126982&new_csn=1467",
+      "src_date": "2026-05-04"
+     },
+     {
+      "text": "曾任政治幕僚，長年參與地方公共事務",
+      "tier": "news",
+      "src_title": "聯合報 台南議員第一選區…席次縮減陷8搶5 新舊攻防勢猛",
+      "src_url": "https://udn.com/news/story/124652/9622048",
+      "src_date": "2026-07-12"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "陳詩薇": {
     "bio": [
@@ -8601,8 +9745,23 @@
     "note": ""
    },
    "王詩媛": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "正修科技大學企業管理系畢業",
+      "tier": "news",
+      "src_title": "中華日報 下屆南市議員選舉新人王詩媛投入選戰 為選情增添變數",
+      "src_url": "https://www.cdns.com.tw/articles/1246683",
+      "src_date": "2025-07-04"
+     },
+     {
+      "text": "現任海天水產集團執行長",
+      "tier": "news",
+      "src_title": "中華日報 下屆南市議員選舉新人王詩媛投入選戰 為選情增添變數",
+      "src_url": "https://www.cdns.com.tw/articles/1246683",
+      "src_date": "2025-07-04"
+     }
+    ],
+    "note": ""
    },
    "方一峰": {
     "bio": [
@@ -8760,18 +9919,91 @@
     "note": ""
    },
    "尤淨寬": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "美國南加州大學英語教育研究所碩士",
+      "tier": "news",
+      "src_title": "中華日報 〈彩繪人生〉尤榮智栽培 尤淨寬將接棒",
+      "src_url": "https://www.cdns.com.tw/articles/1235551",
+      "src_date": "2025-06-15"
+     },
+     {
+      "text": "曾任科技大學教師",
+      "tier": "news",
+      "src_title": "中華日報 〈彩繪人生〉尤榮智栽培 尤淨寬將接棒",
+      "src_url": "https://www.cdns.com.tw/articles/1235551",
+      "src_date": "2025-06-15"
+     },
+     {
+      "text": "曾任市議員服務處特助",
+      "tier": "news",
+      "src_title": "中華日報 〈彩繪人生〉尤榮智栽培 尤淨寬將接棒",
+      "src_url": "https://www.cdns.com.tw/articles/1235551",
+      "src_date": "2025-06-15"
+     },
+     {
+      "text": "擔任六甲商圈理事長",
+      "tier": "news",
+      "src_title": "中華日報 〈彩繪人生〉尤榮智栽培 尤淨寬將接棒",
+      "src_url": "https://www.cdns.com.tw/articles/1235551",
+      "src_date": "2025-06-15"
+     }
+    ],
+    "note": ""
    },
    "施朝清": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "國立臺灣大學工程科學及海洋工程學研究所碩士",
+      "tier": "news",
+      "src_title": "聯合報 民進黨南市議員第三選區新人施朝清登記 未來恐辦初選",
+      "src_url": "https://udn.com/news/story/124652/9318342",
+      "src_date": "2026-02-09"
+     },
+     {
+      "text": "曾任長榮集團榮剛材料科技柳營廠廠長",
+      "tier": "news",
+      "src_title": "聯合報 民進黨南市議員第三選區新人施朝清登記 未來恐辦初選",
+      "src_url": "https://udn.com/news/story/124652/9318342",
+      "src_date": "2026-02-09"
+     },
+     {
+      "text": "曾任臺南市政府中小企業服務團工商分團副分團長、中小企業服務中心組長",
+      "tier": "news",
+      "src_title": "聯合報 民進黨南市議員第三選區新人施朝清登記 未來恐辦初選",
+      "src_url": "https://udn.com/news/story/124652/9318342",
+      "src_date": "2026-02-09"
+     },
+     {
+      "text": "臺南市蔴荳民主協進會理事長",
+      "tier": "news",
+      "src_title": "聯合報 台南選戰 綠營初選民調 3派系前哨戰",
+      "src_url": "https://udn.com/news/story/124652/9369440",
+      "src_date": "2026-03-10"
+     }
+    ],
+    "note": ""
    }
   },
   "第4選舉區": {
    "賴懋慶": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "立委郭國文服務處山區特助（約7年）",
+      "tier": "news",
+      "src_title": "ETtoday 學長姐帶學弟搶頭香！賴懋慶、沈震南完成市議員登記",
+      "src_url": "https://www.ettoday.net/news/20260831/3228833.htm",
+      "src_date": "2026-08-31"
+     },
+     {
+      "text": "負責玉井、楠西、南化、左鎮山區服務與民情處理",
+      "tier": "news",
+      "src_title": "自由時報 2026南市議員初選登記 郭國文特助賴懋慶挑戰玉井選區",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5332871",
+      "src_date": "2026-02-04"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "周奕齊": {
     "bio": [
@@ -8976,8 +10208,16 @@
     "note": ""
    },
    "李佳蓉": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "擔任市議員林燕祝特助／幕僚逾8年",
+      "tier": "news",
+      "src_title": "自由時報 力拚大南科區首位國民黨女議員 藍白同台力挺李佳蓉",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5594537",
+      "src_date": "2026-10-03"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "李文俊": {
     "bio": [
@@ -9168,12 +10408,35 @@
     "note": ""
    },
    "唐儀靜": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "曾任臺南市議員（第16屆，臺南縣市合併前）",
+      "tier": "news",
+      "src_title": "自由時報 民主父女接棒！創黨黨員唐瑞明女兒唐儀靜再戰安南",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5597902",
+      "src_date": "2026-10-06"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "郭品辰": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "英國布里斯托大學碩士",
+      "tier": "news",
+      "src_title": "自由時報 陳亭妃力挺新人郭品辰 安南區初選民調第一出線",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5367938",
+      "src_date": "2026-03-12"
+     },
+     {
+      "text": "2025年8月返臺後擔任市議員服務處特助",
+      "tier": "news",
+      "src_title": "自由時報 陳亭妃力挺新人郭品辰 安南區初選民調第一出線",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5367938",
+      "src_date": "2026-03-12"
+     }
+    ],
+    "note": ""
    },
    "姚正玉": {
     "bio": [
@@ -9378,16 +10641,75 @@
     "note": ""
    },
    "林乃立": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "具心理諮商專業背景",
+      "tier": "news",
+      "src_title": "中華日報 好的開始 多選將紛紛成立競總",
+      "src_url": "https://www.cdns.com.tw/articles/1459447",
+      "src_date": "2026-09-13"
+     },
+     {
+      "text": "曾任臺灣民眾黨臺南市黨部代理主委",
+      "tier": "news",
+      "src_title": "Yahoo新聞 柯P南下拉抬自家林乃立盼在地人能留在地服務",
+      "src_url": "https://tw.news.yahoo.com/%E6%9F%AFp%E5%8D%97%E4%B8%8B%E6%8B%89%E6%8A%AC%E8%87%AA%E5%AE%B6%E6%9E%97%E4%B9%83%E7%AB%8B%E7%9B%BC%E5%9C%A8%E5%9C%B0%E4%BA%BA%E8%83%BD%E7%95%99%E5%9C%A8%E5%9C%B0%E6%9C%8D%E5%8B%99-095443243.html",
+      "src_date": "2026-03-07"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "周宏昌": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "國立臺灣大學公共衛生學系畢業",
+      "tier": "news",
+      "src_title": "中華日報 台南一選區立委選舉 國民黨找到型男刺客周宏昌參選",
+      "src_url": "https://www.cdns.com.tw/articles/845322",
+      "src_date": "2023-07-30"
+     },
+     {
+      "text": "曾任生技公司執行長（CEO），博士候選人（2023年報導）",
+      "tier": "news",
+      "src_title": "中華日報 台南一選區立委選舉 國民黨找到型男刺客周宏昌參選",
+      "src_url": "https://www.cdns.com.tw/articles/845322",
+      "src_date": "2023-07-30"
+     },
+     {
+      "text": "2023年代表國民黨參選立法委員（臺南第1選區）",
+      "tier": "news",
+      "src_title": "中華日報 藍營提名大致底定 力拚議會席次",
+      "src_url": "https://www.cdns.com.tw/articles/1400635",
+      "src_date": "2026-05-13"
+     }
+    ],
+    "note": "職稱取自2023年報導"
    },
    "曹暐國": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "經營永康區家具家飾展示館",
+      "tier": "news",
+      "src_title": "TVBS 台南網紅「AJ哥」轉戰政壇！繳16萬登記參選永康區議員",
+      "src_url": "https://news.tvbs.com.tw/local/4015676",
+      "src_date": "2026-09-01"
+     },
+     {
+      "text": "成立大愛行善協會",
+      "tier": "news",
+      "src_title": "TVBS 台南網紅「AJ哥」轉戰政壇！繳16萬登記參選永康區議員",
+      "src_url": "https://news.tvbs.com.tw/local/4015676",
+      "src_date": "2026-09-01"
+     },
+     {
+      "text": "社群平台（TikTok）創作者，網路名稱「AJ哥」",
+      "tier": "news",
+      "src_title": "ETtoday AJ哥宣布進軍政壇　無黨籍參選台南市議員",
+      "src_url": "https://www.ettoday.net/news/20260831/3229084.htm",
+      "src_date": "2026-08-31"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "楊中成": {
     "bio": [
@@ -9550,12 +10872,42 @@
     "note": ""
    },
    "李秉倫": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "國立臺南大學行政管理學系碩士",
+      "tier": "news",
+      "src_title": "中華日報 〈星期人物〉父子交棒 李秉倫參選市議員堅持熱忱",
+      "src_url": "https://www.cdns.com.tw/articles/1356382",
+      "src_date": "2026-02-01"
+     },
+     {
+      "text": "於市議員服務處協助服務逾7年",
+      "tier": "news",
+      "src_title": "中華日報 〈星期人物〉父子交棒 李秉倫參選市議員堅持熱忱",
+      "src_url": "https://www.cdns.com.tw/articles/1356382",
+      "src_date": "2026-02-01"
+     }
+    ],
+    "note": "學歷報導用語不一（行政管理學系碩士／公共行政碩士）"
    },
    "卞宗康": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "曾以原名「伍宗康」三度參選臺南市山地原住民市議員",
+      "tier": "news",
+      "src_title": "中華日報 藍營提名大致底定 力拚議會席次",
+      "src_url": "https://www.cdns.com.tw/articles/1400635",
+      "src_date": "2026-05-13"
+     },
+     {
+      "text": "獲黃復興黨部推薦之永康區市議員參選人",
+      "tier": "news",
+      "src_title": "中華日報 季麟連永康為卞宗康打氣",
+      "src_url": "https://www.cdns.com.tw/articles/1451711",
+      "src_date": "2026-08-28"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "吳依潔": {
     "bio": [
@@ -9640,8 +10992,37 @@
   },
   "第8選舉區": {
    "沈震南": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "國立成功大學化學研究所碩士",
+      "tier": "news",
+      "src_title": "聯合報 民進黨南市議員沈震東交棒學霸弟",
+      "src_url": "https://udn.com/news/story/124652/9321579",
+      "src_date": "2026-02-10"
+     },
+     {
+      "text": "國立清華大學化學系畢業",
+      "tier": "news",
+      "src_title": "聯合報 民進黨南市議員沈震東交棒學霸弟",
+      "src_url": "https://udn.com/news/story/124652/9321579",
+      "src_date": "2026-02-10"
+     },
+     {
+      "text": "於市議員服務處擔任助理約8年",
+      "tier": "news",
+      "src_title": "聯合報 民進黨南市議員沈震東交棒學霸弟",
+      "src_url": "https://udn.com/news/story/124652/9321579",
+      "src_date": "2026-02-10"
+     },
+     {
+      "text": "民進黨全國黨代表",
+      "tier": "news",
+      "src_title": "聯合報 民進黨南市議員沈震東交棒學霸弟",
+      "src_url": "https://udn.com/news/story/124652/9321579",
+      "src_date": "2026-02-10"
+     }
+    ],
+    "note": ""
    },
    "江明宗": {
     "bio": [
@@ -9684,12 +11065,42 @@
     "note": ""
    },
    "林建南": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "曾任臺南市政府社會局機要秘書",
+      "tier": "news",
+      "src_title": "放言 陳怡珍不拚連任！陳亭妃挺林建南接棒",
+      "src_url": "https://www.fountmedia.io/article/430777",
+      "src_date": "2026-10-03"
+     },
+     {
+      "text": "曾任青年商會會長",
+      "tier": "news",
+      "src_title": "放言 陳怡珍不拚連任！陳亭妃挺林建南接棒",
+      "src_url": "https://www.fountmedia.io/article/430777",
+      "src_date": "2026-10-03"
+     },
+     {
+      "text": "曾任立委王定宇服務處副主任",
+      "tier": "news",
+      "src_title": "自由時報 5搶4！林建南成立議員初選總部 陳亭妃、王定宇雙站台",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5328164",
+      "src_date": "2026-01-31"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "鄭方形": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "網路社群創作者（網紅）",
+      "tier": "news",
+      "src_title": "自由時報 快評》陳亭妃胞妹陳怡珍未連任 台南市議員第8選區「11搶6」搶票大戰",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5570077",
+      "src_date": "2026-09-11"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "許至椿": {
     "bio": [
@@ -9852,8 +11263,30 @@
     "note": ""
    },
    "陳昌輝": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "曾任臺灣團結聯盟臺南市黨部主委",
+      "tier": "news",
+      "src_title": "聯合報 台南第八選區市議員選情升溫 無黨籍陳昌輝「我要買票」看板掀話題",
+      "src_url": "https://udn.com/news/story/124652/9680139",
+      "src_date": "2026-08-09"
+     },
+     {
+      "text": "曾以台聯、無黨籍身分四度參選臺南市議員",
+      "tier": "news",
+      "src_title": "聯合報 台南第八選區市議員選情升溫 無黨籍陳昌輝「我要買票」看板掀話題",
+      "src_url": "https://udn.com/news/story/124652/9680139",
+      "src_date": "2026-08-09"
+     },
+     {
+      "text": "曾任前市議員錢林慧君助理",
+      "tier": "news",
+      "src_title": "Newtalk 黃博郎觀點》台南中西區、北區「11搶6」激戰",
+      "src_url": "https://newtalk.tw/news/view/2026-09-30/1062679",
+      "src_date": "2026-09-30"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "童小芸": {
     "bio": [
@@ -9889,14 +11322,29 @@
     "note": "2022年公報登記於第六選舉區"
    },
    "謝秉舟": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "牙醫師",
+      "tier": "news",
+      "src_title": "自由時報 素人牙醫謝秉舟被撤銷議員參選資格 民進黨南市初選剩3選區",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5352232",
+      "src_date": "2026-02-26"
+     },
+     {
+      "text": "曾任臺灣民眾黨黨代表",
+      "tier": "news",
+      "src_title": "自由時報 快評》陳亭妃胞妹陳怡珍未連任 台南市議員第8選區「11搶6」搶票大戰",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5570077",
+      "src_date": "2026-09-11"
+     }
+    ],
+    "note": "未查得學歷"
    }
   },
   "第9選舉區": {
    "陳冠諭": {
     "bio": [],
-    "note": "待補"
+    "note": "查無公開學經歷"
    },
    "林依婷": {
     "bio": [
@@ -9965,8 +11413,16 @@
     "note": ""
    },
    "葉翰勲": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "清雲科技大學畢業或就讀（報導僅稱『清雲科大』，未載系所、學位）",
+      "tier": "news",
+      "src_title": "中華日報 下屆議員選舉 六議員將交棒",
+      "src_url": "https://www.cdns.com.tw/articles/1343560",
+      "src_date": "2026-01-05"
+     }
+    ],
+    "note": ""
    },
    "呂維胤": {
     "bio": [
@@ -10089,8 +11545,37 @@
     "note": ""
    },
    "蕭漍華": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "中正大學政治學系公共行政與政策碩士（報導稱預計2026年9月取得）",
+      "tier": "news",
+      "src_title": "墨新聞 台南南區安平，急缺大型醫療院所 民眾黨「蕭漍華」",
+      "src_url": "https://more-news.tw/632548/",
+      "src_date": "2026-06-03"
+     },
+     {
+      "text": "崑山科技大學會計資訊科系畢業",
+      "tier": "news",
+      "src_title": "墨新聞 台南南區安平，急缺大型醫療院所 民眾黨「蕭漍華」",
+      "src_url": "https://more-news.tw/632548/",
+      "src_date": "2026-06-03"
+     },
+     {
+      "text": "成立記帳士事務所，從事會計、稅務專業服務",
+      "tier": "news",
+      "src_title": "墨新聞 台南南區安平，急缺大型醫療院所 民眾黨「蕭漍華」",
+      "src_url": "https://more-news.tw/632548/",
+      "src_date": "2026-06-03"
+     },
+     {
+      "text": "佛光會台南區第一分會會長、督導，現任金剛中隊中隊長",
+      "tier": "news",
+      "src_title": "墨新聞 台南南區安平，急缺大型醫療院所 民眾黨「蕭漍華」",
+      "src_url": "https://more-news.tw/632548/",
+      "src_date": "2026-06-03"
+     }
+    ],
+    "note": "碩士報導稱預計2026年9月取得"
    },
    "李伯利": {
     "bio": [
@@ -10135,8 +11620,37 @@
   },
   "第10選舉區": {
    "歐政豪": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "國立臺灣科技大學專利研究所碩士",
+      "tier": "news",
+      "src_title": "自由時報 新人拚轉移選票 歐政豪偕母猛掃市場",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5587461",
+      "src_date": "2026-09-27"
+     },
+     {
+      "text": "曾任金融業6年，銀行商業金融處襄理",
+      "tier": "news",
+      "src_title": "中華日報 〈彩繪人生〉曾培雅栽培 歐政豪跟隨歷練",
+      "src_url": "https://www.cdns.com.tw/articles/977099",
+      "src_date": "2024-03-17"
+     },
+     {
+      "text": "擔任市議員服務處執行長約4年",
+      "tier": "news",
+      "src_title": "自由時報 新人拚轉移選票 歐政豪偕母猛掃市場",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5587461",
+      "src_date": "2026-09-27"
+     },
+     {
+      "text": "曾培雅愛心義工協會理事長",
+      "tier": "news",
+      "src_title": "自由時報 新人拚轉移選票 歐政豪偕母猛掃市場",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5587461",
+      "src_date": "2026-09-27"
+     }
+    ],
+    "note": ""
    },
    "蔡筱薇": {
     "bio": [
@@ -10292,8 +11806,23 @@
     "note": ""
    },
    "陳進男": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "藥師",
+      "tier": "news",
+      "src_title": "自由時報 快評》台南市議員第10選區5席 泛藍、泛綠都想搶3",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5572730",
+      "src_date": "2026-09-13"
+     },
+     {
+      "text": "民眾黨臺南市東區地方幹部（報導稱掛名）",
+      "tier": "news",
+      "src_title": "中華日報 曾培雅陪同 歐政豪市場賣力拜票",
+      "src_url": "https://www.cdns.com.tw/articles/1465752",
+      "src_date": "2026-09-25"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "曾之婕": {
     "bio": [
@@ -10565,7 +12094,7 @@
    },
    "郭如芳": {
     "bio": [],
-    "note": "待補"
+    "note": "查無公開學經歷"
    },
    "杜素吟": {
     "bio": [
@@ -10608,8 +12137,16 @@
     "note": ""
    },
    "劉正昌": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "曾以民進黨籍當選臺南市議員（第2屆）",
+      "tier": "news",
+      "src_title": "自由時報 《2026台南市議員選情初探》第11選區增1席9搶6 3人換黨籍參戰",
+      "src_url": "https://news.ltn.com.tw/news/politics/paper/1770785",
+      "src_date": "2026-09-15"
+     }
+    ],
+    "note": "未查得學歷"
    }
   },
   "第12選舉區（平地原住民）": {
@@ -10647,8 +12184,23 @@
     "note": ""
    },
    "吳東明": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "在臺南從事木工工作",
+      "tier": "news",
+      "src_title": "鏡報 幕後／台南平原議員最後一刻突退選 謝龍介操控120分鐘高鐵「搶救推薦書」",
+      "src_url": "https://www.mirrordaily.news/story/83841",
+      "src_date": "2026-09-05"
+     },
+     {
+      "text": "在臺南經營餐廳",
+      "tier": "news",
+      "src_title": "鏡報 幕後／台南平原議員最後一刻突退選 謝龍介操控120分鐘高鐵「搶救推薦書」",
+      "src_url": "https://www.mirrordaily.news/story/83841",
+      "src_date": "2026-09-05"
+     }
+    ],
+    "note": "未查得學歷"
    }
   },
   "第13選舉區（山地原住民）": {
@@ -10693,8 +12245,23 @@
     "note": ""
    },
    "辛晴晴Langui Tamapima": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "曾任市議員林燕祝服務處幕僚",
+      "tier": "news",
+      "src_title": "自由時報 快評》台南原民議員選戰白熱化 第12、第13選區都2搶1",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5577559",
+      "src_date": "2026-09-17"
+     },
+     {
+      "text": "具企業管理及照顧服務員專業背景（報導未載學校及學位）",
+      "tier": "news",
+      "src_title": "自由時報 快評》台南原民議員選戰白熱化 第12、第13選區都2搶1",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5577559",
+      "src_date": "2026-09-17"
+     }
+    ],
+    "note": "未查得學歷"
    }
   }
  },
@@ -10742,7 +12309,7 @@
    },
    "林孟泓": {
     "bio": [],
-    "note": "待補"
+    "note": "查無公開學經歷"
    },
    "呂美玲": {
     "bio": [
@@ -10785,24 +12352,106 @@
     "note": ""
    },
    "林廷翰": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "臺大公共衛生學院碩士班在學",
+      "tier": "news",
+      "src_title": "壹蘋新聞網 獨家》基隆藍白合4先鋒",
+      "src_url": "https://news.nextapple.com/politics/20260317/19E1274A45B1E22AA20C229DB43CE5D8",
+      "src_date": "2026-03-17"
+     },
+     {
+      "text": "取得職能治療師資格",
+      "tier": "news",
+      "src_title": "壹蘋新聞網 獨家》基隆藍白合4先鋒",
+      "src_url": "https://news.nextapple.com/politics/20260317/19E1274A45B1E22AA20C229DB43CE5D8",
+      "src_date": "2026-03-17"
+     },
+     {
+      "text": "曾任基隆市政府機要秘書、副發言人",
+      "tier": "news",
+      "src_title": "自由時報 林廷翰成立競總 黃國昌、謝國樑同台力挺展現藍白合",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5585914",
+      "src_date": "2026-09-25"
+     },
+     {
+      "text": "曾任國會法案與社群助理",
+      "tier": "news",
+      "src_title": "壹蘋新聞網 獨家》基隆藍白合4先鋒",
+      "src_url": "https://news.nextapple.com/politics/20260317/19E1274A45B1E22AA20C229DB43CE5D8",
+      "src_date": "2026-03-17"
+     }
+    ],
+    "note": ""
    },
    "張文彬": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "禾豐百貨董事長",
+      "tier": "news",
+      "src_title": "上報 基隆中正區議員「8搶4」混戰 3.5萬粉絲美食旅遊網紅宣布參選（LINE TODAY 轉載）",
+      "src_url": "https://today.line.me/tw/v3/article/1DlewZv",
+      "src_date": "2026-09-01"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "黃紀仁": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "國立台灣海洋大學航運管理學系畢業",
+      "tier": "news",
+      "src_title": "UDN 綠議員基隆公布第2波提名 中正區黃紀仁、山地原住民高願孝",
+      "src_url": "https://udn.com/news/story/124652/9530907",
+      "src_date": "2026-05-28"
+     },
+     {
+      "text": "海洋法律研究所進修中",
+      "tier": "news",
+      "src_title": "UDN 綠議員基隆公布第2波提名 中正區黃紀仁、山地原住民高願孝",
+      "src_url": "https://udn.com/news/story/124652/9530907",
+      "src_date": "2026-05-28"
+     },
+     {
+      "text": "曾任基隆市議員服務團隊助理近10年",
+      "tier": "news",
+      "src_title": "UDN 綠議員基隆公布第2波提名 中正區黃紀仁、山地原住民高願孝",
+      "src_url": "https://udn.com/news/story/124652/9530907",
+      "src_date": "2026-05-28"
+     },
+     {
+      "text": "曾任議員張顥瀚服務處主任",
+      "tier": "news",
+      "src_title": "自由時報 基隆中正區議員選舉暗潮洶湧 黃紀仁爭取民進黨徵召",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5389810",
+      "src_date": "2026-04-01"
+     }
+    ],
+    "note": ""
    },
    "王珍玨": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "旅遊、美食類網路創作者（網紅），社群粉絲約3.5萬",
+      "tier": "news",
+      "src_title": "上報 基隆中正區議員「8搶4」混戰 3.5萬粉絲美食旅遊網紅宣布參選（LINE TODAY 轉載）",
+      "src_url": "https://today.line.me/tw/v3/article/1DlewZv",
+      "src_date": "2026-09-01"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "江清容": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "曾任現任市議員許睿慈議員特助",
+      "tier": "news",
+      "src_title": "中華日報 母女逆向接棒 江清容完成基隆市議員參選登記",
+      "src_url": "https://www.cdns.com.tw/articles/1454975",
+      "src_date": "2026-09-04"
+     }
+    ],
+    "note": "未查得學歷"
    }
   },
   "第2選舉區": {
@@ -10921,15 +12570,38 @@
    },
    "李程祥": {
     "bio": [],
-    "note": "待補"
+    "note": "查無公開學經歷"
    },
    "黃申棟": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "曾任國民黨基隆市黨部發言人、市黨部青工會副總會長",
+      "tier": "news",
+      "src_title": "壹蘋新聞網 獨家》基隆藍白合4先鋒",
+      "src_url": "https://news.nextapple.com/politics/20260317/19E1274A45B1E22AA20C229DB43CE5D8",
+      "src_date": "2026-03-17"
+     },
+     {
+      "text": "曾任林沛祥副議長辦公室秘書；2026年3月報導時為立委林沛祥辦公室秘書",
+      "tier": "news",
+      "src_title": "壹蘋新聞網 獨家》基隆藍白合4先鋒",
+      "src_url": "https://news.nextapple.com/politics/20260317/19E1274A45B1E22AA20C229DB43CE5D8",
+      "src_date": "2026-03-17"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "鄭素禎": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "曾任基層公務人員",
+      "tier": "news",
+      "src_title": "ETtoday 親民黨再提2戰將參選2026",
+      "src_url": "https://www.ettoday.net/news/20260806/3214445.htm",
+      "src_date": "2026-08-06"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "陳軍佐": {
     "bio": [
@@ -11013,17 +12685,40 @@
    },
    "林廷奕": {
     "bio": [],
-    "note": "待補"
+    "note": "查無公開學經歷"
    }
   },
   "第3選舉區": {
    "林杏潔": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "基隆市閩南同鄉會顧問",
+      "tier": "news",
+      "src_title": "自由時報 二代接棒參選市議員 基隆仁愛區老中青相爭",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5375965",
+      "src_date": "2026-03-19"
+     },
+     {
+      "text": "台灣白內障及屈光手術醫學會秘書",
+      "tier": "news",
+      "src_title": "自由時報 二代接棒參選市議員 基隆仁愛區老中青相爭",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5375965",
+      "src_date": "2026-03-19"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "曾維祥": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "國民黨仁愛區民眾服務站主任",
+      "tier": "news",
+      "src_title": "自由時報 國民黨基隆市議員參選人曾維祥偕里長發中秋月餅涉賄 檢警調聯手偵辦",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5590565",
+      "src_date": "2026-09-30"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "張芳麗": {
     "bio": [
@@ -11106,14 +12801,22 @@
     "note": ""
    },
    "莊傑宇": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "職業軍人退伍",
+      "tier": "news",
+      "src_title": "中華日報 前議員莊榮欽 交棒子莊傑宇參選",
+      "src_url": "https://www.cdns.com.tw/articles/1375414",
+      "src_date": "2026-03-19"
+     }
+    ],
+    "note": "未查得學歷"
    }
   },
   "第4選舉區": {
    "李昀靜": {
     "bio": [],
-    "note": "待補"
+    "note": "查無公開學經歷"
    },
    "莊敬聖": {
     "bio": [
@@ -11149,8 +12852,30 @@
     "note": ""
    },
    "林祐德": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "淡江大學公共行政學系畢業",
+      "tier": "news",
+      "src_title": "自由時報 開第一槍！基市長秘書辭職選議員 27歲新人林祐德先拚國民黨內提名",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5235172",
+      "src_date": "2025-11-05"
+     },
+     {
+      "text": "曾任基隆市長秘書",
+      "tier": "news",
+      "src_title": "UDN 曾任市長秘書、現任市黨部發言人林祐德選議員",
+      "src_url": "https://udn.com/news/story/7328/9766442",
+      "src_date": "2026-09-20"
+     },
+     {
+      "text": "國民黨基隆市黨部發言人",
+      "tier": "news",
+      "src_title": "UDN 曾任市長秘書、現任市黨部發言人林祐德選議員",
+      "src_url": "https://udn.com/news/story/7328/9766442",
+      "src_date": "2026-09-20"
+     }
+    ],
+    "note": ""
    },
    "施偉政": {
     "bio": [
@@ -11186,16 +12911,75 @@
     "note": ""
    },
    "呂承祐": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "國防醫學院碩士",
+      "tier": "news",
+      "src_title": "壹蘋新聞網 獨家》基隆藍白合4先鋒",
+      "src_url": "https://news.nextapple.com/politics/20260317/19E1274A45B1E22AA20C229DB43CE5D8",
+      "src_date": "2026-03-17"
+     },
+     {
+      "text": "曾在內湖三總從事醫學研究，參與臺大醫院、輔大醫院臨床試驗及國立清華大學醫療儀器規劃，約12年醫療與研究經驗",
+      "tier": "news",
+      "src_title": "壹蘋新聞網 獨家》基隆藍白合4先鋒",
+      "src_url": "https://news.nextapple.com/politics/20260317/19E1274A45B1E22AA20C229DB43CE5D8",
+      "src_date": "2026-03-17"
+     },
+     {
+      "text": "曾任黃珊珊基隆服務處主任",
+      "tier": "news",
+      "src_title": "壹蘋新聞網 獨家》基隆藍白合4先鋒",
+      "src_url": "https://news.nextapple.com/politics/20260317/19E1274A45B1E22AA20C229DB43CE5D8",
+      "src_date": "2026-03-17"
+     },
+     {
+      "text": "民眾黨基隆市中山區主任",
+      "tier": "news",
+      "src_title": "壹蘋新聞網 獨家》基隆藍白合4先鋒",
+      "src_url": "https://news.nextapple.com/politics/20260317/19E1274A45B1E22AA20C229DB43CE5D8",
+      "src_date": "2026-03-17"
+     }
+    ],
+    "note": ""
    },
    "許孟修": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "曾任中山區議員服務處秘書",
+      "tier": "news",
+      "src_title": "台灣新聞雲 基隆中山區議員選戰添變數 許孟修擬脫黨參選強調服務地方優先",
+      "src_url": "https://886.news/archives/335321",
+      "src_date": "2026-06-03"
+     },
+     {
+      "text": "曾任議員張顥瀚服務處秘書",
+      "tier": "news",
+      "src_title": "台灣新聞雲 基隆中山區議員選戰添變數 許孟修擬脫黨參選強調服務地方優先",
+      "src_url": "https://886.news/archives/335321",
+      "src_date": "2026-06-03"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "吳巧瀅": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "創辦基隆市關懷婦幼發展協會",
+      "tier": "news",
+      "src_title": "自由時報 基隆綠營「美女刺客」選議員 吳巧瀅服務處成立",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5510575",
+      "src_date": "2026-07-19"
+     },
+     {
+      "text": "開設早餐店",
+      "tier": "news",
+      "src_title": "自由時報 基隆綠營美女刺客拚議員 推朱書昕、吳巧瀅搶攻暖暖、中山",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5314258",
+      "src_date": "2026-01-19"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "宋瑋莉": {
     "bio": [
@@ -11280,12 +13064,28 @@
   },
   "第5選舉區": {
    "張家馨": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "基隆市長謝國樑前秘書",
+      "tier": "news",
+      "src_title": "自由時報 國民黨基市議員選舉 首梯11人登記 前立委林文瑞之子林孟泓爆冷參選",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5384898",
+      "src_date": "2026-03-27"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "黃永翔": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "曾任前基隆市長林右昌幕僚、民進黨地方黨務工作",
+      "tier": "news",
+      "src_title": "蕃新聞 從幕後走到第一線 基隆市安樂區市議員候選人黃永翔競選辦公室成立",
+      "src_url": "https://n.yam.com/Article/20260913941930",
+      "src_date": "2026-09-14"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "俞叁發": {
     "bio": [
@@ -11368,20 +13168,79 @@
     "note": ""
    },
    "黃忠賢": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "基隆市為愛傳承關懷協會理事長",
+      "tier": "news",
+      "src_title": "警政時報 基隆市議員參選人黃忠賢率禾璽工程捐千劑「毒品唾液快篩」",
+      "src_url": "https://www.tcpttw.com/local/2026/08/20/301963/",
+      "src_date": "2026-08-20"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "吳程澤": {
     "bio": [],
-    "note": "待補"
+    "note": "查無公開學經歷"
    },
    "李文耀": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "臺灣海洋大學商船學系畢業",
+      "tier": "news",
+      "src_title": "壹蘋新聞網 獨家》基隆藍白合4先鋒",
+      "src_url": "https://news.nextapple.com/politics/20260317/19E1274A45B1E22AA20C229DB43CE5D8",
+      "src_date": "2026-03-17"
+     },
+     {
+      "text": "曾在船上工作多年，持有一等船副證照",
+      "tier": "news",
+      "src_title": "壹蘋新聞網 獨家》基隆藍白合4先鋒",
+      "src_url": "https://news.nextapple.com/politics/20260317/19E1274A45B1E22AA20C229DB43CE5D8",
+      "src_date": "2026-03-17"
+     },
+     {
+      "text": "曾任多年記者",
+      "tier": "news",
+      "src_title": "壹蘋新聞網 獨家》基隆藍白合4先鋒",
+      "src_url": "https://news.nextapple.com/politics/20260317/19E1274A45B1E22AA20C229DB43CE5D8",
+      "src_date": "2026-03-17"
+     },
+     {
+      "text": "民眾黨基隆市黨部新聞部主任",
+      "tier": "news",
+      "src_title": "壹蘋新聞網 獨家》基隆藍白合4先鋒",
+      "src_url": "https://news.nextapple.com/politics/20260317/19E1274A45B1E22AA20C229DB43CE5D8",
+      "src_date": "2026-03-17"
+     }
+    ],
+    "note": ""
    },
    "黃舒琳": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "曾任學生會秘書部部長",
+      "tier": "news",
+      "src_title": "ETtoday 親民黨再提2戰將參選2026",
+      "src_url": "https://www.ettoday.net/news/20260806/3214445.htm",
+      "src_date": "2026-08-06"
+     },
+     {
+      "text": "畢業後投身環保及環境保育產業",
+      "tier": "news",
+      "src_title": "ETtoday 親民黨再提2戰將參選2026",
+      "src_url": "https://www.ettoday.net/news/20260806/3214445.htm",
+      "src_date": "2026-08-06"
+     },
+     {
+      "text": "親民黨青年團副團長",
+      "tier": "news",
+      "src_title": "自由時報 基隆市議員選舉親民黨推3女將",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5531833",
+      "src_date": "2026-08-07"
+     }
+    ],
+    "note": ""
    },
    "張之豪": {
     "bio": [
@@ -11613,7 +13472,7 @@
    },
    "蔡長宏": {
     "bio": [],
-    "note": "待補"
+    "note": "查無公開學經歷"
    },
    "陳冠羽": {
     "bio": [
@@ -11628,8 +13487,23 @@
     "note": ""
    },
    "朱書昕": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "我愛暖暖志工協會理事長",
+      "tier": "news",
+      "src_title": "ETtoday 蔡適應罕見露面 陪同朱書昕、吳驊珈登記參選基隆市議員",
+      "src_url": "https://www.ettoday.net/news/20260904/3231757.htm",
+      "src_date": "2026-09-04"
+     },
+     {
+      "text": "曾在基隆市議員林明智服務處擔任助理",
+      "tier": "news",
+      "src_title": "UDN 選情初探／基隆市暖暖區5搶3 藍固守 綠營拚重建版圖",
+      "src_url": "https://udn.com/news/story/124652/9690362",
+      "src_date": "2026-08-14"
+     }
+    ],
+    "note": "未查得學歷"
    }
   },
   "第7選舉區": {
@@ -11714,8 +13588,23 @@
     "note": ""
    },
    "陳安淇": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "中小企業主",
+      "tier": "news",
+      "src_title": "中央社 戴璟安參選批基隆停滯 謝國樑：採納正向建議",
+      "src_url": "https://www.cna.com.tw/news/aloc/202608040092.aspx",
+      "src_date": "2026-08-04"
+     },
+     {
+      "text": "七堵慶濟宮監察委員",
+      "tier": "news",
+      "src_title": "中國時報 七堵議員選戰 新人老將搶4席（翻爆轉載）",
+      "src_url": "https://reader.turnnewsapp.com/ct/20260805/b09aa9/q1rfmjaynja4mdvfqtlfng2/share",
+      "src_date": "2026-08-05"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "曾怡芳": {
     "bio": [
@@ -11798,8 +13687,16 @@
     "note": ""
    },
    "戴璟安": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "2024年罷免基隆市長謝國樑案「山海公民拆樑行動」領銜人",
+      "tier": "news",
+      "src_title": "自由時報 拆樑行動領銜人戴璟安參選議員 批市政停滯",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5527758",
+      "src_date": "2026-08-04"
+     }
+    ],
+    "note": "未查得學歷"
    }
   },
   "第8選舉區（平地原住民）": {
@@ -11879,20 +13776,73 @@
   },
   "第9選舉區（山地原住民）": {
    "高願孝": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "曾任台芝科技、遠東世界中心維修工程師",
+      "tier": "news",
+      "src_title": "UDN 綠議員基隆公布第2波提名 中正區黃紀仁、山地原住民高願孝",
+      "src_url": "https://udn.com/news/story/124652/9530907",
+      "src_date": "2026-05-28"
+     },
+     {
+      "text": "桐協工作室負責人",
+      "tier": "news",
+      "src_title": "UDN 綠議員基隆公布第2波提名 中正區黃紀仁、山地原住民高願孝",
+      "src_url": "https://udn.com/news/story/124652/9530907",
+      "src_date": "2026-05-28"
+     },
+     {
+      "text": "財團法人伊甸社會福利基金會總務",
+      "tier": "news",
+      "src_title": "UDN 綠議員基隆公布第2波提名 中正區黃紀仁、山地原住民高願孝",
+      "src_url": "https://udn.com/news/story/124652/9530907",
+      "src_date": "2026-05-28"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "徐馬政妘": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "基隆市原住民族教育文化經濟發展協會理事",
+      "tier": "news",
+      "src_title": "自由時報 基隆增1席山地原住民議員 林崇道、徐馬政妘參戰",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5430857",
+      "src_date": "2026-05-09"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "林崇道Motu Quyat": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "現任基隆市信義區孝忠里長",
+      "tier": "news",
+      "src_title": "自由時報 基隆增1席山地原住民議員 林崇道、徐馬政妘參戰",
+      "src_url": "https://news.ltn.com.tw/news/politics/breakingnews/5430857",
+      "src_date": "2026-05-09"
+     },
+     {
+      "text": "基隆原住民深澳坑地區主席",
+      "tier": "news",
+      "src_title": "UDN 選情初探／基隆山原議員增1席 4人爭取",
+      "src_url": "https://udn.com/news/story/124652/9704626",
+      "src_date": "2026-08-21"
+     }
+    ],
+    "note": "未查得學歷"
    },
    "高李茂俊": {
-    "bio": [],
-    "note": "待補"
+    "bio": [
+     {
+      "text": "原住民城鄉發展協會創會理事長",
+      "tier": "news",
+      "src_title": "UDN 選情初探／基隆山原議員增1席 4人爭取",
+      "src_url": "https://udn.com/news/story/124652/9704626",
+      "src_date": "2026-08-21"
+     }
+    ],
+    "note": "未查得學歷"
    }
   }
  }

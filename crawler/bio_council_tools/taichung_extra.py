@@ -15,10 +15,5 @@ add('鄒明諺',[('國立中正大學政治系',)+s13,('時代力量台中黨部
 add('段中仁',[('國立中興大學碩士；國立勤益科技大學碩士',)+s13,('東海大學博士生',)+s13,('臺中市政府科員',)+s13,('台中市議員段緯宇公費助理',)+s13])
 add('柯靜志',[('陸軍專科學校普通科（原陸軍士官學校常備士官班）',)+s17,('海巡署岸巡總局近岸巡防艇隊隊員',)+s17,('永康船舶股份有限公司船長',)+s17])
 
-import json,os,re
-_p='/private/tmp/claude-501/-Users-highker-claudecode/448a02b8-57b3-449e-a12d-74a66c9bd512/scratchpad/taichung_news.json'
-if os.path.exists(_p):
-    for n,v in json.load(open(_p)).items():
-        k=re.sub(r'[A-Za-z．\.].*','',n)
-        if k in EXTRA: continue
-        EXTRA[k]={'items':[tuple(i) for i in v['items']],'note':v.get('note','')}
+import news_merge
+news_merge.merge(EXTRA,'taichung')

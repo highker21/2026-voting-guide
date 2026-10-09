@@ -123,6 +123,18 @@ def is_law_bill(b):
     return ('草案' in nm) or nm.startswith('廢止「')
 
 
+def first_proposer(b):
+    """billOrg「本院委員○○等N人」的第一提案人姓名（正規化）；黨團/機關提案回傳 None"""
+    m = re.match(r'^本院委員(.+?)(?:等\d+人)?$', b['billOrg'])
+    return norm(m.group(1)) if m else None
+
+
+def is_first(name, b):
+    f = first_proposer(b)
+    n = norm(name)
+    return bool(f) and (f == n or (f.startswith(n) and re.match(r'[A-Za-z]', f[len(n):len(n) + 1] or '0') is not None))
+
+
 def bills():
     d = load_json(RAW + '/id20_term11.json')['dataList']
     by = {}
@@ -263,15 +275,17 @@ def main():
 
             end = leave or CUTOFF
             # 提案
-            mine_p = [b for b in bl if is_law_bill(b) and name_in(n, split_names(b['billProposer']))]
+            mine_p = [b for b in bl if is_law_bill(b) and (name_in(n, split_names(b['billProposer'])) or is_first(n, b))]
+            mine_f = [b for b in mine_p if is_first(n, b)]
             mine_c = [b for b in bl if is_law_bill(b) and name_in(n, split_names(b['billCosignatory']))]
-            all_p = [b for b in bl if name_in(n, split_names(b['billProposer']))]
+            all_p = [b for b in bl if name_in(n, split_names(b['billProposer'])) or is_first(n, b)]
             src20 = dict(src_title='立法院資料開放平台「議案提案」（資料集 ID20，第 11 屆）', src_url=ds_url(20), src_date=ds_date(20))
             txt = (f'第11屆議案提案（{start} 起至 {end}，資料集更新於 {ds_date(20)}）：'
-                   f'列名於「提案人」欄之法律案 {len(mine_p)} 件；列名於「連署人」欄之法律案 {len(mine_c)} 件'
-                   f'（同一議案編號只計 1 件；不含黨團提案、政府提案）')
+                   f'以第一提案人（議案「提案單位」欄首位委員）提出之法律案 {len(mine_f)} 件；'
+                   f'列名於「提案人」欄（或為提案單位首位）之法律案 {len(mine_p)} 件（含前項）；列名於「連署人」欄之法律案 {len(mine_c)} 件'
+                   f'（同一議案編號只計 1 件；法律案＝議案名稱含「草案」或為廢止某法；不含黨團提案、政府提案；不論審議結果）')
             rec.append(dict(text=txt, **src20))
-            cnt['law_proposer'] = len(mine_p); cnt['law_cosign'] = len(mine_c); cnt['bills_proposer_all'] = len(all_p)
+            cnt['law_first'] = len(mine_f); cnt['law_proposer'] = len(mine_p); cnt['law_cosign'] = len(mine_c); cnt['bills_proposer_all'] = len(all_p)
 
             # 書面質詢
             nn = norm(n)

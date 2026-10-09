@@ -140,6 +140,8 @@ def main():
                 c["bio"].append(item)
             lg = recl.get(cname, {}).get(c["name"])
             for x in (lg or {}).get("record", []):
+                if "書面質詢" in x["text"]:  # 立法院開放資料集收錄不全（多數委員 0–9 件），暫不呈現以免誤導
+                    continue
                 c["record"].append({"text": x["text"], "src": [add_src("L", x)], "label": "立委時期（立法院資料）"})
         rm = recm.get(cname)
         for c in mrows:

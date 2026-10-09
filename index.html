@@ -375,36 +375,22 @@
 
   // 戶籍地址 → 縣市／鄉鎮市區／村里（只在瀏覽器內比對）
   const OLD_COUNTY = { "臺北縣": "新北市", "桃園縣": "桃園市", "臺中縣": "臺中市", "臺南縣": "臺南市", "高雄縣": "高雄市" };
-  // 村里界圖（內政部）＋點在多邊形內判斷，全部在瀏覽器內完成
-  function inRing(x, y, r) { let c = false; for (let i = 0, j = r.length - 1; i < r.length; j = i++) { const [xi, yi] = r[i], [xj, yj] = r[j]; if ((yi > y) !== (yj > y) && x < (xj - xi) * (y - yi) / (yj - yi) + xi) c = !c; } return c; }
-  function inGeom(x, y, g) { const ps = g.type === "Polygon" ? [g.coordinates] : g.coordinates; return ps.some(p => inRing(x, y, p[0]) && !p.slice(1).some(h => inRing(x, y, h))); }
-  async function villageAt(code, town, lon, lat) {
-    const fs = await getJSON(`data/${code}/vb-${encodeURIComponent(town)}.json`);
-    const f = (fs || []).find(f => inGeom(lon, lat, f.g));
-    return f ? f.v : null;
-  }
-  function locateVillage() {
-    const msg = $("#addr-msg"), code = $("#sel-county").value, town = $("#sel-town").value;
-    const show = h => { msg.innerHTML = h; msg.hidden = false; };
-    if (!code || !town) return show("請先輸入地址或選好縣市與鄉鎮市區。");
-    if (!navigator.geolocation) return show("此瀏覽器不支援定位，請從「村里」選單選擇。");
-    show("定位中…（位置只在您的裝置上比對，不會傳送）");
-    navigator.geolocation.getCurrentPosition(async pos => {
-      const v = await villageAt(code, town, pos.coords.longitude, pos.coords.latitude);
-      if (!v) return show(`您目前的位置不在${esc(town)}範圍內，請到戶籍地再使用，或從「村里」選單選擇。`);
-      location.hash = new URLSearchParams({ c: code, t: town, v, tab: "li" }).toString();
-      show(`依目前位置判斷為 <b>${esc(town)} ${esc(v)}</b>（定位誤差約 ${Math.round(pos.coords.accuracy)} 公尺；靠近里界時請再確認）。`);
-    }, () => show("無法取得位置（可能未授權定位），請從「村里」選單選擇。"), { enableHighAccuracy: true, timeout: 15000 });
-  }
   // 門牌索引：{ 路街段或地區: 里 | { 巷弄: 里 | { 號: 里 | [里...] } } }；正規化與產檔一致（NFKC、去空白、台→臺）
   const normDoor = s => (s || "").normalize("NFKC").replace(/\s/g, "").replace(/台/g, "臺").replace(/[‐–—－]/g, "-");
   async function doorVillage(code, town, rest) {
     const idx = await getJSON(`data/addr/${code}/${encodeURIComponent(town)}.json`);
     if (!idx) return null;
     const s = normDoor(rest).replace(/^\d+鄰/, "");
-    const key = Object.keys(idx).filter(k => k !== "_meta" && s.startsWith(k)).sort((x, y) => y.length - x.length)[0];
-    if (!key) return null;
-    const r = s.slice(key.length).replace(/^\d+鄰/, "");
+    let key = Object.keys(idx).filter(k => k !== "_meta" && s.startsWith(k)).sort((x, y) => y.length - x.length)[0];
+    let r;
+    if (key) r = s.slice(key.length).replace(/^\d+鄰/, "");
+    else {   // 只寫巷名、省略路名（例：正隆巷46弄1號）：在全區找這個具名巷，只對到一條路才採用
+      const lm = s.match(/^([^\d]+?巷)/);
+      if (!lm) return null;
+      const owners = Object.keys(idx).filter(k => k !== "_meta" && typeof idx[k] === "object" && Object.keys(idx[k]).some(l => l.startsWith(lm[1])));
+      if (owners.length !== 1) return null;
+      key = owners[0]; r = s;
+    }
     const m = r.match(/^([^\d]*?巷)?(\d+巷)?(\d+弄)?(臨)?(\d+)?(?:(?:之|-)(\d+))?/);
     const lane = (m[1] || "") + (m[2] || "") + (m[3] || "");
     const no = m[5] ? (m[4] || "") + m[5] + (m[6] ? "之" + m[6] : "") : "";

@@ -20,7 +20,7 @@ PDF = {  # 中選會 64709 附件
     "9": ("115年村里長選舉候選人登記彙總表", "https://web.cec.gov.tw/api/file/f1abbda2-229b-4a02-8dfb-58beb3ceca61.pdf"),
 }
 ACCESSED = "2026-10-09"
-EL_SRC = {"title": "中選會選舉資料庫 111年地方公職人員選舉當選名單（「現任」＝2022 當選，未計任內補選或解職）",
+EL_SRC = {"title": "中選會選舉資料庫（103／107／111 年地方公職人員選舉候選人與得票；「2022 當選」未計任內補選或解職）",
           "url": "https://data.cec.gov.tw/選舉資料庫/votedata.zip", "accessed": ACCESSED}
 COUNTIES = [  # (名稱, code, 直轄市?)
     ("臺北市", "taipei", 1), ("新北市", "new-taipei", 1), ("桃園市", "taoyuan", 1), ("臺中市", "taichung", 1),
@@ -102,6 +102,7 @@ def main():
     recm = jload("records_mayor.json", {})
     biom = jload("bio_mayor.json", {})
     recl = jload("records_legislator.json", {})
+    vhist = jload("village_history.json", {})
     recc = {}
     for f in ("records_council.json", "records_council_2.json", "records_council_b.json"):
         recc.update(jload(f, {}))
@@ -272,11 +273,17 @@ def main():
             lraces = []
             for vil in vil_of[(cname, town)]:
                 rows = vs.get((town, vil), [])
+                lcands = [cand(r, "R9", f"li-{vil}-{j+1}",
+                               ((cname, town, vil, norm(r["name"])) in el_village) if cname in el_has_village else None)
+                          for j, r in enumerate(rows)]
+                for c in lcands:  # 過去三屆在本村里的參選紀錄（中選會選舉資料庫）
+                    for h in sorted(vhist.get(f"{cname}|{town}|{vil}|{norm(c['name'])}", []), key=lambda h: -h["year"]):
+                        res = "當選" if h["elected"] else "未當選"
+                        num = f"（{h['votes']:,} 票，得票率 {h['rate']:.2f}%）" if h["votes"] is not None else ""
+                        c["record"].append({"text": f"{h['year']} 年參選本{vil[-1]}{vil[-1]}長：{res}{num}", "src": ["E"]})
                 lraces.append({"id": f"li-{vil}", "type": "村里長", "name": f"{town}{vil}{vil[-1]}長", "village": vil,
                                "area": vil, "seats": 1, "note": "" if rows else "名冊上沒有人登記參選。",
-                               "candidates": [cand(r, "R9", f"li-{vil}-{j+1}",
-                                                   ((cname, town, vil, norm(r["name"])) in el_village) if cname in el_has_village else None)
-                                              for j, r in enumerate(rows)]})
+                               "candidates": lcands})
                 nli += len(rows)
                 for c in lraces[-1]["candidates"]:
                     if not c.get("name_unreadable"):

@@ -27,6 +27,12 @@ COUNTIES = {
     "tainan": ("full_tainan.csv",
                dict(area="地址-行政區域代碼", village="村里", road="街路段", region="地區", lane="巷", alley="弄", no="號"),
                {"src": "臺南市門牌坐標資料（臺南市政府，官方標示僅供參考；政府資料開放授權條款第1版）", "url": "https://data.gov.tw/dataset/120044"}),
+    "taichung": ("full_taichung_raw.csv",
+                 dict(area="鄉鎮市區代碼", village="村里", road="街、路段", region="地區", lane="巷", alley="弄", no="號"),
+                 {"src": "臺中市GIS門牌號碼（臺中市政府，115年1月版；政府資料開放授權條款第1版）", "url": "https://data.gov.tw/dataset/169806"}),
+    "taitung": ("full_taitung.csv",
+                dict(area="鄉鎮市區代碼", village="村里", road="街、路段", region="地區", lane="巷", alley="弄", no="號樓"),
+                {"src": "臺東縣門牌坐標資料（臺東縣政府，政府資料開放授權條款第1版）", "url": "https://data.gov.tw/dataset/165619", "encoding": "cp950"}),
 }
 
 def norm(s):
@@ -47,10 +53,19 @@ def site_towns(code):
         out[t] = {norm(x.get("village", "")) for x in li.get("races", []) if x.get("village")}
     return out
 
+VARIANTS = [("壳売殼", "殼")]
+
 def fix_village(v, site_vs, literal_vs):
     """罕用字替代符號（■ ? [石曹] (塭)）→ 網站現行里名；找不到回 None。"""
     if v in site_vs:
         return v
+    v = re.sub(r"\d+$", "", v)                         # 「廣福里010」尾端誤植鄰號
+    if v in site_vs:
+        return v
+    for a, b in VARIANTS:                             # 異體字（龜壳里／龜売里／龜殼里）
+        for x in site_vs:
+            if v.translate(str.maketrans(a, b * len(a))) == x.translate(str.maketrans(a, b * len(a))):
+                return x
     lit = re.sub(r"\(([^)]+)\)", r"\1", v)           # 「(塭)南里」先照原字試
     if lit != v and lit in site_vs:
         return lit
@@ -74,7 +89,8 @@ def build(code, src_dir, out_dir, date):
     path, F, meta = COUNTIES[code]
     by_area = collections.defaultdict(list)
     n = 0
-    with open(os.path.join(src_dir, path), encoding="utf-8-sig", newline="") as f:
+    enc = meta.pop("encoding", "utf-8-sig")
+    with open(os.path.join(src_dir, path), encoding=enc, newline="") as f:
         for row in csv.DictReader(f):
             n += 1
             v = norm(row[F["village"]])

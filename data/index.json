@@ -53,7 +53,7 @@
     "council": 102,
     "village": 1121
    },
-   "addr_index": false
+   "addr_index": true
   },
   {
    "code": "tainan",
@@ -248,7 +248,7 @@
     "council": 56,
     "village": 293
    },
-   "addr_index": false
+   "addr_index": true
   },
   {
    "code": "penghu",

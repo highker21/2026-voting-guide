@@ -92,7 +92,7 @@ def main():
     for f in ("bio_council.json", "bio_council_2.json"):
         for county, dists in jload(f, {}).items():
             for dist, people in dists.items():
-                bioc.setdefault(county, {}).setdefault(dist, {}).update(people)
+                bioc.setdefault(county, {}).setdefault(re.sub(r"（.*）", "", dist), {}).update(people)
     el_mayor = {(x["county"], norm(x["name"])) for x in el.get("mayor", [])}
     el_council = {(x["county"], norm(x["name"])): x["district"] for x in el.get("council", [])}
     el_village = {(x["county"], x["town"], x["village"], norm(x["name"])) for x in el.get("village", [])}

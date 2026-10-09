@@ -383,8 +383,16 @@
     const s = normDoor(rest).replace(/^\d+鄰/, "");
     let key = Object.keys(idx).filter(k => k !== "_meta" && s.startsWith(k)).sort((x, y) => y.length - x.length)[0];
     let r;
-    if (key) r = s.slice(key.length).replace(/^\d+鄰/, "");
-    else {   // 只寫巷名、省略路名（例：正隆巷46弄1號）：在全區找這個具名巷，只對到一條路才採用
+    if (!key) {   // 路名含罕用字：門牌資料以 ?、■、[字]、(字)、造字表示，當成任一個字比對，只對到一條路才採用
+      const wild = Object.keys(idx).filter(k => k !== "_meta" && /[?？■\[\(\uE000-\uF8FF]/.test(k)).map(k => {
+        const re = new RegExp("^" + k.split(/(\[[^\]]*\]|\([^)]*\)|[?？■\uE000-\uF8FF])/).map(t =>
+          /^(\[[^\]]*\]|\([^)]*\)|[?？■\uE000-\uF8FF])$/.test(t) ? "." : t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join(""));
+        const m = s.match(re); return m ? [k, m[0].length] : null;
+      }).filter(Boolean);
+      if (wild.length === 1) { key = wild[0][0]; r = s.slice(wild[0][1]).replace(/^\d+鄰/, ""); }
+    }
+    if (key && r === undefined) r = s.slice(key.length).replace(/^\d+鄰/, "");
+    else if (!key) {   // 只寫巷名、省略路名（例：正隆巷46弄1號）：在全區找這個具名巷，只對到一條路才採用
       const lm = s.match(/^([^\d]+?巷)/);
       if (!lm) return null;
       const owners = Object.keys(idx).filter(k => k !== "_meta" && typeof idx[k] === "object" && Object.keys(idx[k]).some(l => l.startsWith(lm[1])));

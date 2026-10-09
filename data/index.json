@@ -40,7 +40,7 @@
     "council": 109,
     "village": 947
    },
-   "addr_index": false
+   "addr_index": true
   },
   {
    "code": "taichung",
@@ -105,7 +105,7 @@
     "council": 56,
     "village": 215
    },
-   "addr_index": false
+   "addr_index": true
   },
   {
    "code": "chiayi-city",
@@ -131,7 +131,7 @@
     "council": 68,
     "village": 369
    },
-   "addr_index": false
+   "addr_index": true
   },
   {
    "code": "miaoli",
@@ -144,7 +144,7 @@
     "council": 56,
     "village": 542
    },
-   "addr_index": false
+   "addr_index": true
   },
   {
    "code": "changhua",
@@ -157,7 +157,7 @@
     "council": 86,
     "village": 1040
    },
-   "addr_index": false
+   "addr_index": true
   },
   {
    "code": "nantou",
@@ -183,7 +183,7 @@
     "council": 73,
     "village": 733
    },
-   "addr_index": false
+   "addr_index": true
   },
   {
    "code": "chiayi-county",
@@ -196,7 +196,7 @@
     "council": 53,
     "village": 625
    },
-   "addr_index": false
+   "addr_index": true
   },
   {
    "code": "pingtung",
@@ -209,7 +209,7 @@
     "council": 87,
     "village": 841
    },
-   "addr_index": false
+   "addr_index": true
   },
   {
    "code": "yilan",
@@ -235,7 +235,7 @@
     "council": 55,
     "village": 376
    },
-   "addr_index": false
+   "addr_index": true
   },
   {
    "code": "taitung",
@@ -261,7 +261,7 @@
     "council": 36,
     "village": 154
    },
-   "addr_index": false
+   "addr_index": true
   },
   {
    "code": "kinmen",
@@ -274,7 +274,7 @@
     "council": 35,
     "village": 75
    },
-   "addr_index": false
+   "addr_index": true
   },
   {
    "code": "lienchiang",

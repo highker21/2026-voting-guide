@@ -34,6 +34,23 @@ COUNTIES = {
                 dict(area="鄉鎮市區代碼", village="村里", road="街、路段", region="地區", lane="巷", alley="弄", no="號樓"),
                 {"src": "臺東縣門牌坐標資料（臺東縣政府，政府資料開放授權條款第1版）", "url": "https://data.gov.tw/dataset/165619", "encoding": "cp950"}),
 }
+# 其餘縣市：原始檔先經 convert_std.py 轉成統一欄位的 UTF-8 CSV（std_<code>.csv）
+STD_F = dict(area="鄉鎮市區代碼", village="村里", road="街路段", region="地區", lane="巷", alley="弄", no="號")
+for _code, _name, _id, _note in [
+    ("taoyuan", "桃園市門牌位置坐標資料（115年8月）", 157689, ""),
+    ("hsinchu-city", "新竹市門牌坐標資料", 157547, "，官方標示僅供參考"),
+    ("hsinchu-county", "新竹縣門牌位置", 172380, ""),
+    ("miaoli", "苗栗縣門牌點位維護系統門牌座標資料（迄115年6月30日）", 178083, ""),
+    ("changhua", "彰化縣門牌點位資料", 170727, ""),
+    ("yunlin", "雲林縣門牌座標資料（1140505版）", 166201, ""),
+    ("chiayi-county", "嘉義縣門牌位置（1150327產製）", 172873, ""),
+    ("pingtung", "屏東縣全縣門牌檔（1150914更新）", 170847, ""),
+    ("hualien", "花蓮縣門牌點位資料", 175221, ""),
+    ("penghu", "澎湖縣門牌位置數值資料", 170852, ""),
+    ("kinmen", "金門縣門牌位置數值資料", 171571, ""),
+]:
+    COUNTIES[_code] = (f"std_{_code}.csv", STD_F,
+        {"src": f"{_name}（{_name[:3]}政府{_note}；政府資料開放授權條款第1版）", "url": f"https://data.gov.tw/dataset/{_id}"})
 
 def norm(s):
     return re.sub(r"\s+", "", unicodedata.normalize("NFKC", s or "")).replace("台", "臺")
@@ -52,6 +69,11 @@ def site_towns(code):
             li = json.load(r)
         out[t] = {norm(x.get("village", "")) for x in li.get("races", []) if x.get("village")}
     return out
+
+# 原始檔亂碼、無法用萬用比對還原的里名；每筆都經「同區唯一缺漏的里」與「相鄰門牌所屬里」兩項確認
+ALIASES = {"hsinchu-city": {"香C-": "香村里"},          # 香山區資料缺香村里、多出香C-（1,896 筆）
+           "hsinchu-county": {"上�閮�": "上舘里",       # 竹東中豐路二段207號，前後 205、211 號皆上舘里
+                              "上?里": "上舘里"}}       # 有了上舘里原名後萬用比對會排除它，明列
 
 VARIANTS = [("壳売殼", "殼")]
 
@@ -93,7 +115,7 @@ def build(code, src_dir, out_dir, date):
     with open(os.path.join(src_dir, path), encoding=enc, newline="") as f:
         for row in csv.DictReader(f):
             n += 1
-            v = norm(row[F["village"]])
+            v = norm(ALIASES.get(code, {}).get(row[F["village"]], row[F["village"]]))
             road = norm(row[F["road"]]) or norm(row[F["region"]])
             if not v or not road:
                 continue

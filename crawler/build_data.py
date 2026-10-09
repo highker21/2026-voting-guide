@@ -86,6 +86,7 @@ def main():
     biom = jload("bio_mayor.json", {})
     recl = jload("records_legislator.json", {})
     recc = jload("records_council.json", {})
+    bioc = jload("bio_council.json", {})
     el_mayor = {(x["county"], norm(x["name"])) for x in el.get("mayor", [])}
     el_council = {(x["county"], norm(x["name"])): x["district"] for x in el.get("council", [])}
     el_village = {(x["county"], x["town"], x["village"], norm(x["name"])) for x in el.get("village", [])}
@@ -193,6 +194,15 @@ def main():
                 note = [n for n in note if not n.startswith(f"{ind}原住民選舉區：")]
             ccands = [cand(r, sid, f"council-{dnum(dist)}-{i+1}", council_inc(el_council, cname, dist, r["name"]))
                       for i, r in enumerate(groups.get(dist, []))]
+            for c in ccands:
+                b = bioc.get(cname, {}).get(dist, {}).get(c["name"])
+                for x in (b or {}).get("bio", []):
+                    item = {"text": x["text"], "src": [add_src("B", x)]}
+                    if x["tier"] == "news":
+                        item["official"] = False
+                    elif x["tier"] == "self":
+                        item["label"] = "候選人／政黨自述"
+                    c["bio"].append(item)
             rc = recc.get(cname)
             if rc:
                 S["C"] = {"title": f"{rc['src_title']}；期間 {rc['period']}", "url": rc["src_url"], "accessed": ACCESSED}

@@ -1,0 +1,16 @@
+from bul import burl
+EXTRA={}
+def add(name,items,note=''): EXTRA[name]={'items':items,'note':note}
+def S(d): return ('official',f'中選會 臺北市議會第13屆議員選舉公報 第{d}選舉區（2022）',burl('111','01臺北市',f'臺北市第{d:02d}選舉區.pdf'),'2022-11-26')
+add('吳欣岱',[('國立陽明大學醫學系畢業',)+S(2),('衛生福利部屏東醫院心臟血管外科主治醫師',)+S(2),('全國醫師醫療產業工會理事長',)+S(2),('台灣基進性別發展部主任',)+S(2)])
+add('林柏勛',[('政治大學東亞研究所',)+S(3),('東吳大學政治學系',)+S(3),('北市議員研究室法案主任',)+S(3),('交通政策社團「龍蝦公車」研究員',)+S(3),('新北市長選舉游錫堃競選總部新媒體副組長',)+S(3)],'2022年公報登記推薦政黨為時代力量')
+add('吳怡萱',[('台灣大學國發所碩士在職專班',)+S(5),('世新大學新聞學系',)+S(5),('台灣民眾黨公關長',)+S(5),('郭台銘辦公室副發言人',)+S(5),('台視、壹電視新聞主播/記者；中天新聞記者',)+S(5)])
+add('陳聖文',[('國立高雄科技大學金融系碩士班商學碩士',)+S(6),('民進黨青年部「青年入陣」(2019)、「國務青行動計畫」(2020)',)+S(6),('台灣仁本服務集團董事長特助',)+S(6),('立法委員邱志偉辦公室國會助理',)+S(6)])
+
+import json,os,re
+_p='/private/tmp/claude-501/-Users-highker-claudecode/448a02b8-57b3-449e-a12d-74a66c9bd512/scratchpad/taipei_news.json'
+if os.path.exists(_p):
+    for n,v in json.load(open(_p)).items():
+        k=re.sub(r'[A-Za-z．\.].*','',n)
+        if k in EXTRA: continue
+        EXTRA[k]={'items':[tuple(i) for i in v['items']],'note':v.get('note','')}

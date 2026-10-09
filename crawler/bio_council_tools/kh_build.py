@@ -19,8 +19,9 @@ for r in d['races']:
             fname=fn.get(f,f'高雄市第{f}選區.pdf')
             e['bio']=mk(items,bulletin('111','06高雄市',fname,f'中選會 高雄市議會第4屆議員選舉公報 第{f}選區' if f!='12' else '中選會 高雄市議會第4屆議員選舉公報 第12.13.14.15選區'))
         elif nm in EXTRA:
-            items,src,tier,note=EXTRA[nm]
-            e['bio']=mk(items,src,tier) if items else []; e['note']=note
+            ex=EXTRA[nm]
+            e['bio']=[dict(text=t,tier=tier,src_title=st,src_url=su,src_date=sd) for t,tier,st,su,sd in ex['items']]; e['note']=ex.get('note','')
+            if not e['bio'] and not e['note']: e['note']='查無公開學經歷'
         else: e['note']='查無公開學經歷'
         res[dk][c['name']]=e
 out=load(); out['高雄市']=res; save(out)

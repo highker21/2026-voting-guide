@@ -64,6 +64,23 @@ def council_inc(el, county, dist, name):
     return True if d == dist else None
 
 
+def bio_item(x, sid):
+    """經歷條目：新聞標未確認、自述加標籤；舊年度公報標年份；含「現任」者註明是來源原文（可能已過期）。"""
+    item = {"text": x["text"], "src": [sid]}
+    if x["tier"] == "news":
+        item["official"] = False
+    elif x["tier"] == "self":
+        item["label"] = "候選人／政黨自述"
+    y = re.search(r"(20\d\d)年?\)?）?", x.get("src_title", "")) if "公報" in x.get("src_title", "") else None
+    if y and y.group(1) != "2026":
+        item["label"] = f"{y.group(1)} 年選舉公報"
+    if "現任" in x["text"] and not item.get("label"):
+        item["label"] = "來源頁原文，「現任」可能已過期"
+    elif "現任" in x["text"]:
+        item["label"] += "；「現任」為當年"
+    return item
+
+
 def party(p):
     return "無政黨推薦" if p in ("", "無") else p
 
@@ -141,12 +158,7 @@ def main():
         for c in mrows:
             b = biom.get(cname, {}).get(c["name"])
             for x in (b or {}).get("bio", []):
-                item = {"text": x["text"], "src": [add_src("B", x)]}
-                if x["tier"] == "news":
-                    item["official"] = False
-                elif x["tier"] == "self":
-                    item["label"] = "候選人／政黨自述"
-                c["bio"].append(item)
+                c["bio"].append(bio_item(x, add_src("B", x)))
             lg = recl.get(cname, {}).get(c["name"])
             for x in (lg or {}).get("record", []):
                 if "書面質詢" in x["text"]:  # 立法院開放資料集收錄不全（多數委員 0–9 件），暫不呈現以免誤導
@@ -205,12 +217,7 @@ def main():
             for c in ccands:
                 b = bioc.get(cname, {}).get(dist, {}).get(c["name"])
                 for x in (b or {}).get("bio", []):
-                    item = {"text": x["text"], "src": [add_src("B", x)]}
-                    if x["tier"] == "news":
-                        item["official"] = False
-                    elif x["tier"] == "self":
-                        item["label"] = "候選人／政黨自述"
-                    c["bio"].append(item)
+                    c["bio"].append(bio_item(x, add_src("B", x)))
             rc = recc.get(cname)
             if rc:
                 S["C"] = {"title": f"{rc['src_title']}；期間 {rc['period']}", "url": rc["src_url"], "accessed": ACCESSED}

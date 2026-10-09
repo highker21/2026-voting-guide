@@ -2,6 +2,7 @@
 <html lang="zh-Hant-TW">
 <head>
 <meta charset="utf-8">
+<link rel="icon" href="data:,">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>2026 投票指南</title>
 <style>
@@ -129,7 +130,7 @@
   function factItem(ns, f, withIssue) {
     const lab = withIssue && f.issue ? `<span class="issue-label">${esc(ISSUES[f.issue] || f.issue)}</span>` : "";
     const un = f.official === false ? `<span class="unoff">媒體報導，未經官方確認</span>` : "";
-    const self = f.self === true ? `<span class="unoff">候選人自述</span>` : "";
+    const self = f.label ? `<span class="unoff">${esc(f.label)}</span>` : (f.self === true ? `<span class="unoff">候選人自述</span>` : "");
     return `<li>${lab}${esc(f.text)}${srcLinks(ns, f.src)}${self}${un}</li>`;
   }
   function factList(ns, arr, withIssue, emptyText) {
@@ -220,6 +221,8 @@
     const races = COUNTY.races || [];
     const shown = races.filter(r => !r.districts || !r.districts.length);   // 縣市長等全縣市選舉
     if (town) shown.push(...races.filter(r => (r.districts || []).includes(town)));
+    const rank = r => r.id === "mayor" ? 0 : (r.indigenous ? 2 : 1);   // 首長 → 一般議員選區 → 原住民選區
+    shown.sort((a, b) => rank(a) - rank(b));
     shown.forEach(r => main.appendChild(raceEl(cns, r)));
     if (!town) main.insertAdjacentHTML("beforeend", '<p class="hint">選擇鄉鎮市區後，會顯示該區的議員選區與村里長。</p>');
     if (town) {

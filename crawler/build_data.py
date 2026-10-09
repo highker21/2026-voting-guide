@@ -82,6 +82,9 @@ def main():
     vl = load_villages()
     dmap = jload("district_map.json", {})
     el = jload("elected_2022.json", {})
+    recm = jload("records_mayor.json", {})
+    biom = jload("bio_mayor.json", {})
+    recl = jload("records_legislator.json", {})
     el_mayor = {(x["county"], norm(x["name"])) for x in el.get("mayor", [])}
     el_council = {(x["county"], norm(x["name"])): x["district"] for x in el.get("council", [])}
     el_village = {(x["county"], x["town"], x["village"], norm(x["name"])) for x in el.get("village", [])}
@@ -115,10 +118,41 @@ def main():
         rows = [r for r in P[mk] if r["area"] == cname]
         sid = src(mk)
         has_el = bool(el_mayor)
+        mrows = [cand(r, sid, f"mayor-{i+1}", ((cname, norm(r["name"])) in el_mayor) if has_el else None)
+                 for i, r in enumerate(rows)]
+        def add_src(prefix, x):
+            k = f"{prefix}{len([1 for key in S if key.startswith(prefix)]) + 1}"
+            for key, v in S.items():  # 同一份來源只列一次
+                if key.startswith(prefix) and v["url"] == x["src_url"]:
+                    return key
+            S[k] = {"title": f"{x['src_title']}（{x['src_date']}）" if x.get("src_date") else x["src_title"],
+                    "url": x["src_url"], "accessed": ACCESSED}
+            return k
+        for c in mrows:
+            b = biom.get(cname, {}).get(c["name"])
+            for x in (b or {}).get("bio", []):
+                item = {"text": x["text"], "src": [add_src("B", x)]}
+                if x["tier"] == "news":
+                    item["official"] = False
+                elif x["tier"] == "self":
+                    item["label"] = "候選人／政黨自述"
+                c["bio"].append(item)
+            lg = recl.get(cname, {}).get(c["name"])
+            for x in (lg or {}).get("record", []):
+                c["record"].append({"text": x["text"], "src": [add_src("L", x)], "label": "立委時期（立法院資料）"})
+        rm = recm.get(cname)
+        for c in mrows:
+            if rm and c["incumbent"] and norm(c["name"]) == norm(rm["name"]):
+                for j, x in enumerate(rm["record"], 1):
+                    rid = f"M{j}"
+                    S[rid] = {"title": f"{x['src_title']}（{x['src_date']}）", "url": x["src_url"], "accessed": ACCESSED}
+                    item = {"text": x["text"], "src": [rid]}
+                    if re.search(r"施政(總)?報告|(縣|市)政府新聞稿", x["src_title"]):
+                        item["label"] = "縣市府自述（施政報告／新聞稿）"
+                    c["record"].append(item)
         races.append({"id": "mayor", "type": "直轄市長" if special else "縣市長", "name": f"{cname}長",
                       "area": "全" + cname[-1], "seats": 1, "note": "",
-                      "candidates": [cand(r, sid, f"mayor-{i+1}", ((cname, norm(r["name"])) in el_mayor) if has_el else None)
-                                     for i, r in enumerate(rows)]})
+                      "candidates": mrows})
         # 議員
         ck = "2-1" if special else "4-1"
         sid = src(ck)
@@ -143,8 +177,15 @@ def main():
                 note.append(info["note"])
             if not info:
                 note.append("本選區涵蓋的鄉鎮市區尚待補上。")
-            races.append({"id": f"council-{dnum(dist)}", "type": "議員", "name": f"{cname}議員 {dist}",
-                          "area": "、".join(info.get("towns", [])) or "（涵蓋範圍待補）", "seats": info.get("seats"),
+            ind = info.get("indigenous")
+            area = "、".join(info.get("towns", []))
+            if ind:
+                area = f"{ind}原住民選舉人" + (f"（設籍：{area}）" if area else f"（全{cname[-1]}）")
+                note.insert(0, f"僅具{ind}原住民身分的選舉人投這一區，其他選舉人投一般選區。")
+                note = [n for n in note if not n.startswith(f"{ind}原住民選舉區：")]
+            races.append({"id": f"council-{dnum(dist)}", "type": "議員", "name": f"{cname}議員 {dist}" + (f"（{ind}原住民）" if ind else ""),
+                          "indigenous": ind or None,
+                          "area": area or "（涵蓋範圍待補）", "seats": info.get("seats"),
                           "districts": info.get("towns", []), "note": " ".join(note),
                           "candidates": [cand(r, sid, f"council-{dnum(dist)}-{i+1}",
                                               council_inc(el_council, cname, dist, r["name"]))

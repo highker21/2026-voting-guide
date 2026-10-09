@@ -69,9 +69,13 @@
   #q-results li:hover, #q-results li:focus { background: var(--chip); outline: none; }
   #q-results .qn { font-weight: 700; } #q-results .qm { display: block; font-size: .82rem; color: var(--muted); }
   #q-results .more { cursor: default; color: var(--muted); font-size: .85rem; }
+  .addr-row { display: flex; gap: 6px; }
+  .addr-row input { flex: 1; min-width: 0; }
+  .addr-row button { font: inherit; padding: 0 14px; border-radius: 10px; border: 1.5px solid var(--accent); background: var(--accent); color: #fff; font-weight: 700; cursor: pointer; }
+  .addr-msg { margin: 6px 2px 0; font-size: .88rem; padding: 6px 10px; border-radius: 8px; background: var(--chip); }
   .qnote { margin: 4px 2px 0; font-size: .75rem; color: var(--muted); }
   .card.hit { outline: 3px solid var(--accent); outline-offset: 2px; }
-  @media print { .search { display: none; } }
+  @media print { .search { display: none !important; } }
   .tabs { display: flex; gap: 6px; margin: 14px 0 6px; position: sticky; top: 0; z-index: 3; background: var(--bg); padding: 6px 0; border-bottom: 1px solid var(--line); }
   .tabs button { flex: 1; font: inherit; font-size: .95rem; padding: 8px 4px; border: 1.5px solid var(--line); border-radius: 10px; background: var(--card); color: var(--ink); cursor: pointer; }
   .tabs button[aria-selected="true"] { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 700; }
@@ -105,6 +109,12 @@
     <input id="q" type="search" placeholder="輸入姓名，例如：陳" autocomplete="off" enterkeyhint="search">
     <ol id="q-results" hidden></ol>
     <p class="qnote">少數姓名含罕用字的候選人無法用姓名搜尋，請改用下方縣市、區、村里選單查詢。</p>
+  </div>
+  <div class="search addr">
+    <label for="addr">輸入戶籍地址，自動帶出選區</label>
+    <div class="addr-row"><input id="addr" type="text" placeholder="例：高雄市三民區安和里大連街…" autocomplete="street-address"><button type="button" id="addr-go">帶入</button></div>
+    <p class="qnote">地址只在您的裝置上比對，不會傳送或儲存。</p>
+    <p id="addr-msg" class="addr-msg" hidden></p>
   </div>
   <div class="picker">
     <label>縣市<select id="sel-county"><option value="">請選擇</option></select></label>
@@ -356,6 +366,47 @@
   $("#q").addEventListener("input", () => { clearTimeout(qTimer); qTimer = setTimeout(doSearch, 200); });
   $("#q").addEventListener("focus", () => { loadSearch(); if ($("#q").value) doSearch(); });
   (window.requestIdleCallback || (f => setTimeout(f, 1500)))(() => loadSearch());   // 閒置時先在背景下載名單
+
+  // 戶籍地址 → 縣市／鄉鎮市區／村里（只在瀏覽器內比對）
+  const OLD_COUNTY = { "臺北縣": "新北市", "桃園縣": "桃園市", "臺中縣": "臺中市", "臺南縣": "臺南市", "高雄縣": "高雄市" };
+  const DOORPLATE = "https://www.ris.gov.tw/app/portal/3053";
+  async function matchAddr() {
+    const msg = $("#addr-msg");
+    const show = h => { msg.innerHTML = h; msg.hidden = false; };
+    let a = ($("#addr").value || "").replace(/台/g, "臺").replace(/[\s　]/g, "").replace(/^\d{3,6}/, "");
+    if (!a) { msg.hidden = true; return; }
+    let county = (INDEX.counties || []).find(c => a.startsWith(c.name)), upgraded = false;
+    if (!county) {
+      const old = Object.keys(OLD_COUNTY).find(k => a.startsWith(k));
+      if (old) { county = INDEX.counties.find(c => c.name === OLD_COUNTY[old]); a = county.name + a.slice(old.length); upgraded = true; }
+    }
+    if (!county) return show("找不到縣市，請從縣市名稱開始輸入（例：高雄市…）。");
+    const cdata = await getJSON(`data/${county.file || county.code + ".json"}`);
+    const rest = a.slice(county.name.length);
+    let town = null, after = "";
+    for (const t of (cdata && cdata.towns) || []) {
+      const base = t.slice(0, -1);
+      if (rest.startsWith(t)) { if (!town || t.length > town.length) { town = t; after = rest.slice(t.length); } }
+      else if (base.length >= 2 && rest.startsWith(base) && /[鄉鎮市區]/.test(rest[base.length] || "")) { if (!town) { town = t; after = rest.slice(base.length + 1); } }
+    }
+    if (!town) {
+      location.hash = new URLSearchParams({ c: county.code }).toString();
+      return show(`已帶入 <b>${esc(county.name)}</b>，但找不到鄉鎮市區，請從選單選擇。`);
+    }
+    const li = await getJSON(`data/${county.code}/li-${encodeURIComponent(town)}.json`);
+    const vils = li ? [...new Set((li.races || []).map(r => r.village))] : [];
+    const vil = vils.filter(v => after.startsWith(v)).sort((x, y) => y.length - x.length)[0];   // 只接受官方村里名稱的精確比對
+    const claimed = !vil && (after.match(/^([^\d路街道段巷弄號村里]{1,4}[村里])(?=\d|[^路街道])/) || [])[1];
+    const p = new URLSearchParams({ c: county.code, t: town });
+    if (vil) { p.set("v", vil); p.set("tab", "li"); } else p.set("tab", "council");
+    location.hash = p.toString();
+    show(`已帶入 <b>${esc(county.name)} ${esc(town)}${vil ? " " + esc(vil) : ""}</b>${upgraded ? "（舊縣名已換成現行行政區）" : ""}。` +
+      (vil ? "" : (claimed
+        ? `在${esc(town)}的村里清單中找不到「${esc(claimed)}」，可能已合併、改名或有錯字，請從「村里」選單選擇，或到<a href="${DOORPLATE}" target="_blank" rel="noopener">內政部門牌查詢</a>確認。`
+        : `地址中沒有寫村里，請從「村里」選單選擇；不確定的話可到<a href="${DOORPLATE}" target="_blank" rel="noopener">內政部門牌查詢</a>查您的村里。`)));
+  }
+  $("#addr-go").addEventListener("click", matchAddr);
+  $("#addr").addEventListener("keydown", e => { if (e.key === "Enter") matchAddr(); });
 
   getJSON("data/index.json").then(idx => {
     if (!idx) throw new Error("找不到 data/index.json");

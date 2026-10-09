@@ -5,7 +5,7 @@
 """
 import csv, glob, json, os, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from villages import fix
+from villages import fix, load as load_villages
 
 BASE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "raw/cec_2022/x/votedata/votedata/voteData")
 YEARS = {"2014": "2014-103年地方公職人員選舉", "2018": "2018-107年地方公職人員選舉", "2022": "2022-111年地方公職人員選舉"}
@@ -18,6 +18,29 @@ def norm(n):
 def rd(p):
     with open(p, encoding="utf-8", newline="") as f:
         return [[c.strip() for c in r] for r in csv.reader(f) if r]
+
+
+VIL = {}
+for v in load_villages():
+    VIL.setdefault((v["county"], v["town"]), set()).add(v["village"])
+
+
+def canon_village(county, town, vil):
+    """選舉資料庫的罕用字常以造字（PUA）表示或直接漏字：在同區官方村里清單中找唯一相符者。"""
+    names = VIL.get((county, town), set())
+    for k, v in {"\ue006": "塭", "\ue012": "檨", "\ue02d": "廍"}.items():   # 選舉資料庫村里名的造字
+        vil = vil.replace(k, v)
+    if vil in names:
+        return vil
+    pat = re.compile("^" + "".join("." if "\ue000" <= ch <= "\uf8ff" else re.escape(ch) for ch in vil) + "$")
+    m = [n for n in names if pat.match(n)]
+    if len(m) == 1:
+        return m[0]
+    if len(vil) >= 2:   # 漏一個字（例：石𥕢里 → 石里）
+        m = [n for n in names if len(n) == len(vil) + 1 and any(n[:i] + n[i + 1:] == vil for i in range(len(n)))]
+        if len(m) == 1:
+            return m[0]
+    return vil
 
 
 out = {}
@@ -37,7 +60,8 @@ for year, folder in YEARS.items():
             town = base.get((k[0], k[1], k[2], k[3], "0000"), "")
             vil = base.get(k, "")
             votes, rate = tks.get((k, r[5]), (None, None))
-            key = "|".join([fix(county).replace("台", "臺"), fix(town), fix(vil), norm(r[6])])
+            county, town = fix(county).replace("台", "臺"), fix(town)
+            key = "|".join([county, town, canon_village(county, town, fix(vil)), norm(r[6])])
             out.setdefault(key, []).append({"year": int(year), "elected": r[14] == "*", "votes": votes, "rate": rate})
             n += 1
     print(year, len(dirs), "dirs", n, "candidates")

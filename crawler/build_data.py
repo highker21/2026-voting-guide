@@ -142,7 +142,12 @@ def main():
             for x in (lg or {}).get("record", []):
                 if "書面質詢" in x["text"]:  # 立法院開放資料集收錄不全（多數委員 0–9 件），暫不呈現以免誤導
                     continue
-                c["record"].append({"text": x["text"], "src": [add_src("L", x)], "label": "立委時期（立法院資料）"})
+                t = x["text"]
+                if "議案提案" in t:
+                    t += "。註：立法院開放資料有部分議案未登錄提案人與連署人名單，「列名提案人」與「連署」件數可能偏低；第一提案人件數已另行由第二方核對。"
+                if "院會出席" in t:
+                    t += "（此項尚未經第二方核對）"
+                c["record"].append({"text": t, "src": [add_src("L", x)], "label": "立委時期（立法院資料）"})
         rm = recm.get(cname)
         for c in mrows:
             if rm and c["incumbent"] and norm(c["name"]) == norm(rm["name"]):

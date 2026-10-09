@@ -60,6 +60,11 @@
   .compare .row:first-of-type { border-top: 0; }
   .compare .who { font-weight: 700; margin-right: 6px; }
   .hint { margin: 18px 0; color: var(--muted); }
+  .tabs { display: flex; gap: 6px; margin: 14px 0 6px; position: sticky; top: 0; z-index: 3; background: var(--bg); padding: 6px 0; border-bottom: 1px solid var(--line); }
+  .tabs button { flex: 1; font: inherit; font-size: .95rem; padding: 8px 4px; border: 1.5px solid var(--line); border-radius: 10px; background: var(--card); color: var(--ink); cursor: pointer; }
+  .tabs button[aria-selected="true"] { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 700; }
+  .tabs .cnt { display: inline-block; margin-left: 4px; font-size: .75rem; opacity: .85; }
+  @media print { .tabs { display: none; } .pane[hidden] { display: block !important; } }
   section#timeline, section#sources { margin-top: 24px; }
   section h2 { font-size: 1.15rem; }
   ol.tl { padding-left: 1.2em; }
@@ -190,11 +195,13 @@
     sel.innerHTML = `<option value="">${esc(placeholder)}</option>` + items.map(v => `<option value="${esc(v)}">${esc(v)}</option>`).join("");
     sel.disabled = !items.length;
   }
+  let TAB = "mayor";
   function setHash() {
     const p = new URLSearchParams();
     if ($("#sel-county").value) p.set("c", $("#sel-county").value);
     if ($("#sel-town").value) p.set("t", $("#sel-town").value);
     if ($("#sel-village").value) p.set("v", $("#sel-village").value);
+    if (TAB && TAB !== "mayor") p.set("tab", TAB);
     try { history.replaceState(null, "", "#" + p.toString()); } catch (e) {}
   }
   function townsOf(county) {
@@ -219,22 +226,40 @@
     if (LI) { addSources(cns + "/li-" + town, LI.sources); (LI.issues || []).forEach(i => ISSUES[i.id] = i.name); }
 
     const races = COUNTY.races || [];
-    const shown = races.filter(r => !r.districts || !r.districts.length);   // 縣市長等全縣市選舉
-    if (town) shown.push(...races.filter(r => (r.districts || []).includes(town)));
-    const rank = r => r.id === "mayor" ? 0 : (r.indigenous ? 2 : 1);   // 首長 → 一般議員選區 → 原住民選區
-    shown.sort((a, b) => rank(a) - rank(b));
-    shown.forEach(r => main.appendChild(raceEl(cns, r)));
-    if (!town) main.insertAdjacentHTML("beforeend", '<p class="hint">選擇鄉鎮市區後，會顯示該區的議員選區與村里長。</p>');
-    if (town) {
-      if (!LI) {
-        main.insertAdjacentHTML("beforeend", `<section class="race"><div class="race-head"><h2>${esc(town)} 村里長</h2></div><p><span class="pending">尚無資料，村里長預計在選舉公報發布後補上（約 11 月中）</span></p></section>`);
-      } else {
-        const liRaces = (LI.races || []).filter(r => !village || r.village === village);
-        const lns = cns + "/li-" + town;
-        liRaces.forEach(r => main.appendChild(raceEl(lns, r)));
-        if (!liRaces.length) main.insertAdjacentHTML("beforeend", '<p class="empty">此村里尚無資料</p>');
-      }
+    const mayorRaces = races.filter(r => r.id === "mayor");
+    const councilAll = races.filter(r => r.id !== "mayor");
+    const councilRaces = town ? councilAll.filter(r => !r.districts || !r.districts.length || r.districts.includes(town)) : councilAll;
+    councilRaces.sort((a, b) => (a.indigenous ? 1 : 0) - (b.indigenous ? 1 : 0));   // 一般選區在前，原住民選區在後
+    const liRaces = (town && LI) ? (LI.races || []).filter(r => !village || r.village === village) : [];
+    const lns = cns + "/li-" + town;
+    const nCand = rs => rs.reduce((n, r) => n + (r.candidates || []).length, 0);
+    const tabs = [
+      ["mayor", "縣市長", nCand(mayorRaces)],
+      ["council", "議員", nCand(councilRaces)],
+      ["li", "村里長", town ? nCand(liRaces) : null],
+    ];
+    if (!tabs.some(t => t[0] === TAB)) TAB = "mayor";
+    main.insertAdjacentHTML("beforeend", `<nav class="tabs" role="tablist">${tabs.map(([k, label, n]) =>
+      `<button type="button" role="tab" data-tab="${k}" aria-selected="${k === TAB}">${esc(label)}${n != null ? `<span class="cnt">${n}</span>` : ""}</button>`).join("")}</nav>`);
+    const pane = k => { const d = document.createElement("div"); d.className = "pane"; d.dataset.pane = k; d.hidden = k !== TAB; main.appendChild(d); return d; };
+    const pM = pane("mayor"), pC = pane("council"), pL = pane("li");
+    mayorRaces.forEach(r => pM.appendChild(raceEl(cns, r)));
+    if (!town) pC.insertAdjacentHTML("beforeend", '<p class="hint">選擇鄉鎮市區後，只會顯示您所屬的議員選區。</p>');
+    councilRaces.forEach(r => pC.appendChild(raceEl(cns, r)));
+    if (!town) {
+      pL.insertAdjacentHTML("beforeend", '<p class="hint">請先選擇鄉鎮市區與村里。</p>');
+    } else if (!LI) {
+      pL.insertAdjacentHTML("beforeend", `<p><span class="pending">尚無 ${esc(town)} 村里長資料</span></p>`);
+    } else {
+      liRaces.forEach(r => pL.appendChild(raceEl(lns, r)));
+      if (!liRaces.length) pL.insertAdjacentHTML("beforeend", '<p class="empty">此村里尚無資料</p>');
     }
+    main.querySelectorAll(".tabs button").forEach(b => b.addEventListener("click", () => {
+      TAB = b.dataset.tab;
+      main.querySelectorAll(".tabs button").forEach(x => x.setAttribute("aria-selected", x === b));
+      main.querySelectorAll(".pane").forEach(x => x.hidden = x.dataset.pane !== TAB);
+      setHash();
+    }));
     const tl = (COUNTY.meta && COUNTY.meta.timeline) || [];
     $("#timeline").innerHTML = tl.length ? `<h2>選舉時程</h2><ol class="tl">${tl.map(t => `<li><b>${esc(t.date)}</b> ${esc(t.item)}${srcLinks(cns, t.src)}</li>`).join("")}</ol>` : "";
     $("#sources").innerHTML = SRC_ORDER.length ? `<h2>資料出處</h2><ol class="src-list">${SRC_ORDER.map((k, i) => {
@@ -284,7 +309,12 @@
     function applyHash() {
       const p = new URLSearchParams((location.hash || "").slice(1));
       const c = p.get("c") || "", t = p.get("t") || "", v = p.get("v") || "";
-      if (c === $("#sel-county").value && t === $("#sel-town").value && v === $("#sel-village").value) return;
+      const tab = ["mayor", "council", "li"].includes(p.get("tab")) ? p.get("tab") : "mayor";
+      if (c === $("#sel-county").value && t === $("#sel-town").value && v === $("#sel-village").value) {
+        if (tab !== TAB) { TAB = tab; render(); }
+        return;
+      }
+      TAB = tab;
       $("#sel-county").value = idx.counties.some(x => x.code === c) ? c : "";
       onCounty(t, v);
     }

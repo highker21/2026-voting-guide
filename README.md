@@ -19,3 +19,16 @@ index.html 單檔前端
 ## 授權
 
 改作自 g0v 2020voting-guide（CC BY-NC 3.0 TW，Copyright 2019 BangYuWen）。本專案程式碼同樣以 CC BY-NC 3.0 TW 釋出；資料依各政府來源的開放授權。
+
+## 資料來源與處理
+
+| 資料 | 來源 | 處理 |
+|---|---|---|
+| 登記參選名單（首長 81、議員 1,502、村里長 14,100） | [中選會 115年地方公職人員選舉候選人登記名冊](https://web.cec.gov.tw/central/article/64709)（115/09/07 製表） | `crawler/parse_cec_list.py`：`pdftotext -bbox` 依字的座標切欄，各縣市人數已與名冊逐一核對 |
+| 議員選舉區範圍、名額 | 中選會 115/08/20 選舉公告（掃描檔，人工轉錄；席次合計 919 與中選會公布一致） | `crawler/district_map.json` |
+| 村里清單 | 內政部戶政司 ODRP010（115/09） | `crawler/villages.py`；造字（PUA）以對照表換成標準字，CJK 相容字以 NFC 正規化 |
+| 2022 當選（畫面標「2022 當選」） | 中選會選舉資料庫 votedata.zip | 首長比對同縣市、議員比對同縣市同選區、村里長比對同村里；同名但選區不同者標為「尚未比對」 |
+
+名冊中因罕用字缺字的姓名（18 筆）不猜字，畫面顯示「請見官方名冊第 N 頁」。缺字的村里（6 筆）依名冊前後順序對照內政部村里清單補回。
+
+重建資料：先下載中選會名冊 PDF 到 `crawler/raw/cec_64709/`，執行 `parse_cec_list.py`，再執行 `python3 crawler/build_data.py`。

@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2026 投票指南</title>
+<style>
+  :root {
+    --bg: #f7f6f2; --card: #ffffff; --ink: #1f2933; --muted: #5f6b7a; --line: #d9dde3;
+    --accent: #0b5563; --accent-soft: #e3f0f2; --warn-bg: #fff4d6; --warn-ink: #7a5300; --chip: #eef1f4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #14181d; --card: #1d232a; --ink: #e6e9ed; --muted: #9aa5b1; --line: #313a44;
+      --accent: #6cc3d0; --accent-soft: #1f3a40; --warn-bg: #3a3016; --warn-ink: #f0cf7a; --chip: #262e37;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; overflow-x: hidden; }
+  body { background: var(--bg); color: var(--ink); font-family: "PingFang TC", "Noto Sans TC", "Heiti TC", sans-serif; font-size: 16px; line-height: 1.6; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 16px; }
+  h1 { font-size: 1.5rem; margin: 4px 0 2px; color: var(--accent); }
+  .sub { color: var(--muted); font-size: .92rem; }
+  .banner { margin: 12px 0; padding: 10px 12px; border-radius: 10px; background: var(--accent-soft); font-size: .95rem; }
+  .banner b { color: var(--accent); }
+  .neutral { margin: 12px 0; padding: 10px 12px; border-left: 4px solid var(--accent); background: var(--card); font-size: .9rem; color: var(--muted); }
+  .picker { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 8px 0 10px; border-bottom: 1px solid var(--line); display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
+  .picker label { display: flex; flex-direction: column; font-size: .78rem; color: var(--muted); min-width: 0; }
+  .picker select { font: inherit; font-size: .95rem; padding: 6px 8px; border-radius: 8px; border: 1.5px solid var(--line); background: var(--card); color: var(--ink); width: 100%; min-width: 0; }
+  .picker select:disabled { opacity: .5; }
+  .race { margin-top: 18px; }
+  .race-head h2 { margin: 0; font-size: 1.25rem; }
+  .race-head .meta { color: var(--muted); font-size: .9rem; }
+  .issue-bar { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin: 8px 0 12px; font-size: .9rem; }
+  .issue-bar button { font: inherit; font-size: .85rem; padding: 3px 10px; border-radius: 14px; border: 1px solid var(--line); background: var(--card); color: var(--ink); cursor: pointer; }
+  .issue-bar button.on { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+  .cards { display: grid; gap: 12px; margin-top: 8px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; }
+  .card header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 10px; }
+  .num { min-width: 2.2em; text-align: center; font-weight: 700; border: 2px solid var(--accent); color: var(--accent); border-radius: 8px; padding: 0 6px; }
+  .num.none { border-style: dashed; color: var(--muted); border-color: var(--line); font-weight: 400; font-size: .8rem; }
+  .name { font-size: 1.15rem; font-weight: 700; overflow-wrap: anywhere; }
+  .party { font-size: .88rem; color: var(--muted); }
+  .tag { font-size: .78rem; padding: 1px 8px; border-radius: 10px; background: var(--chip); color: var(--muted); }
+  details { margin-top: 8px; border-top: 1px dashed var(--line); padding-top: 6px; }
+  summary { cursor: pointer; font-weight: 600; font-size: .95rem; color: var(--accent); }
+  ul.facts { margin: 6px 0 4px; padding-left: 1.2em; }
+  ul.facts li { margin: 3px 0; overflow-wrap: anywhere; }
+  .src { font-size: .72rem; vertical-align: super; margin-left: 2px; color: var(--accent); text-decoration: none; }
+  .unoff { display: inline-block; font-size: .72rem; margin-left: 4px; padding: 0 6px; border-radius: 8px; background: var(--warn-bg); color: var(--warn-ink); }
+  .issue-label { font-size: .75rem; padding: 0 6px; margin-right: 4px; border-radius: 8px; background: var(--chip); color: var(--muted); }
+  .empty { color: var(--muted); font-size: .9rem; font-style: italic; }
+  .pending { color: var(--warn-ink); background: var(--warn-bg); display: inline-block; padding: 2px 8px; border-radius: 8px; font-size: .85rem; }
+  .money { font-size: .9rem; }
+  .links a { margin-right: 10px; font-size: .9rem; color: var(--accent); }
+  .compare { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 10px 14px; margin-bottom: 12px; }
+  .compare h3 { margin: 0 0 6px; font-size: 1rem; }
+  .compare .row { padding: 6px 0; border-top: 1px dashed var(--line); }
+  .compare .row:first-of-type { border-top: 0; }
+  .compare .who { font-weight: 700; margin-right: 6px; }
+  .hint { margin: 18px 0; color: var(--muted); }
+  section#timeline, section#sources { margin-top: 24px; }
+  section h2 { font-size: 1.15rem; }
+  ol.tl { padding-left: 1.2em; }
+  .reg { margin: 2px 0 4px; font-size: .82rem; color: var(--muted, #667); }
+  ol.src-list { padding-left: 1.6em; font-size: .9rem; overflow-wrap: anywhere; }
+  ol.src-list li:target { background: var(--warn-bg); }
+  footer { margin: 28px 0 8px; padding-top: 10px; border-top: 1px solid var(--line); font-size: .82rem; color: var(--muted); }
+  .err { padding: 12px; background: var(--warn-bg); color: var(--warn-ink); border-radius: 8px; }
+  @media (max-width: 420px) { .picker { grid-template-columns: 1fr 1fr; } .picker label:last-child { grid-column: 1 / -1; } }
+  @media print {
+    .picker, .issue-bar { display: none; }
+    details { display: block; } details > summary { display: none; }
+    .card { break-inside: avoid; }
+    a { color: inherit; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1 id="title">2026 投票指南</h1>
+  <div class="sub" id="sub"></div>
+  <div class="banner" id="banner" hidden></div>
+  <div class="neutral">本頁只整理選委會等官方公開資料，不推薦、不評價任何候選人。候選人順序：抽籤前依登記順序，抽籤後依號次。每一項內容都附出處；標示「媒體報導，未經官方確認」的項目，尚未取得官方資料佐證。</div>
+  <div class="picker">
+    <label>縣市<select id="sel-county"><option value="">請選擇</option></select></label>
+    <label>鄉鎮市區<select id="sel-town" disabled><option value="">請先選縣市</option></select></label>
+    <label>村里<select id="sel-village" disabled><option value="">請先選鄉鎮市區</option></select></label>
+  </div>
+  <main id="races"><p class="hint">請先選擇縣市。</p></main>
+  <section id="timeline"></section>
+  <section id="sources"></section>
+  <footer>
+    改作自 <a href="https://github.com/g0v/2020voting-guide">g0v 2020voting-guide</a>（CC BY-NC 3.0 TW），僅供非商業使用。資料整理：個人製作，非任何政黨或候選人製作。<br>
+    工具版本：2026-10-09
+  </footer>
+</div>
+<script>
+(function () {
+  const $ = (s, el) => (el || document).querySelector(s);
+  const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  const asList = s => Array.isArray(s) ? s : (s ? [s] : []);
+  const PENDING = "選舉公報發布後補上（約 11 月中）";
+  const cache = {};
+  let INDEX = null, COUNTY = null, LI = null;   // 目前載入的資料
+  let SRC = {}, SRC_ORDER = [], ISSUES = {};     // 目前畫面用到的出處（以檔案為命名空間）
+
+  function getJSON(path) {
+    if (cache[path]) return cache[path];
+    cache[path] = fetch(path, { cache: "no-store" }).then(r => {
+      if (r.status === 404) return null;
+      if (!r.ok) throw new Error(path + "：HTTP " + r.status);
+      return r.json();
+    });
+    return cache[path];
+  }
+  function addSources(ns, sources) {
+    Object.keys(sources || {}).forEach(id => {
+      const key = ns + ":" + id;
+      if (!SRC[key]) { SRC[key] = sources[id]; SRC_ORDER.push(key); }
+    });
+  }
+  function srcLinks(ns, srcs) {
+    return asList(srcs).map(id => {
+      const key = ns + ":" + id, n = SRC_ORDER.indexOf(key) + 1;
+      return n > 0 ? `<a class="src" href="#src-${n}">[${n}]</a>` : `<span class="src">[?${esc(id)}]</span>`;
+    }).join("");
+  }
+  function factItem(ns, f, withIssue) {
+    const lab = withIssue && f.issue ? `<span class="issue-label">${esc(ISSUES[f.issue] || f.issue)}</span>` : "";
+    const un = f.official === false ? `<span class="unoff">媒體報導，未經官方確認</span>` : "";
+    const self = f.self === true ? `<span class="unoff">候選人自述</span>` : "";
+    return `<li>${lab}${esc(f.text)}${srcLinks(ns, f.src)}${self}${un}</li>`;
+  }
+  function factList(ns, arr, withIssue, emptyText) {
+    if (arr && arr.length) return `<ul class="facts">${arr.map(f => factItem(ns, f, withIssue)).join("")}</ul>`;
+    return emptyText === PENDING ? `<p><span class="pending">${PENDING}</span></p>` : `<p class="empty">${esc(emptyText || "尚無資料")}</p>`;
+  }
+  function ordered(cands) {
+    if (!cands.some(c => c.number != null)) return cands.slice();
+    return cands.slice().sort((a, b) => (a.number ?? 1e9) - (b.number ?? 1e9));
+  }
+  function money(ns, d, incumbent) {
+    if (!d) return `<p class="empty">${incumbent === false ? "非現任，無 2022 年政治獻金資料" : "尚無 2022 年政治獻金資料"}</p>`;
+    const f = n => n == null ? "—" : Number(n).toLocaleString("zh-TW");
+    return `<p class="money">收入 ${f(d.income)} 元，支出 ${f(d.expense)} 元${srcLinks(ns, d.src)}</p>`;
+  }
+  function card(ns, c) {
+    const num = c.number != null ? `<span class="num">${esc(c.number)}</span>` : `<span class="num none">未抽籤</span>`;
+    const party = c.party ? esc(c.party) : "政黨：資料未填";
+    const links = (c.links || []).map(l => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)}</a>`).join("");
+    return `<article class="card">
+      <header>${num}<span class="name">${esc(c.name)}</span><span class="party">${party}</span>${c.incumbent ? '<span class="tag" title="依中選會 2022 當選名單；任內補選、解職未計入">2022 當選</span>' : ""}</header>
+      ${c.reg ? `<p class="reg">${c.reg.date} 登記參選${srcLinks(ns, c.reg.src)}${c.incumbent == null ? "｜是否現任：尚未比對" : ""}</p>` : ""}
+      <details open><summary>經歷</summary>${factList(ns, c.bio, false, PENDING)}</details>
+      ${c.incumbent ? `<details open><summary>任內政績</summary>${factList(ns, c.record, false, "尚無任內政績資料")}</details>` : `<details><summary>過去紀錄</summary>${factList(ns, c.record, false)}</details>`}
+      <details><summary>政見</summary>${factList(ns, c.platform, true, PENDING)}</details>
+      <details><summary>2022 政治獻金</summary>${money(ns, c.donation_2022, c.incumbent)}</details>
+      ${links ? `<div class="links">${links}</div>` : ""}
+    </article>`;
+  }
+  function compareBlock(ns, race, issueId) {
+    const rows = ordered(race.candidates).map(c => {
+      const items = (c.platform || []).filter(p => p.issue === issueId);
+      const body = items.length ? `<ul class="facts">${items.map(f => factItem(ns, f, false)).join("")}</ul>` : `<span class="empty">未找到這個議題的政見</span>`;
+      return `<div class="row"><span class="who">${esc(c.name)}</span>${body}</div>`;
+    }).join("");
+    return `<div class="compare"><h3>議題對照：${esc(ISSUES[issueId] || issueId)}</h3>${rows}</div>`;
+  }
+  function raceEl(ns, race) {
+    const el = document.createElement("section");
+    el.className = "race";
+    const cands = race.candidates || [];
+    const issues = Object.keys(ISSUES).filter(id => cands.some(c => (c.platform || []).some(p => p.issue === id)));
+    const bar = issues.length ? `<div class="issue-bar"><span>依議題對照：</span>${issues.map(id => `<button data-issue="${esc(id)}">${esc(ISSUES[id])}</button>`).join("")}</div>` : "";
+    el.innerHTML = `<div class="race-head"><h2>${esc(race.name)}</h2>
+      <div class="meta">${esc(race.type)}｜${esc(race.area)}｜應選 ${esc(race.seats)} 名｜登記 ${cands.length} 人${race.note ? "｜" + esc(race.note) : ""}</div></div>
+      ${bar}<div class="cmp"></div>
+      <div class="cards">${ordered(cands).map(c => card(ns, c)).join("") || '<p class="empty">尚無登記資料</p>'}</div>`;
+    el.querySelectorAll(".issue-bar button").forEach(b => b.addEventListener("click", () => {
+      const on = !b.classList.contains("on");
+      el.querySelectorAll(".issue-bar button").forEach(x => x.classList.remove("on"));
+      if (on) b.classList.add("on");
+      $(".cmp", el).innerHTML = on ? compareBlock(ns, race, b.dataset.issue) : "";
+    }));
+    return el;
+  }
+  function fillSelect(sel, items, placeholder) {
+    sel.innerHTML = `<option value="">${esc(placeholder)}</option>` + items.map(v => `<option value="${esc(v)}">${esc(v)}</option>`).join("");
+    sel.disabled = !items.length;
+  }
+  function setHash() {
+    const p = new URLSearchParams();
+    if ($("#sel-county").value) p.set("c", $("#sel-county").value);
+    if ($("#sel-town").value) p.set("t", $("#sel-town").value);
+    if ($("#sel-village").value) p.set("v", $("#sel-village").value);
+    try { history.replaceState(null, "", "#" + p.toString()); } catch (e) {}
+  }
+  function townsOf(county) {
+    if (Array.isArray(county.towns) && county.towns.length) return county.towns.map(t => typeof t === "string" ? t : t.name);
+    const s = new Set();
+    (county.races || []).forEach(r => (r.districts || []).forEach(d => s.add(d)));
+    return [...s];
+  }
+
+  function render() {
+    SRC = {}; SRC_ORDER = []; ISSUES = {};
+    const main = $("#races"); main.innerHTML = "";
+    const code = $("#sel-county").value, town = $("#sel-town").value, village = $("#sel-village").value;
+    const entry = (INDEX.counties || []).find(c => c.code === code);
+    const banner = $("#banner");
+    if (!COUNTY || !entry) { banner.hidden = true; main.innerHTML = '<p class="hint">請先選擇縣市。</p>'; $("#timeline").innerHTML = ""; $("#sources").innerHTML = ""; return; }
+    banner.hidden = false;
+    banner.innerHTML = `${esc(entry.name)}｜目前階段：<b>${esc(entry.stage || "—")}</b>｜資料更新 ${esc(entry.updated || "—")}${(entry.stage || "").includes("登記") ? "。名單為「登記參選」，選委會審定前仍可能變動。" : ""}`;
+    const cns = code;
+    addSources(cns, COUNTY.sources);
+    (COUNTY.issues || []).forEach(i => ISSUES[i.id] = i.name);
+    if (LI) { addSources(cns + "/li-" + town, LI.sources); (LI.issues || []).forEach(i => ISSUES[i.id] = i.name); }
+
+    const races = COUNTY.races || [];
+    const shown = races.filter(r => !r.districts || !r.districts.length);   // 縣市長等全縣市選舉
+    if (town) shown.push(...races.filter(r => (r.districts || []).includes(town)));
+    shown.forEach(r => main.appendChild(raceEl(cns, r)));
+    if (!town) main.insertAdjacentHTML("beforeend", '<p class="hint">選擇鄉鎮市區後，會顯示該區的議員選區與村里長。</p>');
+    if (town) {
+      if (!LI) {
+        main.insertAdjacentHTML("beforeend", `<section class="race"><div class="race-head"><h2>${esc(town)} 村里長</h2></div><p><span class="pending">尚無資料，村里長預計在選舉公報發布後補上（約 11 月中）</span></p></section>`);
+      } else {
+        const liRaces = (LI.races || []).filter(r => !village || r.village === village);
+        const lns = cns + "/li-" + town;
+        liRaces.forEach(r => main.appendChild(raceEl(lns, r)));
+        if (!liRaces.length) main.insertAdjacentHTML("beforeend", '<p class="empty">此村里尚無資料</p>');
+      }
+    }
+    const tl = (COUNTY.meta && COUNTY.meta.timeline) || [];
+    $("#timeline").innerHTML = tl.length ? `<h2>選舉時程</h2><ol class="tl">${tl.map(t => `<li><b>${esc(t.date)}</b> ${esc(t.item)}${srcLinks(cns, t.src)}</li>`).join("")}</ol>` : "";
+    $("#sources").innerHTML = SRC_ORDER.length ? `<h2>資料出處</h2><ol class="src-list">${SRC_ORDER.map((k, i) => {
+      const s = SRC[k];
+      return `<li id="src-${i + 1}"><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>（擷取 ${esc(s.accessed || "—")}）</li>`;
+    }).join("")}</ol>` : "";
+  }
+
+  async function onCounty(keepTown, keepVillage) {
+    const code = $("#sel-county").value;
+    COUNTY = null; LI = null;
+    fillSelect($("#sel-town"), [], code ? "載入中…" : "請先選縣市");
+    fillSelect($("#sel-village"), [], "請先選鄉鎮市區");
+    if (code) {
+      const entry = INDEX.counties.find(c => c.code === code);
+      COUNTY = await getJSON("data/" + (entry.file || code + ".json"));
+      if (!COUNTY) { $("#races").innerHTML = `<p class="err">${esc(entry.name)} 的資料檔還沒建立。</p>`; fillSelect($("#sel-town"), [], "尚無資料"); return; }
+      fillSelect($("#sel-town"), townsOf(COUNTY), "全部（只看縣市長）");
+      if (keepTown) { $("#sel-town").value = keepTown; await onTown(keepVillage); return; }
+    }
+    setHash(); render();
+  }
+  async function onTown(keepVillage) {
+    const code = $("#sel-county").value, town = $("#sel-town").value;
+    LI = null;
+    fillSelect($("#sel-village"), [], town ? "載入中…" : "請先選鄉鎮市區");
+    if (town) {
+      LI = await getJSON(`data/${code}/li-${encodeURIComponent(town)}.json`);
+      const villages = LI ? [...new Set((LI.races || []).map(r => r.village).filter(Boolean))] : [];
+      fillSelect($("#sel-village"), villages, villages.length ? "全部村里" : "尚無村里資料");
+      if (keepVillage && villages.includes(keepVillage)) $("#sel-village").value = keepVillage;
+    }
+    setHash(); render();
+  }
+
+  getJSON("data/index.json").then(idx => {
+    if (!idx) throw new Error("找不到 data/index.json");
+    INDEX = idx;
+    if (idx.title) { $("#title").textContent = idx.title; document.title = idx.title; }
+    $("#sub").textContent = `投票日 ${idx.vote_date || "—"}｜索引更新 ${idx.updated || "—"}`;
+    fillSelect($("#sel-county"), [], "請選擇");
+    $("#sel-county").innerHTML = '<option value="">請選擇</option>' + (idx.counties || []).map(c => `<option value="${esc(c.code)}">${esc(c.name)}</option>`).join("");
+    $("#sel-county").disabled = false;
+    $("#sel-county").addEventListener("change", () => onCounty());
+    $("#sel-town").addEventListener("change", () => onTown());
+    $("#sel-village").addEventListener("change", () => { setHash(); render(); });
+    function applyHash() {
+      const p = new URLSearchParams((location.hash || "").slice(1));
+      const c = p.get("c") || "", t = p.get("t") || "", v = p.get("v") || "";
+      if (c === $("#sel-county").value && t === $("#sel-town").value && v === $("#sel-village").value) return;
+      $("#sel-county").value = idx.counties.some(x => x.code === c) ? c : "";
+      onCounty(t, v);
+    }
+    window.addEventListener("hashchange", applyHash);
+    applyHash();
+  }).catch(e => { $("#races").innerHTML = `<p class="err">讀取資料失敗（${esc(e.message)}）。若是直接用檔案開啟，請改用網頁伺服器。</p>`; });
+})();
+</script>
+</body>
+</html>

@@ -32,3 +32,7 @@ index.html 單檔前端
 名冊中因罕用字缺字的姓名（18 筆）不猜字，畫面顯示「請見官方名冊第 N 頁」。缺字的村里（6 筆）依名冊前後順序對照內政部村里清單補回。
 
 重建資料：先下載中選會名冊 PDF 到 `crawler/raw/cec_64709/`，執行 `parse_cec_list.py`，再執行 `python3 crawler/build_data.py`。
+
+### 地址與定位
+- 地址解析（縣市、鄉鎮市區、村里名稱）只在瀏覽器內進行，不送出。
+- 「用目前位置判斷村里」：瀏覽器定位結果只在本機與 [內政部國土測繪中心 村里界圖（TWD97 經緯度，115/08/17）](https://data.gov.tw/dataset/7438) 比對（mapshaper 簡化 12%，`crawler/village_boundary/`），不送出位置。

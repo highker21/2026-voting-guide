@@ -73,6 +73,7 @@
   .addr-row input { flex: 1; min-width: 0; }
   .addr-row button { font: inherit; padding: 0 14px; border-radius: 10px; border: 1.5px solid var(--accent); background: var(--accent); color: #fff; font-weight: 700; cursor: pointer; }
   .addr-msg { margin: 6px 2px 0; font-size: .88rem; padding: 6px 10px; border-radius: 8px; background: var(--chip); }
+  .geo { margin-top: 6px; font: inherit; font-size: .88rem; padding: 6px 12px; border-radius: 10px; border: 1.5px solid var(--accent); background: var(--card); color: var(--accent); cursor: pointer; }
   .qnote { margin: 4px 2px 0; font-size: .75rem; color: var(--muted); }
   .card.hit { outline: 3px solid var(--accent); outline-offset: 2px; }
   @media print { .search { display: none !important; } }
@@ -115,6 +116,7 @@
     <div class="addr-row"><input id="addr" type="text" placeholder="例：高雄市三民區安和里大連街…" autocomplete="street-address"><button type="button" id="addr-go">帶入</button></div>
     <p class="qnote">地址只在您的裝置上比對，不會傳送或儲存。</p>
     <p id="addr-msg" class="addr-msg" hidden></p>
+    <button type="button" id="geo-go" class="geo">📍 用目前位置判斷村里</button>
   </div>
   <div class="picker">
     <label>縣市<select id="sel-county"><option value="">請選擇</option></select></label>
@@ -369,7 +371,27 @@
 
   // 戶籍地址 → 縣市／鄉鎮市區／村里（只在瀏覽器內比對）
   const OLD_COUNTY = { "臺北縣": "新北市", "桃園縣": "桃園市", "臺中縣": "臺中市", "臺南縣": "臺南市", "高雄縣": "高雄市" };
-  const DOORPLATE = "https://www.ris.gov.tw/app/portal/3053";
+  // 村里界圖（內政部）＋點在多邊形內判斷，全部在瀏覽器內完成
+  function inRing(x, y, r) { let c = false; for (let i = 0, j = r.length - 1; i < r.length; j = i++) { const [xi, yi] = r[i], [xj, yj] = r[j]; if ((yi > y) !== (yj > y) && x < (xj - xi) * (y - yi) / (yj - yi) + xi) c = !c; } return c; }
+  function inGeom(x, y, g) { const ps = g.type === "Polygon" ? [g.coordinates] : g.coordinates; return ps.some(p => inRing(x, y, p[0]) && !p.slice(1).some(h => inRing(x, y, h))); }
+  async function villageAt(code, town, lon, lat) {
+    const fs = await getJSON(`data/${code}/vb-${encodeURIComponent(town)}.json`);
+    const f = (fs || []).find(f => inGeom(lon, lat, f.g));
+    return f ? f.v : null;
+  }
+  function locateVillage() {
+    const msg = $("#addr-msg"), code = $("#sel-county").value, town = $("#sel-town").value;
+    const show = h => { msg.innerHTML = h; msg.hidden = false; };
+    if (!code || !town) return show("請先輸入地址或選好縣市與鄉鎮市區。");
+    if (!navigator.geolocation) return show("此瀏覽器不支援定位，請從「村里」選單選擇。");
+    show("定位中…（位置只在您的裝置上比對，不會傳送）");
+    navigator.geolocation.getCurrentPosition(async pos => {
+      const v = await villageAt(code, town, pos.coords.longitude, pos.coords.latitude);
+      if (!v) return show(`您目前的位置不在${esc(town)}範圍內，請到戶籍地再使用，或從「村里」選單選擇。`);
+      location.hash = new URLSearchParams({ c: code, t: town, v, tab: "li" }).toString();
+      show(`依目前位置判斷為 <b>${esc(town)} ${esc(v)}</b>（定位誤差約 ${Math.round(pos.coords.accuracy)} 公尺；靠近里界時請再確認）。`);
+    }, () => show("無法取得位置（可能未授權定位），請從「村里」選單選擇。"), { enableHighAccuracy: true, timeout: 15000 });
+  }
   async function matchAddr() {
     const msg = $("#addr-msg");
     const show = h => { msg.innerHTML = h; msg.hidden = false; };
@@ -402,10 +424,11 @@
     location.hash = p.toString();
     show(`已帶入 <b>${esc(county.name)} ${esc(town)}${vil ? " " + esc(vil) : ""}</b>${upgraded ? "（舊縣名已換成現行行政區）" : ""}。` +
       (vil ? "" : (claimed
-        ? `在${esc(town)}的村里清單中找不到「${esc(claimed)}」，可能已合併、改名或有錯字，請從「村里」選單選擇，或到<a href="${DOORPLATE}" target="_blank" rel="noopener">內政部門牌查詢</a>確認。`
-        : `地址中沒有寫村里，請從「村里」選單選擇；不確定的話可到<a href="${DOORPLATE}" target="_blank" rel="noopener">內政部門牌查詢</a>查您的村里。`)));
+        ? `在${esc(town)}的村里清單中找不到「${esc(claimed)}」，可能已合併、改名或有錯字。`
+        : "地址中沒有寫村里。") + "請從「村里」選單選擇，或在戶籍地按「📍 用目前位置判斷村里」。"));
   }
   $("#addr-go").addEventListener("click", matchAddr);
+  $("#geo-go").addEventListener("click", locateVillage);
   $("#addr").addEventListener("keydown", e => { if (e.key === "Enter") matchAddr(); });
 
   getJSON("data/index.json").then(idx => {

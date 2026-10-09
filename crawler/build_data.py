@@ -5,7 +5,7 @@
 """
 import json, os, re, shutil
 from collections import defaultdict
-from villages import load as load_villages
+from villages import load as load_villages, fix as fix_name
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "data")
@@ -111,6 +111,7 @@ def main():
         shutil.rmtree(OUT)
     os.makedirs(OUT)
     index = []
+    nvb = 0
     search = []  # [姓名, 政黨, code, 選舉名稱, 分頁, 鄉鎮市區, 村里, 候選人 id]
     for cname, code, special in COUNTIES:
         S = {}
@@ -275,6 +276,31 @@ def main():
                         search.append([c["name"], c["party"], code, f"{cname}{town}{vil}{vil[-1]}長", "li", town, vil, c["id"]])
             json.dump({"meta": {"county": cname, "town": town, "updated": UPDATED, "stage": STAGE}, "sources": S9, "races": lraces},
                       open(os.path.join(OUT, code, f"li-{town}.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+        # 村里界圖（內政部國土測繪中心，data.gov.tw 7438；mapshaper 簡化 12%）→ 給地址定位在瀏覽器內判斷村里
+        for town in towns_of[cname]:
+            src_vb = os.path.join(HERE, "village_boundary", f"{cname}_{town}.json")
+            if not os.path.exists(src_vb):
+                alt = [f for f in os.listdir(os.path.join(HERE, "village_boundary")) if f.startswith(cname + "_") and fix_name(f[len(cname) + 1:-5]) == town]
+                src_vb = os.path.join(HERE, "village_boundary", alt[0]) if alt else None
+            if src_vb:
+                names = vil_of[(cname, town)]
+                def vname(n):
+                    n = fix_name(n or "")
+                    if n in names:
+                        return n
+                    n2 = re.sub(r"\[(.)\]", r"\1", n).replace("濂", "濓").replace("欍埔", "𣐤埔")  # 界圖以 [字] 表示罕用字；瑞芳「濓」異體
+                    if n2 in names:
+                        return n2
+                    if "[" not in n:
+                        return n
+                    pat = re.compile("^" + re.sub(r"\\\[.*?\\\]", ".", re.escape(n)) + "$")  # 界圖以 [字] 表示罕用字
+                    m = [x for x in names if pat.match(x)]
+                    return m[0] if len(m) == 1 else n
+                feats = [{"v": vname(ft["properties"]["VILLNAME"]), "g": ft["geometry"]}
+                         for ft in json.load(open(src_vb, encoding="utf-8"))["features"]
+                         if ft["geometry"] and (ft["properties"]["VILLNAME"] or "").strip()]
+                json.dump(feats, open(os.path.join(OUT, code, f"vb-{town}.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+                nvb += 1
         index.append({"code": code, "name": cname, "file": f"{code}.json", "stage": STAGE, "updated": UPDATED,
                       "counts": {"mayor": len(races[0]["candidates"]), "council": sum(len(r["candidates"]) for r in races[1:]),
                                  "village": nli}})
@@ -292,7 +318,7 @@ def main():
     json.dump({"parties": parties, "races": races_t, "rows": rows}, open(os.path.join(OUT, "search.json"), "w", encoding="utf-8"),
               ensure_ascii=False, separators=(",", ":"))
     tot = {k: sum(c["counts"][k] for c in index) for k in ("mayor", "council", "village")}
-    print("counties", len(index), tot)
+    print("counties", len(index), tot, "village-boundary files", nvb)
 
 
 if __name__ == "__main__":

@@ -485,6 +485,8 @@
     msg.classList.remove("flash"); msg.innerHTML = "比對中…"; msg.hidden = false;
     try {
       $("#addr").blur();
+      for (let i = 0; !INDEX && i < 100; i++) await new Promise(r => setTimeout(r, 100));   // 頁面剛開、縣市清單還沒載完時先等
+      if (!INDEX) throw new Error("縣市清單還沒載入完成");
       await matchAddr();
       if (location.hash === before) render();   // 結果和上一次同一個里時，hash 不變也要重畫
       void msg.offsetWidth; msg.classList.add("flash");

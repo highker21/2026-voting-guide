@@ -2,3 +2,5 @@ __pycache__/
 .DS_Store
 crawler/raw/cec_2022/
 crawler/raw/cec_64709/
+crawler/raw/council/
+crawler/raw/ly/

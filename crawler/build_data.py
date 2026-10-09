@@ -85,6 +85,7 @@ def main():
     recm = jload("records_mayor.json", {})
     biom = jload("bio_mayor.json", {})
     recl = jload("records_legislator.json", {})
+    recc = jload("records_council.json", {})
     el_mayor = {(x["county"], norm(x["name"])) for x in el.get("mayor", [])}
     el_council = {(x["county"], norm(x["name"])): x["district"] for x in el.get("council", [])}
     el_village = {(x["county"], x["town"], x["village"], norm(x["name"])) for x in el.get("village", [])}
@@ -183,13 +184,28 @@ def main():
                 area = f"{ind}原住民選舉人" + (f"（設籍：{area}）" if area else f"（全{cname[-1]}）")
                 note.insert(0, f"僅具{ind}原住民身分的選舉人投這一區，其他選舉人投一般選區。")
                 note = [n for n in note if not n.startswith(f"{ind}原住民選舉區：")]
+            ccands = [cand(r, sid, f"council-{dnum(dist)}-{i+1}", council_inc(el_council, cname, dist, r["name"]))
+                      for i, r in enumerate(groups.get(dist, []))]
+            rc = recc.get(cname)
+            if rc:
+                S["C"] = {"title": f"{rc['src_title']}；期間 {rc['period']}", "url": rc["src_url"], "accessed": ACCESSED}
+            for c in ccands:
+                if not c["incumbent"]:
+                    continue
+                items = (rc or {}).get("members", {}).get(c["name"])
+                for x in items or []:
+                    k = add_src("CU", {"src_url": x["src_url"], "src_title": f"{cname}議會官方資料（{c['name']}）"})
+                    c["record"].append({"text": x["text"] + "（截至 2026-10-09）",
+                                        "src": [k, "C"]})
+            if rc and any(c["incumbent"] for c in ccands):
+                note.append("任內紀錄取自議會官方系統：提案數含共同提案，各縣市議會計法不同，不宜跨縣市比較。")
+            if not rc and any(c["incumbent"] for c in ccands):
+                note.append("本縣市議會官網未提供可依議員查詢的完整提案或質詢資料，2022 當選者的任內紀錄暫缺。")
             races.append({"id": f"council-{dnum(dist)}", "type": "議員", "name": f"{cname}議員 {dist}" + (f"（{ind}原住民）" if ind else ""),
                           "indigenous": ind or None,
                           "area": area or "（涵蓋範圍待補）", "seats": info.get("seats"),
                           "districts": info.get("towns", []), "note": " ".join(note),
-                          "candidates": [cand(r, sid, f"council-{dnum(dist)}-{i+1}",
-                                              council_inc(el_council, cname, dist, r["name"]))
-                                         for i, r in enumerate(groups.get(dist, []))]})
+                          "candidates": ccands})
         meta = {"title": f"2026 {cname}投票指南", "county": cname, "code": code, "updated": UPDATED, "stage": STAGE,
                 "vote_date": "2026-11-28", "timeline": [{"date": d, "item": t, "src": ["T"]} for d, t in TIMELINE]}
         json.dump({"meta": meta, "sources": S, "towns": towns_of[cname], "races": races},

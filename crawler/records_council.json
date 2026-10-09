@@ -1,0 +1,2123 @@
+{
+ "高雄市": {
+  "src_title": "高雄市議會議事資訊整合查詢系統（提案資料、議員市政總質詢）；提案數為系統列名之提案議員計，議長依規定不提市政總質詢",
+  "src_url": "https://cissearch.kcc.gov.tw/System/Proposal/Default.aspx",
+  "period": "第4屆（2022-12-25～2026-10-09）；第8次定期大會進行中",
+  "members": {
+   "何權峰": [
+    {
+     "text": "第4屆提案 269 件（議員提案 269、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E4%BD%95%E6%AC%8A%E5%B3%B0"
+    },
+    {
+     "text": "第4屆市政總質詢 7 次（另已排定 1 次尚未進行）",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E4%BD%95%E6%AC%8A%E5%B3%B0"
+    }
+   ],
+   "劉德林": [
+    {
+     "text": "第4屆提案 3 件（議員提案 3、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E5%8A%89%E5%BE%B7%E6%9E%97"
+    },
+    {
+     "text": "第4屆市政總質詢 8 次",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E5%8A%89%E5%BE%B7%E6%9E%97"
+    }
+   ],
+   "吳利成": [
+    {
+     "text": "第4屆提案 102 件（議員提案 102、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E5%90%B3%E5%88%A9%E6%88%90"
+    },
+    {
+     "text": "第4屆市政總質詢 8 次",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E5%90%B3%E5%88%A9%E6%88%90"
+    }
+   ],
+   "吳銘賜": [
+    {
+     "text": "第4屆提案 6 件（議員提案 6、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E5%90%B3%E9%8A%98%E8%B3%9C"
+    },
+    {
+     "text": "第4屆市政總質詢 8 次",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E5%90%B3%E9%8A%98%E8%B3%9C"
+    }
+   ],
+   "宋立彬": [
+    {
+     "text": "第4屆提案 209 件（議員提案 209、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E5%AE%8B%E7%AB%8B%E5%BD%AC"
+    },
+    {
+     "text": "第4屆市政總質詢 7 次（另已排定 1 次尚未進行）",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E5%AE%8B%E7%AB%8B%E5%BD%AC"
+    }
+   ],
+   "康裕成": [
+    {
+     "text": "第4屆提案 2 件（議員提案 2、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E5%BA%B7%E8%A3%95%E6%88%90"
+    },
+    {
+     "text": "第4屆市政總質詢 0 次（議事系統無紀錄；現任議長）",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E5%BA%B7%E8%A3%95%E6%88%90"
+    }
+   ],
+   "張勝富": [
+    {
+     "text": "第4屆提案 195 件（議員提案 195、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E5%BC%B5%E5%8B%9D%E5%AF%8C"
+    },
+    {
+     "text": "第4屆市政總質詢 7 次（另已排定 1 次尚未進行）",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E5%BC%B5%E5%8B%9D%E5%AF%8C"
+    }
+   ],
+   "張博洋": [
+    {
+     "text": "第4屆提案 515 件（議員提案 515、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E5%BC%B5%E5%8D%9A%E6%B4%8B"
+    },
+    {
+     "text": "第4屆市政總質詢 7 次（另已排定 1 次尚未進行）",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E5%BC%B5%E5%8D%9A%E6%B4%8B"
+    }
+   ],
+   "張漢忠": [
+    {
+     "text": "第4屆提案 181 件（議員提案 181、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E5%BC%B5%E6%BC%A2%E5%BF%A0"
+    },
+    {
+     "text": "第4屆市政總質詢 7 次（另已排定 1 次尚未進行）",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E5%BC%B5%E6%BC%A2%E5%BF%A0"
+    }
+   ],
+   "方信淵": [
+    {
+     "text": "第4屆提案 121 件（議員提案 121、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E6%96%B9%E4%BF%A1%E6%B7%B5"
+    },
+    {
+     "text": "第4屆市政總質詢 8 次",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E6%96%B9%E4%BF%A1%E6%B7%B5"
+    }
+   ],
+   "曾俊傑": [
+    {
+     "text": "第4屆提案 291 件（議員提案 291、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E6%9B%BE%E4%BF%8A%E5%82%91"
+    },
+    {
+     "text": "第4屆市政總質詢 7 次（另已排定 1 次尚未進行）",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E6%9B%BE%E4%BF%8A%E5%82%91"
+    }
+   ],
+   "李亞築": [
+    {
+     "text": "第4屆提案 145 件（議員提案 145、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E6%9D%8E%E4%BA%9E%E7%AF%89"
+    },
+    {
+     "text": "第4屆市政總質詢 7 次（另已排定 1 次尚未進行）",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E6%9D%8E%E4%BA%9E%E7%AF%89"
+    }
+   ],
+   "李喬如": [
+    {
+     "text": "第4屆提案 43 件（議員提案 43、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E6%9D%8E%E5%96%AC%E5%A6%82"
+    },
+    {
+     "text": "第4屆市政總質詢 7 次（另已排定 1 次尚未進行）",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E6%9D%8E%E5%96%AC%E5%A6%82"
+    }
+   ],
+   "李眉蓁": [
+    {
+     "text": "第4屆提案 48 件（議員提案 48、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E6%9D%8E%E7%9C%89%E8%93%81"
+    },
+    {
+     "text": "第4屆市政總質詢 8 次",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E6%9D%8E%E7%9C%89%E8%93%81"
+    }
+   ],
+   "李雅慧": [
+    {
+     "text": "第4屆提案 139 件（議員提案 139、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E6%9D%8E%E9%9B%85%E6%85%A7"
+    },
+    {
+     "text": "第4屆市政總質詢 7 次（另已排定 1 次尚未進行）",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E6%9D%8E%E9%9B%85%E6%85%A7"
+    }
+   ],
+   "李雅芬": [
+    {
+     "text": "第4屆提案 292 件（議員提案 292、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E6%9D%8E%E9%9B%85%E8%8A%AC"
+    },
+    {
+     "text": "第4屆市政總質詢 7 次（另已排定 1 次尚未進行）",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E6%9D%8E%E9%9B%85%E8%8A%AC"
+    }
+   ],
+   "李雅靜": [
+    {
+     "text": "第4屆提案 102 件（議員提案 102、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E6%9D%8E%E9%9B%85%E9%9D%9C"
+    },
+    {
+     "text": "第4屆市政總質詢 8 次",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E6%9D%8E%E9%9B%85%E9%9D%9C"
+    }
+   ],
+   "李雨庭": [
+    {
+     "text": "第4屆提案 129 件（議員提案 129、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E6%9D%8E%E9%9B%A8%E5%BA%AD"
+    },
+    {
+     "text": "第4屆市政總質詢 7 次（另已排定 1 次尚未進行）",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E6%9D%8E%E9%9B%A8%E5%BA%AD"
+    }
+   ],
+   "李順進": [
+    {
+     "text": "第4屆提案 19 件（議員提案 19、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E6%9D%8E%E9%A0%86%E9%80%B2"
+    },
+    {
+     "text": "第4屆市政總質詢 8 次",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E6%9D%8E%E9%A0%86%E9%80%B2"
+    }
+   ],
+   "林富寶": [
+    {
+     "text": "第4屆提案 0 件（議員提案 0、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E6%9E%97%E5%AF%8C%E5%AF%B6"
+    },
+    {
+     "text": "第4屆市政總質詢 8 次",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E6%9E%97%E5%AF%8C%E5%AF%B6"
+    }
+   ],
+   "林志誠": [
+    {
+     "text": "第4屆提案 187 件（議員提案 187、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E6%9E%97%E5%BF%97%E8%AA%A0"
+    },
+    {
+     "text": "第4屆市政總質詢 8 次",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E6%9E%97%E5%BF%97%E8%AA%A0"
+    }
+   ],
+   "林智鴻": [
+    {
+     "text": "第4屆提案 471 件（議員提案 471、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E6%9E%97%E6%99%BA%E9%B4%BB"
+    },
+    {
+     "text": "第4屆市政總質詢 7 次（另已排定 1 次尚未進行）",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E6%9E%97%E6%99%BA%E9%B4%BB"
+    }
+   ],
+   "林義迪": [
+    {
+     "text": "第4屆提案 48 件（議員提案 48、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E6%9E%97%E7%BE%A9%E8%BF%AA"
+    },
+    {
+     "text": "第4屆市政總質詢 8 次",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E6%9E%97%E7%BE%A9%E8%BF%AA"
+    }
+   ],
+   "江瑞鴻": [
+    {
+     "text": "第4屆提案 109 件（議員提案 109、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E6%B1%9F%E7%91%9E%E9%B4%BB"
+    },
+    {
+     "text": "第4屆市政總質詢 8 次",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E6%B1%9F%E7%91%9E%E9%B4%BB"
+    }
+   ],
+   "湯詠瑜": [
+    {
+     "text": "第4屆提案 495 件（議員提案 495、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E6%B9%AF%E8%A9%A0%E7%91%9C"
+    },
+    {
+     "text": "第4屆市政總質詢 8 次",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E6%B9%AF%E8%A9%A0%E7%91%9C"
+    }
+   ],
+   "王義雄": [
+    {
+     "text": "第4屆提案 76 件（議員提案 76、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E7%8E%8B%E7%BE%A9%E9%9B%84"
+    },
+    {
+     "text": "第4屆市政總質詢 7 次（另已排定 1 次尚未進行）",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E7%8E%8B%E7%BE%A9%E9%9B%84"
+    }
+   ],
+   "王耀裕": [
+    {
+     "text": "第4屆提案 265 件（議員提案 265、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E7%8E%8B%E8%80%80%E8%A3%95"
+    },
+    {
+     "text": "第4屆市政總質詢 7 次（另已排定 1 次尚未進行）",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E7%8E%8B%E8%80%80%E8%A3%95"
+    }
+   ],
+   "白喬茵": [
+    {
+     "text": "第4屆提案 262 件（議員提案 262、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E7%99%BD%E5%96%AC%E8%8C%B5"
+    },
+    {
+     "text": "第4屆市政總質詢 7 次（另已排定 1 次尚未進行）",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E7%99%BD%E5%96%AC%E8%8C%B5"
+    }
+   ],
+   "簡煥宗": [
+    {
+     "text": "第4屆提案 335 件（議員提案 335、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E7%B0%A1%E7%85%A5%E5%AE%97"
+    },
+    {
+     "text": "第4屆市政總質詢 7 次（另已排定 1 次尚未進行）",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E7%B0%A1%E7%85%A5%E5%AE%97"
+    }
+   ],
+   "蔡武宏": [
+    {
+     "text": "第4屆提案 68 件（議員提案 68、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E8%94%A1%E6%AD%A6%E5%AE%8F"
+    },
+    {
+     "text": "第4屆市政總質詢 7 次（另已排定 1 次尚未進行）",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E8%94%A1%E6%AD%A6%E5%AE%8F"
+    }
+   ],
+   "蔡金晏": [
+    {
+     "text": "第4屆提案 0 件（議員提案 0、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E8%94%A1%E9%87%91%E6%99%8F"
+    },
+    {
+     "text": "第4屆市政總質詢 8 次",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E8%94%A1%E9%87%91%E6%99%8F"
+    }
+   ],
+   "邱于軒": [
+    {
+     "text": "第4屆提案 251 件（議員提案 251、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E9%82%B1%E4%BA%8E%E8%BB%92"
+    },
+    {
+     "text": "第4屆市政總質詢 7 次（另已排定 1 次尚未進行）",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E9%82%B1%E4%BA%8E%E8%BB%92"
+    }
+   ],
+   "邱俊憲": [
+    {
+     "text": "第4屆提案 390 件（議員提案 390、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E9%82%B1%E4%BF%8A%E6%86%B2"
+    },
+    {
+     "text": "第4屆市政總質詢 8 次",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E9%82%B1%E4%BF%8A%E6%86%B2"
+    }
+   ],
+   "郭建盟": [
+    {
+     "text": "第4屆提案 40 件（議員提案 40、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E9%83%AD%E5%BB%BA%E7%9B%9F"
+    },
+    {
+     "text": "第4屆市政總質詢 8 次",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E9%83%AD%E5%BB%BA%E7%9B%9F"
+    }
+   ],
+   "鄭光峰": [
+    {
+     "text": "第4屆提案 25 件（議員提案 25、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E9%84%AD%E5%85%89%E5%B3%B0"
+    },
+    {
+     "text": "第4屆市政總質詢 8 次",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E9%84%AD%E5%85%89%E5%B3%B0"
+    }
+   ],
+   "鄭孟洳": [
+    {
+     "text": "第4屆提案 263 件（議員提案 263、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E9%84%AD%E5%AD%9F%E6%B4%B3"
+    },
+    {
+     "text": "第4屆市政總質詢 8 次",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E9%84%AD%E5%AD%9F%E6%B4%B3"
+    }
+   ],
+   "鄭安秝": [
+    {
+     "text": "第4屆提案 500 件（議員提案 500、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E9%84%AD%E5%AE%89%E7%A7%9D"
+    },
+    {
+     "text": "第4屆市政總質詢 8 次",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E9%84%AD%E5%AE%89%E7%A7%9D"
+    }
+   ],
+   "鍾易仲": [
+    {
+     "text": "第4屆提案 216 件（議員提案 216、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E9%8D%BE%E6%98%93%E4%BB%B2"
+    },
+    {
+     "text": "第4屆市政總質詢 7 次（另已排定 1 次尚未進行）",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E9%8D%BE%E6%98%93%E4%BB%B2"
+    }
+   ],
+   "陳幸富": [
+    {
+     "text": "第4屆提案 66 件（議員提案 66、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E9%99%B3%E5%B9%B8%E5%AF%8C"
+    },
+    {
+     "text": "第4屆市政總質詢 8 次",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E9%99%B3%E5%B9%B8%E5%AF%8C"
+    }
+   ],
+   "陳慧文": [
+    {
+     "text": "第4屆提案 283 件（議員提案 283、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E9%99%B3%E6%85%A7%E6%96%87"
+    },
+    {
+     "text": "第4屆市政總質詢 8 次",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E9%99%B3%E6%85%A7%E6%96%87"
+    }
+   ],
+   "陳玫娟": [
+    {
+     "text": "第4屆提案 275 件（議員提案 275、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E9%99%B3%E7%8E%AB%E5%A8%9F"
+    },
+    {
+     "text": "第4屆市政總質詢 8 次",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E9%99%B3%E7%8E%AB%E5%A8%9F"
+    }
+   ],
+   "陳美雅": [
+    {
+     "text": "第4屆提案 278 件（議員提案 278、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E9%99%B3%E7%BE%8E%E9%9B%85"
+    },
+    {
+     "text": "第4屆市政總質詢 7 次（另已排定 1 次尚未進行）",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E9%99%B3%E7%BE%8E%E9%9B%85"
+    }
+   ],
+   "陳麗娜": [
+    {
+     "text": "第4屆提案 67 件（議員提案 67、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E9%99%B3%E9%BA%97%E5%A8%9C"
+    },
+    {
+     "text": "第4屆市政總質詢 8 次",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E9%99%B3%E9%BA%97%E5%A8%9C"
+    }
+   ],
+   "陳麗珍": [
+    {
+     "text": "第4屆提案 98 件（議員提案 98、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E9%99%B3%E9%BA%97%E7%8F%8D"
+    },
+    {
+     "text": "第4屆市政總質詢 8 次",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E9%99%B3%E9%BA%97%E7%8F%8D"
+    }
+   ],
+   "高忠德Takiludun．Anu": [
+    {
+     "text": "第4屆提案 102 件（議員提案 102、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E9%AB%98%E5%BF%A0%E5%BE%B7"
+    },
+    {
+     "text": "第4屆市政總質詢 8 次",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E9%AB%98%E5%BF%A0%E5%BE%B7"
+    }
+   ],
+   "黃天煌": [
+    {
+     "text": "第4屆提案 41 件（議員提案 41、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E9%BB%83%E5%A4%A9%E7%85%8C"
+    },
+    {
+     "text": "第4屆市政總質詢 7 次（另已排定 1 次尚未進行）",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E9%BB%83%E5%A4%A9%E7%85%8C"
+    }
+   ],
+   "黃文志": [
+    {
+     "text": "第4屆提案 169 件（議員提案 169、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E9%BB%83%E6%96%87%E5%BF%97"
+    },
+    {
+     "text": "第4屆市政總質詢 8 次",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E9%BB%83%E6%96%87%E5%BF%97"
+    }
+   ],
+   "黃文益": [
+    {
+     "text": "第4屆提案 68 件（議員提案 68、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E9%BB%83%E6%96%87%E7%9B%8A"
+    },
+    {
+     "text": "第4屆市政總質詢 8 次",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E9%BB%83%E6%96%87%E7%9B%8A"
+    }
+   ],
+   "黃明太": [
+    {
+     "text": "第4屆提案 0 件（議員提案 0、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E9%BB%83%E6%98%8E%E5%A4%AA"
+    },
+    {
+     "text": "第4屆市政總質詢 8 次",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E9%BB%83%E6%98%8E%E5%A4%AA"
+    }
+   ],
+   "黃柏霖": [
+    {
+     "text": "第4屆提案 1 件（議員提案 1、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E9%BB%83%E6%9F%8F%E9%9C%96"
+    },
+    {
+     "text": "第4屆市政總質詢 8 次",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E9%BB%83%E6%9F%8F%E9%9C%96"
+    }
+   ],
+   "黃秋媖": [
+    {
+     "text": "第4屆提案 488 件（議員提案 488、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E9%BB%83%E7%A7%8B%E5%AA%96"
+    },
+    {
+     "text": "第4屆市政總質詢 8 次",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E9%BB%83%E7%A7%8B%E5%AA%96"
+    }
+   ],
+   "黃飛鳳": [
+    {
+     "text": "第4屆提案 146 件（議員提案 146、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E9%BB%83%E9%A3%9B%E9%B3%B3"
+    },
+    {
+     "text": "第4屆市政總質詢 8 次",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E9%BB%83%E9%A3%9B%E9%B3%B3"
+    }
+   ],
+   "黃香菽": [
+    {
+     "text": "第4屆提案 124 件（議員提案 124、臨時提案 0）",
+     "src_url": "https://cissearch.kcc.gov.tw/Frame_Councilor.aspx?cname=%E9%BB%83%E9%A6%99%E8%8F%BD"
+    },
+    {
+     "text": "第4屆市政總質詢 8 次",
+     "src_url": "https://cissearch.kcc.gov.tw/System/MunicipalQuestion/DealData.aspx?councilorfullname=%E9%BB%83%E9%A6%99%E8%8F%BD"
+    }
+   ]
+  }
+ },
+ "臺北市": {
+  "src_title": "臺北市議會議案進階查詢系統（案號14開頭、提案者含該議員之議案；議員提案與市法規案）",
+  "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx",
+  "period": "第14屆（2022-12-25～2026-10-09）",
+  "members": {
+   "何孟樺": [
+    {
+     "text": "第14屆議員提案 381 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 13 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "侯漢廷": [
+    {
+     "text": "第14屆議員提案 323 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 12 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "劉耀仁": [
+    {
+     "text": "第14屆議員提案 171 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 10 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "吳世正": [
+    {
+     "text": "第14屆議員提案 293 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 11 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "吳志剛": [
+    {
+     "text": "第14屆議員提案 118 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 7 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "張志豪": [
+    {
+     "text": "第14屆議員提案 299 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 14 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "張文潔": [
+    {
+     "text": "第14屆議員提案 436 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 12 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "張斯綱": [
+    {
+     "text": "第14屆議員提案 530 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 17 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "徐弘庭": [
+    {
+     "text": "第14屆議員提案 180 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 11 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "徐立信": [
+    {
+     "text": "第14屆議員提案 660 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 26 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "戴錫欽": [
+    {
+     "text": "第14屆議員提案 601 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 27 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "曾獻瑩": [
+    {
+     "text": "第14屆議員提案 164 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 8 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "李明賢": [
+    {
+     "text": "第14屆議員提案 343 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 14 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "李柏毅": [
+    {
+     "text": "第14屆議員提案 418 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 16 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "李芳儒": [
+    {
+     "text": "第14屆議員提案 608 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 24 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "林世宗": [
+    {
+     "text": "第14屆議員提案 160 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 0 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "林亮君": [
+    {
+     "text": "第14屆議員提案 278 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 5 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "林延鳳": [
+    {
+     "text": "第14屆議員提案 324 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 14 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "林杏兒": [
+    {
+     "text": "第14屆議員提案 463 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 17 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "林珍羽": [
+    {
+     "text": "第14屆議員提案 409 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 11 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "柳采葳": [
+    {
+     "text": "第14屆議員提案 222 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 12 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "楊植斗": [
+    {
+     "text": "第14屆議員提案 221 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 9 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "汪志冰": [
+    {
+     "text": "第14屆議員提案 187 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 10 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "洪健益": [
+    {
+     "text": "第14屆議員提案 373 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 19 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "洪婉臻": [
+    {
+     "text": "第14屆議員提案 470 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 6 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "游淑慧": [
+    {
+     "text": "第14屆議員提案 305 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 16 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "王孝維": [
+    {
+     "text": "第14屆議員提案 407 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 20 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "王欣儀": [
+    {
+     "text": "第14屆議員提案 407 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 16 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "王閔生": [
+    {
+     "text": "第14屆議員提案 355 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 14 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "秦慧珠": [
+    {
+     "text": "第14屆議員提案 349 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 14 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "簡舒培": [
+    {
+     "text": "第14屆議員提案 202 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 10 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "耿葳": [
+    {
+     "text": "第14屆議員提案 346 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 13 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "苗博雅": [
+    {
+     "text": "第14屆議員提案 176 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 7 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "葉林傳": [
+    {
+     "text": "第14屆議員提案 491 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 13 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "許淑華": [
+    {
+     "text": "第14屆議員提案 335 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 2 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "詹為元": [
+    {
+     "text": "第14屆議員提案 483 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 18 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "郭昭巖": [
+    {
+     "text": "第14屆議員提案 589 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 27 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "鍾佩玲": [
+    {
+     "text": "第14屆議員提案 366 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 5 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "鍾小平": [
+    {
+     "text": "第14屆議員提案 160 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 4 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "鍾沛君": [
+    {
+     "text": "第14屆議員提案 110 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 13 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "闕枚莎": [
+    {
+     "text": "第14屆議員提案 244 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 7 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "陳宥丞": [
+    {
+     "text": "第14屆議員提案 326 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 11 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "陳怡君": [
+    {
+     "text": "第14屆議員提案 476 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 12 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "陳慈慧": [
+    {
+     "text": "第14屆議員提案 227 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 7 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "陳炳甫": [
+    {
+     "text": "第14屆議員提案 291 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 18 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "陳賢蔚": [
+    {
+     "text": "第14屆議員提案 481 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 14 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "陳重文": [
+    {
+     "text": "第14屆議員提案 87 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 10 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "陳錦祥": [
+    {
+     "text": "第14屆議員提案 52 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 3 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "顏若芳": [
+    {
+     "text": "第14屆議員提案 413 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 10 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ],
+   "黃瀞瑩": [
+    {
+     "text": "第14屆議員提案 274 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    },
+    {
+     "text": "第14屆市法規案（自治條例等）提案 13 件",
+     "src_url": "https://ifddoc2.tcc.gov.tw/TCCMIS_Front/Adv_SearchInput.aspx"
+    }
+   ]
+  }
+ },
+ "臺中市": {
+  "src_title": "臺中市議會議事資訊系統（議案查詢；提案人含共同提案、連署另計）",
+  "src_url": "https://yishi.tccc.gov.tw/proposals",
+  "period": "第4屆（2022-12-25～2026-10-09）",
+  "members": {
+   "何文海": [
+    {
+     "text": "第4屆提案 94 件（議員提案 90、臨時動議 4）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 111 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "劉士州": [
+    {
+     "text": "第4屆提案 175 件（議員提案 174、臨時動議 1）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 40 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "古秀英": [
+    {
+     "text": "第4屆提案 105 件（議員提案 105、臨時動議 0）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 312 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "吳佩芸": [
+    {
+     "text": "第4屆提案 169 件（議員提案 169、臨時動議 0）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 162 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "吳呈賢": [
+    {
+     "text": "第4屆提案 461 件（議員提案 461、臨時動議 0）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 153 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "吳振嘉": [
+    {
+     "text": "第4屆提案 287 件（議員提案 287、臨時動議 0）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 57 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "吳瓊華": [
+    {
+     "text": "第4屆提案 273 件（議員提案 273、臨時動議 0）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 193 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "周永鴻": [
+    {
+     "text": "第4屆提案 360 件（議員提案 357、臨時動議 3）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 134 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "張家銨": [
+    {
+     "text": "第4屆提案 168 件（議員提案 162、臨時動議 6）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 345 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "張廖乃綸": [
+    {
+     "text": "第4屆提案 280 件（議員提案 280、臨時動議 0）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 196 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "張彥彤": [
+    {
+     "text": "第4屆提案 472 件（議員提案 472、臨時動議 0）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 100 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "張清照": [
+    {
+     "text": "第4屆提案 1 件（議員提案 1、臨時動議 0）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 11 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "張玉嬿": [
+    {
+     "text": "第4屆提案 395 件（議員提案 393、臨時動議 2）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 73 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "張芬郁": [
+    {
+     "text": "第4屆提案 325 件（議員提案 323、臨時動議 2）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 463 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "徐瑄灃": [
+    {
+     "text": "第4屆提案 2 件（議員提案 1、臨時動議 1）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 32 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "施志昌": [
+    {
+     "text": "第4屆提案 354 件（議員提案 352、臨時動議 2）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 106 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "曾威": [
+    {
+     "text": "第4屆提案 360 件（議員提案 358、臨時動議 2）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 109 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "朱元宏": [
+    {
+     "text": "第4屆提案 86 件（議員提案 86、臨時動議 0）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 307 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "朱暖英": [
+    {
+     "text": "第4屆提案 107 件（議員提案 107、臨時動議 0）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 17 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "李中": [
+    {
+     "text": "第4屆提案 173 件（議員提案 172、臨時動議 1）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 168 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "李天生": [
+    {
+     "text": "第4屆提案 87 件（議員提案 85、臨時動議 2）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 282 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "李文傑": [
+    {
+     "text": "第4屆提案 279 件（議員提案 279、臨時動議 0）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 131 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "林孟令": [
+    {
+     "text": "第4屆提案 13 件（議員提案 13、臨時動議 0）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 85 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "林德宇": [
+    {
+     "text": "第4屆提案 152 件（議員提案 150、臨時動議 2）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 149 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "林碧秀": [
+    {
+     "text": "第4屆提案 87 件（議員提案 87、臨時動議 0）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 261 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "林祈烽": [
+    {
+     "text": "第4屆提案 561 件（議員提案 558、臨時動議 3）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 111 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "林霈涵": [
+    {
+     "text": "第4屆提案 96 件（議員提案 96、臨時動議 0）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 268 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "楊典忠": [
+    {
+     "text": "第4屆提案 586 件（議員提案 586、臨時動議 0）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 167 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "楊啓邦": [
+    {
+     "text": "第4屆提案 64 件（議員提案 62、臨時動議 2）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 24 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "楊大鋐": [
+    {
+     "text": "第4屆提案 645 件（議員提案 645、臨時動議 0）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 234 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "江和樹": [
+    {
+     "text": "第4屆提案 394 件（議員提案 393、臨時動議 1）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 123 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "江肇國": [
+    {
+     "text": "第4屆提案 102 件（議員提案 97、臨時動議 5）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 307 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "沈佑蓮": [
+    {
+     "text": "第4屆提案 117 件（議員提案 117、臨時動議 0）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 183 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "王立任": [
+    {
+     "text": "第4屆提案 403 件（議員提案 399、臨時動議 4）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 78 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "蔡耀頡": [
+    {
+     "text": "第4屆提案 28 件（議員提案 25、臨時動議 3）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 373 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "蕭隆澤": [
+    {
+     "text": "第4屆提案 200 件（議員提案 198、臨時動議 2）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 498 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "蘇柏興": [
+    {
+     "text": "第4屆提案 260 件（議員提案 260、臨時動議 0）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 66 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "謝家宜": [
+    {
+     "text": "第4屆提案 215 件（議員提案 212、臨時動議 3）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 371 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "謝志忠": [
+    {
+     "text": "第4屆提案 375 件（議員提案 373、臨時動議 2）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 4 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "賴朝國": [
+    {
+     "text": "第4屆提案 105 件（議員提案 105、臨時動議 0）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 28 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "賴義鍠": [
+    {
+     "text": "第4屆提案 48 件（議員提案 48、臨時動議 0）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 182 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "賴順仁": [
+    {
+     "text": "第4屆提案 301 件（議員提案 301、臨時動議 0）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 55 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "邱愛珊": [
+    {
+     "text": "第4屆提案 318 件（議員提案 318、臨時動議 0）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 283 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "鄭功進": [
+    {
+     "text": "第4屆提案 317 件（議員提案 314、臨時動議 3）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 26 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "陳俞融": [
+    {
+     "text": "第4屆提案 304 件（議員提案 296、臨時動議 8）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 305 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "陳廷秀": [
+    {
+     "text": "第4屆提案 100 件（議員提案 99、臨時動議 1）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 439 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "陳政顯": [
+    {
+     "text": "第4屆提案 394 件（議員提案 393、臨時動議 1）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 126 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "陳文政": [
+    {
+     "text": "第4屆提案 349 件（議員提案 349、臨時動議 0）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 263 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "陳本添": [
+    {
+     "text": "第4屆提案 42 件（議員提案 42、臨時動議 0）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 124 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "陳淑華": [
+    {
+     "text": "第4屆提案 293 件（議員提案 287、臨時動議 6）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 341 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "陳雅惠": [
+    {
+     "text": "第4屆提案 205 件（議員提案 202、臨時動議 3）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 464 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "顏莉敏": [
+    {
+     "text": "第4屆提案 120 件（議員提案 120、臨時動議 0）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 28 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "黃佳恬": [
+    {
+     "text": "第4屆提案 349 件（議員提案 349、臨時動議 0）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 244 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "黃守達": [
+    {
+     "text": "第4屆提案 353 件（議員提案 348、臨時動議 5）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 64 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ],
+   "黃馨慧": [
+    {
+     "text": "第4屆提案 74 件（議員提案 74、臨時動議 0）",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    },
+    {
+     "text": "第4屆連署提案 22 件",
+     "src_url": "https://yishi.tccc.gov.tw/proposals"
+    }
+   ]
+  }
+ },
+ "臺南市": {
+  "src_title": "臺南市議會議案查詢（議員提案、臨時動議；提案人含共同提案）",
+  "src_url": "https://www.tncc.gov.tw/motion1.asp",
+  "period": "第4屆（2022-12-25～2026-10-09）",
+  "members": {
+   "余柷青": [
+    {
+     "text": "第4屆提案 442 件（議員提案 435、臨時動議 7）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "吳禹寰": [
+    {
+     "text": "第4屆提案 123 件（議員提案 119、臨時動議 4）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "吳通龍": [
+    {
+     "text": "第4屆提案 68 件（議員提案 65、臨時動議 3）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "周嘉韋": [
+    {
+     "text": "第4屆提案 372 件（議員提案 365、臨時動議 7）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "周奕齊": [
+    {
+     "text": "第4屆提案 262 件（議員提案 258、臨時動議 4）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "周麗津": [
+    {
+     "text": "第4屆提案 37 件（議員提案 32、臨時動議 5）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "方一峰": [
+    {
+     "text": "第4屆提案 99 件（議員提案 97、臨時動議 2）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "施余興望Tjakumay Tagaw": [
+    {
+     "text": "第4屆提案 56 件（議員提案 53、臨時動議 3）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "曾之婕": [
+    {
+     "text": "第4屆提案 84 件（議員提案 80、臨時動議 4）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "朱正軒": [
+    {
+     "text": "第4屆提案 357 件（議員提案 353、臨時動議 4）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "李中岑": [
+    {
+     "text": "第4屆提案 45 件（議員提案 42、臨時動議 3）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "李偉智": [
+    {
+     "text": "第4屆提案 197 件（議員提案 194、臨時動議 3）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "李啓維": [
+    {
+     "text": "第4屆提案 40 件（議員提案 35、臨時動議 5）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "李宗翰": [
+    {
+     "text": "第4屆提案 110 件（議員提案 104、臨時動議 6）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "李宗霖": [
+    {
+     "text": "第4屆提案 290 件（議員提案 287、臨時動議 3）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "李文俊": [
+    {
+     "text": "第4屆提案 8 件（議員提案 7、臨時動議 1）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "杜素吟": [
+    {
+     "text": "第4屆提案 86 件（議員提案 80、臨時動議 6）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "林依婷": [
+    {
+     "text": "第4屆提案 199 件（議員提案 191、臨時動議 8）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "林冠維": [
+    {
+     "text": "第4屆提案 213 件（議員提案 209、臨時動議 4）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "林志展": [
+    {
+     "text": "第4屆提案 346 件（議員提案 344、臨時動議 2）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "林燕祝": [
+    {
+     "text": "第4屆提案 271 件（議員提案 264、臨時動議 7）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "楊中成": [
+    {
+     "text": "第4屆提案 22 件（議員提案 19、臨時動議 3）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "王宣貿": [
+    {
+     "text": "第4屆提案 190 件（議員提案 187、臨時動議 3）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "王家貞": [
+    {
+     "text": "第4屆提案 121 件（議員提案 119、臨時動議 2）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "盧崑福": [
+    {
+     "text": "第4屆提案 37 件（議員提案 35、臨時動議 2）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "蔡宗豪": [
+    {
+     "text": "第4屆提案 124 件（議員提案 120、臨時動議 4）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "蔡秋蘭": [
+    {
+     "text": "第4屆提案 81 件（議員提案 79、臨時動議 2）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "蔡筱薇": [
+    {
+     "text": "第4屆提案 283 件（議員提案 276、臨時動議 7）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "蔡育輝": [
+    {
+     "text": "第4屆提案 282 件（議員提案 276、臨時動議 6）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "蔡蘇秋金": [
+    {
+     "text": "第4屆提案 128 件（議員提案 125、臨時動議 3）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "蔡麗青": [
+    {
+     "text": "第4屆提案 82 件（議員提案 79、臨時動議 3）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "許至椿": [
+    {
+     "text": "第4屆提案 37 件（議員提案 35、臨時動議 2）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "謝舒凡": [
+    {
+     "text": "第4屆提案 70 件（議員提案 66、臨時動議 4）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "趙昆原": [
+    {
+     "text": "第4屆提案 76 件（議員提案 73、臨時動議 3）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "邱昭勝": [
+    {
+     "text": "第4屆提案 27 件（議員提案 22、臨時動議 5）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "邱莉莉": [
+    {
+     "text": "第4屆提案 22 件（議員提案 20、臨時動議 2）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "郭信良": [
+    {
+     "text": "第4屆提案 2 件（議員提案 1、臨時動議 1）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "郭鴻儀": [
+    {
+     "text": "第4屆提案 197 件（議員提案 192、臨時動議 5）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "鄭佳欣": [
+    {
+     "text": "第4屆提案 224 件（議員提案 219、臨時動議 5）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "陳昆和": [
+    {
+     "text": "第4屆提案 206 件（議員提案 202、臨時動議 4）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "陳皇宇": [
+    {
+     "text": "第4屆提案 59 件（議員提案 56、臨時動議 3）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "陳碧玉": [
+    {
+     "text": "第4屆提案 188 件（議員提案 181、臨時動議 7）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "陳秋宏": [
+    {
+     "text": "第4屆提案 336 件（議員提案 331、臨時動議 5）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "陳秋萍": [
+    {
+     "text": "第4屆提案 155 件（議員提案 149、臨時動議 6）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "黃麗招": [
+    {
+     "text": "第4屆提案 54 件（議員提案 50、臨時動議 4）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ],
+   "黄肇輝": [
+    {
+     "text": "第4屆提案 154 件（議員提案 150、臨時動議 4）",
+     "src_url": "https://www.tncc.gov.tw/motion1.asp"
+    }
+   ]
+  }
+ },
+ "基隆市": {
+  "src_title": "基隆市議會議案查詢（提案人含共同提案、連署另計；定期會/臨時會依會議種類區分）",
+  "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion",
+  "period": "第20屆（2022-12-25～2026-10-09）",
+  "members": {
+   "何淑萍": [
+    {
+     "text": "第20屆提案 117 件（定期會 34、臨時會 83）",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    },
+    {
+     "text": "第20屆連署提案 48 件",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    }
+   ],
+   "俞叁發": [
+    {
+     "text": "第20屆提案 37 件（定期會 12、臨時會 25）",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    },
+    {
+     "text": "第20屆連署提案 277 件",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    }
+   ],
+   "吳驊珈": [
+    {
+     "text": "第20屆提案 179 件（定期會 83、臨時會 96）",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    },
+    {
+     "text": "第20屆連署提案 200 件",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    }
+   ],
+   "呂美玲": [
+    {
+     "text": "第20屆提案 116 件（定期會 60、臨時會 56）",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    },
+    {
+     "text": "第20屆連署提案 591 件",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    }
+   ],
+   "宋瑋莉": [
+    {
+     "text": "第20屆提案 26 件（定期會 11、臨時會 15）",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    },
+    {
+     "text": "第20屆連署提案 145 件",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    }
+   ],
+   "張之豪": [
+    {
+     "text": "第20屆提案 175 件（定期會 71、臨時會 104）",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    },
+    {
+     "text": "第20屆連署提案 334 件",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    }
+   ],
+   "張耿輝": [
+    {
+     "text": "第20屆提案 100 件（定期會 52、臨時會 48）",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    },
+    {
+     "text": "第20屆連署提案 386 件",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    }
+   ],
+   "張芳麗": [
+    {
+     "text": "第20屆提案 8 件（定期會 4、臨時會 4）",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    },
+    {
+     "text": "第20屆連署提案 88 件",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    }
+   ],
+   "施偉政": [
+    {
+     "text": "第20屆提案 89 件（定期會 38、臨時會 51）",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    },
+    {
+     "text": "第20屆連署提案 542 件",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    }
+   ],
+   "曾怡芳": [
+    {
+     "text": "第20屆提案 111 件（定期會 54、臨時會 57）",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    },
+    {
+     "text": "第20屆連署提案 389 件",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    }
+   ],
+   "楊秀玉": [
+    {
+     "text": "第20屆提案 299 件（定期會 145、臨時會 154）",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    },
+    {
+     "text": "第20屆連署提案 224 件",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    }
+   ],
+   "秦鉦": [
+    {
+     "text": "第20屆提案 159 件（定期會 74、臨時會 85）",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    },
+    {
+     "text": "第20屆連署提案 387 件",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    }
+   ],
+   "蔡旺璉": [
+    {
+     "text": "第20屆提案 38 件（定期會 14、臨時會 24）",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    },
+    {
+     "text": "第20屆連署提案 219 件",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    }
+   ],
+   "藍敏煌": [
+    {
+     "text": "第20屆提案 182 件（定期會 93、臨時會 89）",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    },
+    {
+     "text": "第20屆連署提案 90 件",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    }
+   ],
+   "連恩典": [
+    {
+     "text": "第20屆提案 99 件（定期會 43、臨時會 56）",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    },
+    {
+     "text": "第20屆連署提案 499 件",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    }
+   ],
+   "郭美秀": [
+    {
+     "text": "第20屆提案 175 件（定期會 56、臨時會 119）",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    },
+    {
+     "text": "第20屆連署提案 203 件",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    }
+   ],
+   "鄭愷玲": [
+    {
+     "text": "第20屆提案 80 件（定期會 44、臨時會 36）",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    },
+    {
+     "text": "第20屆連署提案 394 件",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    }
+   ],
+   "鄭文婷": [
+    {
+     "text": "第20屆提案 62 件（定期會 30、臨時會 32）",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    },
+    {
+     "text": "第20屆連署提案 306 件",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    }
+   ],
+   "陳冠羽": [
+    {
+     "text": "第20屆提案 287 件（定期會 111、臨時會 176）",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    },
+    {
+     "text": "第20屆連署提案 20 件",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    }
+   ],
+   "陳宜": [
+    {
+     "text": "第20屆提案 18 件（定期會 5、臨時會 13）",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    },
+    {
+     "text": "第20屆連署提案 615 件",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    }
+   ],
+   "陳明建": [
+    {
+     "text": "第20屆提案 153 件（定期會 73、臨時會 80）",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    },
+    {
+     "text": "第20屆連署提案 502 件",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    }
+   ],
+   "陳軍佐": [
+    {
+     "text": "第20屆提案 31 件（定期會 17、臨時會 14）",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    },
+    {
+     "text": "第20屆連署提案 421 件",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    }
+   ],
+   "韓世昱": [
+    {
+     "text": "第20屆提案 246 件（定期會 61、臨時會 185）",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    },
+    {
+     "text": "第20屆連署提案 66 件",
+     "src_url": "https://www.kmc.gov.tw/kmcweb/#/motion"
+    }
+   ]
+  }
+ }
+}

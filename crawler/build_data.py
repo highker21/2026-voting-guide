@@ -101,16 +101,24 @@ def main():
     el = jload("elected_2022.json", {})
     recm = jload("records_mayor.json", {})
     biom = jload("bio_mayor.json", {})
+    for county, people in jload("bio_mayor_news_B.json", {}).items():   # 原本查無資料者，以媒體／自述補上
+        for name, v in people.items():
+            if not biom.get(county, {}).get(name, {}).get("bio"):
+                biom.setdefault(county, {})[name] = v
     recl = jload("records_legislator.json", {})
     vhist = jload("village_history.json", {})
     recc = {}
     for f in ("records_council.json", "records_council_2.json", "records_council_b.json"):
         recc.update(jload(f, {}))
     bioc = {}
-    for f in ("bio_council.json", "bio_council_2.json"):
+    for f in ("bio_council.json", "bio_council_2.json", "bio_council_news_B.json"):
         for county, dists in jload(f, {}).items():
             for dist, people in dists.items():
-                bioc.setdefault(county, {}).setdefault(re.sub(r"（.*）", "", dist), {}).update(people)
+                tgt = bioc.setdefault(county, {}).setdefault(re.sub(r"（.*）", "", dist), {})
+                for name, v in people.items():
+                    if f.endswith("_news_B.json") and tgt.get(name, {}).get("bio"):
+                        continue   # 媒體／自述只補空白，不覆蓋官方資料
+                    tgt[name] = v
     el_mayor = {(x["county"], norm(x["name"])) for x in el.get("mayor", [])}
     el_council = {(x["county"], norm(x["name"])): x["district"] for x in el.get("council", [])}
     el_village = {(x["county"], x["town"], x["village"], norm(x["name"])) for x in el.get("village", [])}

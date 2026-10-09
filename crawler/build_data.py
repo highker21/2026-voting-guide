@@ -230,7 +230,7 @@ def main():
                     c["record"].append({"text": x["text"] + ("" if "截至" in x["text"] else "（截至 2026-10-09）"),
                                         "src": [k, "C"]})
             if rc and any(c["incumbent"] for c in ccands):
-                note.append("任內紀錄取自議會官方系統：提案數含共同提案，各縣市議會計法不同，不宜跨縣市比較。")
+                note.append("任內紀錄取自議會官方系統：提案數含共同提案；連署件數含本人同時列為提案人的案件；各縣市議會計法不同，不宜跨縣市比較。")
             if not rc and any(c["incumbent"] for c in ccands):
                 note.append("本縣市議會官網未提供可依議員查詢的完整提案或質詢資料，2022 當選者的任內紀錄暫缺。")
             races.append({"id": f"council-{dnum(dist)}", "type": "議員", "name": f"{cname}議員 {dist}" + (f"（{ind}原住民）" if ind else ""),

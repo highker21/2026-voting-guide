@@ -144,9 +144,10 @@
   let INDEX = null, COUNTY = null, LI = null;   // 目前載入的資料
   let SRC = {}, SRC_ORDER = [], ISSUES = {};     // 目前畫面用到的出處（以檔案為命名空間）
 
-  function getJSON(path) {
+  function getJSON(path, priority) {
     if (cache[path]) return cache[path];
-    cache[path] = fetch(path, { cache: "no-store" }).then(r => {
+    // no-cache：每次向伺服器確認是否有更新（沒變就回 304，不重新下載）；priority 讓背景預載不搶頻寬
+    cache[path] = fetch(path, { cache: "no-cache", priority: priority || "auto" }).then(r => {
       if (r.status === 404) return null;
       if (!r.ok) throw new Error(path + "：HTTP " + r.status);
       return r.json();
@@ -334,8 +335,8 @@
 
   let SEARCH = null;
   const norm = x => (x || "").replace(/[\s．‧·・.]/g, "").toLowerCase();
-  async function loadSearch() {
-    if (!SEARCH) SEARCH = getJSON("data/search.json").then(d => (d && d.rows || []).map(([n, p, ri, k]) => {
+  async function loadSearch(idle) {
+    if (!SEARCH) SEARCH = getJSON("data/search.json", idle ? "low" : "high").then(d => (d && d.rows || []).map(([n, p, ri, k]) => {
       const [code, race, tab, t, v, pre] = d.races[ri];
       return { r: [n, d.parties[p], code, race, tab, t, v, `${pre}-${k}`], k: norm(n) };
     }));
@@ -370,7 +371,8 @@
   let qTimer = null;
   $("#q").addEventListener("input", () => { clearTimeout(qTimer); qTimer = setTimeout(doSearch, 200); });
   $("#q").addEventListener("focus", () => { loadSearch(); if ($("#q").value) doSearch(); });
-  (window.requestIdleCallback || (f => setTimeout(f, 1500)))(() => loadSearch());   // 閒置時先在背景下載名單
+  // 閒置 4 秒後才在背景低優先下載名單；若使用者正在用地址功能就先不下載，讓門牌資料優先
+  setTimeout(() => (window.requestIdleCallback || (f => f()))(() => { if (!addrBusy && document.activeElement !== $("#addr")) loadSearch(true); }), 4000);
 
   // 戶籍地址 → 縣市／鄉鎮市區／村里（只在瀏覽器內比對）
   const OLD_COUNTY = { "臺北縣": "新北市", "桃園縣": "桃園市", "臺中縣": "臺中市", "臺南縣": "臺南市", "高雄縣": "高雄市" };
@@ -482,7 +484,7 @@
     addrBusy = true;
     const btn = $("#addr-go"), msg = $("#addr-msg"), before = location.hash;
     btn.disabled = true; btn.textContent = "比對中…";
-    msg.classList.remove("flash"); msg.innerHTML = "比對中…"; msg.hidden = false;
+    msg.classList.remove("flash"); msg.innerHTML = "比對中…（第一次查詢某一區時，需要下載該區的門牌資料）"; msg.hidden = false;
     try {
       $("#addr").blur();
       for (let i = 0; !INDEX && i < 100; i++) await new Promise(r => setTimeout(r, 100));   // 頁面剛開、縣市清單還沒載完時先等

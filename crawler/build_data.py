@@ -280,7 +280,17 @@ def main():
                                  "village": nli}})
     json.dump({"title": "2026 投票指南", "updated": UPDATED, "vote_date": "2026-11-28（六）", "counties": index},
               open(os.path.join(OUT, "index.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    json.dump(search, open(os.path.join(OUT, "search.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+    # 壓縮：政黨與選舉各自去重成表，每人只存 [姓名, 政黨序號, 選舉序號, 候選人 id 尾碼]
+    parties, races_t, pi, ri, rows = [], [], {}, {}, []
+    for name, party_, code, rname, tab, t, v, cid in search:
+        if party_ not in pi:
+            pi[party_] = len(parties); parties.append(party_)
+        key = (code, rname, tab, t, v)
+        if key not in ri:
+            ri[key] = len(races_t); races_t.append([code, rname, tab, t, v, cid.rsplit("-", 1)[0]])
+        rows.append([name, pi[party_], ri[key], int(cid.rsplit("-", 1)[1])])
+    json.dump({"parties": parties, "races": races_t, "rows": rows}, open(os.path.join(OUT, "search.json"), "w", encoding="utf-8"),
+              ensure_ascii=False, separators=(",", ":"))
     tot = {k: sum(c["counts"][k] for c in index) for k in ("mayor", "council", "village")}
     print("counties", len(index), tot)
 

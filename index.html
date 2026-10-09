@@ -69,6 +69,7 @@
   #q-results li:hover, #q-results li:focus { background: var(--chip); outline: none; }
   #q-results .qn { font-weight: 700; } #q-results .qm { display: block; font-size: .82rem; color: var(--muted); }
   #q-results .more { cursor: default; color: var(--muted); font-size: .85rem; }
+  .qnote { margin: 4px 2px 0; font-size: .75rem; color: var(--muted); }
   .card.hit { outline: 3px solid var(--accent); outline-offset: 2px; }
   @media print { .search { display: none; } }
   .tabs { display: flex; gap: 6px; margin: 14px 0 6px; position: sticky; top: 0; z-index: 3; background: var(--bg); padding: 6px 0; border-bottom: 1px solid var(--line); }
@@ -103,6 +104,7 @@
     <label for="q">搜尋候選人</label>
     <input id="q" type="search" placeholder="輸入姓名，例如：陳" autocomplete="off" enterkeyhint="search">
     <ol id="q-results" hidden></ol>
+    <p class="qnote">少數姓名含罕用字的候選人無法用姓名搜尋，請改用下方縣市、區、村里選單查詢。</p>
   </div>
   <div class="picker">
     <label>縣市<select id="sel-county"><option value="">請選擇</option></select></label>
@@ -318,7 +320,10 @@
   let SEARCH = null;
   const norm = x => (x || "").replace(/[\s．‧·・.]/g, "").toLowerCase();
   async function loadSearch() {
-    if (!SEARCH) SEARCH = (await getJSON("data/search.json") || []).map(r => ({ r, k: norm(r[0]) }));
+    if (!SEARCH) SEARCH = getJSON("data/search.json").then(d => (d && d.rows || []).map(([n, p, ri, k]) => {
+      const [code, race, tab, t, v, pre] = d.races[ri];
+      return { r: [n, d.parties[p], code, race, tab, t, v, `${pre}-${k}`], k: norm(n) };
+    }));
     return SEARCH;
   }
   function countyName(code) { const c = (INDEX && INDEX.counties || []).find(x => x.code === code); return c ? c.name : code; }
@@ -326,7 +331,7 @@
     const q = norm($("#q").value), box = $("#q-results");
     if (!q) { box.hidden = true; box.innerHTML = ""; return; }
     box.hidden = false;
-    if (!SEARCH) box.innerHTML = '<li class="more">載入名單中…</li>';
+    box.innerHTML = '<li class="more">載入名單中…</li>';
     const all = await loadSearch();
     if (norm($("#q").value) !== q) return;
     const hits = all.filter(x => x.k.includes(q)).sort((a, b) => (b.k === q) - (a.k === q) || (b.k.startsWith(q)) - (a.k.startsWith(q)));
@@ -350,6 +355,7 @@
   let qTimer = null;
   $("#q").addEventListener("input", () => { clearTimeout(qTimer); qTimer = setTimeout(doSearch, 200); });
   $("#q").addEventListener("focus", () => { loadSearch(); if ($("#q").value) doSearch(); });
+  (window.requestIdleCallback || (f => setTimeout(f, 1500)))(() => loadSearch());   // 閒置時先在背景下載名單
 
   getJSON("data/index.json").then(idx => {
     if (!idx) throw new Error("找不到 data/index.json");

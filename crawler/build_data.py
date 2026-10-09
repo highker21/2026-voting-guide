@@ -85,8 +85,14 @@ def main():
     recm = jload("records_mayor.json", {})
     biom = jload("bio_mayor.json", {})
     recl = jload("records_legislator.json", {})
-    recc = jload("records_council.json", {})
-    bioc = jload("bio_council.json", {})
+    recc = {}
+    for f in ("records_council.json", "records_council_2.json", "records_council_b.json"):
+        recc.update(jload(f, {}))
+    bioc = {}
+    for f in ("bio_council.json", "bio_council_2.json"):
+        for county, dists in jload(f, {}).items():
+            for dist, people in dists.items():
+                bioc.setdefault(county, {}).setdefault(dist, {}).update(people)
     el_mayor = {(x["county"], norm(x["name"])) for x in el.get("mayor", [])}
     el_council = {(x["county"], norm(x["name"])): x["district"] for x in el.get("council", [])}
     el_village = {(x["county"], x["town"], x["village"], norm(x["name"])) for x in el.get("village", [])}
@@ -105,6 +111,7 @@ def main():
         shutil.rmtree(OUT)
     os.makedirs(OUT)
     index = []
+    search = []  # [姓名, 政黨, code, 選舉名稱, 分頁, 鄉鎮市區, 村里, 候選人 id]
     for cname, code, special in COUNTIES:
         S = {}
         def src(key, page=None):
@@ -223,6 +230,11 @@ def main():
                           "area": area or "（涵蓋範圍待補）", "seats": info.get("seats"),
                           "districts": info.get("towns", []), "note": " ".join(note),
                           "candidates": ccands})
+        for r in races:
+            t = "" if r["id"] == "mayor" else (r.get("districts") or [""])[0]
+            for c in r["candidates"]:
+                if not c.get("name_unreadable"):
+                    search.append([c["name"], c["party"], code, r["name"], "mayor" if r["id"] == "mayor" else "council", t, "", c["id"]])
         meta = {"title": f"2026 {cname}投票指南", "county": cname, "code": code, "updated": UPDATED, "stage": STAGE,
                 "vote_date": "2026-11-28", "timeline": [{"date": d, "item": t, "src": ["T"]} for d, t in TIMELINE]}
         json.dump({"meta": meta, "sources": S, "towns": towns_of[cname], "races": races},
@@ -258,6 +270,9 @@ def main():
                                                    ((cname, town, vil, norm(r["name"])) in el_village) if cname in el_has_village else None)
                                               for j, r in enumerate(rows)]})
                 nli += len(rows)
+                for c in lraces[-1]["candidates"]:
+                    if not c.get("name_unreadable"):
+                        search.append([c["name"], c["party"], code, f"{cname}{town}{vil}{vil[-1]}長", "li", town, vil, c["id"]])
             json.dump({"meta": {"county": cname, "town": town, "updated": UPDATED, "stage": STAGE}, "sources": S9, "races": lraces},
                       open(os.path.join(OUT, code, f"li-{town}.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
         index.append({"code": code, "name": cname, "file": f"{code}.json", "stage": STAGE, "updated": UPDATED,
@@ -265,6 +280,7 @@ def main():
                                  "village": nli}})
     json.dump({"title": "2026 投票指南", "updated": UPDATED, "vote_date": "2026-11-28（六）", "counties": index},
               open(os.path.join(OUT, "index.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    json.dump(search, open(os.path.join(OUT, "search.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     tot = {k: sum(c["counts"][k] for c in index) for k in ("mayor", "council", "village")}
     print("counties", len(index), tot)
 

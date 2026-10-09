@@ -74,6 +74,9 @@
   .addr-row button { font: inherit; padding: 0 14px; border-radius: 10px; border: 1.5px solid var(--accent); background: var(--accent); color: #fff; font-weight: 700; cursor: pointer; }
   .addr-msg { margin: 6px 2px 0; font-size: .88rem; padding: 6px 10px; border-radius: 8px; background: var(--chip); }
   .geo { margin-top: 6px; font: inherit; font-size: .88rem; padding: 6px 12px; border-radius: 10px; border: 1.5px solid var(--accent); background: var(--card); color: var(--accent); cursor: pointer; }
+  .addr-msg.flash { animation: flash 1.2s ease-out; }
+  @keyframes flash { from { background: #fff3c4; } to { background: var(--chip); } }
+  .addr-row button:disabled { opacity: .6; }
   .qnote { margin: 4px 2px 0; font-size: .75rem; color: var(--muted); }
   .card.hit { outline: 3px solid var(--accent); outline-offset: 2px; }
   @media print { .search { display: none !important; } }
@@ -473,9 +476,28 @@
         ? `在${esc(town)}的村里清單中找不到「${esc(claimed)}」，可能已合併、改名或有錯字。`
         : "地址中沒有寫村里。") + "請從「村里」選單選擇，或在戶籍地按「📍 用目前位置判斷村里」。"));
   }
-  $("#addr-go").addEventListener("click", matchAddr);
+  let addrBusy = false;
+  async function runAddr() {
+    if (addrBusy) return;
+    addrBusy = true;
+    const btn = $("#addr-go"), msg = $("#addr-msg"), before = location.hash;
+    btn.disabled = true; btn.textContent = "比對中…";
+    msg.classList.remove("flash"); msg.innerHTML = "比對中…"; msg.hidden = false;
+    try {
+      $("#addr").blur();
+      await matchAddr();
+      if (location.hash === before) render();   // 結果和上一次同一個里時，hash 不變也要重畫
+      void msg.offsetWidth; msg.classList.add("flash");
+      setTimeout(() => $("#addr").scrollIntoView({ behavior: "smooth", block: "start" }), 300);   // 地址欄、結果訊息與分頁同時在畫面上
+    } catch (e) {
+      msg.innerHTML = `比對時發生錯誤（${esc(e && e.message || e)}），請重新整理後再試。`; msg.hidden = false;
+    } finally {
+      addrBusy = false; btn.disabled = false; btn.textContent = "帶入";
+    }
+  }
+  $("#addr-go").addEventListener("click", runAddr);
   $("#geo-go").addEventListener("click", locateVillage);
-  $("#addr").addEventListener("keydown", e => { if (e.key === "Enter") matchAddr(); });
+  $("#addr").addEventListener("keydown", e => { if (e.key === "Enter") { e.preventDefault(); runAddr(); } });
 
   getJSON("data/index.json").then(idx => {
     if (!idx) throw new Error("找不到 data/index.json");

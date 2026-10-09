@@ -119,7 +119,6 @@
     <div class="addr-row"><input id="addr" type="text" placeholder="例：臺北市大安區忠孝東路四段…" autocomplete="street-address"><button type="button" id="addr-go">帶入</button></div>
     <p class="qnote">地址只在您的裝置上比對，不會傳送或儲存。</p>
     <p id="addr-msg" class="addr-msg" hidden></p>
-    <button type="button" id="geo-go" class="geo">📍 用目前位置判斷村里</button>
   </div>
   <div class="picker">
     <label>縣市<select id="sel-county"><option value="">請選擇</option></select></label>
@@ -476,7 +475,7 @@
       (conflict ? `⚠️ 地址寫${esc(vil)}，但${esc(county.name)}門牌資料顯示這個門牌屬於<b>${esc(conflict)}</b>，請確認（里界可能調整過，以戶籍資料為準）。` : "") +
       (vil ? "" : (claimed
         ? `在${esc(town)}的村里清單中找不到「${esc(claimed)}」，可能已合併、改名或有錯字。`
-        : "地址中沒有寫村里。") + "請從「村里」選單選擇，或在戶籍地按「📍 用目前位置判斷村里」。"));
+        : "地址中沒有寫村里。") + (county.addr_index ? "請從「村里」選單選擇。" : `${esc(county.name)}目前還沒有門牌對照資料（陸續補上中），請從「村里」選單選擇。`)));
   }
   let addrBusy = false;
   async function runAddr() {
@@ -500,7 +499,6 @@
     }
   }
   $("#addr-go").addEventListener("click", runAddr);
-  $("#geo-go").addEventListener("click", locateVillage);
   $("#addr").addEventListener("keydown", e => { if (e.key === "Enter") { e.preventDefault(); runAddr(); } });
 
   getJSON("data/index.json").then(idx => {

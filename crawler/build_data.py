@@ -111,12 +111,12 @@ def main():
     for f in ("records_council.json", "records_council_2.json", "records_council_b.json"):
         recc.update(jload(f, {}))
     bioc = {}
-    for f in ("bio_council.json", "bio_council_2.json", "bio_council_news_B.json"):
+    for f in ("bio_council.json", "bio_council_2.json", "bio_council_news_B.json", "bio_council_news_B2.json"):
         for county, dists in jload(f, {}).items():
             for dist, people in dists.items():
                 tgt = bioc.setdefault(county, {}).setdefault(re.sub(r"（.*）", "", dist), {})
                 for name, v in people.items():
-                    if f.endswith("_news_B.json") and tgt.get(name, {}).get("bio"):
+                    if "_news_B" in f and tgt.get(name, {}).get("bio"):
                         continue   # 媒體／自述只補空白，不覆蓋官方資料
                     tgt[name] = v
     el_mayor = {(x["county"], norm(x["name"])) for x in el.get("mayor", [])}

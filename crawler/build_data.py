@@ -304,6 +304,17 @@ def main():
         index.append({"code": code, "name": cname, "file": f"{code}.json", "stage": STAGE, "updated": UPDATED,
                       "counts": {"mayor": len(races[0]["candidates"]), "council": sum(len(r["candidates"]) for r in races[1:]),
                                  "village": nli}})
+    # 門牌 → 村里索引（各縣市開放門牌資料；crawler/addr_index/<code>/<區>.json）
+    addr_src = os.path.join(HERE, "addr_index")
+    addr_codes = []
+    if os.path.isdir(addr_src):
+        for code in sorted(os.listdir(addr_src)):
+            d = os.path.join(addr_src, code)
+            if os.path.isdir(d) and any(f.endswith(".json") for f in os.listdir(d)):
+                shutil.copytree(d, os.path.join(OUT, "addr", code))
+                addr_codes.append(code)
+    for e in index:
+        e["addr_index"] = e["code"] in addr_codes
     json.dump({"title": "2026 投票指南", "updated": UPDATED, "vote_date": "2026-11-28（六）", "counties": index},
               open(os.path.join(OUT, "index.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     # 壓縮：政黨與選舉各自去重成表，每人只存 [姓名, 政黨序號, 選舉序號, 候選人 id 尾碼]

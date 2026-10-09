@@ -1,0 +1,869 @@
+{
+ "新北市": {
+  "src_title": "新北市議會議案查詢系統（第4屆）；提案數＝系統「提案人」欄列名之議案筆數（依會期＋審查會＋案別＋案號計，共同提案每位列名者各計），連署＝「連署人／附議人」查詢之筆數",
+  "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery",
+  "period": "第4屆（2022-12-25～2026-10-09）；含第8次定期會（議案至 2026-10-07）",
+  "members": {
+   "鄭宇恩": [
+    {
+     "text": "第4屆提案 613 件（議員提案 601、臨時動議案 12；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 604 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "陳偉杰": [
+    {
+     "text": "第4屆提案 615 件（議員提案 615；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 687 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "陳家琪": [
+    {
+     "text": "第4屆提案 159 件（議員提案 159；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 300 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "蔡淑君": [
+    {
+     "text": "第4屆提案 67 件（議員提案 67；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 399 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "陳明義": [
+    {
+     "text": "第4屆提案 48 件（議員提案 47、臨時動議案 1；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 323 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "李宇翔": [
+    {
+     "text": "第4屆提案 505 件（議員提案 494、臨時動議案 11；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 574 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "翁震州": [
+    {
+     "text": "第4屆提案 410 件（議員提案 398、臨時動議案 12；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 446 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "林秉宥": [
+    {
+     "text": "第4屆提案 148 件（議員提案 139、臨時動議案 9；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 723 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "蔣根煌": [
+    {
+     "text": "第4屆提案 6 件（議員提案 6；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 2 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "蔡健棠": [
+    {
+     "text": "第4屆提案 133 件（議員提案 133；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 189 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "陳世軒": [
+    {
+     "text": "第4屆提案 184 件（議員提案 184；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 295 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "李翁月娥": [
+    {
+     "text": "第4屆提案 71 件（議員提案 71；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 320 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "黃桂蘭": [
+    {
+     "text": "第4屆提案 140 件（議員提案 140；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 372 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "彭佳芸": [
+    {
+     "text": "第4屆提案 464 件（議員提案 452、臨時動議案 12；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 210 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "王威元": [
+    {
+     "text": "第4屆提案 174 件（議員提案 174；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 357 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "李余典": [
+    {
+     "text": "第4屆提案 150 件（議員提案 140、臨時動議案 10；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 268 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "李倩萍": [
+    {
+     "text": "第4屆提案 360 件（議員提案 350、臨時動議案 10；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 90 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "顏蔚慈": [
+    {
+     "text": "第4屆提案 406 件（議員提案 395、臨時動議案 11；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 677 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "邱婷蔚": [
+    {
+     "text": "第4屆提案 159 件（議員提案 150、臨時動議案 9；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 56 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "劉美芳": [
+    {
+     "text": "第4屆提案 120 件（議員提案 119、臨時動議案 1；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 216 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "戴瑋姗": [
+    {
+     "text": "第4屆提案 166 件（議員提案 157、臨時動議案 9；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 682 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "黃淑君": [
+    {
+     "text": "第4屆提案 412 件（議員提案 395、臨時動議案 17；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 501 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "山田摩衣": [
+    {
+     "text": "第4屆提案 530 件（議員提案 518、臨時動議案 12；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 400 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "林國春": [
+    {
+     "text": "第4屆提案 149 件（議員提案 149；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 528 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "曾煥嘉": [
+    {
+     "text": "第4屆提案 113 件（議員提案 113；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 373 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "張維倩": [
+    {
+     "text": "第4屆提案 311 件（議員提案 298、臨時動議案 13；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 313 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "金瑞龍": [
+    {
+     "text": "第4屆提案 354 件（議員提案 354；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 358 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "張嘉玲": [
+    {
+     "text": "第4屆提案 383 件（議員提案 372、臨時動議案 11；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 356 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "邱烽堯": [
+    {
+     "text": "第4屆提案 40 件（議員提案 40；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 258 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "游輝宂": [
+    {
+     "text": "第4屆提案 46 件（議員提案 46；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 402 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "陳錦錠": [
+    {
+     "text": "第4屆提案 158 件（議員提案 158；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 77 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "許昭興": [
+    {
+     "text": "第4屆提案 245 件（議員提案 232、臨時動議案 13；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 195 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "陳鴻源": [
+    {
+     "text": "第4屆提案 32 件（議員提案 32；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 2 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "廖宜琨": [
+    {
+     "text": "第4屆提案 432 件（議員提案 420、臨時動議案 12；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 681 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "卓冠廷": [
+    {
+     "text": "第4屆提案 271 件（議員提案 261、臨時動議案 10；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 350 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "彭一書": [
+    {
+     "text": "第4屆提案 206 件（議員提案 195、臨時動議案 11；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 402 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "呂家愷": [
+    {
+     "text": "第4屆提案 351 件（議員提案 351；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 318 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "蘇泓欽": [
+    {
+     "text": "第4屆提案 110 件（議員提案 110；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 340 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "黃永昌": [
+    {
+     "text": "第4屆提案 146 件（議員提案 146；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 385 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "林金結": [
+    {
+     "text": "第4屆提案 92 件（議員提案 92；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 111 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "洪佳君": [
+    {
+     "text": "第4屆提案 219 件（議員提案 219；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 390 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "陳乃瑜": [
+    {
+     "text": "第4屆提案 417 件（議員提案 404、臨時動議案 13；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 213 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "黃心華": [
+    {
+     "text": "第4屆提案 286 件（議員提案 286；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 834 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "劉哲彰": [
+    {
+     "text": "第4屆提案 93 件（議員提案 93；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 128 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "陳儀君": [
+    {
+     "text": "第4屆提案 188 件（議員提案 188；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 926 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "林裔綺": [
+    {
+     "text": "第4屆提案 163 件（議員提案 152、臨時動議案 11；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 333 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "張錦豪": [
+    {
+     "text": "第4屆提案 609 件（議員提案 598、臨時動議案 11；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 757 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "白珮茹": [
+    {
+     "text": "第4屆提案 88 件（議員提案 88；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 482 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "蘇錦雄Paylang‧Caya": [
+    {
+     "text": "第4屆提案 133 件（議員提案 121、臨時動議案 11、自治條例(議提) 1；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 532 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "楊春妹": [
+    {
+     "text": "第4屆提案 747 件（議員提案 746、自治條例(議提) 1；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 509 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "宋雨蓁Nikar‧Falong": [
+    {
+     "text": "第4屆提案 385 件（議員提案 385；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 519 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ],
+   "馬見Lahuy‧Ipin": [
+    {
+     "text": "第4屆提案 275 件（議員提案 273、臨時動議案 1、自治條例(議提) 1；含與他人共同列名之提案）",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    },
+    {
+     "text": "第4屆列名連署 480 件",
+     "src_url": "https://bms1.ntp.gov.tw/billsystem/councilbillquery"
+    }
+   ]
+  }
+ },
+ "新竹縣": {
+  "src_title": "新竹縣議會「議員提案」「議員質詢」查詢（第二十屆）；提案數＝系統「提案人」欄列名（共同提案每位列名者各計1件），連署＝「連署人」欄列名；質詢＝各定期會「質詢內容」頁列名",
+  "src_url": "https://www.hcc.gov.tw/porposal?lang=&program=197",
+  "period": "第20屆（2022-12-25～2026-10-09）；提案至 2026-09-08、質詢頁至第7次定期會",
+  "members": {
+   "陳凱榮": [
+    {
+     "text": "第20屆議員提案 1 件（含與他人共同列名之提案）",
+     "src_url": "https://www.hcc.gov.tw/porposal?lang=&program=197&council_type=22"
+    },
+    {
+     "text": "第20屆列名連署 246 件",
+     "src_url": "https://www.hcc.gov.tw/porposal?lang=&program=197&council_type=22"
+    },
+    {
+     "text": "第20屆議員質詢頁列名 6 個定期會（共 7 個定期會）",
+     "src_url": "https://www.hcc.gov.tw/question?lang=&program=198&council_type=22"
+    }
+   ],
+   "王炳漢": [
+    {
+     "text": "第20屆議員提案 30 件（含與他人共同列名之提案）",
+     "src_url": "https://www.hcc.gov.tw/porposal?lang=&program=197&council_type=22"
+    },
+    {
+     "text": "第20屆列名連署 19 件",
+     "src_url": "https://www.hcc.gov.tw/porposal?lang=&program=197&council_type=22"
+    },
+    {
+     "text": "第20屆議員質詢頁列名 2 個定期會（共 7 個定期會）",
+     "src_url": "https://www.hcc.gov.tw/question?lang=&program=198&council_type=22"
+    }
+   ],
+   "張珈源": [
+    {
+     "text": "第20屆議員提案 6 件（含與他人共同列名之提案）",
+     "src_url": "https://www.hcc.gov.tw/porposal?lang=&program=197&council_type=22"
+    },
+    {
+     "text": "第20屆列名連署 76 件",
+     "src_url": "https://www.hcc.gov.tw/porposal?lang=&program=197&council_type=22"
+    },
+    {
+     "text": "第20屆議員質詢頁列名 7 個定期會（共 7 個定期會）",
+     "src_url": "https://www.hcc.gov.tw/question?lang=&program=198&council_type=22"
+    }
+   ],
+   "鄭美琴": [
+    {
+     "text": "第20屆議員提案 25 件（含與他人共同列名之提案）",
+     "src_url": "https://www.hcc.gov.tw/porposal?lang=&program=197&council_type=22"
+    },
+    {
+     "text": "第20屆列名連署 406 件",
+     "src_url": "https://www.hcc.gov.tw/porposal?lang=&program=197&council_type=22"
+    },
+    {
+     "text": "第20屆議員質詢頁列名 6 個定期會（共 7 個定期會）",
+     "src_url": "https://www.hcc.gov.tw/question?lang=&program=198&council_type=22"
+    }
+   ]
+  }
+ },
+ "新竹市": {
+  "src_title": "新竹市議會「提案資料」查詢（第11屆，含第1-7次定期會、第1-24次臨時會）；提案數＝系統「提案人」欄列名，連署＝「連署人」欄列名；質詢紀錄因第7次定期會尚未上架，未列",
+  "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42",
+  "period": "第11屆（2022-12-25～2026-10-09）；系統最新提案日 2026-07-09",
+  "members": {
+   "黃文政": [
+    {
+     "text": "第11屆議員提案 78 件（定期會 39、臨時會 39；含與他人共同列名之提案）",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    },
+    {
+     "text": "第11屆列名連署 360 件",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    }
+   ],
+   "劉崇顯": [
+    {
+     "text": "第11屆議員提案 37 件（定期會 7、臨時會 30；含與他人共同列名之提案）",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    },
+    {
+     "text": "第11屆列名連署 853 件",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    }
+   ],
+   "李國璋": [
+    {
+     "text": "第11屆議員提案 95 件（定期會 25、臨時會 70；含與他人共同列名之提案）",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    },
+    {
+     "text": "第11屆列名連署 539 件",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    }
+   ],
+   "宋品瑩": [
+    {
+     "text": "第11屆議員提案 179 件（定期會 52、臨時會 127；含與他人共同列名之提案）",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    },
+    {
+     "text": "第11屆列名連署 666 件",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    }
+   ],
+   "劉彥伶": [
+    {
+     "text": "第11屆議員提案 310 件（定期會 82、臨時會 228；含與他人共同列名之提案）",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    },
+    {
+     "text": "第11屆列名連署 924 件",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    }
+   ],
+   "張祖琰": [
+    {
+     "text": "第11屆議員提案 153 件（定期會 56、臨時會 97；含與他人共同列名之提案）",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    },
+    {
+     "text": "第11屆列名連署 324 件",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    }
+   ],
+   "鄭美娟": [
+    {
+     "text": "第11屆議員提案 218 件（定期會 81、臨時會 137；含與他人共同列名之提案）",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    },
+    {
+     "text": "第11屆列名連署 1133 件",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    }
+   ],
+   "蔡惠婷": [
+    {
+     "text": "第11屆議員提案 172 件（定期會 59、臨時會 113；含與他人共同列名之提案）",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    },
+    {
+     "text": "第11屆列名連署 533 件",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    }
+   ],
+   "鍾淑英": [
+    {
+     "text": "第11屆議員提案 16 件（定期會 4、臨時會 12；含與他人共同列名之提案）",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    },
+    {
+     "text": "第11屆列名連署 361 件",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    }
+   ],
+   "施乃如": [
+    {
+     "text": "第11屆議員提案 181 件（定期會 106、臨時會 75；含與他人共同列名之提案）",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    },
+    {
+     "text": "第11屆列名連署 852 件",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    }
+   ],
+   "徐美惠": [
+    {
+     "text": "第11屆議員提案 40 件（定期會 13、臨時會 27；含與他人共同列名之提案）",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    },
+    {
+     "text": "第11屆列名連署 510 件",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    }
+   ],
+   "許修睿": [
+    {
+     "text": "第11屆議員提案 102 件（定期會 33、臨時會 69；含與他人共同列名之提案）",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    },
+    {
+     "text": "第11屆列名連署 0 件",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    }
+   ],
+   "田雅芳": [
+    {
+     "text": "第11屆議員提案 185 件（定期會 182、臨時會 3；含與他人共同列名之提案）",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    },
+    {
+     "text": "第11屆列名連署 6 件",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    }
+   ],
+   "陳建名": [
+    {
+     "text": "第11屆議員提案 173 件（定期會 51、臨時會 122；含與他人共同列名之提案）",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    },
+    {
+     "text": "第11屆列名連署 861 件",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    }
+   ],
+   "彭昆耀": [
+    {
+     "text": "第11屆議員提案 0 件（定期會 0、臨時會 0；含與他人共同列名之提案）",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    },
+    {
+     "text": "第11屆列名連署 314 件",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    }
+   ],
+   "蕭志潔": [
+    {
+     "text": "第11屆議員提案 31 件（定期會 16、臨時會 15；含與他人共同列名之提案）",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    },
+    {
+     "text": "第11屆列名連署 301 件",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    }
+   ],
+   "黃美慧": [
+    {
+     "text": "第11屆議員提案 103 件（定期會 72、臨時會 31；含與他人共同列名之提案）",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    },
+    {
+     "text": "第11屆列名連署 334 件",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    }
+   ],
+   "楊玲宜": [
+    {
+     "text": "第11屆議員提案 203 件（定期會 70、臨時會 133；含與他人共同列名之提案）",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    },
+    {
+     "text": "第11屆列名連署 1018 件",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    }
+   ],
+   "鄭慶欽": [
+    {
+     "text": "第11屆議員提案 59 件（定期會 16、臨時會 43；含與他人共同列名之提案）",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    },
+    {
+     "text": "第11屆列名連署 581 件",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    }
+   ],
+   "林彥甫": [
+    {
+     "text": "第11屆議員提案 131 件（定期會 51、臨時會 80；含與他人共同列名之提案）",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    },
+    {
+     "text": "第11屆列名連署 570 件",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    }
+   ],
+   "吳旭豐": [
+    {
+     "text": "第11屆議員提案 116 件（定期會 30、臨時會 86；含與他人共同列名之提案）",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    },
+    {
+     "text": "第11屆列名連署 732 件",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    }
+   ],
+   "吳國寶": [
+    {
+     "text": "第11屆議員提案 11 件（定期會 9、臨時會 2；含與他人共同列名之提案）",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    },
+    {
+     "text": "第11屆列名連署 272 件",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    }
+   ],
+   "陳啓源": [
+    {
+     "text": "第11屆議員提案 16 件（定期會 5、臨時會 11；含與他人共同列名之提案）",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    },
+    {
+     "text": "第11屆列名連署 594 件",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    }
+   ],
+   "陳慶齡": [
+    {
+     "text": "第11屆議員提案 22 件（定期會 5、臨時會 17；含與他人共同列名之提案）",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    },
+    {
+     "text": "第11屆列名連署 448 件",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    }
+   ],
+   "廖子齊": [
+    {
+     "text": "第11屆議員提案 376 件（定期會 173、臨時會 203；含與他人共同列名之提案）",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    },
+    {
+     "text": "第11屆列名連署 366 件",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    }
+   ],
+   "林盈徹": [
+    {
+     "text": "第11屆議員提案 172 件（定期會 51、臨時會 121；含與他人共同列名之提案）",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    },
+    {
+     "text": "第11屆列名連署 1012 件",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    }
+   ],
+   "林慈愛": [
+    {
+     "text": "第11屆議員提案 77 件（定期會 22、臨時會 55；含與他人共同列名之提案）",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    },
+    {
+     "text": "第11屆列名連署 331 件",
+     "src_url": "https://www.hsinchu-cc.gov.tw/tc/proposal.aspx?mid=42"
+    }
+   ]
+  }
+ }
+}

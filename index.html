@@ -392,6 +392,36 @@
       show(`依目前位置判斷為 <b>${esc(town)} ${esc(v)}</b>（定位誤差約 ${Math.round(pos.coords.accuracy)} 公尺；靠近里界時請再確認）。`);
     }, () => show("無法取得位置（可能未授權定位），請從「村里」選單選擇。"), { enableHighAccuracy: true, timeout: 15000 });
   }
+  // 門牌索引：{ 路街段或地區: 里 | { 巷弄: 里 | { 號: 里 | [里...] } } }；正規化與產檔一致（NFKC、去空白、台→臺）
+  const normDoor = s => (s || "").normalize("NFKC").replace(/\s/g, "").replace(/台/g, "臺").replace(/[‐–—－]/g, "-");
+  async function doorVillage(code, town, rest) {
+    const idx = await getJSON(`data/addr/${code}/${encodeURIComponent(town)}.json`);
+    if (!idx) return null;
+    const s = normDoor(rest).replace(/^\d+鄰/, "");
+    const key = Object.keys(idx).filter(k => k !== "_meta" && s.startsWith(k)).sort((x, y) => y.length - x.length)[0];
+    if (!key) return null;
+    const r = s.slice(key.length).replace(/^\d+鄰/, "");
+    const m = r.match(/^([^\d]*?巷)?(\d+巷)?(\d+弄)?(臨)?(\d+)?(?:(?:之|-)(\d+))?/);
+    const lane = (m[1] || "") + (m[2] || "") + (m[3] || "");
+    const no = m[5] ? (m[4] || "") + m[5] + (m[6] ? "之" + m[6] : "") : "";
+    const flat = x => typeof x === "string" ? [x] : Array.isArray(x) ? x : Object.values(x).flatMap(flat);
+    let n = idx[key];
+    if (typeof n === "string") return { v: n };
+    const ln = n[lane];
+    if (ln == null) return { list: [...new Set(flat(n))] };
+    if (typeof ln === "string") return { v: ln };
+    const hit = ln[no] ?? (m[5] ? ln[m[5]] : undefined);
+    if (typeof hit === "string") return { v: hit };
+    if (Array.isArray(hit)) return { list: hit };
+    if (m[5]) {   // 門牌檔沒有這個號：看同側（同單雙號）前後最近的門牌，兩邊同一里才推估
+      const want = +m[5], same = Object.keys(ln).map(k => [parseInt(k.replace(/^臨/, ""), 10), ln[k]])
+        .filter(([k, v]) => !isNaN(k) && k % 2 === want % 2 && typeof v === "string");
+      const lo = same.filter(([k]) => k < want).sort((a, b) => b[0] - a[0])[0], hi = same.filter(([k]) => k > want).sort((a, b) => a[0] - b[0])[0];
+      if (lo && hi && lo[1] === hi[1] && hi[0] - lo[0] <= 40) return { v: lo[1], guess: `${lo[0]}號與${hi[0]}號` };
+      if (lo || hi) return { list: [...new Set([lo, hi].filter(Boolean).map(x => x[1]))] };
+    }
+    return { list: [...new Set(flat(ln))] };
+  }
   async function matchAddr() {
     const msg = $("#addr-msg");
     const show = h => { msg.innerHTML = h; msg.hidden = false; };
@@ -419,8 +449,19 @@
     const vils = li ? [...new Set((li.races || []).map(r => r.village))] : [];
     const vil = vils.filter(v => after.startsWith(v)).sort((x, y) => y.length - x.length)[0];   // 只接受官方村里名稱的精確比對
     const claimed = !vil && (after.match(/^([^\d路街道段巷弄號村里]{1,4}[村里])(?=\d|[^路街道])/) || [])[1];
+    let door = null;
+    if (!vil && county.addr_index) door = await doorVillage(county.code, town, after);
+    const dv = door && door.v && vils.includes(door.v) ? door.v : null;
     const p = new URLSearchParams({ c: county.code, t: town });
-    if (vil) { p.set("v", vil); p.set("tab", "li"); } else p.set("tab", "council");
+    if (vil || dv) { p.set("v", vil || dv); p.set("tab", "li"); } else p.set("tab", "council");
+    if (dv) {
+      location.hash = p.toString();
+      return show(`已依門牌帶入 <b>${esc(county.name)} ${esc(town)} ${esc(dv)}</b>${upgraded ? "（舊縣名已換成現行行政區）" : ""}（門牌對照：${esc(county.name)}開放門牌資料${door.guess ? `；資料中沒有這個號，依同側相鄰的 ${esc(door.guess)} 推估，請確認` : ""}）。`);
+    }
+    if (door && door.list && door.list.length) {
+      location.hash = p.toString();
+      return show(`已帶入 <b>${esc(county.name)} ${esc(town)}</b>。依門牌資料，這個地址可能屬於：${door.list.map(esc).join("、")}，請從「村里」選單選擇（地址若沒寫門牌號碼，補上後可直接帶入）。`);
+    }
     location.hash = p.toString();
     show(`已帶入 <b>${esc(county.name)} ${esc(town)}${vil ? " " + esc(vil) : ""}</b>${upgraded ? "（舊縣名已換成現行行政區）" : ""}。` +
       (vil ? "" : (claimed

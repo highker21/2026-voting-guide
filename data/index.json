@@ -13,7 +13,8 @@
     "mayor": 6,
     "council": 98,
     "village": 818
-   }
+   },
+   "addr_index": true
   },
   {
    "code": "new-taipei",
@@ -25,7 +26,8 @@
     "mayor": 3,
     "council": 112,
     "village": 1659
-   }
+   },
+   "addr_index": true
   },
   {
    "code": "taoyuan",
@@ -37,7 +39,8 @@
     "mayor": 2,
     "council": 109,
     "village": 947
-   }
+   },
+   "addr_index": false
   },
   {
    "code": "taichung",
@@ -49,7 +52,8 @@
     "mayor": 3,
     "council": 102,
     "village": 1121
-   }
+   },
+   "addr_index": false
   },
   {
    "code": "tainan",
@@ -61,7 +65,8 @@
     "mayor": 4,
     "council": 88,
     "village": 1187
-   }
+   },
+   "addr_index": true
   },
   {
    "code": "kaohsiung",
@@ -73,7 +78,8 @@
     "mayor": 5,
     "council": 101,
     "village": 1657
-   }
+   },
+   "addr_index": true
   },
   {
    "code": "keelung",
@@ -85,7 +91,8 @@
     "mayor": 3,
     "council": 60,
     "village": 276
-   }
+   },
+   "addr_index": false
   },
   {
    "code": "hsinchu-city",
@@ -97,7 +104,8 @@
     "mayor": 3,
     "council": 56,
     "village": 215
-   }
+   },
+   "addr_index": false
   },
   {
    "code": "chiayi-city",
@@ -109,7 +117,8 @@
     "mayor": 5,
     "council": 37,
     "village": 157
-   }
+   },
+   "addr_index": false
   },
   {
    "code": "hsinchu-county",
@@ -121,7 +130,8 @@
     "mayor": 3,
     "council": 68,
     "village": 369
-   }
+   },
+   "addr_index": false
   },
   {
    "code": "miaoli",
@@ -133,7 +143,8 @@
     "mayor": 2,
     "council": 56,
     "village": 542
-   }
+   },
+   "addr_index": false
   },
   {
    "code": "changhua",
@@ -145,7 +156,8 @@
     "mayor": 4,
     "council": 86,
     "village": 1040
-   }
+   },
+   "addr_index": false
   },
   {
    "code": "nantou",
@@ -157,7 +169,8 @@
     "mayor": 2,
     "council": 61,
     "village": 535
-   }
+   },
+   "addr_index": false
   },
   {
    "code": "yunlin",
@@ -169,7 +182,8 @@
     "mayor": 4,
     "council": 73,
     "village": 733
-   }
+   },
+   "addr_index": false
   },
   {
    "code": "chiayi-county",
@@ -181,7 +195,8 @@
     "mayor": 2,
     "council": 53,
     "village": 625
-   }
+   },
+   "addr_index": false
   },
   {
    "code": "pingtung",
@@ -193,7 +208,8 @@
     "mayor": 2,
     "council": 87,
     "village": 841
-   }
+   },
+   "addr_index": false
   },
   {
    "code": "yilan",
@@ -205,7 +221,8 @@
     "mayor": 5,
     "council": 59,
     "village": 443
-   }
+   },
+   "addr_index": false
   },
   {
    "code": "hualien",
@@ -217,7 +234,8 @@
     "mayor": 4,
     "council": 55,
     "village": 376
-   }
+   },
+   "addr_index": false
   },
   {
    "code": "taitung",
@@ -229,7 +247,8 @@
     "mayor": 4,
     "council": 56,
     "village": 293
-   }
+   },
+   "addr_index": false
   },
   {
    "code": "penghu",
@@ -241,7 +260,8 @@
     "mayor": 6,
     "council": 36,
     "village": 154
-   }
+   },
+   "addr_index": false
   },
   {
    "code": "kinmen",
@@ -253,7 +273,8 @@
     "mayor": 7,
     "council": 35,
     "village": 75
-   }
+   },
+   "addr_index": false
   },
   {
    "code": "lienchiang",
@@ -265,7 +286,8 @@
     "mayor": 2,
     "council": 14,
     "village": 37
-   }
+   },
+   "addr_index": false
   }
  ]
 }

@@ -219,7 +219,7 @@ def main():
                 items = (rc or {}).get("members", {}).get(c["name"])
                 for x in items or []:
                     k = add_src("CU", {"src_url": x["src_url"], "src_title": f"{cname}議會官方資料（{c['name']}）"})
-                    c["record"].append({"text": x["text"] + "（截至 2026-10-09）",
+                    c["record"].append({"text": x["text"] + ("" if "截至" in x["text"] else "（截至 2026-10-09）"),
                                         "src": [k, "C"]})
             if rc and any(c["incumbent"] for c in ccands):
                 note.append("任內紀錄取自議會官方系統：提案數含共同提案，各縣市議會計法不同，不宜跨縣市比較。")

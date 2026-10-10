@@ -134,7 +134,7 @@ def main():
     ehist = jload("election_history.json", {})
     don = jload("donation_2022_B.json", {})
     news = {}
-    for f in ("news_B.json", "news_B2.json"):
+    for f in ("news_B.json", "news_B2.json", "news_B3.json"):
         for county, people in jload(f, {}).items():
             for name, items in people.items():
                 news.setdefault(county, {}).setdefault(name, []).extend(items)

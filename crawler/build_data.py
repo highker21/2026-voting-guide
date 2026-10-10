@@ -137,7 +137,7 @@ def main():
     for f in ("news_B.json", "news_B2.json", "news_B3.json"):
         for county, people in jload(f, {}).items():
             for name, items in people.items():
-                news.setdefault(county, {}).setdefault(name, []).extend(items)
+                news.setdefault(county, {}).setdefault(norm(name), []).extend(items)   # 姓名正規化（原住民名空格寫法不一）
     bio_li = jload("bio_li_self.json", {})
     vil22 = {tuple(k.split("|")[:3]) for k, v in vhist.items() if any(h["year"] == 2022 for h in v)}   # 2022 有選舉的村里
     hist_by_town = defaultdict(list)
@@ -203,8 +203,8 @@ def main():
             return k
         names26 = Counter(norm(r["name"]) for k in ("1-1", "3-1", "2-1", "4-1") for r in P[k] if r["area"].startswith(cname))
         def set_news(c):
-            if names26[norm(c["name"])] == 1 and news.get(cname, {}).get(c["name"]):
-                c["news"] = [{k: x.get(k, "") for k in ("title", "url", "source", "date")} for x in news[cname][c["name"]]][:5]
+            if names26[norm(c["name"])] == 1 and news.get(cname, {}).get(norm(c["name"])):
+                c["news"] = [{k: x.get(k, "") for k in ("title", "url", "source", "date")} for x in news[cname][norm(c["name"])]][:5]
         def set_don(c):
             d = don.get(cname, {}).get(c["name"])
             if d and names26[norm(c["name"])] == 1:

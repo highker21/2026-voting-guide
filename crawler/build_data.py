@@ -74,7 +74,9 @@ def bio_item(x, sid):
     y = re.search(r"(20\d\d)年?\)?）?", x.get("src_title", "")) if "公報" in x.get("src_title", "") else None
     if y and y.group(1) != "2026":
         item["label"] = f"{y.group(1)} 年選舉公報"
-    if "現任" in x["text"] and not item.get("label"):
+    if "現任" in x["text"] and str(x.get("src_date", "")).startswith("2026"):
+        pass   # 今年的資料，「現任」就是現在
+    elif "現任" in x["text"] and not item.get("label"):
         item["label"] = "來源頁原文，「現任」可能已過期"
     elif "現任" in x["text"]:
         item["label"] += "；「現任」為當年"
@@ -107,6 +109,12 @@ def main():
                 biom.setdefault(county, {})[name] = v
     recl = jload("records_legislator.json", {})
     vhist = jload("village_history.json", {})
+    bio_li = jload("bio_li_self.json", {})
+    vil22 = {tuple(k.split("|")[:3]) for k, v in vhist.items() if any(h["year"] == 2022 for h in v)}   # 2022 有選舉的村里
+    hist_by_town = defaultdict(list)
+    for k, v in vhist.items():
+        c_, t_, v_, n_ = k.split("|")
+        hist_by_town[(c_, t_, n_)].append((v_, v))
     recc = {}
     for f in ("records_council.json", "records_council_2.json", "records_council_b.json"):
         recc.update(jload(f, {}))
@@ -284,11 +292,28 @@ def main():
                 lcands = [cand(r, "R9", f"li-{vil}-{j+1}",
                                ((cname, town, vil, norm(r["name"])) in el_village) if cname in el_has_village else None)
                           for j, r in enumerate(rows)]
-                for c in lcands:  # 過去三屆在本村里的參選紀錄（中選會選舉資料庫）
-                    for h in sorted(vhist.get(f"{cname}|{town}|{vil}|{norm(c['name'])}", []), key=lambda h: -h["year"]):
+                for c in lcands:  # 過去三屆的參選紀錄（中選會選舉資料庫）
+                    rows_h = [(vil, h) for h in vhist.get(f"{cname}|{town}|{vil}|{norm(c['name'])}", [])]
+                    if not rows_h and (cname, town, vil) not in vil22:
+                        # 2022 後新設或調整的村里：改看同區同名（只有一個舊村里時才採用）
+                        olds = hist_by_town.get((cname, town, norm(c["name"])), [])
+                        if len(olds) == 1:
+                            rows_h = [(olds[0][0], h) for h in olds[0][1]]
+                    for v_, h in sorted(rows_h, key=lambda x: -x[1]["year"]):
                         res = "當選" if h["elected"] else "未當選"
                         num = f"（{h['votes']:,} 票，得票率 {h['rate']:.2f}%）" if h["votes"] is not None else ""
-                        c["record"].append({"text": f"{h['year']} 年參選本{vil[-1]}{vil[-1]}長：{res}{num}", "src": ["E"]})
+                        if v_ == vil:
+                            txt = f"{h['year']} 年參選本{vil[-1]}{vil[-1]}長：{res}{num}"
+                        else:
+                            txt = f"{h['year']} 年參選{v_}{v_[-1]}長：{res}{num}（{vil}當時尚未設立）"
+                        c["record"].append({"text": txt, "src": ["E"]})
+                    for x in bio_li.get(cname, {}).get(town, {}).get(vil, {}).get(c["name"], {}).get("bio", []):
+                        sid = "S" + str(len([k for k in S9 if k.startswith("S")]) + 1)
+                        if not any(v.get("url") == x["src_url"] for k, v in S9.items() if k.startswith("S")):
+                            S9[sid] = {"title": x["src_title"], "url": x["src_url"], "accessed": ACCESSED}
+                        else:
+                            sid = next(k for k, v in S9.items() if k.startswith("S") and v.get("url") == x["src_url"])
+                        c["bio"].append(bio_item(x, sid))
                 lraces.append({"id": f"li-{vil}", "type": "村里長", "name": f"{town}{vil}{vil[-1]}長", "village": vil,
                                "area": vil, "seats": 1, "note": "" if rows else "名冊上沒有人登記參選。",
                                "candidates": lcands})

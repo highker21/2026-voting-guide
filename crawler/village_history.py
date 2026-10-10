@@ -17,7 +17,7 @@ def norm(n):
 
 def rd(p):
     with open(p, encoding="utf-8", newline="") as f:
-        return [[c.strip() for c in r] for r in csv.reader(f) if r]
+        return [[c.strip().lstrip("'") for c in r] for r in csv.reader(f) if r]   # 2014／2018 檔的欄位前有單引號
 
 
 VIL = {}
@@ -52,13 +52,13 @@ for year, folder in YEARS.items():
         base = {tuple(r[:5]): r[5] for r in rd(os.path.join(d, "elbase.csv"))}
         tks = {}
         for r in rd(os.path.join(d, "elctks.csv")):
-            if r[5] == "0000":  # 投開票所合計
+            if r[5] in ("0000", "0"):  # 投開票所合計（2022 為 0000，2014／2018 為 0）
                 tks[(tuple(r[:5]), r[6])] = (int(r[7] or 0), float(r[8] or 0))
         for r in rd(os.path.join(d, "elcand.csv")):
             k = tuple(r[:5])
             county = base.get((k[0], k[1], "00", "000", "0000"), "")
-            town = base.get((k[0], k[1], k[2], k[3], "0000"), "")
-            vil = base.get(k, "")
+            town = base.get((k[0], k[1], k[2], k[3], "0000")) or base.get((k[0], k[1], "00", k[3], "0000"), "")   # 2014 第 3 欄是選區碼
+            vil = base.get(k) or base.get((k[0], k[1], "00", k[3], k[4]), "")
             votes, rate = tks.get((k, r[5]), (None, None))
             county, town = fix(county).replace("台", "臺"), fix(town)
             key = "|".join([county, town, canon_village(county, town, fix(vil)), norm(r[6])])

@@ -89,6 +89,13 @@
   .vchip { font: inherit; font-size: .88rem; padding: 4px 9px; border: 1px solid var(--line); border-radius: 14px; background: var(--bg); color: var(--ink); cursor: pointer; text-align: left; }
   .vchip small { display: block; font-size: .7rem; color: var(--muted); }
   @media print { .noprint { display: none; } .ballot { break-inside: avoid; } .vchip { border-color: #999; } }
+  .pfilter { display: flex; align-items: flex-end; gap: 8px; margin: 10px 0 0; }
+  .pfilter label { display: flex; flex-direction: column; font-size: .78rem; color: var(--muted); flex: 1; }
+  .pfilter select { font: inherit; font-size: .95rem; padding: 7px 8px; border: 1.5px solid var(--line); border-radius: 10px; background: var(--card); color: var(--ink); }
+  .pfilter button { font: inherit; padding: 7px 12px; border-radius: 10px; border: 1.5px solid var(--line); background: var(--card); color: var(--ink); }
+  ul.news { margin: 4px 0; padding-left: 1.2em; } ul.news small { display: block; color: var(--muted); font-size: .75rem; }
+  .newslink { margin: 4px 0; font-size: .88rem; }
+  @media print { .pfilter, .newslink { display: none; } }
   .tabs { display: flex; gap: 6px; margin: 14px 0 6px; position: sticky; top: 0; z-index: 3; background: var(--bg); padding: 6px 0; border-bottom: 1px solid var(--line); }
   .tabs button { flex: 1; font: inherit; font-size: .95rem; padding: 8px 4px; border: 1.5px solid var(--line); border-radius: 10px; background: var(--card); color: var(--ink); cursor: pointer; }
   .tabs button[aria-selected="true"] { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 700; }
@@ -193,10 +200,17 @@
     const f = n => n == null ? "—" : Number(n).toLocaleString("zh-TW");
     return `<p class="money">收入 ${f(d.income)} 元，支出 ${f(d.expense)} 元${srcLinks(ns, d.src)}<br><small>監察院 111 年政治獻金會計報告書首次申報數字，不含後續更正。</small></p>`;
   }
-  function card(ns, c) {
+  function newsQuery(c, race) {
+    const office = (race && race.name || "").replace(/\s*第\d+選舉區.*$/, "").replace(/（.*?）/g, "").trim();
+    return `"${c.name}" ${office}`;
+  }
+  function card(ns, c, race) {
     const num = c.number != null ? `<span class="num">${esc(c.number)}</span>` : `<span class="num none">未抽籤</span>`;
     const party = c.party ? esc(c.party) : "政黨：資料未填";
     const links = (c.links || []).map(l => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)}</a>`).join("");
+    const gq = "https://news.google.com/search?hl=zh-TW&gl=TW&ceid=TW:zh-Hant&q=" + encodeURIComponent(newsQuery(c, race));
+    const curated = (c.news || []).map(n => `<li><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a><small>${esc([n.source, n.date].filter(Boolean).join("・"))}</small></li>`).join("");
+    const newsHtml = `<details${curated ? " open" : ""}><summary>相關新聞</summary>${curated ? `<ul class="news">${curated}</ul><p class="qnote">報導標題與連結由整理者收錄，不代表本頁立場；同名者請自行判斷。</p>` : ""}<p class="newslink"><a href="${gq}" target="_blank" rel="noopener">🔎 在 Google 新聞查「${esc(newsQuery(c, race))}」</a></p></details>`;
     return `<article class="card" data-cid="${esc(c.id)}">
       <header>${num}<span class="name">${esc(c.name)}</span><span class="party">${party}</span>${c.incumbent ? '<span class="tag" title="依中選會 2022 當選名單；任內補選、解職未計入">2022 當選</span>' : ""}</header>
       ${c.reg ? `<p class="reg">${c.reg.date} 登記參選${srcLinks(ns, c.reg.src)}${c.incumbent == null ? "｜是否現任：尚未比對" : ""}</p>` : ""}
@@ -204,6 +218,7 @@
       ${c.incumbent ? `<details open><summary>任內政績</summary>${factList(ns, c.record, false, "尚無任內政績資料")}</details>` : `<details><summary>過去紀錄</summary>${factList(ns, c.record, false)}</details>`}
       <details><summary>政見</summary>${factList(ns, c.platform, true, PENDING)}</details>
       <details><summary>2022 政治獻金</summary>${money(ns, c.donation_2022, c.incumbent)}</details>
+      ${newsHtml}
       ${links ? `<div class="links">${links}</div>` : ""}
     </article>`;
   }
@@ -224,7 +239,7 @@
     el.innerHTML = `<div class="race-head"><h2>${esc(race.name)}</h2>
       <div class="meta">${esc(race.type)}｜${esc(race.area)}｜應選 ${esc(race.seats)} 名｜登記 ${cands.length} 人${race.note ? "｜" + esc(race.note) : ""}</div></div>
       ${bar}<div class="cmp"></div>
-      <div class="cards">${ordered(cands).map(c => card(ns, c)).join("") || '<p class="empty">尚無登記資料</p>'}</div>`;
+      <div class="cards">${(() => { const shown = ordered(cands).filter(c => !PARTY || c.party === PARTY); return shown.map(c => card(ns, c, race)).join("") || (cands.length && PARTY ? `<p class="empty">此選舉沒有「${esc(PARTY)}」的參選人</p>` : '<p class="empty">尚無登記資料</p>'); })()}</div>`;
     el.querySelectorAll(".issue-bar button").forEach(b => b.addEventListener("click", () => {
       const on = !b.classList.contains("on");
       el.querySelectorAll(".issue-bar button").forEach(x => x.classList.remove("on"));
@@ -237,13 +252,14 @@
     sel.innerHTML = `<option value="">${esc(placeholder)}</option>` + items.map(v => `<option value="${esc(v)}">${esc(v)}</option>`).join("");
     sel.disabled = !items.length;
   }
-  let TAB = "mayor", FOCUS = null;
+  let TAB = "mayor", FOCUS = null, PARTY = "";
   function setHash() {
     const p = new URLSearchParams();
     if ($("#sel-county").value) p.set("c", $("#sel-county").value);
     if ($("#sel-town").value) p.set("t", $("#sel-town").value);
     if ($("#sel-village").value) p.set("v", $("#sel-village").value);
     if (TAB && TAB !== "mayor") p.set("tab", TAB);
+    if (PARTY) p.set("p", PARTY);
     try { history.replaceState(null, "", "#" + p.toString()); } catch (e) {}
   }
   function townsOf(county) {
@@ -294,6 +310,13 @@
         TAB = b.dataset.tab; FOCUS = b.dataset.cid; setHash(); render();
       }));
     }
+    const parties = [...new Set([...mayorRaces, ...councilRaces, ...liRaces].flatMap(r => (r.candidates || []).map(c => c.party)).filter(Boolean))].sort((a, b) => a.localeCompare(b, "zh-Hant"));
+    if (PARTY && !parties.includes(PARTY)) parties.unshift(PARTY);
+    main.insertAdjacentHTML("beforeend", `<div class="pfilter"><label>依政黨篩選<select id="sel-party"><option value="">全部政黨</option>${parties.map(x => `<option${x === PARTY ? " selected" : ""}>${esc(x)}</option>`).join("")}</select></label>${PARTY ? '<button type="button" id="party-clear">清除</button>' : ""}</div>`);
+    main.querySelector("#sel-party").addEventListener("change", e => { PARTY = e.target.value; setHash(); render(); });
+    if (PARTY) main.querySelector("#party-clear").addEventListener("click", () => { PARTY = ""; setHash(); render(); });
+    const nP = rs => rs.reduce((n, r) => n + (r.candidates || []).filter(c => !PARTY || c.party === PARTY).length, 0);
+    tabs.forEach(t => { if (t[2] != null) t[2] = nP(t[0] === "mayor" ? mayorRaces : t[0] === "council" ? councilRaces : liRaces); });
     main.insertAdjacentHTML("beforeend", `<nav class="tabs" role="tablist">${tabs.map(([k, label, n]) =>
       `<button type="button" role="tab" data-tab="${k}" aria-selected="${k === TAB}">${esc(label)}${n != null ? `<span class="cnt">${n}</span>` : ""}</button>`).join("")}</nav>`);
     const pane = k => { const d = document.createElement("div"); d.className = "pane"; d.dataset.pane = k; d.hidden = k !== TAB; main.appendChild(d); return d; };
@@ -371,7 +394,7 @@
     box.innerHTML = '<li class="more">載入名單中…</li>';
     const all = await loadSearch();
     if (norm($("#q").value) !== q) return;
-    const hits = all.filter(x => x.k.includes(q)).sort((a, b) => (b.k === q) - (a.k === q) || (b.k.startsWith(q)) - (a.k.startsWith(q)));
+    const hits = all.filter(x => x.k.includes(q) || (q.length >= 2 && norm(x.r[1]).includes(q))).sort((a, b) => (b.k === q) - (a.k === q) || (b.k.startsWith(q)) - (a.k.startsWith(q)));
     const LIM = 50;
     box.innerHTML = hits.length ? hits.slice(0, LIM).map((x, i) => {
       const [name, party, code, race] = x.r;
@@ -532,6 +555,8 @@
       const p = new URLSearchParams((location.hash || "").slice(1));
       const c = p.get("c") || "", t = p.get("t") || "", v = p.get("v") || "";
       const tab = ["mayor", "council", "li"].includes(p.get("tab")) ? p.get("tab") : "mayor";
+      const party = p.get("p") || "";
+      if (party !== PARTY) { PARTY = party; if (c === $("#sel-county").value && t === $("#sel-town").value && v === $("#sel-village").value) { TAB = tab; render(); return; } }
       if (c === $("#sel-county").value && t === $("#sel-town").value && v === $("#sel-village").value) {
         if (tab !== TAB) { TAB = tab; render(); }
         return;

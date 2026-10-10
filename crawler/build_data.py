@@ -335,6 +335,9 @@ def main():
                         olds = hist_by_town.get((cname, town, norm(c["name"])), [])
                         if len(olds) == 1:
                             rows_h = [(olds[0][0], h) for h in olds[0][1]]
+                    for v_, h in rows_h:
+                        if v_ != vil and h["year"] == 2022 and h["elected"]:
+                            c["elected_2022_elsewhere"] = v_   # 新設村里：2022 年在原村里當選
                     for v_, h in sorted(rows_h, key=lambda x: -x[1]["year"]):
                         res = "當選" if h["elected"] else "未當選"
                         num = f"（{h['votes']:,} 票，得票率 {h['rate']:.2f}%）" if h["votes"] is not None else ""

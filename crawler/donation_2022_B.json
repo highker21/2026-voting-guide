@@ -1,0 +1,4534 @@
+{
+ "臺北市": {
+  "唐新民": {
+   "income": 6000,
+   "expense": 1500000,
+   "src_url": "https://data.gov.tw/dataset/160189",
+   "src_title": "監察院 111年直轄市市長選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "蔣萬安": {
+   "income": 96636369,
+   "expense": 96761100,
+   "src_url": "https://data.gov.tw/dataset/160189",
+   "src_title": "監察院 111年直轄市市長選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "陳賢蔚": {
+   "income": 5370590,
+   "expense": 5438043,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "林世宗": {
+   "income": 3789369,
+   "expense": 6738947,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "黃瀞瑩": {
+   "income": 4403669,
+   "expense": 2752520,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "陳慈慧": {
+   "income": 8194314,
+   "expense": 7770507,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "陳重文": {
+   "income": 5791118,
+   "expense": 6160753,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "林杏兒": {
+   "income": 1922846,
+   "expense": 2049192,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "張斯綱": {
+   "income": 9558616,
+   "expense": 9630966,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "汪志冰": {
+   "income": 6894222,
+   "expense": 7251154,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "林延鳳": {
+   "income": 5615781,
+   "expense": 5668811,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "侯漢廷": {
+   "income": 4564154,
+   "expense": 3919649,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "吳欣岱": {
+   "income": 2578250,
+   "expense": 2606722,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "李明賢": {
+   "income": 5747841,
+   "expense": 6049777,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "王孝維": {
+   "income": 2227692,
+   "expense": 3331980,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "游淑慧": {
+   "income": 7838848,
+   "expense": 5433669,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "何孟樺": {
+   "income": 3095713,
+   "expense": 3784673,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "陳宥丞": {
+   "income": 16452524,
+   "expense": 11928738,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "闕枚莎": {
+   "income": 18243149,
+   "expense": 12160105,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "吳世正": {
+   "income": 4080573,
+   "expense": 3338146,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "詹為元": {
+   "income": 2636584,
+   "expense": 3735290,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "張文潔": {
+   "income": 11586699,
+   "expense": 11840445,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "秦慧珠": {
+   "income": 7751561,
+   "expense": 7801946,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "洪健益": {
+   "income": 29378652,
+   "expense": 13244774,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "戴錫欽": {
+   "income": 12629306,
+   "expense": 8744760,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "許淑華": {
+   "income": 12186597,
+   "expense": 9324126,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "林柏勛": {
+   "income": 665454,
+   "expense": 908096,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "顏若芳": {
+   "income": 7621854,
+   "expense": 8760398,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "陳炳甫": {
+   "income": 24642119,
+   "expense": 13115941,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "柳采葳": {
+   "income": 3845478,
+   "expense": 4203658,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "林亮君": {
+   "income": 6721906,
+   "expense": 6732254,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "葉林傳": {
+   "income": 6030876,
+   "expense": 6101507,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "林珍羽": {
+   "income": 10996105,
+   "expense": 11370032,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "陳怡君": {
+   "income": 4381605,
+   "expense": 3746896,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "吳志剛": {
+   "income": 9217995,
+   "expense": 9316038,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "鍾小平": {
+   "income": 4498387,
+   "expense": 4597084,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "洪婉臻": {
+   "income": 2984975,
+   "expense": 3180876,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "吳怡萱": {
+   "income": 1730935,
+   "expense": 2005222,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "劉耀仁": {
+   "income": 7316618,
+   "expense": 6849075,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "徐立信": {
+   "income": 6524728,
+   "expense": 7010677,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "郭昭巖": {
+   "income": 7250967,
+   "expense": 5618887,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "簡舒培": {
+   "income": 9699459,
+   "expense": 7430333,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "楊植斗": {
+   "income": 4241025,
+   "expense": 5182961,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "陳聖文": {
+   "income": 6823979,
+   "expense": 7865124,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "耿葳": {
+   "income": 5496256,
+   "expense": 5541154,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "徐弘庭": {
+   "income": 12487685,
+   "expense": 11502747,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "苗博雅": {
+   "income": 6888453,
+   "expense": 3594586,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "陳錦祥": {
+   "income": 13407679,
+   "expense": 12672542,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "李柏毅": {
+   "income": 10602844,
+   "expense": 10831111,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "鍾沛君": {
+   "income": 8141175,
+   "expense": 4780515,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "張志豪": {
+   "income": 2081624,
+   "expense": 2149220,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "曾獻瑩": {
+   "income": 6767777,
+   "expense": 7605829,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "王欣儀": {
+   "income": 12465631,
+   "expense": 4950765,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "王閔生": {
+   "income": 10152920,
+   "expense": 10304897,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  },
+  "李芳儒": {
+   "income": 585010,
+   "expense": 933892,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺北市；政府資料開放授權條款第1版）"
+  }
+ },
+ "新北市": {
+  "鄭宇恩": {
+   "income": 3935800,
+   "expense": 5027960,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "陳偉杰": {
+   "income": 7668389,
+   "expense": 7872795,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "陳家琪": {
+   "income": 2397250,
+   "expense": 2397283,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "張昭隆": {
+   "income": 56305,
+   "expense": 56500,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "蔡淑君": {
+   "income": 19950876,
+   "expense": 20076660,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "陳明義": {
+   "income": 12956889,
+   "expense": 13219180,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "李宇翔": {
+   "income": 2811209,
+   "expense": 3420435,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "翁震州": {
+   "income": 12012759,
+   "expense": 14225925,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "林秉宥": {
+   "income": 5154231,
+   "expense": 5524345,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "蔣根煌": {
+   "income": 10660638,
+   "expense": 10439992,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "蔡健棠": {
+   "income": 5119140,
+   "expense": 5387885,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "陳世軒": {
+   "income": 3931004,
+   "expense": 4349419,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "李翁月娥": {
+   "income": 5496000,
+   "expense": 5603533,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "黃桂蘭": {
+   "income": 5329188,
+   "expense": 5385859,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "彭佳芸": {
+   "income": 8588058,
+   "expense": 9078158,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "王威元": {
+   "income": 5378059,
+   "expense": 5428058,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "李余典": {
+   "income": 6348889,
+   "expense": 6370111,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "李倩萍": {
+   "income": 5573528,
+   "expense": 5708817,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "董俊良": {
+   "income": 133259,
+   "expense": 430987,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "顏蔚慈": {
+   "income": 5053296,
+   "expense": 5169010,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "邱婷蔚": {
+   "income": 2035962,
+   "expense": 2295500,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "陳宛毓": {
+   "income": 331387,
+   "expense": 358879,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "劉美芳": {
+   "income": 3511267,
+   "expense": 3527242,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "黃淑君": {
+   "income": 9771757,
+   "expense": 8906180,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "山田摩衣": {
+   "income": 4643947,
+   "expense": 2146648,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "林國春": {
+   "income": 10144726,
+   "expense": 3395287,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "曾煥嘉": {
+   "income": 3694515,
+   "expense": 3769280,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "張維倩": {
+   "income": 6422224,
+   "expense": 6433400,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "張志豪": {
+   "income": 9093266,
+   "expense": 9100731,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "金瑞龍": {
+   "income": 5276300,
+   "expense": 5385921,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "張嘉玲": {
+   "income": 6808145,
+   "expense": 8689016,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "邱烽堯": {
+   "income": 817760,
+   "expense": 3102510,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "游輝宂": {
+   "income": 3797911,
+   "expense": 4244268,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "陳錦錠": {
+   "income": 865087,
+   "expense": 7592301,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "羅文崇": {
+   "income": 3371769,
+   "expense": 3375415,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "許昭興": {
+   "income": 1393800,
+   "expense": 1422420,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "陳鴻源": {
+   "income": 5460297,
+   "expense": 7523740,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "高乃芸": {
+   "income": 774204,
+   "expense": 906935,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "廖宜琨": {
+   "income": 13735171,
+   "expense": 14994418,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "卓冠廷": {
+   "income": 13334379,
+   "expense": 12727899,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "彭一書": {
+   "income": 2553597,
+   "expense": 2571505,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "呂家愷": {
+   "income": 3300048,
+   "expense": 3312730,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "蘇泓欽": {
+   "income": 3727932,
+   "expense": 4392282,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "黃永昌": {
+   "income": 620600,
+   "expense": 1795715,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "林金結": {
+   "income": 7640901,
+   "expense": 7706530,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "洪佳君": {
+   "income": 7727439,
+   "expense": 7935267,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "陳乃瑜": {
+   "income": 3706344,
+   "expense": 4577838,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "黃心華": {
+   "income": 1779392,
+   "expense": 1995509,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "劉哲彰": {
+   "income": 5756780,
+   "expense": 5917989,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "陳儀君": {
+   "income": 3872825,
+   "expense": 5795317,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "林裔綺": {
+   "income": 2510836,
+   "expense": 1924965,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "張錦豪": {
+   "income": 3387140,
+   "expense": 3787941,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "白珮茹": {
+   "income": 4051120,
+   "expense": 4128907,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "吳國譽La‧Is‧Amid": {
+   "income": 162100,
+   "expense": 162222,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "蘇錦雄Paylang‧Caya": {
+   "income": 650400,
+   "expense": 681887,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "楊春妹": {
+   "income": 138038,
+   "expense": 485556,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "宋雨蓁Nikar‧Falong": {
+   "income": 558800,
+   "expense": 672782,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "何應明": {
+   "income": 200001,
+   "expense": 267563,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  },
+  "馬見Lahuy‧Ipin": {
+   "income": 743266,
+   "expense": 1576082,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（新北市；政府資料開放授權條款第1版）"
+  }
+ },
+ "桃園市": {
+  "張善政": {
+   "income": 41857762,
+   "expense": 46187061,
+   "src_url": "https://data.gov.tw/dataset/160189",
+   "src_title": "監察院 111年直轄市市長選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "黃婉如": {
+   "income": 3065249,
+   "expense": 3289065,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "詹江村": {
+   "income": 1910224,
+   "expense": 1941715,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "凌濤": {
+   "income": 1126612,
+   "expense": 1368462,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "李光達": {
+   "income": 2513755,
+   "expense": 2528094,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "陳美梅": {
+   "income": 746000,
+   "expense": 2162929,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "于北辰": {
+   "income": 2759667,
+   "expense": 1629509,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "余信憲": {
+   "income": 806482,
+   "expense": 2503310,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "林政賢": {
+   "income": 2029600,
+   "expense": 2142347,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "黃瓊慧": {
+   "income": 3718400,
+   "expense": 4254991,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "張碩芳": {
+   "income": 2045299,
+   "expense": 2262651,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "李柏瑟": {
+   "income": 340091,
+   "expense": 615550,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "黃家齊": {
+   "income": 5119742,
+   "expense": 5130402,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "沈佩玲": {
+   "income": 433849,
+   "expense": 366475,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "陳雅倫": {
+   "income": 5789488,
+   "expense": 5843218,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "李宗豪": {
+   "income": 5568962,
+   "expense": 6274421,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "陳泓維": {
+   "income": 148600,
+   "expense": 162252,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "林明義": {
+   "income": 704612,
+   "expense": 1025290,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "孫韻璇": {
+   "income": 701200,
+   "expense": 708000,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "許家睿": {
+   "income": 766562,
+   "expense": 1531677,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "蔡永芳": {
+   "income": 65000,
+   "expense": 65000,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "朱珍瑤": {
+   "income": 2328709,
+   "expense": 2477134,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "楊朝偉": {
+   "income": 3051767,
+   "expense": 3724023,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "呂林小鳳": {
+   "income": 4799500,
+   "expense": 4895079,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "許清順": {
+   "income": 5906503,
+   "expense": 6623213,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "錢龍": {
+   "income": 2189200,
+   "expense": 2357605,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "劉勝全": {
+   "income": 15390621,
+   "expense": 15668259,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "郭麗華": {
+   "income": 13789051,
+   "expense": 13775583,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "張桂綿": {
+   "income": 2430334,
+   "expense": 2435789,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "游吾和": {
+   "income": 3091000,
+   "expense": 3169803,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "徐其萬": {
+   "income": 4700600,
+   "expense": 4883357,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "陳治文": {
+   "income": 4311206,
+   "expense": 5376816,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "徐慈檉": {
+   "income": 361809,
+   "expense": 363112,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "李柏坊": {
+   "income": 4872961,
+   "expense": 6267170,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "張曉昀": {
+   "income": 1325329,
+   "expense": 1328529,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "葉明月": {
+   "income": 5361213,
+   "expense": 5522115,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "毛嘉慶": {
+   "income": 2024750,
+   "expense": 2204617,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "劉曾玉春": {
+   "income": 1227000,
+   "expense": 1252482,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "黃崇真": {
+   "income": 4772717,
+   "expense": 4772717,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "彭俊豪": {
+   "income": 7572771,
+   "expense": 5906392,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "劉安祺": {
+   "income": 3236000,
+   "expense": 3578742,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "梁為超": {
+   "income": 9036988,
+   "expense": 7996902,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "邱奕勝": {
+   "income": 16989925,
+   "expense": 17029822,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "魏筠": {
+   "income": 2773744,
+   "expense": 2796581,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "謝美英": {
+   "income": 4311533,
+   "expense": 4440570,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "高宇彥": {
+   "income": 778088,
+   "expense": 837300,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "王珮毓": {
+   "income": 5724771,
+   "expense": 5783581,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "劉仁照": {
+   "income": 5533586,
+   "expense": 6035379,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "舒翠玲": {
+   "income": 5444307,
+   "expense": 5682761,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "陳韋曄": {
+   "income": 2225278,
+   "expense": 5353601,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "黃敬平": {
+   "income": 7994013,
+   "expense": 8303263,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "吳正吉": {
+   "income": 2670998,
+   "expense": 2851982,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "鄭淑方": {
+   "income": 1804200,
+   "expense": 2511414,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "李家興": {
+   "income": 2777288,
+   "expense": 4822479,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "周玉琴": {
+   "income": 4208400,
+   "expense": 5261630,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "劉熒隆": {
+   "income": 3905901,
+   "expense": 5519877,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "徐玉樹": {
+   "income": 2753499,
+   "expense": 3716043,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "林昭賢": {
+   "income": 4173102,
+   "expense": 4740092,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "陳睿生": {
+   "income": 1200001,
+   "expense": 1300001,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "邱文威": {
+   "income": 558000,
+   "expense": 1163884,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "許更生": {
+   "income": 2410000,
+   "expense": 2455583,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "吳進昌": {
+   "income": 3441701,
+   "expense": 4532303,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "王仙蓮": {
+   "income": 376667,
+   "expense": 377126,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "林志強": {
+   "income": 990103,
+   "expense": 1048509,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "楊進福": {
+   "income": 122800,
+   "expense": 870476,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "陳瑛": {
+   "income": 0,
+   "expense": 0,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "簡志偉": {
+   "income": 844000,
+   "expense": 847130,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  },
+  "蘇偉恩": {
+   "income": 266602,
+   "expense": 290661,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（桃園市；政府資料開放授權條款第1版）"
+  }
+ },
+ "臺中市": {
+  "楊啓邦": {
+   "income": 1402387,
+   "expense": 2722394,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "施志昌": {
+   "income": 8663498,
+   "expense": 9176135,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "李文傑": {
+   "income": 3813193,
+   "expense": 4535222,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "王立任": {
+   "income": 4065280,
+   "expense": 4139782,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "顏莉敏": {
+   "income": 11636500,
+   "expense": 11770787,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "楊典忠": {
+   "income": 2506809,
+   "expense": 2722475,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "張清照": {
+   "income": 7176096,
+   "expense": 8018121,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "陳廷秀": {
+   "income": 3310671,
+   "expense": 3575605,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "曾威": {
+   "income": 2906167,
+   "expense": 2910584,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "張家銨": {
+   "income": 2661355,
+   "expense": 5459832,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "林孟令": {
+   "income": 4960000,
+   "expense": 6915397,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "吳瓊華": {
+   "income": 3165103,
+   "expense": 3181619,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "邱愛珊": {
+   "income": 1502542,
+   "expense": 1802956,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "蔡怡萱": {
+   "income": 1230102,
+   "expense": 3523517,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "謝志忠": {
+   "income": 7645162,
+   "expense": 7729280,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "黃朝淵": {
+   "income": 125328,
+   "expense": 127284,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "陳本添": {
+   "income": 3196777,
+   "expense": 3596775,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "蕭隆澤": {
+   "income": 3040000,
+   "expense": 3040000,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "吳呈賢": {
+   "income": 2915000,
+   "expense": 7112633,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "賴朝國": {
+   "income": 2678000,
+   "expense": 3521295,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "周永鴻": {
+   "income": 7894752,
+   "expense": 6712452,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "徐瑄灃": {
+   "income": 2070187,
+   "expense": 2250298,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "陳淑華": {
+   "income": 5597550,
+   "expense": 5632849,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "楊大鋐": {
+   "income": 6910756,
+   "expense": 7144607,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "林祈烽": {
+   "income": 9121349,
+   "expense": 9489696,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "黃馨慧": {
+   "income": 12167533,
+   "expense": 7934047,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "張廖乃綸": {
+   "income": 1522758,
+   "expense": 1531758,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "劉士州": {
+   "income": 7389682,
+   "expense": 7498501,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "張耀中": {
+   "income": 8326702,
+   "expense": 5449254,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "朱暖英": {
+   "income": 4469400,
+   "expense": 4607146,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "何文海": {
+   "income": 3905000,
+   "expense": 5106384,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "吳佩芸": {
+   "income": 2772188,
+   "expense": 2809683,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "邱于珊": {
+   "income": 2022612,
+   "expense": 2581949,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "賴順仁": {
+   "income": 5755059,
+   "expense": 8346896,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "謝家宜": {
+   "income": 6739703,
+   "expense": 2902316,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "沈佑蓮": {
+   "income": 10984343,
+   "expense": 4387822,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "陳文政": {
+   "income": 2388295,
+   "expense": 2658355,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "陳政顯": {
+   "income": 6266339,
+   "expense": 6361989,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "陳俞融": {
+   "income": 1040318,
+   "expense": 1240493,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "張彥彤": {
+   "income": 1780942,
+   "expense": 1793699,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "黃守達": {
+   "income": 5243286,
+   "expense": 2370568,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "江肇國": {
+   "income": 8648000,
+   "expense": 7046552,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "陳雅惠": {
+   "income": 2830022,
+   "expense": 4333544,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "鄭功進": {
+   "income": 3875001,
+   "expense": 4487526,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "林霈涵": {
+   "income": 4409582,
+   "expense": 5205449,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "李中": {
+   "income": 9880402,
+   "expense": 7431401,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "張玉嬿": {
+   "income": 3475500,
+   "expense": 3624044,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "黃佳恬": {
+   "income": 12370743,
+   "expense": 12422657,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "賴義鍠": {
+   "income": 2426889,
+   "expense": 2687929,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "蔡耀頡": {
+   "income": 3205888,
+   "expense": 4197279,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "江和樹": {
+   "income": 1661153,
+   "expense": 1892160,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "張芬郁": {
+   "income": 2813095,
+   "expense": 5243418,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "林德宇": {
+   "income": 4454572,
+   "expense": 4695726,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "張滄沂": {
+   "income": 6308677,
+   "expense": 6476764,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "蘇柏興": {
+   "income": 950426,
+   "expense": 1033263,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "林碧秀": {
+   "income": 5849427,
+   "expense": 6104937,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "李天生": {
+   "income": 9738100,
+   "expense": 11340929,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "鄭伯其": {
+   "income": 1619200,
+   "expense": 1843953,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "鄒明諺": {
+   "income": 799969,
+   "expense": 996396,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "段中仁": {
+   "income": 700000,
+   "expense": 2507713,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "吳振嘉": {
+   "income": 1137854,
+   "expense": 3574981,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "吳建德": {
+   "income": 500000,
+   "expense": 1558800,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "古秀英": {
+   "income": 143378,
+   "expense": 402821,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  },
+  "朱元宏": {
+   "income": 1209298,
+   "expense": 1210480,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺中市；政府資料開放授權條款第1版）"
+  }
+ },
+ "臺南市": {
+  "謝龍介": {
+   "income": 17644215,
+   "expense": 28723362,
+   "src_url": "https://data.gov.tw/dataset/160189",
+   "src_title": "監察院 111年直轄市市長選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "李宗翰": {
+   "income": 6242816,
+   "expense": 7451655,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "蔡育輝": {
+   "income": 6153217,
+   "expense": 7541721,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "沈家鳳": {
+   "income": 5024343,
+   "expense": 5501311,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "趙昆原": {
+   "income": 3844883,
+   "expense": 4613157,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "王宣貿": {
+   "income": 1884806,
+   "expense": 1896847,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "陳詩薇": {
+   "income": 539400,
+   "expense": 565554,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "謝舒凡": {
+   "income": 1366002,
+   "expense": 1367198,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "蔡蘇秋金": {
+   "income": 2869226,
+   "expense": 2884692,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "蔡秋蘭": {
+   "income": 3215000,
+   "expense": 3667200,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "方一峰": {
+   "income": 1342887,
+   "expense": 1624860,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "陳昆和": {
+   "income": 2036490,
+   "expense": 2565903,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "吳通龍": {
+   "income": 2306616,
+   "expense": 2307227,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "陳秋宏": {
+   "income": 3545227,
+   "expense": 4560497,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "周奕齊": {
+   "income": 3280000,
+   "expense": 3336210,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "陳碧玉": {
+   "income": 2854472,
+   "expense": 4628222,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "余柷青": {
+   "income": 816777,
+   "expense": 943640,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "李偉智": {
+   "income": 1407977,
+   "expense": 1478506,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "林志展": {
+   "income": 3398000,
+   "expense": 4625117,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "李文俊": {
+   "income": 1208000,
+   "expense": 1315500,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "廖俊道": {
+   "income": 261000,
+   "expense": 921193,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "邱昭勝": {
+   "income": 562020,
+   "expense": 1420944,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "郭信良": {
+   "income": 18748087,
+   "expense": 19197853,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "李中岑": {
+   "income": 1258471,
+   "expense": 1309144,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "姚正玉": {
+   "income": 2464888,
+   "expense": 2472494,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "蔡麗青": {
+   "income": 4138888,
+   "expense": 4365989,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "黃麗招": {
+   "income": 3312690,
+   "expense": 3350563,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "林緯": {
+   "income": 892115,
+   "expense": 919975,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "黄肇輝": {
+   "income": 6993114,
+   "expense": 6487244,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "楊中成": {
+   "income": 3382500,
+   "expense": 4579850,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "林燕祝": {
+   "income": 3559846,
+   "expense": 3573559,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "陳秋萍": {
+   "income": 2140400,
+   "expense": 2270765,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "朱正軒": {
+   "income": 5655287,
+   "expense": 5398537,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "吳依潔": {
+   "income": 1190753,
+   "expense": 1191018,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "林冠維": {
+   "income": 5616600,
+   "expense": 5631948,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "江明宗": {
+   "income": 284500,
+   "expense": 356235,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "許至椿": {
+   "income": 2423121,
+   "expense": 4702522,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "邱莉莉": {
+   "income": 6058835,
+   "expense": 6211696,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "周嘉韋": {
+   "income": 1564871,
+   "expense": 1581974,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "蔡宗豪": {
+   "income": 2248502,
+   "expense": 4394982,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "童小芸": {
+   "income": 237001,
+   "expense": 3814029,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "林依婷": {
+   "income": 2106001,
+   "expense": 2119254,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "盧崑福": {
+   "income": 1750427,
+   "expense": 2091055,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "呂維胤": {
+   "income": 4178800,
+   "expense": 4369977,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "周麗津": {
+   "income": 1035301,
+   "expense": 1122302,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "李啓維": {
+   "income": 2802846,
+   "expense": 2882597,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "李伯利": {
+   "income": 2113756,
+   "expense": 2654084,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "蔡筱薇": {
+   "income": 10215194,
+   "expense": 9566245,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "陳金鐘": {
+   "income": 3372421,
+   "expense": 3403005,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "王家貞": {
+   "income": 2121000,
+   "expense": 3047975,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "李宗霖": {
+   "income": 1736966,
+   "expense": 1738707,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "曾之婕": {
+   "income": 3422479,
+   "expense": 3614883,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "翁語含": {
+   "income": 0,
+   "expense": 0,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "吳禹寰": {
+   "income": 4527776,
+   "expense": 4595768,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "鄭佳欣": {
+   "income": 3293009,
+   "expense": 3313000,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "許又仁": {
+   "income": 2822172,
+   "expense": 3158600,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "陳皇宇": {
+   "income": 1212500,
+   "expense": 1335967,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "郭鴻儀": {
+   "income": 5939237,
+   "expense": 5965095,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "杜素吟": {
+   "income": 3548621,
+   "expense": 4393583,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "李美素": {
+   "income": 10000,
+   "expense": 10431,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  },
+  "施余興望Tjakumay Tagaw": {
+   "income": 45037,
+   "expense": 45037,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（臺南市；政府資料開放授權條款第1版）"
+  }
+ },
+ "高雄市": {
+  "柯志恩": {
+   "income": 36451317,
+   "expense": 37516827,
+   "src_url": "https://data.gov.tw/dataset/160189",
+   "src_title": "監察院 111年直轄市市長選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "林富寶": {
+   "income": 2132920,
+   "expense": 2842696,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "林慧欣": {
+   "income": 2180743,
+   "expense": 2547814,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "林義迪": {
+   "income": 686209,
+   "expense": 1542647,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "黃明太": {
+   "income": 9272742,
+   "expense": 5677190,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "鄭東元": {
+   "income": 241014,
+   "expense": 256471,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "李亞築": {
+   "income": 2505755,
+   "expense": 5565284,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "林志誠": {
+   "income": 4748303,
+   "expense": 4825741,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "方信淵": {
+   "income": 1925206,
+   "expense": 5099958,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "宋立彬": {
+   "income": 3673045,
+   "expense": 4470719,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "黃秋媖": {
+   "income": 8181172,
+   "expense": 9113522,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "陳麗珍": {
+   "income": 5995811,
+   "expense": 3684598,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "李雅慧": {
+   "income": 4400521,
+   "expense": 4413174,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "黃文志": {
+   "income": 6777047,
+   "expense": 7535838,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "李雅芬": {
+   "income": 5356556,
+   "expense": 6860170,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "陳玫娟": {
+   "income": 5100504,
+   "expense": 5400926,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "李眉蓁": {
+   "income": 6141743,
+   "expense": 7646381,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "白喬茵": {
+   "income": 1665640,
+   "expense": 1730840,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "邱俊憲": {
+   "income": 4430800,
+   "expense": 4800552,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "黃飛鳳": {
+   "income": 999666,
+   "expense": 1626225,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "張勝富": {
+   "income": 4118642,
+   "expense": 4245413,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "江瑞鴻": {
+   "income": 4110725,
+   "expense": 4422577,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "陳若翠": {
+   "income": 4317145,
+   "expense": 5294158,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "吳利成": {
+   "income": 1849888,
+   "expense": 1858085,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "陳惠君": {
+   "income": 583876,
+   "expense": 585650,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "簡煥宗": {
+   "income": 5859063,
+   "expense": 5738457,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "陳美雅": {
+   "income": 4407229,
+   "expense": 4460851,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "李喬如": {
+   "income": 3605216,
+   "expense": 4942162,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "蔡金晏": {
+   "income": 6335510,
+   "expense": 6466512,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "鄭孟洳": {
+   "income": 2612734,
+   "expense": 3664365,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "黃柏霖": {
+   "income": 8595247,
+   "expense": 10326980,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "曾俊傑": {
+   "income": 7062088,
+   "expense": 7158595,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "何權峰": {
+   "income": 6027298,
+   "expense": 6374452,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "張博洋": {
+   "income": 2805252,
+   "expense": 2807951,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "康裕成": {
+   "income": 16483188,
+   "expense": 11539382,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "童燕珍": {
+   "income": 789888,
+   "expense": 1188912,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "黃香菽": {
+   "income": 7727888,
+   "expense": 8607815,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "林于凱": {
+   "income": 2109527,
+   "expense": 2363502,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "黃文益": {
+   "income": 11241130,
+   "expense": 5724010,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "郭建盟": {
+   "income": 6006750,
+   "expense": 3003886,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "湯詠瑜": {
+   "income": 4622149,
+   "expense": 4646938,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "林智鴻": {
+   "income": 8071821,
+   "expense": 8230104,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "鄭安秝": {
+   "income": 478900,
+   "expense": 523309,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "蘇致榮": {
+   "income": 1999582,
+   "expense": 2694314,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "李雅靜": {
+   "income": 6749359,
+   "expense": 6756158,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "劉德林": {
+   "income": 1946519,
+   "expense": 3395075,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "陳慧文": {
+   "income": 6496652,
+   "expense": 7856089,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "張漢忠": {
+   "income": 2954992,
+   "expense": 3445023,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "鍾易仲": {
+   "income": 3378052,
+   "expense": 3477864,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "徐尚賢": {
+   "income": 386209,
+   "expense": 491795,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "鄭光峰": {
+   "income": 18206580,
+   "expense": 19844904,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "陳麗娜": {
+   "income": 4251744,
+   "expense": 4680533,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "吳銘賜": {
+   "income": 7351840,
+   "expense": 8453900,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "李順進": {
+   "income": 3476003,
+   "expense": 3476803,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "黃敬雅": {
+   "income": 1103574,
+   "expense": 2096649,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "蔡武宏": {
+   "income": 986897,
+   "expense": 2595209,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "于仙玲": {
+   "income": 426362,
+   "expense": 332456,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "湯茹婷": {
+   "income": 1414057,
+   "expense": 2227877,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "李雨庭": {
+   "income": 1294850,
+   "expense": 3112357,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "王耀裕": {
+   "income": 4732358,
+   "expense": 5711739,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "黃天煌": {
+   "income": 3764908,
+   "expense": 4363133,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "洪村銘": {
+   "income": 2986680,
+   "expense": 3003046,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "邱于軒": {
+   "income": 2129060,
+   "expense": 2221854,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "巫振興": {
+   "income": 864093,
+   "expense": 864318,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "陳幸富": {
+   "income": 20005,
+   "expense": 28800,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "葛姵瑩": {
+   "income": 10000,
+   "expense": 10000,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "林錫閔": {
+   "income": 99200,
+   "expense": 114521,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  },
+  "高忠德Takiludun．Anu": {
+   "income": 482665,
+   "expense": 483410,
+   "src_url": "https://data.gov.tw/dataset/160188",
+   "src_title": "監察院 111年直轄市議員選舉政治獻金會計報告書(首次申報)（高雄市；政府資料開放授權條款第1版）"
+  }
+ },
+ "基隆市": {
+  "謝國樑": {
+   "income": 17240099,
+   "expense": 17690089,
+   "src_url": "https://data.gov.tw/dataset/160190",
+   "src_title": "監察院 111年縣(市)長選舉政治獻金會計報告書(首次申報)（基隆市；政府資料開放授權條款第1版）"
+  },
+  "童子瑋": {
+   "income": 2065879,
+   "expense": 2169743,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（基隆市；政府資料開放授權條款第1版）"
+  },
+  "藍敏煌": {
+   "income": 215000,
+   "expense": 1183245,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（基隆市；政府資料開放授權條款第1版）"
+  },
+  "呂美玲": {
+   "income": 120096,
+   "expense": 572706,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（基隆市；政府資料開放授權條款第1版）"
+  },
+  "李嘉濠": {
+   "income": 387000,
+   "expense": 516960,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（基隆市；政府資料開放授權條款第1版）"
+  },
+  "何淑萍": {
+   "income": 867005,
+   "expense": 1775024,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（基隆市；政府資料開放授權條款第1版）"
+  },
+  "韓世昱": {
+   "income": 970900,
+   "expense": 1283734,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（基隆市；政府資料開放授權條款第1版）"
+  },
+  "陳軍佐": {
+   "income": 1354117,
+   "expense": 1467508,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（基隆市；政府資料開放授權條款第1版）"
+  },
+  "陳宜": {
+   "income": 665969,
+   "expense": 732248,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（基隆市；政府資料開放授權條款第1版）"
+  },
+  "張芳麗": {
+   "income": 263000,
+   "expense": 274598,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（基隆市；政府資料開放授權條款第1版）"
+  },
+  "鄭文婷": {
+   "income": 603802,
+   "expense": 666936,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（基隆市；政府資料開放授權條款第1版）"
+  },
+  "莊敬聖": {
+   "income": 112200,
+   "expense": 202885,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（基隆市；政府資料開放授權條款第1版）"
+  },
+  "施偉政": {
+   "income": 471000,
+   "expense": 471807,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（基隆市；政府資料開放授權條款第1版）"
+  },
+  "宋瑋莉": {
+   "income": 433202,
+   "expense": 697622,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（基隆市；政府資料開放授權條款第1版）"
+  },
+  "郭美秀": {
+   "income": 352000,
+   "expense": 511241,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（基隆市；政府資料開放授權條款第1版）"
+  },
+  "黃永翔": {
+   "income": 866800,
+   "expense": 1087112,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（基隆市；政府資料開放授權條款第1版）"
+  },
+  "俞叁發": {
+   "income": 653387,
+   "expense": 881837,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（基隆市；政府資料開放授權條款第1版）"
+  },
+  "秦鉦": {
+   "income": 112000,
+   "expense": 628888,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（基隆市；政府資料開放授權條款第1版）"
+  },
+  "張之豪": {
+   "income": 2874868,
+   "expense": 2844834,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（基隆市；政府資料開放授權條款第1版）"
+  },
+  "鄭愷玲": {
+   "income": 956891,
+   "expense": 1230554,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（基隆市；政府資料開放授權條款第1版）"
+  },
+  "吳驊珈": {
+   "income": 607000,
+   "expense": 1084512,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（基隆市；政府資料開放授權條款第1版）"
+  },
+  "劉韋巡": {
+   "income": 401048,
+   "expense": 936762,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（基隆市；政府資料開放授權條款第1版）"
+  },
+  "莫璦緁": {
+   "income": 12000,
+   "expense": 14175,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（基隆市；政府資料開放授權條款第1版）"
+  },
+  "連恩典": {
+   "income": 331988,
+   "expense": 332566,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（基隆市；政府資料開放授權條款第1版）"
+  },
+  "陳冠羽": {
+   "income": 313981,
+   "expense": 315051,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（基隆市；政府資料開放授權條款第1版）"
+  },
+  "蔡旺璉": {
+   "income": 586000,
+   "expense": 589574,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（基隆市；政府資料開放授權條款第1版）"
+  },
+  "楊秀玉": {
+   "income": 1085006,
+   "expense": 1267935,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（基隆市；政府資料開放授權條款第1版）"
+  },
+  "曾怡芳": {
+   "income": 1146659,
+   "expense": 1164217,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（基隆市；政府資料開放授權條款第1版）"
+  },
+  "張耿輝": {
+   "income": 1430157,
+   "expense": 2789172,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（基隆市；政府資料開放授權條款第1版）"
+  },
+  "陳明建": {
+   "income": 84000,
+   "expense": 203000,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（基隆市；政府資料開放授權條款第1版）"
+  }
+ },
+ "新竹市": {
+  "高虹安": {
+   "income": 22857783,
+   "expense": 22863455,
+   "src_url": "https://data.gov.tw/dataset/160190",
+   "src_title": "監察院 111年縣(市)長選舉政治獻金會計報告書(首次申報)（新竹市；政府資料開放授權條款第1版）"
+  },
+  "何志勇": {
+   "income": 1919260,
+   "expense": 2964046,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹市；政府資料開放授權條款第1版）"
+  },
+  "黃文政": {
+   "income": 1314989,
+   "expense": 1411485,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹市；政府資料開放授權條款第1版）"
+  },
+  "劉崇顯": {
+   "income": 1046754,
+   "expense": 1084652,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹市；政府資料開放授權條款第1版）"
+  },
+  "李國璋": {
+   "income": 905524,
+   "expense": 1195129,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹市；政府資料開放授權條款第1版）"
+  },
+  "宋品瑩": {
+   "income": 232988,
+   "expense": 318375,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹市；政府資料開放授權條款第1版）"
+  },
+  "劉彥伶": {
+   "income": 1252087,
+   "expense": 1319729,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹市；政府資料開放授權條款第1版）"
+  },
+  "張祖琰": {
+   "income": 742200,
+   "expense": 1285371,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹市；政府資料開放授權條款第1版）"
+  },
+  "許登淇": {
+   "income": 795566,
+   "expense": 887723,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹市；政府資料開放授權條款第1版）"
+  },
+  "鄭美娟": {
+   "income": 2049839,
+   "expense": 2055856,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹市；政府資料開放授權條款第1版）"
+  },
+  "陳清智": {
+   "income": 336000,
+   "expense": 824465,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹市；政府資料開放授權條款第1版）"
+  },
+  "陳珍裕": {
+   "income": 429188,
+   "expense": 429305,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹市；政府資料開放授權條款第1版）"
+  },
+  "鍾淑英": {
+   "income": 1147335,
+   "expense": 1264717,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹市；政府資料開放授權條款第1版）"
+  },
+  "施乃如": {
+   "income": 1336700,
+   "expense": 1504162,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹市；政府資料開放授權條款第1版）"
+  },
+  "陳鶴文": {
+   "income": 606069,
+   "expense": 606239,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹市；政府資料開放授權條款第1版）"
+  },
+  "徐美惠": {
+   "income": 887238,
+   "expense": 1318923,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹市；政府資料開放授權條款第1版）"
+  },
+  "許修睿": {
+   "income": 956000,
+   "expense": 1242847,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹市；政府資料開放授權條款第1版）"
+  },
+  "田雅芳": {
+   "income": 75008,
+   "expense": 76448,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹市；政府資料開放授權條款第1版）"
+  },
+  "施淑婷": {
+   "income": 32500,
+   "expense": 150000,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹市；政府資料開放授權條款第1版）"
+  },
+  "陳建名": {
+   "income": 2145308,
+   "expense": 2220297,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹市；政府資料開放授權條款第1版）"
+  },
+  "彭昆耀": {
+   "income": 0,
+   "expense": 0,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹市；政府資料開放授權條款第1版）"
+  },
+  "蕭志潔": {
+   "income": 1353716,
+   "expense": 1803284,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹市；政府資料開放授權條款第1版）"
+  },
+  "黃美慧": {
+   "income": 673600,
+   "expense": 722330,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹市；政府資料開放授權條款第1版）"
+  },
+  "楊玲宜": {
+   "income": 1394216,
+   "expense": 1628745,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹市；政府資料開放授權條款第1版）"
+  },
+  "鄭慶欽": {
+   "income": 38116,
+   "expense": 62000,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹市；政府資料開放授權條款第1版）"
+  },
+  "林彥甫": {
+   "income": 1121306,
+   "expense": 1124593,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹市；政府資料開放授權條款第1版）"
+  },
+  "吳旭豐": {
+   "income": 1918618,
+   "expense": 2041601,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹市；政府資料開放授權條款第1版）"
+  },
+  "蔡文盛": {
+   "income": 72188,
+   "expense": 220340,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹市；政府資料開放授權條款第1版）"
+  },
+  "吳國寶": {
+   "income": 2398548,
+   "expense": 2404726,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹市；政府資料開放授權條款第1版）"
+  },
+  "葉國文": {
+   "income": 386846,
+   "expense": 421808,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹市；政府資料開放授權條款第1版）"
+  },
+  "陳啓源": {
+   "income": 977200,
+   "expense": 1019600,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹市；政府資料開放授權條款第1版）"
+  },
+  "陳慶齡": {
+   "income": 553600,
+   "expense": 627986,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹市；政府資料開放授權條款第1版）"
+  },
+  "廖子齊": {
+   "income": 801138,
+   "expense": 811218,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹市；政府資料開放授權條款第1版）"
+  },
+  "林盈徹": {
+   "income": 1685522,
+   "expense": 1742784,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹市；政府資料開放授權條款第1版）"
+  },
+  "林慈愛": {
+   "income": 14100,
+   "expense": 27100,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹市；政府資料開放授權條款第1版）"
+  }
+ },
+ "嘉義市": {
+  "凌子楚": {
+   "income": 1318996,
+   "expense": 1586295,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義市；政府資料開放授權條款第1版）"
+  },
+  "郭文居": {
+   "income": 742911,
+   "expense": 865073,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義市；政府資料開放授權條款第1版）"
+  },
+  "梁樹綸": {
+   "income": 148223,
+   "expense": 1298751,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義市；政府資料開放授權條款第1版）"
+  },
+  "林昱孜": {
+   "income": 36102,
+   "expense": 36200,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義市；政府資料開放授權條款第1版）"
+  },
+  "黃露慧": {
+   "income": 698000,
+   "expense": 713917,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義市；政府資料開放授權條款第1版）"
+  },
+  "陳家平": {
+   "income": 642181,
+   "expense": 657888,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義市；政府資料開放授權條款第1版）"
+  },
+  "傅大偉": {
+   "income": 982365,
+   "expense": 1032940,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義市；政府資料開放授權條款第1版）"
+  },
+  "鄭光宏": {
+   "income": 180920,
+   "expense": 240847,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義市；政府資料開放授權條款第1版）"
+  },
+  "林煒軒": {
+   "income": 779201,
+   "expense": 779238,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義市；政府資料開放授權條款第1版）"
+  },
+  "王浩": {
+   "income": 1653753,
+   "expense": 1654083,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義市；政府資料開放授權條款第1版）"
+  },
+  "陳品蓁": {
+   "income": 0,
+   "expense": 0,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義市；政府資料開放授權條款第1版）"
+  },
+  "李忠曆": {
+   "income": 584000,
+   "expense": 612924,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義市；政府資料開放授權條款第1版）"
+  },
+  "蔡坤叡": {
+   "income": 737000,
+   "expense": 737439,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義市；政府資料開放授權條款第1版）"
+  },
+  "張秀華": {
+   "income": 3640607,
+   "expense": 3786258,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義市；政府資料開放授權條款第1版）"
+  },
+  "黃思婷": {
+   "income": 608986,
+   "expense": 732855,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義市；政府資料開放授權條款第1版）"
+  },
+  "黃敏修": {
+   "income": 1811000,
+   "expense": 2106217,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義市；政府資料開放授權條款第1版）"
+  },
+  "黃大祐": {
+   "income": 525600,
+   "expense": 525847,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義市；政府資料開放授權條款第1版）"
+  }
+ },
+ "新竹縣": {
+  "陳凱榮": {
+   "income": 515042,
+   "expense": 545984,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹縣；政府資料開放授權條款第1版）"
+  },
+  "張珈源": {
+   "income": 1933219,
+   "expense": 1955364,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹縣；政府資料開放授權條款第1版）"
+  },
+  "鄭美琴": {
+   "income": 1700268,
+   "expense": 1735667,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹縣；政府資料開放授權條款第1版）"
+  },
+  "歐陽霆": {
+   "income": 1101038,
+   "expense": 1157927,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹縣；政府資料開放授權條款第1版）"
+  },
+  "蔡蕥鍹": {
+   "income": 244144,
+   "expense": 354677,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹縣；政府資料開放授權條款第1版）"
+  },
+  "朱健銘": {
+   "income": 648288,
+   "expense": 659100,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹縣；政府資料開放授權條款第1版）"
+  },
+  "林禹佑": {
+   "income": 30015,
+   "expense": 75000,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹縣；政府資料開放授權條款第1版）"
+  },
+  "林碩彥": {
+   "income": 141400,
+   "expense": 141547,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹縣；政府資料開放授權條款第1版）"
+  },
+  "杜文中": {
+   "income": 2490666,
+   "expense": 2833557,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹縣；政府資料開放授權條款第1版）"
+  },
+  "邱靖雅": {
+   "income": 2274267,
+   "expense": 2719689,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹縣；政府資料開放授權條款第1版）"
+  },
+  "甄克堅": {
+   "income": 436008,
+   "expense": 440040,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹縣；政府資料開放授權條款第1版）"
+  },
+  "余筱菁": {
+   "income": 852081,
+   "expense": 907623,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹縣；政府資料開放授權條款第1版）"
+  },
+  "羅美文": {
+   "income": 460112,
+   "expense": 497037,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹縣；政府資料開放授權條款第1版）"
+  },
+  "何建樺": {
+   "income": 126000,
+   "expense": 148400,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹縣；政府資料開放授權條款第1版）"
+  },
+  "陳栢誠": {
+   "income": 296000,
+   "expense": 393580,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹縣；政府資料開放授權條款第1版）"
+  },
+  "徐勝凌": {
+   "income": 277862,
+   "expense": 591497,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹縣；政府資料開放授權條款第1版）"
+  },
+  "吳傳地": {
+   "income": 470000,
+   "expense": 572150,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹縣；政府資料開放授權條款第1版）"
+  },
+  "徐瑜新": {
+   "income": 561600,
+   "expense": 562073,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹縣；政府資料開放授權條款第1版）"
+  },
+  "呂宛庭": {
+   "income": 99100,
+   "expense": 164495,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹縣；政府資料開放授權條款第1版）"
+  },
+  "上官秋燕": {
+   "income": 57006,
+   "expense": 58000,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹縣；政府資料開放授權條款第1版）"
+  },
+  "林昭錡": {
+   "income": 160000,
+   "expense": 195600,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹縣；政府資料開放授權條款第1版）"
+  },
+  "鄭朝鐘": {
+   "income": 861500,
+   "expense": 960789,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹縣；政府資料開放授權條款第1版）"
+  },
+  "彭余美玲": {
+   "income": 0,
+   "expense": 0,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹縣；政府資料開放授權條款第1版）"
+  },
+  "王辰翔": {
+   "income": 300000,
+   "expense": 304725,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹縣；政府資料開放授權條款第1版）"
+  },
+  "法隆伊佑": {
+   "income": 356900,
+   "expense": 358010,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹縣；政府資料開放授權條款第1版）"
+  },
+  "張益生": {
+   "income": 841640,
+   "expense": 1925776,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（新竹縣；政府資料開放授權條款第1版）"
+  }
+ },
+ "苗栗縣": {
+  "陳品安": {
+   "income": 3586923,
+   "expense": 4104603,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（苗栗縣；政府資料開放授權條款第1版）"
+  },
+  "鍾東錦": {
+   "income": 8343360,
+   "expense": 19858773,
+   "src_url": "https://data.gov.tw/dataset/160190",
+   "src_title": "監察院 111年縣(市)長選舉政治獻金會計報告書(首次申報)（苗栗縣；政府資料開放授權條款第1版）"
+  },
+  "林志豪": {
+   "income": 378156,
+   "expense": 735715,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（苗栗縣；政府資料開放授權條款第1版）"
+  },
+  "湯維岳": {
+   "income": 312047,
+   "expense": 533802,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（苗栗縣；政府資料開放授權條款第1版）"
+  },
+  "楊明燁": {
+   "income": 82000,
+   "expense": 82000,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（苗栗縣；政府資料開放授權條款第1版）"
+  },
+  "徐筱菁": {
+   "income": 669000,
+   "expense": 672622,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（苗栗縣；政府資料開放授權條款第1版）"
+  },
+  "黃萬盛": {
+   "income": 18102,
+   "expense": 36700,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（苗栗縣；政府資料開放授權條款第1版）"
+  },
+  "孫素娥": {
+   "income": 212412,
+   "expense": 948847,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（苗栗縣；政府資料開放授權條款第1版）"
+  },
+  "許櫻萍": {
+   "income": 0,
+   "expense": 0,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（苗栗縣；政府資料開放授權條款第1版）"
+  },
+  "鄭碧玉": {
+   "income": 1073600,
+   "expense": 1196834,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（苗栗縣；政府資料開放授權條款第1版）"
+  },
+  "張志宇": {
+   "income": 289600,
+   "expense": 3289105,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（苗栗縣；政府資料開放授權條款第1版）"
+  },
+  "羅貴星": {
+   "income": 814159,
+   "expense": 1319139,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（苗栗縣；政府資料開放授權條款第1版）"
+  },
+  "翁杰": {
+   "income": 554799,
+   "expense": 565508,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（苗栗縣；政府資料開放授權條款第1版）"
+  },
+  "周玉滿": {
+   "income": 602031,
+   "expense": 794602,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（苗栗縣；政府資料開放授權條款第1版）"
+  },
+  "李文斌": {
+   "income": 1774046,
+   "expense": 1916947,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（苗栗縣；政府資料開放授權條款第1版）"
+  },
+  "林寶珠": {
+   "income": 420005,
+   "expense": 992993,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（苗栗縣；政府資料開放授權條款第1版）"
+  },
+  "鄭秋風": {
+   "income": 980000,
+   "expense": 980300,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（苗栗縣；政府資料開放授權條款第1版）"
+  },
+  "吳翌立": {
+   "income": 1334372,
+   "expense": 1338250,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（苗栗縣；政府資料開放授權條款第1版）"
+  },
+  "邱毓興": {
+   "income": 1830902,
+   "expense": 2679037,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（苗栗縣；政府資料開放授權條款第1版）"
+  },
+  "廖秀紅": {
+   "income": 586000,
+   "expense": 664915,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（苗栗縣；政府資料開放授權條款第1版）"
+  },
+  "吳亭亭": {
+   "income": 180000,
+   "expense": 283882,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（苗栗縣；政府資料開放授權條款第1版）"
+  },
+  "張佳玲": {
+   "income": 910062,
+   "expense": 934500,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（苗栗縣；政府資料開放授權條款第1版）"
+  },
+  "廖英利": {
+   "income": 686005,
+   "expense": 1088175,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（苗栗縣；政府資料開放授權條款第1版）"
+  },
+  "陳詩弦": {
+   "income": 483104,
+   "expense": 488450,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（苗栗縣；政府資料開放授權條款第1版）"
+  },
+  "陳光軒": {
+   "income": 762820,
+   "expense": 766236,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（苗栗縣；政府資料開放授權條款第1版）"
+  },
+  "蕭詠萱": {
+   "income": 37500,
+   "expense": 48081,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（苗栗縣；政府資料開放授權條款第1版）"
+  },
+  "張淑芬": {
+   "income": 300000,
+   "expense": 1035568,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（苗栗縣；政府資料開放授權條款第1版）"
+  },
+  "陳永賢": {
+   "income": 1671000,
+   "expense": 2118762,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（苗栗縣；政府資料開放授權條款第1版）"
+  },
+  "林志學": {
+   "income": 367126,
+   "expense": 410095,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（苗栗縣；政府資料開放授權條款第1版）"
+  },
+  "朱仲一Kalih．Tahes．Didiyun": {
+   "income": 94021,
+   "expense": 101260,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（苗栗縣；政府資料開放授權條款第1版）"
+  }
+ },
+ "彰化縣": {
+  "陳重嘉": {
+   "income": 900000,
+   "expense": 906246,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "莊陞漢": {
+   "income": 1655802,
+   "expense": 1661928,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "黃千宴": {
+   "income": 272131,
+   "expense": 279040,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "許雅琳": {
+   "income": 140020,
+   "expense": 263200,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "白玉如": {
+   "income": 840208,
+   "expense": 861508,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "楊子賢": {
+   "income": 3085937,
+   "expense": 3272080,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "温芝樺": {
+   "income": 1191036,
+   "expense": 1194020,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "吳韋達": {
+   "income": 1883886,
+   "expense": 1616177,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "陳銌銌": {
+   "income": 697853,
+   "expense": 955365,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "李成濟": {
+   "income": 1356220,
+   "expense": 1476768,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "凃淑媚": {
+   "income": 2016169,
+   "expense": 1279076,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "楊竣程": {
+   "income": 561000,
+   "expense": 662232,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "藍駿宇": {
+   "income": 1330877,
+   "expense": 1433860,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "郭燕陵": {
+   "income": 829600,
+   "expense": 975881,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "蕭文雄": {
+   "income": 213004,
+   "expense": 275863,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "王國忠": {
+   "income": 550000,
+   "expense": 810260,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "林宗翰": {
+   "income": 970000,
+   "expense": 970047,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "林小琪": {
+   "income": 3556946,
+   "expense": 3749746,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "周君綾": {
+   "income": 442480,
+   "expense": 1493671,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "柯振杯": {
+   "income": 1193000,
+   "expense": 1271240,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "賴澤民": {
+   "income": 1985042,
+   "expense": 1986463,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "張欣倩": {
+   "income": 2205865,
+   "expense": 2238712,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "張雪如": {
+   "income": 1714050,
+   "expense": 1716714,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "劉惠娟": {
+   "income": 1572347,
+   "expense": 1579553,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "林俊毅": {
+   "income": 222740,
+   "expense": 284917,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "曹嘉豪": {
+   "income": 1913008,
+   "expense": 2153233,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "陳玉姫": {
+   "income": 523951,
+   "expense": 524212,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "張春洋": {
+   "income": 736230,
+   "expense": 965655,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "劉珊伶": {
+   "income": 1225962,
+   "expense": 1304427,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "許書維": {
+   "income": 686088,
+   "expense": 748269,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "蕭妤亘": {
+   "income": 20000,
+   "expense": 180076,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "詹琬惠": {
+   "income": 538866,
+   "expense": 726254,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "鄭俊雄": {
+   "income": 951659,
+   "expense": 1046566,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "江熊一楓": {
+   "income": 388067,
+   "expense": 719226,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "劉淑芳": {
+   "income": 1860244,
+   "expense": 1942775,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "李俊諭": {
+   "income": 469185,
+   "expense": 502049,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "李浩誠": {
+   "income": 1349093,
+   "expense": 1630746,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "謝淑如": {
+   "income": 760400,
+   "expense": 813070,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "吳淑娟": {
+   "income": 1316694,
+   "expense": 1316872,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "洪子超": {
+   "income": 1237823,
+   "expense": 1274109,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "張國棟": {
+   "income": 1135076,
+   "expense": 1466449,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  },
+  "洪騰明": {
+   "income": 1119105,
+   "expense": 1256915,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（彰化縣；政府資料開放授權條款第1版）"
+  }
+ },
+ "南投縣": {
+  "許淑華": {
+   "income": 34203561,
+   "expense": 34837740,
+   "src_url": "https://data.gov.tw/dataset/160190",
+   "src_title": "監察院 111年縣(市)長選舉政治獻金會計報告書(首次申報)（南投縣；政府資料開放授權條款第1版）"
+  },
+  "林儒暘": {
+   "income": 2437499,
+   "expense": 2557242,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（南投縣；政府資料開放授權條款第1版）"
+  },
+  "洪志杰": {
+   "income": 1186030,
+   "expense": 1190000,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（南投縣；政府資料開放授權條款第1版）"
+  },
+  "林憶如": {
+   "income": 160717,
+   "expense": 178000,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（南投縣；政府資料開放授權條款第1版）"
+  },
+  "張婉慈": {
+   "income": 800094,
+   "expense": 1182900,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（南投縣；政府資料開放授權條款第1版）"
+  },
+  "張秀枝": {
+   "income": 1136655,
+   "expense": 1138939,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（南投縣；政府資料開放授權條款第1版）"
+  },
+  "宋懷琳": {
+   "income": 1309749,
+   "expense": 1939470,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（南投縣；政府資料開放授權條款第1版）"
+  },
+  "簡千翔": {
+   "income": 0,
+   "expense": 0,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（南投縣；政府資料開放授權條款第1版）"
+  },
+  "吳棋楠": {
+   "income": 220004,
+   "expense": 377500,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（南投縣；政府資料開放授權條款第1版）"
+  },
+  "史雪燕": {
+   "income": 291901,
+   "expense": 299078,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（南投縣；政府資料開放授權條款第1版）"
+  },
+  "廖梓佑": {
+   "income": 693177,
+   "expense": 723596,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（南投縣；政府資料開放授權條款第1版）"
+  },
+  "蔡銘軒": {
+   "income": 276665,
+   "expense": 287585,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（南投縣；政府資料開放授權條款第1版）"
+  },
+  "簡峻庭": {
+   "income": 721549,
+   "expense": 786645,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（南投縣；政府資料開放授權條款第1版）"
+  },
+  "李洲忠": {
+   "income": 474000,
+   "expense": 605193,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（南投縣；政府資料開放授權條款第1版）"
+  },
+  "李帛璋": {
+   "income": 1633204,
+   "expense": 1681132,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（南投縣；政府資料開放授權條款第1版）"
+  },
+  "林友友": {
+   "income": 111976,
+   "expense": 178713,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（南投縣；政府資料開放授權條款第1版）"
+  },
+  "王秋淑": {
+   "income": 1279000,
+   "expense": 1445603,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（南投縣；政府資料開放授權條款第1版）"
+  },
+  "黃春麟": {
+   "income": 113253,
+   "expense": 114900,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（南投縣；政府資料開放授權條款第1版）"
+  },
+  "李廣演": {
+   "income": 682077,
+   "expense": 690921,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（南投縣；政府資料開放授權條款第1版）"
+  },
+  "陳玉鈴": {
+   "income": 386000,
+   "expense": 402644,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（南投縣；政府資料開放授權條款第1版）"
+  },
+  "戴世詮": {
+   "income": 726000,
+   "expense": 732000,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（南投縣；政府資料開放授權條款第1版）"
+  },
+  "林芳伃": {
+   "income": 130000,
+   "expense": 539340,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（南投縣；政府資料開放授權條款第1版）"
+  },
+  "蘇昱誠": {
+   "income": 2548268,
+   "expense": 2729354,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（南投縣；政府資料開放授權條款第1版）"
+  },
+  "陳宜君": {
+   "income": 1001565,
+   "expense": 1274541,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（南投縣；政府資料開放授權條款第1版）"
+  },
+  "石慶龍Rungquan‧Lhkatafatu": {
+   "income": 200009,
+   "expense": 202855,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（南投縣；政府資料開放授權條款第1版）"
+  },
+  "江秉翰": {
+   "income": 1323213,
+   "expense": 1599934,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（南投縣；政府資料開放授權條款第1版）"
+  }
+ },
+ "雲林縣": {
+  "劉建國": {
+   "income": 23771276,
+   "expense": 23885554,
+   "src_url": "https://data.gov.tw/dataset/160190",
+   "src_title": "監察院 111年縣(市)長選舉政治獻金會計報告書(首次申報)（雲林縣；政府資料開放授權條款第1版）"
+  },
+  "陳永修": {
+   "income": 100001,
+   "expense": 200000,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（雲林縣；政府資料開放授權條款第1版）"
+  },
+  "林靖冠": {
+   "income": 61000,
+   "expense": 912600,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（雲林縣；政府資料開放授權條款第1版）"
+  },
+  "廖郁賢": {
+   "income": 1129674,
+   "expense": 143392,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（雲林縣；政府資料開放授權條款第1版）"
+  },
+  "江文登": {
+   "income": 1099148,
+   "expense": 1147951,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（雲林縣；政府資料開放授權條款第1版）"
+  },
+  "黃勝志": {
+   "income": 246888,
+   "expense": 348580,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（雲林縣；政府資料開放授權條款第1版）"
+  },
+  "張光儀": {
+   "income": 309416,
+   "expense": 377330,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（雲林縣；政府資料開放授權條款第1版）"
+  },
+  "林岳璋": {
+   "income": 828000,
+   "expense": 855400,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（雲林縣；政府資料開放授權條款第1版）"
+  },
+  "曾博鴻": {
+   "income": 246252,
+   "expense": 313253,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（雲林縣；政府資料開放授權條款第1版）"
+  },
+  "陳芳盈": {
+   "income": 3300458,
+   "expense": 1657730,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（雲林縣；政府資料開放授權條款第1版）"
+  },
+  "賴明源": {
+   "income": 309000,
+   "expense": 375125,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（雲林縣；政府資料開放授權條款第1版）"
+  },
+  "張庭綺": {
+   "income": 323501,
+   "expense": 544458,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（雲林縣；政府資料開放授權條款第1版）"
+  },
+  "陳乙辰": {
+   "income": 171097,
+   "expense": 659649,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（雲林縣；政府資料開放授權條款第1版）"
+  },
+  "陳俊龍": {
+   "income": 1305322,
+   "expense": 1604472,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（雲林縣；政府資料開放授權條款第1版）"
+  },
+  "黃凱": {
+   "income": 1555200,
+   "expense": 1557877,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（雲林縣；政府資料開放授權條款第1版）"
+  },
+  "蔡明水": {
+   "income": 915861,
+   "expense": 919427,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（雲林縣；政府資料開放授權條款第1版）"
+  },
+  "林文彬": {
+   "income": 401046,
+   "expense": 754865,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（雲林縣；政府資料開放授權條款第1版）"
+  },
+  "王鈺齊": {
+   "income": 120017,
+   "expense": 153672,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（雲林縣；政府資料開放授權條款第1版）"
+  },
+  "洪如萍": {
+   "income": 471611,
+   "expense": 575036,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（雲林縣；政府資料開放授權條款第1版）"
+  },
+  "李明哲": {
+   "income": 1103071,
+   "expense": 1214316,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（雲林縣；政府資料開放授權條款第1版）"
+  },
+  "吳蕙蘭": {
+   "income": 600000,
+   "expense": 890030,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（雲林縣；政府資料開放授權條款第1版）"
+  },
+  "蔡孟真": {
+   "income": 449850,
+   "expense": 531308,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（雲林縣；政府資料開放授權條款第1版）"
+  },
+  "蔡岳儒": {
+   "income": 4683024,
+   "expense": 5117603,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（雲林縣；政府資料開放授權條款第1版）"
+  },
+  "黃文祥": {
+   "income": 553600,
+   "expense": 894146,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（雲林縣；政府資料開放授權條款第1版）"
+  },
+  "王新堯": {
+   "income": 66000,
+   "expense": 72000,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（雲林縣；政府資料開放授權條款第1版）"
+  }
+ },
+ "嘉義縣": {
+  "江佩曄": {
+   "income": 400,
+   "expense": 10710,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義縣；政府資料開放授權條款第1版）"
+  },
+  "黃榮俊": {
+   "income": 180000,
+   "expense": 215120,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義縣；政府資料開放授權條款第1版）"
+  },
+  "賴瓊如": {
+   "income": 291888,
+   "expense": 301500,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義縣；政府資料開放授權條款第1版）"
+  },
+  "黃榮利": {
+   "income": 598020,
+   "expense": 598181,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義縣；政府資料開放授權條款第1版）"
+  },
+  "詹琬蓁": {
+   "income": 722584,
+   "expense": 730467,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義縣；政府資料開放授權條款第1版）"
+  },
+  "王啓澧": {
+   "income": 247669,
+   "expense": 1923162,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義縣；政府資料開放授權條款第1版）"
+  },
+  "黃惠汝": {
+   "income": 0,
+   "expense": 0,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義縣；政府資料開放授權條款第1版）"
+  },
+  "林岱杰": {
+   "income": 0,
+   "expense": 2320698,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義縣；政府資料開放授權條款第1版）"
+  },
+  "林秀琴": {
+   "income": 1115000,
+   "expense": 1155200,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義縣；政府資料開放授權條款第1版）"
+  },
+  "林淑完": {
+   "income": 40000,
+   "expense": 40000,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義縣；政府資料開放授權條款第1版）"
+  },
+  "黃啟豪": {
+   "income": 726258,
+   "expense": 967480,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義縣；政府資料開放授權條款第1版）"
+  },
+  "何文華": {
+   "income": 748587,
+   "expense": 1254436,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義縣；政府資料開放授權條款第1版）"
+  },
+  "陳文忠": {
+   "income": 1670000,
+   "expense": 1930024,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義縣；政府資料開放授權條款第1版）"
+  },
+  "吳思蓉": {
+   "income": 245000,
+   "expense": 1045010,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義縣；政府資料開放授權條款第1版）"
+  },
+  "莊信宗": {
+   "income": 0,
+   "expense": 0,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義縣；政府資料開放授權條款第1版）"
+  },
+  "江志明": {
+   "income": 2279561,
+   "expense": 2279700,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義縣；政府資料開放授權條款第1版）"
+  },
+  "陳怡岳": {
+   "income": 6130190,
+   "expense": 5615371,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義縣；政府資料開放授權條款第1版）"
+  },
+  "呂文正": {
+   "income": 400000,
+   "expense": 513950,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義縣；政府資料開放授權條款第1版）"
+  },
+  "黃金茂": {
+   "income": 320001,
+   "expense": 321991,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義縣；政府資料開放授權條款第1版）"
+  },
+  "陳鳳梅": {
+   "income": 340000,
+   "expense": 873395,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義縣；政府資料開放授權條款第1版）"
+  },
+  "翁聰賢": {
+   "income": 253399,
+   "expense": 2041629,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義縣；政府資料開放授權條款第1版）"
+  },
+  "蔡信典": {
+   "income": 654000,
+   "expense": 650000,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義縣；政府資料開放授權條款第1版）"
+  },
+  "莊竣傑": {
+   "income": 832004,
+   "expense": 1545252,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義縣；政府資料開放授權條款第1版）"
+  },
+  "江季珍": {
+   "income": 600305,
+   "expense": 607174,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義縣；政府資料開放授權條款第1版）"
+  },
+  "羅士洋": {
+   "income": 1150012,
+   "expense": 1664741,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義縣；政府資料開放授權條款第1版）"
+  },
+  "張明達": {
+   "income": 1404000,
+   "expense": 1523626,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（嘉義縣；政府資料開放授權條款第1版）"
+  }
+ },
+ "屏東縣": {
+  "蘇清泉": {
+   "income": 5038017,
+   "expense": 24646719,
+   "src_url": "https://data.gov.tw/dataset/160190",
+   "src_title": "監察院 111年縣(市)長選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "周春米": {
+   "income": 23754317,
+   "expense": 23929863,
+   "src_url": "https://data.gov.tw/dataset/160190",
+   "src_title": "監察院 111年縣(市)長選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "張平原": {
+   "income": 1920000,
+   "expense": 2503269,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "林明順": {
+   "income": 338052,
+   "expense": 338052,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "蔣家煌": {
+   "income": 6556367,
+   "expense": 6150925,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "方華雄": {
+   "income": 340600,
+   "expense": 353605,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "陳揚": {
+   "income": 517766,
+   "expense": 519448,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "黃明賢": {
+   "income": 690178,
+   "expense": 690200,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "蘇資婷": {
+   "income": 265500,
+   "expense": 270000,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "李世斌": {
+   "income": 2440721,
+   "expense": 3289655,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "方一祥": {
+   "income": 425078,
+   "expense": 597859,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "陳韋強": {
+   "income": 62800,
+   "expense": 62800,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "宋麗華": {
+   "income": 111600,
+   "expense": 175850,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "何春美": {
+   "income": 1278168,
+   "expense": 1319391,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "鍾詔元": {
+   "income": 1663488,
+   "expense": 2003309,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "葉明博": {
+   "income": 30000,
+   "expense": 144814,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "陳秋豪": {
+   "income": 619989,
+   "expense": 620000,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "王景山": {
+   "income": 1322736,
+   "expense": 1329049,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "陳宗廷": {
+   "income": 461031,
+   "expense": 783537,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "許馨勻": {
+   "income": 397459,
+   "expense": 400099,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "吳慈慧": {
+   "income": 128025,
+   "expense": 562381,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "林郁虹": {
+   "income": 523646,
+   "expense": 630240,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "利八魁": {
+   "income": 413005,
+   "expense": 422900,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "徐榮耀": {
+   "income": 779253,
+   "expense": 974950,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "李世淦": {
+   "income": 45018,
+   "expense": 89825,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "劉孟君": {
+   "income": 1692000,
+   "expense": 1708330,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "許展維": {
+   "income": 4019156,
+   "expense": 4443739,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "方文正": {
+   "income": 764546,
+   "expense": 835320,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "林蔡鳯梅": {
+   "income": 1421479,
+   "expense": 2487987,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "呂少麒": {
+   "income": 290000,
+   "expense": 883700,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "林宇澤": {
+   "income": 193466,
+   "expense": 208545,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "周碧雲": {
+   "income": 200000,
+   "expense": 200000,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "羅平道": {
+   "income": 274650,
+   "expense": 502700,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "張榮傑": {
+   "income": 0,
+   "expense": 0,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "張榮志": {
+   "income": 756000,
+   "expense": 2157597,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "潘芳泉": {
+   "income": 336025,
+   "expense": 652500,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "李建華": {
+   "income": 200000,
+   "expense": 550000,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "潘翠雲": {
+   "income": 261380,
+   "expense": 280499,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "江金妹": {
+   "income": 190200,
+   "expense": 191730,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  },
+  "張利惠": {
+   "income": 100039,
+   "expense": 109445,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（屏東縣；政府資料開放授權條款第1版）"
+  }
+ },
+ "宜蘭縣": {
+  "林麗": {
+   "income": 190385,
+   "expense": 257200,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（宜蘭縣；政府資料開放授權條款第1版）"
+  },
+  "林岳賢": {
+   "income": 521000,
+   "expense": 1108488,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（宜蘭縣；政府資料開放授權條款第1版）"
+  },
+  "莊淑如": {
+   "income": 159000,
+   "expense": 799600,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（宜蘭縣；政府資料開放授權條款第1版）"
+  },
+  "黃定和": {
+   "income": 849800,
+   "expense": 1335124,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（宜蘭縣；政府資料開放授權條款第1版）"
+  },
+  "陳漢澤": {
+   "income": 717661,
+   "expense": 742395,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（宜蘭縣；政府資料開放授權條款第1版）"
+  },
+  "張勝德": {
+   "income": 839070,
+   "expense": 1409834,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（宜蘭縣；政府資料開放授權條款第1版）"
+  },
+  "林錫明": {
+   "income": 846000,
+   "expense": 904380,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（宜蘭縣；政府資料開放授權條款第1版）"
+  },
+  "林詩穎": {
+   "income": 349067,
+   "expense": 70000,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（宜蘭縣；政府資料開放授權條款第1版）"
+  },
+  "黃浴沂": {
+   "income": 692290,
+   "expense": 752150,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（宜蘭縣；政府資料開放授權條款第1版）"
+  },
+  "黃建勇": {
+   "income": 582020,
+   "expense": 593420,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（宜蘭縣；政府資料開放授權條款第1版）"
+  },
+  "陳福山": {
+   "income": 196000,
+   "expense": 532964,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（宜蘭縣；政府資料開放授權條款第1版）"
+  },
+  "陳漢鍾": {
+   "income": 6299223,
+   "expense": 6327464,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（宜蘭縣；政府資料開放授權條款第1版）"
+  },
+  "謝家倫": {
+   "income": 1300486,
+   "expense": 1322617,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（宜蘭縣；政府資料開放授權條款第1版）"
+  },
+  "呂惠卿": {
+   "income": 157142,
+   "expense": 179275,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（宜蘭縣；政府資料開放授權條款第1版）"
+  },
+  "黃琤婷": {
+   "income": 1204458,
+   "expense": 1548432,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（宜蘭縣；政府資料開放授權條款第1版）"
+  },
+  "林義剛": {
+   "income": 877008,
+   "expense": 1009761,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（宜蘭縣；政府資料開放授權條款第1版）"
+  },
+  "沈信雄": {
+   "income": 83000,
+   "expense": 157300,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（宜蘭縣；政府資料開放授權條款第1版）"
+  },
+  "張明華": {
+   "income": 813020,
+   "expense": 992228,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（宜蘭縣；政府資料開放授權條款第1版）"
+  },
+  "楊弘旻": {
+   "income": 1168926,
+   "expense": 1189645,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（宜蘭縣；政府資料開放授權條款第1版）"
+  },
+  "邱素梅": {
+   "income": 651180,
+   "expense": 1445818,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（宜蘭縣；政府資料開放授權條款第1版）"
+  },
+  "林佩螢": {
+   "income": 0,
+   "expense": 120000,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（宜蘭縣；政府資料開放授權條款第1版）"
+  },
+  "陳玉萍": {
+   "income": 273087,
+   "expense": 1170523,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（宜蘭縣；政府資料開放授權條款第1版）"
+  },
+  "孫湯玉惠aly saku": {
+   "income": 28600,
+   "expense": 394500,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（宜蘭縣；政府資料開放授權條款第1版）"
+  },
+  "沈志弘": {
+   "income": 277031,
+   "expense": 374170,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（宜蘭縣；政府資料開放授權條款第1版）"
+  },
+  "陳傑麟": {
+   "income": 413210,
+   "expense": 1044427,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（宜蘭縣；政府資料開放授權條款第1版）"
+  }
+ },
+ "花蓮縣": {
+  "張峻": {
+   "income": 1585257,
+   "expense": 1649706,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（花蓮縣；政府資料開放授權條款第1版）"
+  },
+  "魏嘉賢": {
+   "income": 1951128,
+   "expense": 1675947,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（花蓮縣；政府資料開放授權條款第1版）"
+  },
+  "陳財能": {
+   "income": 719900,
+   "expense": 1548310,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（花蓮縣；政府資料開放授權條款第1版）"
+  },
+  "徐子芳": {
+   "income": 296888,
+   "expense": 847424,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（花蓮縣；政府資料開放授權條款第1版）"
+  },
+  "林宗昆": {
+   "income": 506521,
+   "expense": 889885,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（花蓮縣；政府資料開放授權條款第1版）"
+  },
+  "洪士閔": {
+   "income": 0,
+   "expense": 0,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（花蓮縣；政府資料開放授權條款第1版）"
+  },
+  "傅國淵": {
+   "income": 343601,
+   "expense": 420737,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（花蓮縣；政府資料開放授權條款第1版）"
+  },
+  "胡仁順": {
+   "income": 1696500,
+   "expense": 1700951,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（花蓮縣；政府資料開放授權條款第1版）"
+  },
+  "韓林梅": {
+   "income": 1315527,
+   "expense": 1344131,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（花蓮縣；政府資料開放授權條款第1版）"
+  },
+  "鄭寶秀": {
+   "income": 249042,
+   "expense": 273140,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（花蓮縣；政府資料開放授權條款第1版）"
+  },
+  "鄭乾龍": {
+   "income": 39758,
+   "expense": 177250,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（花蓮縣；政府資料開放授權條款第1版）"
+  },
+  "林則葹": {
+   "income": 775202,
+   "expense": 2988283,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（花蓮縣；政府資料開放授權條款第1版）"
+  },
+  "黃玲蘭": {
+   "income": 262000,
+   "expense": 351170,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（花蓮縣；政府資料開放授權條款第1版）"
+  },
+  "笛布斯．顗賚": {
+   "income": 831700,
+   "expense": 1011869,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（花蓮縣；政府資料開放授權條款第1版）"
+  },
+  "陳進德": {
+   "income": 20000,
+   "expense": 27600,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（花蓮縣；政府資料開放授權條款第1版）"
+  },
+  "周駿宥": {
+   "income": 48000,
+   "expense": 60000,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（花蓮縣；政府資料開放授權條款第1版）"
+  },
+  "林正福": {
+   "income": 93600,
+   "expense": 98112,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（花蓮縣；政府資料開放授權條款第1版）"
+  },
+  "林玉芬": {
+   "income": 455417,
+   "expense": 544293,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（花蓮縣；政府資料開放授權條款第1版）"
+  },
+  "田韻馨": {
+   "income": 115000,
+   "expense": 129150,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（花蓮縣；政府資料開放授權條款第1版）"
+  },
+  "金淑敏": {
+   "income": 0,
+   "expense": 0,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（花蓮縣；政府資料開放授權條款第1版）"
+  }
+ },
+ "臺東縣": {
+  "吳秀華": {
+   "income": 1063918,
+   "expense": 1086899,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（臺東縣；政府資料開放授權條款第1版）"
+  },
+  "傅文鵬": {
+   "income": 110000,
+   "expense": 110315,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（臺東縣；政府資料開放授權條款第1版）"
+  },
+  "簡維國": {
+   "income": 1412005,
+   "expense": 1430576,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（臺東縣；政府資料開放授權條款第1版）"
+  },
+  "王文怡": {
+   "income": 340451,
+   "expense": 417108,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（臺東縣；政府資料開放授權條款第1版）"
+  },
+  "陳允萍": {
+   "income": 287384,
+   "expense": 329136,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（臺東縣；政府資料開放授權條款第1版）"
+  },
+  "張國洲": {
+   "income": 573000,
+   "expense": 576868,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（臺東縣；政府資料開放授權條款第1版）"
+  },
+  "黃治維": {
+   "income": 272999,
+   "expense": 279057,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（臺東縣；政府資料開放授權條款第1版）"
+  },
+  "楊招信": {
+   "income": 83000,
+   "expense": 85000,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（臺東縣；政府資料開放授權條款第1版）"
+  },
+  "潘貴蘭": {
+   "income": 110000,
+   "expense": 112700,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（臺東縣；政府資料開放授權條款第1版）"
+  },
+  "翁麗吟": {
+   "income": 45029,
+   "expense": 49000,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（臺東縣；政府資料開放授權條款第1版）"
+  },
+  "陳政宗": {
+   "income": 140200,
+   "expense": 147000,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（臺東縣；政府資料開放授權條款第1版）"
+  },
+  "陽昇宏": {
+   "income": 379106,
+   "expense": 393689,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（臺東縣；政府資料開放授權條款第1版）"
+  },
+  "林琮翰": {
+   "income": 226666,
+   "expense": 293051,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（臺東縣；政府資料開放授權條款第1版）"
+  },
+  "武雪恩": {
+   "income": 191630,
+   "expense": 191630,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（臺東縣；政府資料開放授權條款第1版）"
+  },
+  "章正輝Lemaljiz‧Kusaza": {
+   "income": 168000,
+   "expense": 168180,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（臺東縣；政府資料開放授權條款第1版）"
+  }
+ },
+ "澎湖縣": {
+  "許智富": {
+   "income": 960476,
+   "expense": 1024984,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（澎湖縣；政府資料開放授權條款第1版）"
+  },
+  "葉竹林": {
+   "income": 2507402,
+   "expense": 3221093,
+   "src_url": "https://data.gov.tw/dataset/160190",
+   "src_title": "監察院 111年縣(市)長選舉政治獻金會計報告書(首次申報)（澎湖縣；政府資料開放授權條款第1版）"
+  },
+  "蘇育德": {
+   "income": 483701,
+   "expense": 1587597,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（澎湖縣；政府資料開放授權條款第1版）"
+  },
+  "許國政": {
+   "income": 238809,
+   "expense": 846226,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（澎湖縣；政府資料開放授權條款第1版）"
+  },
+  "廖璟華": {
+   "income": 256614,
+   "expense": 256704,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（澎湖縣；政府資料開放授權條款第1版）"
+  }
+ },
+ "金門縣": {
+  "董森堡": {
+   "income": 194701,
+   "expense": 145740,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（金門縣；政府資料開放授權條款第1版）"
+  },
+  "楊霈璿": {
+   "income": 211783,
+   "expense": 252000,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（金門縣；政府資料開放授權條款第1版）"
+  },
+  "洪允典": {
+   "income": 420000,
+   "expense": 133110,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（金門縣；政府資料開放授權條款第1版）"
+  },
+  "唐麗輝": {
+   "income": 116082,
+   "expense": 1326300,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（金門縣；政府資料開放授權條款第1版）"
+  },
+  "李應文": {
+   "income": 1978620,
+   "expense": 2090153,
+   "src_url": "https://data.gov.tw/dataset/160190",
+   "src_title": "監察院 111年縣(市)長選舉政治獻金會計報告書(首次申報)（金門縣；政府資料開放授權條款第1版）"
+  },
+  "王秀玉": {
+   "income": 306696,
+   "expense": 629453,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（金門縣；政府資料開放授權條款第1版）"
+  },
+  "吳佩雯": {
+   "income": 1403676,
+   "expense": 1475347,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（金門縣；政府資料開放授權條款第1版）"
+  },
+  "蔡水游": {
+   "income": 0,
+   "expense": 0,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（金門縣；政府資料開放授權條款第1版）"
+  },
+  "楊育菡": {
+   "income": 219860,
+   "expense": 600739,
+   "src_url": "https://data.gov.tw/dataset/160187",
+   "src_title": "監察院 111年縣(市)議員選舉政治獻金會計報告書(首次申報)（金門縣；政府資料開放授權條款第1版）"
+  }
+ },
+ "連江縣": {
+  "王忠銘": {
+   "income": 1315306,
+   "expense": 1726814,
+   "src_url": "https://data.gov.tw/dataset/160190",
+   "src_title": "監察院 111年縣(市)長選舉政治獻金會計報告書(首次申報)（連江縣；政府資料開放授權條款第1版）"
+  },
+  "曹爾元": {
+   "income": 2317119,
+   "expense": 2586522,
+   "src_url": "https://data.gov.tw/dataset/160190",
+   "src_title": "監察院 111年縣(市)長選舉政治獻金會計報告書(首次申報)（連江縣；政府資料開放授權條款第1版）"
+  }
+ }
+}

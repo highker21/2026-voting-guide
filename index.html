@@ -189,9 +189,9 @@
     return cands.slice().sort((a, b) => (a.number ?? 1e9) - (b.number ?? 1e9));
   }
   function money(ns, d, incumbent) {
-    if (!d) return `<p class="empty">${incumbent === false ? "非現任，無 2022 年政治獻金資料" : "尚無 2022 年政治獻金資料"}</p>`;
+    if (!d) return `<p class="empty">無 2022 年政治獻金申報資料（2022 年未參選，或未申報、或同名無法確認）</p>`;
     const f = n => n == null ? "—" : Number(n).toLocaleString("zh-TW");
-    return `<p class="money">收入 ${f(d.income)} 元，支出 ${f(d.expense)} 元${srcLinks(ns, d.src)}</p>`;
+    return `<p class="money">收入 ${f(d.income)} 元，支出 ${f(d.expense)} 元${srcLinks(ns, d.src)}<br><small>監察院 111 年政治獻金會計報告書首次申報數字，不含後續更正。</small></p>`;
   }
   function card(ns, c) {
     const num = c.number != null ? `<span class="num">${esc(c.number)}</span>` : `<span class="num none">未抽籤</span>`;

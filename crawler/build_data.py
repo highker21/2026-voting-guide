@@ -132,6 +132,7 @@ def main():
     recl = jload("records_legislator.json", {})
     vhist = jload("village_history.json", {})
     ehist = jload("election_history.json", {})
+    don = jload("donation_2022_B.json", {})
     bio_li = jload("bio_li_self.json", {})
     vil22 = {tuple(k.split("|")[:3]) for k, v in vhist.items() if any(h["year"] == 2022 for h in v)}   # 2022 有選舉的村里
     hist_by_town = defaultdict(list)
@@ -196,8 +197,14 @@ def main():
                     "url": x["src_url"], "accessed": ACCESSED}
             return k
         names26 = Counter(norm(r["name"]) for k in ("1-1", "3-1", "2-1", "4-1") for r in P[k] if r["area"].startswith(cname))
+        def set_don(c):
+            d = don.get(cname, {}).get(c["name"])
+            if d and names26[norm(c["name"])] == 1:
+                k = add_src("G", {"src_url": d["src_url"], "src_title": d["src_title"] + "；首次申報，不含後續更正"})
+                c["donation_2022"] = {"income": d["income"], "expense": d["expense"], "src": [k]}
         for c in mrows:
             c["record"].extend(past_runs(ehist, cname, c["name"], names26[norm(c["name"])]))
+            set_don(c)
         for c in mrows:
             b = biom.get(cname, {}).get(c["name"])
             for x in (b or {}).get("bio", []):
@@ -259,6 +266,7 @@ def main():
                       for i, r in enumerate(groups.get(dist, []))]
             for c in ccands:
                 c["record"].extend(past_runs(ehist, cname, c["name"], names26[norm(c["name"])]))
+                set_don(c)
             for c in ccands:
                 b = bioc.get(cname, {}).get(dist, {}).get(c["name"])
                 for x in (b or {}).get("bio", []):

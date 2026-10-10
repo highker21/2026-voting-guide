@@ -99,7 +99,8 @@ def past_runs(ehist, county, name, dup2026):
             what = f"{county}議員{dist}{tag}"
         res = "當選" if h["elected"] else "未當選"
         num = f"（{h['votes']:,} 票，得票率 {h['rate']:.2f}%）" if h["votes"] is not None else ""
-        out.append({"text": f"{h['year']} 年參選{what}：{res}{num}", "src": ["E"]})
+        note = f"（{h['note']}）" if h.get("note") else ""
+        out.append({"text": f"{h['year']} 年參選{what}{note}：{res}{num}", "src": ["E"]})
     return out
 
 

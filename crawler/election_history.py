@@ -55,6 +55,25 @@ for year, folder in YEARS.items():
                 out.setdefault(key, []).append({"year": int(year), "office": office, "district": dist,
                                                 "party": party.get(r[7], r[7]), "elected": r[14] == "*",
                                                 "votes": votes, "rate": rate})
+# 2022 嘉義市長：原訂 11/26 選舉因候選人死亡停止，12/18 重行選舉，資料在另一個資料夾（只有開票所明細，自行加總）
+d = os.path.join(BASE, "..", "2022年_嘉義市長重行選舉")
+if os.path.exists(os.path.join(d, "prof.csv")):
+    with open(os.path.join(d, "cand.csv"), encoding="utf-8-sig", newline="") as f:
+        cands = list(csv.DictReader(f))
+    with open(os.path.join(d, "prof.csv"), encoding="utf-8-sig", newline="") as f:
+        rows = list(csv.reader(f))
+    head, body = rows[0], [r for r in rows[1:] if r and r[0]]
+    cols = {i: int(h[2:]) for i, h in enumerate(head) if h.startswith("號次")}
+    tot = {n: sum(int(r[i] or 0) for r in body) for i, n in cols.items()}
+    valid = sum(tot.values())
+    top = max(tot, key=tot.get)
+    for c in cands:
+        n = int(c["號次"])
+        key = f"嘉義市|{norm(c['名字'])}"
+        seen[("2022", key)] += 1
+        out.setdefault(key, []).append({"year": 2022, "office": "mayor", "district": "", "note": "重行選舉",
+                                        "party": c["政黨名稱"], "elected": n == top,
+                                        "votes": tot.get(n), "rate": round(tot.get(n, 0) / valid * 100, 2)})
 for key, hs in out.items():
     for h in hs:
         h["dup"] = seen[(str(h["year"]), key)]

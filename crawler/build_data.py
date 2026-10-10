@@ -124,7 +124,7 @@ def main():
     el = jload("elected_2022.json", {})
     recm = jload("records_mayor.json", {})
     biom = jload("bio_mayor.json", {})
-    for f in ("bio_mayor_news_B.json", "bio_mayor_party_B.json"):
+    for f in ("bio_mayor_news_B.json", "bio_mayor_party_B.json", "bio_mayor_party_B2.json"):
       for county, people in jload(f, {}).items():   # 原本查無資料者，以媒體／自述補上
         for name, v in people.items():
             if not biom.get(county, {}).get(name, {}).get("bio"):
@@ -142,7 +142,7 @@ def main():
     for f in ("records_council.json", "records_council_2.json", "records_council_b.json"):
         recc.update(jload(f, {}))
     bioc = {}
-    for f in ("bio_council.json", "bio_council_2.json", "bio_council_news_B.json", "bio_council_news_B2.json", "bio_council_party_B.json", "bio_council_news_B3.json"):
+    for f in ("bio_council.json", "bio_council_2.json", "bio_council_news_B.json", "bio_council_news_B2.json", "bio_council_party_B.json", "bio_council_news_B3.json", "bio_council_party_B2.json"):
         for county, dists in jload(f, {}).items():
             for dist, people in dists.items():
                 tgt = bioc.setdefault(county, {}).setdefault(re.sub(r"（.*）", "", dist), {})

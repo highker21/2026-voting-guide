@@ -4,7 +4,7 @@
 用法：python3 build_data.py   （輸出到 ../data/）
 """
 import json, os, re, shutil
-from collections import defaultdict
+from collections import Counter, defaultdict
 from villages import load as load_villages, fix as fix_name
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -83,6 +83,26 @@ def bio_item(x, sid):
     return item
 
 
+def past_runs(ehist, county, name, dup2026):
+    """縣市長／議員過去三屆參選結果（中選會選舉資料庫）；同年同縣市同名、或今年同縣市同名者不採用。"""
+    if dup2026 > 1:
+        return []
+    out = []
+    for h in sorted(ehist.get(f"{county}|{norm(name)}", []), key=lambda h: -h["year"]):
+        if h["dup"] > 1:
+            continue
+        if h["office"] == "mayor":
+            what = f"{county}{county[-1]}長" if county[-1] == "縣" else f"{county}長"
+        else:
+            dist = re.sub(r"^.{2}[縣市]", "", h["district"])
+            tag = {"council-plain": "（平地原住民）", "council-mountain": "（山地原住民）"}.get(h["office"], "")
+            what = f"{county}議員{dist}{tag}"
+        res = "當選" if h["elected"] else "未當選"
+        num = f"（{h['votes']:,} 票，得票率 {h['rate']:.2f}%）" if h["votes"] is not None else ""
+        out.append({"text": f"{h['year']} 年參選{what}：{res}{num}", "src": ["E"]})
+    return out
+
+
 def party(p):
     return "無政黨推薦" if p in ("", "無") else p
 
@@ -109,6 +129,7 @@ def main():
                 biom.setdefault(county, {})[name] = v
     recl = jload("records_legislator.json", {})
     vhist = jload("village_history.json", {})
+    ehist = jload("election_history.json", {})
     bio_li = jload("bio_li_self.json", {})
     vil22 = {tuple(k.split("|")[:3]) for k, v in vhist.items() if any(h["year"] == 2022 for h in v)}   # 2022 有選舉的村里
     hist_by_town = defaultdict(list)
@@ -172,6 +193,9 @@ def main():
             S[k] = {"title": f"{x['src_title']}（{x['src_date']}）" if x.get("src_date") else x["src_title"],
                     "url": x["src_url"], "accessed": ACCESSED}
             return k
+        names26 = Counter(norm(r["name"]) for k in ("1-1", "3-1", "2-1", "4-1") for r in P[k] if r["area"].startswith(cname))
+        for c in mrows:
+            c["record"].extend(past_runs(ehist, cname, c["name"], names26[norm(c["name"])]))
         for c in mrows:
             b = biom.get(cname, {}).get(c["name"])
             for x in (b or {}).get("bio", []):
@@ -231,6 +255,8 @@ def main():
                 note = [n for n in note if not n.startswith(f"{ind}原住民選舉區：")]
             ccands = [cand(r, sid, f"council-{dnum(dist)}-{i+1}", council_inc(el_council, cname, dist, r["name"]))
                       for i, r in enumerate(groups.get(dist, []))]
+            for c in ccands:
+                c["record"].extend(past_runs(ehist, cname, c["name"], names26[norm(c["name"])]))
             for c in ccands:
                 b = bioc.get(cname, {}).get(dist, {}).get(c["name"])
                 for x in (b or {}).get("bio", []):

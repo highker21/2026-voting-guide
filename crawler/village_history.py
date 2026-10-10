@@ -61,6 +61,7 @@ for year, folder in YEARS.items():
             vil = base.get(k) or base.get((k[0], k[1], "00", k[3], k[4]), "")
             votes, rate = tks.get((k, r[5]), (None, None))
             county, town = fix(county).replace("台", "臺"), fix(town)
+            town = {"頭份鎮": "頭份市", "員林鎮": "員林市"}.get(town, town)   # 2015 年鎮改制為縣轄市
             key = "|".join([county, town, canon_village(county, town, fix(vil)), norm(r[6])])
             out.setdefault(key, []).append({"year": int(year), "elected": r[14] == "*", "votes": votes, "rate": rate})
             n += 1

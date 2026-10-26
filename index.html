@@ -237,7 +237,7 @@
     const issues = Object.keys(ISSUES).filter(id => cands.some(c => (c.platform || []).some(p => p.issue === id)));
     const bar = issues.length ? `<div class="issue-bar"><span>依議題對照：</span>${issues.map(id => `<button data-issue="${esc(id)}">${esc(ISSUES[id])}</button>`).join("")}</div>` : "";
     el.innerHTML = `<div class="race-head"><h2>${esc(race.name)}</h2>
-      <div class="meta">${esc(race.type)}｜${esc(race.area)}｜應選 ${esc(race.seats)} 名｜登記 ${cands.length} 人${race.note ? "｜" + esc(race.note) : ""}</div></div>
+      <div class="meta">${esc(race.type)}｜${esc(race.area)}｜應選 ${esc(race.seats)} 名｜${cands.length} 位候選人${race.note ? "｜" + esc(race.note) : ""}</div></div>
       ${bar}<div class="cmp"></div>
       <div class="cards">${(() => { const shown = ordered(cands).filter(c => !PARTY || c.party === PARTY); return shown.map(c => card(ns, c, race)).join("") || (cands.length && PARTY ? `<p class="empty">此選舉沒有「${esc(PARTY)}」的參選人</p>` : '<p class="empty">尚無登記資料</p>'); })()}</div>`;
     el.querySelectorAll(".issue-bar button").forEach(b => b.addEventListener("click", () => {

@@ -9,8 +9,8 @@ from villages import load as load_villages, fix as fix_name
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "data")
-UPDATED = "2026-10-09"
-STAGE = "登記階段（中選會 115/09/07 製表，尚未審定）"
+UPDATED = "2026-10-27"
+STAGE = "已審定（中選會 115/10/16 審定候選人資格；號次尚未公布）"
 CEC_PAGE = "https://web.cec.gov.tw/central/article/64709"
 PDF = {  # 中選會 64709 附件
     "1-1": ("115年直轄市長選舉候選人登記彙總表", "https://web.cec.gov.tw/api/file/bb9a8d7a-9b8a-41ec-8e23-33efd009385a.pdf"),
@@ -161,6 +161,9 @@ def main():
     el_village = {(x["county"], x["town"], x["village"], norm(x["name"])) for x in el.get("village", [])}
     el_has_village = {x["county"] for x in el.get("village", [])}
     P = {k: jload(f"parsed/cec_{k}.json") for k in PDF}
+    # 115/10/16 中選會審定不符資格者：縣市＋選區＋姓名三鍵比對，從名單移除並在選區註明（不寫理由）
+    DQ = jload("cec_disqualified_20261016.json", {"council": []})
+    dq_council = {tuple(x) for x in DQ["council"]}
 
     towns_of = defaultdict(list)
     vil_of = defaultdict(list)
@@ -248,9 +251,16 @@ def main():
         if dm.get("src"):
             S["D"] = {"title": dm.get("src_title") or f"{cname}議員選舉區劃分", "url": dm["src"], "accessed": ACCESSED}
         groups = defaultdict(list)
+        dq_of = defaultdict(list)
+        seq = defaultdict(int)
         for r in P[ck]:
             if r["area"].startswith(cname):
-                groups[r["area"][len(cname):]].append(r)
+                dist_ = r["area"][len(cname):]
+                seq[dist_] += 1   # 候選人 id 照登記名冊序號，移除不符者後其他人的 id 不變（舊連結仍有效）
+                if (cname, dist_, r["name"]) in dq_council:
+                    dq_of[dist_].append(r["name"])
+                    continue
+                groups[dist_].append(dict(r, _seq=seq[dist_]))
         def dnum(k):
             m = re.search(r"\d+", k)
             return int(m.group()) if m else 999
@@ -265,14 +275,17 @@ def main():
                 note.append(info["note"])
             if not info:
                 note.append("本選區涵蓋的鄉鎮市區尚待補上。")
+            if dq_of.get(dist):
+                S["Q"] = DQ["src"]
+                note.append(f"{'、'.join(dq_of[dist])}未通過中選會 115/10/16 候選人資格審定，已自本選區名單移除。")
             ind = info.get("indigenous")
             area = "、".join(info.get("towns", []))
             if ind:
                 area = f"{ind}原住民選舉人" + (f"（設籍：{area}）" if area else f"（全{cname[-1]}）")
                 note.insert(0, f"僅具{ind}原住民身分的選舉人投這一區，其他選舉人投一般選區。")
                 note = [n for n in note if not n.startswith(f"{ind}原住民選舉區：")]
-            ccands = [cand(r, sid, f"council-{dnum(dist)}-{i+1}", council_inc(el_council, cname, dist, r["name"]))
-                      for i, r in enumerate(groups.get(dist, []))]
+            ccands = [cand(r, sid, f"council-{dnum(dist)}-{r['_seq']}", council_inc(el_council, cname, dist, r["name"]))
+                      for r in groups.get(dist, [])]
             for c in ccands:
                 c["record"].extend(past_runs(ehist, cname, c["name"], names26[norm(c["name"])]))
                 set_don(c)

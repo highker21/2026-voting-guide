@@ -1,17 +1,17 @@
 {
  "title": "2026 投票指南",
- "updated": "2026-10-09",
+ "updated": "2026-10-27",
  "vote_date": "2026-11-28（六）",
  "counties": [
   {
    "code": "taipei",
    "name": "臺北市",
    "file": "taipei.json",
-   "stage": "登記階段（中選會 115/09/07 製表，尚未審定）",
-   "updated": "2026-10-09",
+   "stage": "已審定（中選會 115/10/16 審定候選人資格；號次尚未公布）",
+   "updated": "2026-10-27",
    "counts": {
     "mayor": 6,
-    "council": 98,
+    "council": 97,
     "village": 818
    },
    "addr_index": true
@@ -20,11 +20,11 @@
    "code": "new-taipei",
    "name": "新北市",
    "file": "new-taipei.json",
-   "stage": "登記階段（中選會 115/09/07 製表，尚未審定）",
-   "updated": "2026-10-09",
+   "stage": "已審定（中選會 115/10/16 審定候選人資格；號次尚未公布）",
+   "updated": "2026-10-27",
    "counts": {
     "mayor": 3,
-    "council": 112,
+    "council": 111,
     "village": 1659
    },
    "addr_index": true
@@ -33,11 +33,11 @@
    "code": "taoyuan",
    "name": "桃園市",
    "file": "taoyuan.json",
-   "stage": "登記階段（中選會 115/09/07 製表，尚未審定）",
-   "updated": "2026-10-09",
+   "stage": "已審定（中選會 115/10/16 審定候選人資格；號次尚未公布）",
+   "updated": "2026-10-27",
    "counts": {
     "mayor": 2,
-    "council": 109,
+    "council": 108,
     "village": 947
    },
    "addr_index": true
@@ -46,11 +46,11 @@
    "code": "taichung",
    "name": "臺中市",
    "file": "taichung.json",
-   "stage": "登記階段（中選會 115/09/07 製表，尚未審定）",
-   "updated": "2026-10-09",
+   "stage": "已審定（中選會 115/10/16 審定候選人資格；號次尚未公布）",
+   "updated": "2026-10-27",
    "counts": {
     "mayor": 3,
-    "council": 102,
+    "council": 101,
     "village": 1121
    },
    "addr_index": true
@@ -59,11 +59,11 @@
    "code": "tainan",
    "name": "臺南市",
    "file": "tainan.json",
-   "stage": "登記階段（中選會 115/09/07 製表，尚未審定）",
-   "updated": "2026-10-09",
+   "stage": "已審定（中選會 115/10/16 審定候選人資格；號次尚未公布）",
+   "updated": "2026-10-27",
    "counts": {
     "mayor": 4,
-    "council": 88,
+    "council": 87,
     "village": 1187
    },
    "addr_index": true
@@ -72,8 +72,8 @@
    "code": "kaohsiung",
    "name": "高雄市",
    "file": "kaohsiung.json",
-   "stage": "登記階段（中選會 115/09/07 製表，尚未審定）",
-   "updated": "2026-10-09",
+   "stage": "已審定（中選會 115/10/16 審定候選人資格；號次尚未公布）",
+   "updated": "2026-10-27",
    "counts": {
     "mayor": 5,
     "council": 101,
@@ -85,11 +85,11 @@
    "code": "keelung",
    "name": "基隆市",
    "file": "keelung.json",
-   "stage": "登記階段（中選會 115/09/07 製表，尚未審定）",
-   "updated": "2026-10-09",
+   "stage": "已審定（中選會 115/10/16 審定候選人資格；號次尚未公布）",
+   "updated": "2026-10-27",
    "counts": {
     "mayor": 3,
-    "council": 60,
+    "council": 59,
     "village": 276
    },
    "addr_index": false
@@ -98,8 +98,8 @@
    "code": "hsinchu-city",
    "name": "新竹市",
    "file": "hsinchu-city.json",
-   "stage": "登記階段（中選會 115/09/07 製表，尚未審定）",
-   "updated": "2026-10-09",
+   "stage": "已審定（中選會 115/10/16 審定候選人資格；號次尚未公布）",
+   "updated": "2026-10-27",
    "counts": {
     "mayor": 3,
     "council": 56,
@@ -111,8 +111,8 @@
    "code": "chiayi-city",
    "name": "嘉義市",
    "file": "chiayi-city.json",
-   "stage": "登記階段（中選會 115/09/07 製表，尚未審定）",
-   "updated": "2026-10-09",
+   "stage": "已審定（中選會 115/10/16 審定候選人資格；號次尚未公布）",
+   "updated": "2026-10-27",
    "counts": {
     "mayor": 5,
     "council": 37,
@@ -124,8 +124,8 @@
    "code": "hsinchu-county",
    "name": "新竹縣",
    "file": "hsinchu-county.json",
-   "stage": "登記階段（中選會 115/09/07 製表，尚未審定）",
-   "updated": "2026-10-09",
+   "stage": "已審定（中選會 115/10/16 審定候選人資格；號次尚未公布）",
+   "updated": "2026-10-27",
    "counts": {
     "mayor": 3,
     "council": 68,
@@ -137,8 +137,8 @@
    "code": "miaoli",
    "name": "苗栗縣",
    "file": "miaoli.json",
-   "stage": "登記階段（中選會 115/09/07 製表，尚未審定）",
-   "updated": "2026-10-09",
+   "stage": "已審定（中選會 115/10/16 審定候選人資格；號次尚未公布）",
+   "updated": "2026-10-27",
    "counts": {
     "mayor": 2,
     "council": 56,
@@ -150,8 +150,8 @@
    "code": "changhua",
    "name": "彰化縣",
    "file": "changhua.json",
-   "stage": "登記階段（中選會 115/09/07 製表，尚未審定）",
-   "updated": "2026-10-09",
+   "stage": "已審定（中選會 115/10/16 審定候選人資格；號次尚未公布）",
+   "updated": "2026-10-27",
    "counts": {
     "mayor": 4,
     "council": 86,
@@ -163,8 +163,8 @@
    "code": "nantou",
    "name": "南投縣",
    "file": "nantou.json",
-   "stage": "登記階段（中選會 115/09/07 製表，尚未審定）",
-   "updated": "2026-10-09",
+   "stage": "已審定（中選會 115/10/16 審定候選人資格；號次尚未公布）",
+   "updated": "2026-10-27",
    "counts": {
     "mayor": 2,
     "council": 61,
@@ -176,11 +176,11 @@
    "code": "yunlin",
    "name": "雲林縣",
    "file": "yunlin.json",
-   "stage": "登記階段（中選會 115/09/07 製表，尚未審定）",
-   "updated": "2026-10-09",
+   "stage": "已審定（中選會 115/10/16 審定候選人資格；號次尚未公布）",
+   "updated": "2026-10-27",
    "counts": {
     "mayor": 4,
-    "council": 73,
+    "council": 72,
     "village": 733
    },
    "addr_index": true
@@ -189,11 +189,11 @@
    "code": "chiayi-county",
    "name": "嘉義縣",
    "file": "chiayi-county.json",
-   "stage": "登記階段（中選會 115/09/07 製表，尚未審定）",
-   "updated": "2026-10-09",
+   "stage": "已審定（中選會 115/10/16 審定候選人資格；號次尚未公布）",
+   "updated": "2026-10-27",
    "counts": {
     "mayor": 2,
-    "council": 53,
+    "council": 52,
     "village": 625
    },
    "addr_index": true
@@ -202,8 +202,8 @@
    "code": "pingtung",
    "name": "屏東縣",
    "file": "pingtung.json",
-   "stage": "登記階段（中選會 115/09/07 製表，尚未審定）",
-   "updated": "2026-10-09",
+   "stage": "已審定（中選會 115/10/16 審定候選人資格；號次尚未公布）",
+   "updated": "2026-10-27",
    "counts": {
     "mayor": 2,
     "council": 87,
@@ -215,8 +215,8 @@
    "code": "yilan",
    "name": "宜蘭縣",
    "file": "yilan.json",
-   "stage": "登記階段（中選會 115/09/07 製表，尚未審定）",
-   "updated": "2026-10-09",
+   "stage": "已審定（中選會 115/10/16 審定候選人資格；號次尚未公布）",
+   "updated": "2026-10-27",
    "counts": {
     "mayor": 5,
     "council": 59,
@@ -228,11 +228,11 @@
    "code": "hualien",
    "name": "花蓮縣",
    "file": "hualien.json",
-   "stage": "登記階段（中選會 115/09/07 製表，尚未審定）",
-   "updated": "2026-10-09",
+   "stage": "已審定（中選會 115/10/16 審定候選人資格；號次尚未公布）",
+   "updated": "2026-10-27",
    "counts": {
     "mayor": 4,
-    "council": 55,
+    "council": 54,
     "village": 376
    },
    "addr_index": true
@@ -241,8 +241,8 @@
    "code": "taitung",
    "name": "臺東縣",
    "file": "taitung.json",
-   "stage": "登記階段（中選會 115/09/07 製表，尚未審定）",
-   "updated": "2026-10-09",
+   "stage": "已審定（中選會 115/10/16 審定候選人資格；號次尚未公布）",
+   "updated": "2026-10-27",
    "counts": {
     "mayor": 4,
     "council": 56,
@@ -254,8 +254,8 @@
    "code": "penghu",
    "name": "澎湖縣",
    "file": "penghu.json",
-   "stage": "登記階段（中選會 115/09/07 製表，尚未審定）",
-   "updated": "2026-10-09",
+   "stage": "已審定（中選會 115/10/16 審定候選人資格；號次尚未公布）",
+   "updated": "2026-10-27",
    "counts": {
     "mayor": 6,
     "council": 36,
@@ -267,11 +267,11 @@
    "code": "kinmen",
    "name": "金門縣",
    "file": "kinmen.json",
-   "stage": "登記階段（中選會 115/09/07 製表，尚未審定）",
-   "updated": "2026-10-09",
+   "stage": "已審定（中選會 115/10/16 審定候選人資格；號次尚未公布）",
+   "updated": "2026-10-27",
    "counts": {
     "mayor": 7,
-    "council": 35,
+    "council": 34,
     "village": 75
    },
    "addr_index": true
@@ -280,8 +280,8 @@
    "code": "lienchiang",
    "name": "連江縣",
    "file": "lienchiang.json",
-   "stage": "登記階段（中選會 115/09/07 製表，尚未審定）",
-   "updated": "2026-10-09",
+   "stage": "已審定（中選會 115/10/16 審定候選人資格；號次尚未公布）",
+   "updated": "2026-10-27",
    "counts": {
     "mayor": 2,
     "council": 14,

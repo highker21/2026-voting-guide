@@ -146,7 +146,7 @@
   <section id="sources"></section>
   <footer>
     改作自 <a href="https://github.com/g0v/2020voting-guide">g0v 2020voting-guide</a>（CC BY-NC 3.0 TW），僅供非商業使用。資料整理：個人製作，非任何政黨或候選人製作。<br>
-    工具版本：2026-10-09
+    工具版本：2026-10-27
   </footer>
 </div>
 <script>
@@ -304,7 +304,7 @@
         ...mayorRaces.map(r => [r.name, `應選 1 名`, r, "mayor"]),
         ...general.map(r => [r.name, `應選 ${r.seats ?? "?"} 名`, r, "council"]),
         ...liRaces.map(r => [r.name, "應選 1 名", r, "li"]),
-      ].map(([t, sub, r, tab]) => `<div class="vrow"><div class="vhead">${esc(t)}<small>${esc(sub)}｜${(r.candidates || []).length} 人登記</small></div><div class="vchips">${ordered(r.candidates || []).map(c => chip(r, c, tab)).join("") || '<span class="empty">無人登記</span>'}</div></div>`).join("");
+      ].map(([t, sub, r, tab]) => `<div class="vrow"><div class="vhead">${esc(t)}<small>${esc(sub)}｜${(r.candidates || []).length} 位候選人</small></div><div class="vchips">${ordered(r.candidates || []).map(c => chip(r, c, tab)).join("") || '<span class="empty">無人登記</span>'}</div></div>`).join("");
       main.insertAdjacentHTML("beforeend", `<section class="ballot"><h2>🗳️ ${esc(town)}${esc(village)} 的選票</h2>${rowsHtml}<p class="qnote">具原住民身分的選民，議員改投原住民選區（見「議員」分頁）。<span class="noprint">點姓名可看詳細資料。</span></p></section>`);
       main.querySelectorAll(".ballot .vchip").forEach(b => b.addEventListener("click", () => {
         TAB = b.dataset.tab; FOCUS = b.dataset.cid; setHash(); render();
@@ -400,7 +400,7 @@
       const [name, party, code, race] = x.r;
       return `<li tabindex="0" data-i="${i}"><span class="qn">${esc(name)}</span>　${esc(party)}<span class="qm">${esc(race.startsWith(countyName(code)) ? race : countyName(code) + " " + race)}</span></li>`;
     }).join("") + (hits.length > LIM ? `<li class="more">共 ${hits.length} 筆，只列前 ${LIM} 筆，請輸入更完整的姓名</li>` : "")
-      : '<li class="more">查無符合的候選人（目前名單為登記階段）</li>';
+      : '<li class="more">查無符合的候選人（目前名單為中選會審定後名單）</li>';
     box.querySelectorAll("li[data-i]").forEach(li => {
       const go = () => {
         const [, , code, , tab, t, v, cid] = hits[+li.dataset.i].r;

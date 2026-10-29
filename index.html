@@ -146,7 +146,7 @@
   <section id="sources"></section>
   <footer>
     改作自 <a href="https://github.com/g0v/2020voting-guide">g0v 2020voting-guide</a>（CC BY-NC 3.0 TW），僅供非商業使用。資料整理：個人製作，非任何政黨或候選人製作。<br>
-    工具版本：2026-10-27
+    工具版本：2026-10-29
   </footer>
 </div>
 <script>
@@ -205,7 +205,7 @@
     return `"${c.name}" ${office}`;
   }
   function card(ns, c, race) {
-    const num = c.number != null ? `<span class="num">${esc(c.number)}</span>` : `<span class="num none">未抽籤</span>`;
+    const num = c.number != null ? `<span class="num">${esc(c.number)}</span>` : `<span class="num none">號次待補</span>`;
     const party = c.party ? esc(c.party) : "政黨：資料未填";
     const links = (c.links || []).map(l => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)}</a>`).join("");
     const gq = "https://news.google.com/search?hl=zh-TW&gl=TW&ceid=TW:zh-Hant&q=" + encodeURIComponent(newsQuery(c, race));
@@ -213,7 +213,7 @@
     const newsHtml = `<details${curated ? " open" : ""}><summary>相關新聞</summary>${curated ? `<ul class="news">${curated}</ul><p class="qnote">報導標題與連結由整理者收錄，不代表本頁立場；同名者請自行判斷。</p>` : ""}<p class="newslink"><a href="${gq}" target="_blank" rel="noopener">🔎 在 Google 新聞查「${esc(newsQuery(c, race))}」</a></p></details>`;
     return `<article class="card" data-cid="${esc(c.id)}">
       <header>${num}<span class="name">${esc(c.name)}</span><span class="party">${party}</span>${c.incumbent ? '<span class="tag" title="依中選會 2022 當選名單；任內補選、解職未計入">2022 當選</span>' : ""}</header>
-      ${c.reg ? `<p class="reg">${c.reg.date} 登記參選${srcLinks(ns, c.reg.src)}${c.incumbent == null ? "｜是否現任：尚未比對" : ""}</p>` : ""}
+      ${c.reg ? `<p class="reg">${c.reg.date} 登記參選${srcLinks(ns, c.reg.src)}${c.incumbent == null ? "｜是否現任：尚未比對" : ""}${c.number != null ? `｜號次 ${esc(c.number)}${srcLinks(ns, c.number_src)}${c.number_note ? `（${esc(c.number_note)}）` : ""}` : ""}</p>` : ""}
       <details open><summary>經歷</summary>${factList(ns, c.bio, false, PENDING)}</details>
       ${c.incumbent ? `<details open><summary>任內政績</summary>${factList(ns, c.record, false, "尚無任內政績資料")}</details>` : `<details><summary>過去紀錄</summary>${factList(ns, c.record, false)}</details>`}
       <details><summary>政見</summary>${factList(ns, c.platform, true, PENDING)}</details>

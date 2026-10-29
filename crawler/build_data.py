@@ -9,8 +9,11 @@ from villages import load as load_villages, fix as fix_name
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "data")
-UPDATED = "2026-10-27"
+UPDATED = "2026-10-29"
 STAGE = "已審定（中選會 115/10/16 審定候選人資格；號次尚未公布）"
+STAGE_LI = "已審定；村里長號次已抽籤，本站尚未整理（請以選委會公告或選舉公報為準）"
+BALLOT = "ballot_numbers_20261027.json"   # 縣市長／議員號次（各選委會公告；未公告者依媒體報導）
+NEWS_NOTE = "依媒體報導，待選委會公告"
 CEC_PAGE = "https://web.cec.gov.tw/central/article/64709"
 PDF = {  # 中選會 64709 附件
     "1-1": ("115年直轄市長選舉候選人登記彙總表", "https://web.cec.gov.tw/api/file/bb9a8d7a-9b8a-41ec-8e23-33efd009385a.pdf"),
@@ -33,7 +36,7 @@ COUNTIES = [  # (名稱, code, 直轄市?)
 TIMELINE = [  # 中選會 115 年地方選舉工作進行程序表（全國一致的節點）
     ("2026-08-31～09-04", "候選人登記"),
     ("2026-10-16 前", "候選人資格審定"),
-    ("2026-10-23", "號次抽籤（依各選委會公告）"),
+    ("2026-10-23 → 10-27", "號次抽籤（原訂 10-23；因薔琵颱風，金門以外延至 10-27）"),
     ("2026-11-17～11-22 前", "候選人名單公告（依選舉種類不同）"),
     ("2026-11-18 前後", "選舉公報發送（學經歷、政見）"),
     ("2026-11-28（六）", "投票日"),
@@ -133,6 +136,7 @@ def main():
     vhist = jload("village_history.json", {})
     ehist = jload("election_history.json", {})
     don = jload("donation_2022_B.json", {})
+    ballot = jload(BALLOT, {"sources": {}, "numbers": {}})
     news = {}
     for f in ("news_B.json", "news_B2.json", "news_B3.json"):
         for county, people in jload(f, {}).items():
@@ -164,6 +168,9 @@ def main():
     # 115/10/16 中選會審定不符資格者：縣市＋選區＋姓名三鍵比對，從名單移除並在選區註明（不寫理由）
     DQ = jload("cec_disqualified_20261016.json", {"council": []})
     dq_council = {tuple(x) for x in DQ["council"]}
+    RE = jload("cec_reinstated_20261022.json", {"council": []})
+    re_council = {tuple(x[:3]): x[3] for x in RE["council"]}
+    dq_council -= set(re_council)   # 法院裁定暫列者放回名單
 
     towns_of = defaultdict(list)
     vil_of = defaultdict(list)
@@ -178,6 +185,7 @@ def main():
     os.makedirs(OUT)
     index = []
     nvb = 0
+    stage_of = {}
     search = []  # [姓名, 政黨, code, 選舉名稱, 分頁, 鄉鎮市區, 村里, 候選人 id]
     for cname, code, special in COUNTIES:
         S = {}
@@ -252,11 +260,14 @@ def main():
             S["D"] = {"title": dm.get("src_title") or f"{cname}議員選舉區劃分", "url": dm["src"], "accessed": ACCESSED}
         groups = defaultdict(list)
         dq_of = defaultdict(list)
+        re_of = defaultdict(list)
         seq = defaultdict(int)
         for r in P[ck]:
             if r["area"].startswith(cname):
                 dist_ = r["area"][len(cname):]
                 seq[dist_] += 1   # 候選人 id 照登記名冊序號，移除不符者後其他人的 id 不變（舊連結仍有效）
+                if (cname, dist_, r["name"]) in re_council:
+                    re_of[dist_].append(f"{r['name']}：{re_council[(cname, dist_, r['name'])]}")
                 if (cname, dist_, r["name"]) in dq_council:
                     dq_of[dist_].append(r["name"])
                     continue
@@ -278,6 +289,9 @@ def main():
             if dq_of.get(dist):
                 S["Q"] = DQ["src"]
                 note.append(f"{'、'.join(dq_of[dist])}未通過中選會 115/10/16 候選人資格審定，已自本選區名單移除。")
+            if re_of.get(dist):
+                S["QR"] = RE["src"]
+                note.append(f"{'；'.join(re_of[dist])}。原未通過中選會 115/10/16 資格審定，依裁定列回本選區名單。")
             ind = info.get("indigenous")
             area = "、".join(info.get("towns", []))
             if ind:
@@ -314,12 +328,36 @@ def main():
                           "area": area or "（涵蓋範圍待補）", "seats": info.get("seats"),
                           "districts": info.get("towns", []), "note": " ".join(note),
                           "candidates": ccands})
+        # 號次：縣市＋選區 id＋登記姓名對應；來源各自列入 sources（N_<代碼>）
+        bn = ballot["numbers"].get(cname, {})
+        nnum = nnews = 0
+        for r in races:
+            for c in r["candidates"]:
+                hit = bn.get(r["id"], {}).get(c["name"])
+                if not hit:
+                    continue
+                c["number"] = hit[0]
+                c["number_src"] = []
+                for k in hit[1]:
+                    S["N_" + k] = {kk: v for kk, v in ballot["sources"][k].items() if kk != "official"}
+                    c["number_src"].append("N_" + k)
+                nnum += 1
+                if not all(ballot["sources"][k]["official"] for k in hit[1]):
+                    c["number_note"] = NEWS_NOTE
+                    nnews += 1
+        ntotal = sum(len(r["candidates"]) for r in races)
+        if nnum == 0:
+            stage = STAGE
+        else:
+            how = "依選委會公告" if nnews == 0 else ("依媒體報導，待選委會公告" if nnews == nnum else "部分依媒體報導，待選委會公告")
+            stage = f"號次已抽定（{how}" + ("" if nnum == ntotal else f"；尚有 {ntotal - nnum} 位議員號次待補") + "）"
+        stage_of[cname] = stage
         for r in races:
             t = "" if r["id"] == "mayor" else (r.get("districts") or [""])[0]
             for c in r["candidates"]:
                 if not c.get("name_unreadable"):
                     search.append([c["name"], c["party"], code, r["name"], "mayor" if r["id"] == "mayor" else "council", t, "", c["id"]])
-        meta = {"title": f"2026 {cname}投票指南", "county": cname, "code": code, "updated": UPDATED, "stage": STAGE,
+        meta = {"title": f"2026 {cname}投票指南", "county": cname, "code": code, "updated": UPDATED, "stage": stage,
                 "vote_date": "2026-11-28", "timeline": [{"date": d, "item": t, "src": ["T"]} for d, t in TIMELINE]}
         json.dump({"meta": meta, "sources": S, "towns": towns_of[cname], "races": races},
                   open(os.path.join(OUT, f"{code}.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
@@ -383,7 +421,7 @@ def main():
                 for c in lraces[-1]["candidates"]:
                     if not c.get("name_unreadable"):
                         search.append([c["name"], c["party"], code, f"{cname}{town}{vil}{vil[-1]}長", "li", town, vil, c["id"]])
-            json.dump({"meta": {"county": cname, "town": town, "updated": UPDATED, "stage": STAGE}, "sources": S9, "races": lraces},
+            json.dump({"meta": {"county": cname, "town": town, "updated": UPDATED, "stage": STAGE_LI if nnum else STAGE}, "sources": S9, "races": lraces},
                       open(os.path.join(OUT, code, f"li-{town}.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
         # 村里界圖（內政部國土測繪中心，data.gov.tw 7438；mapshaper 簡化 12%）→ 給地址定位在瀏覽器內判斷村里
         for town in towns_of[cname]:
@@ -410,7 +448,7 @@ def main():
                          if ft["geometry"] and (ft["properties"]["VILLNAME"] or "").strip()]
                 json.dump(feats, open(os.path.join(OUT, code, f"vb-{town}.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
                 nvb += 1
-        index.append({"code": code, "name": cname, "file": f"{code}.json", "stage": STAGE, "updated": UPDATED,
+        index.append({"code": code, "name": cname, "file": f"{code}.json", "stage": stage, "updated": UPDATED,
                       "counts": {"mayor": len(races[0]["candidates"]), "council": sum(len(r["candidates"]) for r in races[1:]),
                                  "village": nli}})
     # 門牌 → 村里索引（各縣市開放門牌資料；crawler/addr_index/<code>/<區>.json）

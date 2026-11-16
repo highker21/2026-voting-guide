@@ -146,7 +146,7 @@
   <section id="sources"></section>
   <footer>
     改作自 <a href="https://github.com/g0v/2020voting-guide">g0v 2020voting-guide</a>（CC BY-NC 3.0 TW），僅供非商業使用。資料整理：個人製作，非任何政黨或候選人製作。<br>
-    工具版本：2026-10-29
+    工具版本：2026-11-16
   </footer>
 </div>
 <script>
@@ -182,7 +182,7 @@
     }).join("");
   }
   function factItem(ns, f, withIssue) {
-    const lab = withIssue && f.issue ? `<span class="issue-label">${esc(ISSUES[f.issue] || f.issue)}</span>` : "";
+    const lab = (withIssue && f.issue ? `<span class="issue-label">${esc(ISSUES[f.issue] || f.issue)}</span>` : "") + (f.tag ? `<span class="issue-label">${esc(f.tag)}</span>` : "");
     const un = f.official === false ? `<span class="unoff">媒體報導，未經官方確認</span>` : "";
     const self = f.label ? `<span class="unoff">${esc(f.label)}</span>` : (f.self === true ? `<span class="unoff">候選人自述</span>` : "");
     return `<li>${lab}${esc(f.text)}${srcLinks(ns, f.src)}${self}${un}</li>`;
@@ -214,7 +214,7 @@
     return `<article class="card" data-cid="${esc(c.id)}">
       <header>${num}<span class="name">${esc(c.name)}</span><span class="party">${party}</span>${c.incumbent ? '<span class="tag" title="依中選會 2022 當選名單；任內補選、解職未計入">2022 當選</span>' : ""}</header>
       ${c.reg ? `<p class="reg">${c.reg.date} 登記參選${srcLinks(ns, c.reg.src)}${c.incumbent == null ? "｜是否現任：尚未比對" : ""}${c.number != null ? `｜號次 ${esc(c.number)}${srcLinks(ns, c.number_src)}${c.number_note ? `（${esc(c.number_note)}）` : ""}` : ""}</p>` : ""}
-      <details open><summary>經歷</summary>${factList(ns, c.bio, false, PENDING)}</details>
+      <details open><summary>學經歷</summary>${factList(ns, c.bio, false, PENDING)}</details>
       ${c.incumbent ? `<details open><summary>任內政績</summary>${factList(ns, c.record, false, "尚無任內政績資料")}</details>` : `<details><summary>過去紀錄</summary>${factList(ns, c.record, false)}</details>`}
       <details><summary>政見</summary>${factList(ns, c.platform, true, PENDING)}</details>
       <details><summary>2022 政治獻金</summary>${money(ns, c.donation_2022, c.incumbent)}</details>

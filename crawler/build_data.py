@@ -9,10 +9,12 @@ from villages import load as load_villages, fix as fix_name
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "data")
-UPDATED = "2026-10-29"
+UPDATED = "2026-11-16"
 STAGE = "已審定（中選會 115/10/16 審定候選人資格；號次尚未公布）"
 STAGE_LI = "已審定；村里長號次已抽籤，本站尚未整理（請以選委會公告或選舉公報為準）"
-BALLOT = "ballot_numbers_20261027.json"   # 縣市長／議員號次（各選委會公告；未公告者依媒體報導）
+BALLOT = "ballot_numbers_20261027.json"
+BULLETIN = "bulletin_115.json"   # 115 年選舉公報（parse_bulletin → match_bulletin → ocr_check_bulletin → finalize_bulletin）
+BUL_ACCESSED = "2026-11-16"   # 縣市長／議員號次（各選委會公告；未公告者依媒體報導）
 NEWS_NOTE = "依媒體報導，待選委會公告"
 CEC_PAGE = "https://web.cec.gov.tw/central/article/64709"
 PDF = {  # 中選會 64709 附件
@@ -38,7 +40,7 @@ TIMELINE = [  # 中選會 115 年地方選舉工作進行程序表（全國一�
     ("2026-10-16 前", "候選人資格審定"),
     ("2026-10-23 → 10-27", "號次抽籤（原訂 10-23；因薔琵颱風，金門以外延至 10-27）"),
     ("2026-11-17～11-22 前", "候選人名單公告（依選舉種類不同）"),
-    ("2026-11-18 前後", "選舉公報發送（學經歷、政見）"),
+    ("2026-11-16", "中選會選舉公報上網（學經歷、政見）"),
     ("2026-11-28（六）", "投票日"),
 ]
 TIMELINE_SRC = ("中選會：115年地方公職人員選舉投票日及工作進行程序表", "https://web.cec.gov.tw/central/article/61722")
@@ -137,6 +139,8 @@ def main():
     ehist = jload("election_history.json", {})
     don = jload("donation_2022_B.json", {})
     ballot = jload(BALLOT, {"sources": {}, "numbers": {}})
+    bul = jload(BULLETIN, {"cards": {}, "files": {}})
+    bulnum = jload("bulletin_115_ocrnum.json", {"confirmed": {}})["confirmed"]   # 圖檔公報：整頁 OCR 讀到的號次，只收與本站一致者
     news = {}
     for f in ("news_B.json", "news_B2.json", "news_B3.json"):
         for county, people in jload(f, {}).items():
@@ -345,12 +349,68 @@ def main():
                 if not all(ballot["sources"][k]["official"] for k in hit[1]):
                     c["number_note"] = NEWS_NOTE
                     nnews += 1
+        # 選舉公報：學歷、經歷、政見（候選人自填，選委會編印）；號次補缺
+        def psrc(url, fname):
+            for key, v in S.items():
+                if key.startswith("P") and v["url"] == url:
+                    return key
+            k = f"P{len([1 for key in S if key.startswith('P')]) + 1}"
+            S[k] = {"title": f"115 年選舉公報（中選會）：{fname}", "url": url, "accessed": BUL_ACCESSED}
+            return k
+        for r in races:
+            for c in r["candidates"]:
+                b = bul["cards"].get(f"{cname}|{r['id']}|{c['id']}")
+                if not b:
+                    bn_ = bulnum.get(f"{cname}|{r['id']}|{c['id']}")
+                    if bn_ and c["number"] == bn_["num"]:   # 公報影像上的號次與本站一致：改以公報為出處
+                        k = psrc(bn_["url"], bn_["fname"])
+                        c["number_src"] = [k] + [x for x in c.get("number_src", []) if x not in ("N_" + q for q in ballot["sources"] if not ballot["sources"][q]["official"])]
+                        if c.pop("number_note", None):
+                            nnews -= 1
+                    fl = bul["files"].get(f"{cname}|{r['id']}", [])
+                    if fl:
+                        ks = [psrc(x["url"], x["name"]) for x in fl]
+                        c["platform"] = [{"text": "公報已刊登，但這份 PDF 是圖片或字型無法轉成文字，本站未轉載學經歷與政見；請開公報原檔查看。", "src": ks, "tag": "選舉公報"}]
+                    continue
+                k = psrc(b["url"], b["fname"])
+                pg = f"第 {b['page']} 頁" if b.get("pages", 1) > 1 else ""
+                items = []
+                for field, tag in (("edu", "學歷"), ("exp", "經歷")):
+                    if b["ok"][field]:
+                        items += [{"text": t, "src": [k], "tag": tag} for t in b[field]]
+                    elif b[field] or b["img"][field]:
+                        items.append({"text": f"（公報此欄{'為圖片' if b['img'][field] else '的 PDF 文字與畫面不一致'}，本站未轉載；請見公報原檔{pg}）", "src": [k], "tag": tag})
+                if items:   # 公報（候選人自填、選委會編印）取代先前從媒體、自述、舊公報整理的經歷
+                    c["bio"] = items
+                pl = [{"text": t, "src": [k]} for t in b["platform"]] if b["ok"]["platform"] else []
+                if b["platform"] and not b["ok"]["platform"]:
+                    pl.append({"text": f"（公報政見的 PDF 文字與畫面不一致，本站未轉載；請見公報原檔{pg}）", "src": [k]})
+                if b["img"]["platform"]:
+                    pl.append({"text": f"（政見{'部分' if pl else ''}以圖片刊登，本站未轉成文字；請見公報原檔{pg}）", "src": [k]})
+                if not pl:
+                    pl.append({"text": f"（公報政見欄空白；請見公報原檔{pg}）", "src": [k]})
+                for x in pl:
+                    x["tag"] = "選舉公報"
+                c["platform"] = pl
+                if b.get("num") is not None:
+                    if c["number"] is None:
+                        c["number"] = b["num"]
+                        c["number_src"] = [k]
+                        nnum += 1
+                    elif c["number"] == b["num"]:
+                        c["number_src"] = [k] + [x for x in c.get("number_src", []) if x not in ("N_" + q for q in ballot["sources"] if not ballot["sources"][q]["official"])]
+                        if c.pop("number_note", None):
+                            nnews -= 1
         ntotal = sum(len(r["candidates"]) for r in races)
         if nnum == 0:
             stage = STAGE
         else:
             how = "依選委會公告" if nnews == 0 else ("依媒體報導，待選委會公告" if nnews == nnum else "部分依媒體報導，待選委會公告")
             stage = f"號次已抽定（{how}" + ("" if nnum == ntotal else f"；尚有 {ntotal - nnum} 位議員號次待補") + "）"
+        if any(k.startswith(cname + "|") for k in bul["cards"]):
+            stage += "；學經歷與政見已依 115 年選舉公報更新"
+        elif any(k.startswith(cname + "|") for k in bul["files"]):
+            stage += "；115 年選舉公報為圖檔，學經歷與政見請見各候選人的公報原檔連結"
         stage_of[cname] = stage
         for r in races:
             t = "" if r["id"] == "mayor" else (r.get("districts") or [""])[0]

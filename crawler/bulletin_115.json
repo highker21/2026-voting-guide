@@ -46954,6 +46954,45 @@
     "exp": false
    }
   },
+  "花蓮縣|council-9|council-9-1": {
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/15%E8%8A%B1%E8%93%AE%E7%B8%A3/%E8%8A%B1%E8%93%AE%E7%B8%A3%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC8%E3%80%819%E3%80%8110%E9%81%B8%E5%8D%80.pdf",
+   "fname": "花蓮縣縣議員第8、9、10選區.pdf",
+   "page": 1,
+   "pages": 1,
+   "num": 1,
+   "name_text": "伊布．達納畢瑪Ibu·Tanapinma",
+   "match": "name",
+   "edu": [
+    "國立東華大學"
+   ],
+   "exp": [
+    "花蓮縣政府科長",
+    "萬榮鄉公所課長、所長",
+    "瑞穗鄉公所所長",
+    "新北市政府課員、書記",
+    "花蓮縣議會組員",
+    "瑞穗國中家長委員"
+   ],
+   "platform": [
+    "部落進縣府．花蓮真進步",
+    "一、部落自主基金：推動縣府編列預算，支持部落自主管理經費，讓地方發展更貼近需求。",
+    "二、原民副縣長實權化：今年修法增加為2位副縣長，建議優先提名原民副縣長，並賦予督導原民事務、協調跨局處資源之職能，讓族人的聲音被重視。",
+    "三、統籌稅款透明化：促請公開分配指標與撥款細目，讓資訊更清楚。",
+    "四、部落產業平台：連結資源，協助部落發展特色產業，增加就業機會。",
+    "五、保留地行動服務隊：主動走入部落，協助族人處理土地繼承與相關權益。",
+    "六、預算監督：關注統籌款運用，確保資源優先投入部落建設與基礎照顧。"
+   ],
+   "ok": {
+    "edu": true,
+    "exp": true,
+    "platform": true
+   },
+   "img": {
+    "platform": false,
+    "edu": false,
+    "exp": false
+   }
+  },
   "花蓮縣|council-8|council-8-1": {
    "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/15%E8%8A%B1%E8%93%AE%E7%B8%A3/%E8%8A%B1%E8%93%AE%E7%B8%A3%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC8%E3%80%819%E3%80%8110%E9%81%B8%E5%8D%80.pdf",
    "fname": "花蓮縣縣議員第8、9、10選區.pdf",
@@ -56089,12 +56128,6 @@
     "name": "臺灣省南投縣議會第21屆議員選舉第6、7、8選區.pdf"
    }
   ],
-  "花蓮縣|council-9": [
-   {
-    "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/15%E8%8A%B1%E8%93%AE%E7%B8%A3/%E8%8A%B1%E8%93%AE%E7%B8%A3%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC8%E3%80%819%E3%80%8110%E9%81%B8%E5%8D%80.pdf",
-    "name": "花蓮縣縣議員第8、9、10選區.pdf"
-   }
-  ],
   "臺東縣|mayor": [
    {
     "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E8%87%BA%E6%9D%B1%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf",
@@ -56159,16 +56192,16 @@
   ]
  },
  "stats": {
-  "cards": 1488,
+  "cards": 1489,
   "fields": {
    "edu:empty": 12,
-   "edu:ok": 1429,
+   "edu:ok": 1430,
    "edu:rejected": 47,
    "exp:empty": 4,
-   "exp:ok": 1432,
+   "exp:ok": 1433,
    "exp:rejected": 52,
    "platform:empty": 619,
-   "platform:ok": 816,
+   "platform:ok": 817,
    "platform:rejected": 53
   },
   "rejected": [
@@ -56953,7 +56986,6 @@
    "臺東縣|council-2",
    "臺東縣|council-7",
    "臺東縣|mayor",
-   "花蓮縣|council-9",
    "連江縣|council-2",
    "連江縣|council-3"
   ],

@@ -120,9 +120,10 @@ def find_name_anchors(lines, hints):
     """以候選人名冊姓名找錨點（號次若是外框字或圖片，抓不到數字時用）。hints：fold 後姓名或中文部分 → 名冊姓名。"""
     out = []
     for l in lines:
-        if l["size"] < 14:
-            continue
         k = fold(l["t"])
+        # 原住民長名字常縮小字級：整行剛好等於完整登記名才放寬到 10pt
+        if l["size"] < 14 and not (l["size"] >= 10 and k in hints and fold(hints[k]) == k):
+            continue
         name = hints.get(k) or (hints.get(cn_part(l["t"])) if len(cn_part(l["t"])) >= 2 and cn_part(l["t"]) == k[:len(cn_part(l["t"]))] else None)
         if name:
             out.append({"num": None, "name": name, "nb": l["bb"], "namebb": l["bb"], "by": "name"})

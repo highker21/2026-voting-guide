@@ -87,6 +87,7 @@
   .vhead { font-weight: 700; font-size: .92rem; } .vhead small { font-weight: 400; color: var(--muted); margin-left: 6px; }
   .vchips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
   .vchip { font: inherit; font-size: .88rem; padding: 4px 9px; border: 1px solid var(--line); border-radius: 14px; background: var(--bg); color: var(--ink); cursor: pointer; text-align: left; }
+  a.vchip { display: inline-block; text-decoration: none; }
   .vchip small { display: block; font-size: .7rem; color: var(--muted); }
   @media print { .noprint { display: none; } .ballot { break-inside: avoid; } .vchip { border-color: #999; } }
   .pfilter { display: flex; align-items: flex-end; gap: 8px; margin: 10px 0 0; }
@@ -106,9 +107,15 @@
   ol.tl { padding-left: 1.2em; }
   .reg { margin: 2px 0 4px; font-size: .82rem; color: var(--muted, #667); }
   ol.src-list { padding-left: 1.6em; font-size: .9rem; overflow-wrap: anywhere; }
-  ol.src-list li:target { background: var(--warn-bg); }
+  ol.src-list li:target, li.tgt { background: var(--warn-bg); }
   footer { margin: 28px 0 8px; padding-top: 10px; border-top: 1px solid var(--line); font-size: .82rem; color: var(--muted); }
   .err { padding: 12px; background: var(--warn-bg); color: var(--warn-ink); border-radius: 8px; }
+  #referendum { margin: 12px 0; padding: 10px 12px; border: 2px solid var(--line); border-radius: 12px; background: var(--card); }
+  #referendum h2 { margin: 0 0 4px; font-size: 1.05rem; }
+  #referendum .main-q { margin: 6px 0; padding: 8px 10px; border-radius: 8px; background: var(--accent-soft); font-weight: 700; overflow-wrap: anywhere; }
+  #referendum ul { padding-left: 1.2em; margin: 6px 0; font-size: .92rem; }
+  #referendum ol { padding-left: 1.6em; margin: 6px 0; font-size: .82rem; overflow-wrap: anywhere; }
+  #referendum summary { cursor: pointer; color: var(--accent); font-size: .92rem; }
   @media (max-width: 420px) { .picker { grid-template-columns: 1fr 1fr; } .picker label:last-child { grid-column: 1 / -1; } }
   @media print {
     .picker, .issue-bar { display: none; }
@@ -124,6 +131,29 @@
   <div class="sub" id="sub"></div>
   <div class="banner" id="banner" hidden></div>
   <div class="neutral">本頁只整理選委會等官方公開資料，不推薦、不評價任何候選人。候選人順序：抽籤前依登記順序，抽籤後依號次。每一項內容都附出處；標示「媒體報導，未經官方確認」的項目，尚未取得官方資料佐證。</div>
+  <section id="referendum">
+    <h2>🗳️ 同一天還有公投：全國性公民投票案第 22 案</h2>
+    <p class="main-q">主文：你是否支持政府使用「核電」振興經濟，以廢除「非核家園」的能源政策？<a class="src" href="#rf-1">[1]</a></p>
+    <ul>
+      <li>全國同一案，不分縣市；在同一個投票所領白色公投票，圈「同意」或「不同意」。<a class="src" href="#rf-2">[2]</a></li>
+      <li>投票時間：115 年 11 月 28 日（星期六）上午 8 時至下午 4 時。<a class="src" href="#rf-1">[1]</a></li>
+    </ul>
+    <details>
+      <summary>誰可以投、怎樣算通過、提案理由</summary>
+      <ul>
+        <li>投票權人：中華民國國民，年滿 18 歲（民國 97 年 11 月 28 日以前出生，含當日），115 年 5 月 28 日以前（含當日）遷入設有戶籍並繼續居住至 11 月 27 日，未受監護宣告。<a class="src" href="#rf-2">[2]</a></li>
+        <li>滿 18 歲有公投權；滿 20 歲才同時有選舉權。18、19 歲的選民只領公投票。<a class="src" href="#rf-2">[2]</a><a class="src" href="#rf-3">[3]</a></li>
+        <li>通過門檻：同意票多於不同意票，且達投票權人總額四分之一。中選會初步統計投票權人約 2,000 萬 7,484 人，四分之一約 500 萬 1,871 票；正式人數以 11 月 24 日前公告為準。<a class="src" href="#rf-3">[3]</a></li>
+        <li>提案：立法院依公民投票法第 15 條第 2 項提出。理由書由提案方撰寫，全文請見中選會公告或公報，本頁不轉載、不評論。<a class="src" href="#rf-1">[1]</a></li>
+        <li>正反意見支持代表在 11 月 9 日至 11 月 21 日於全國性無線電視頻道發表意見或辯論。<a class="src" href="#rf-1">[1]</a></li>
+      </ul>
+      <ol>
+        <li id="rf-1"><a href="https://web.cec.gov.tw/api/file/3ea9497f-7945-49a2-bd4b-375e3d6f1ddf.pdf" target="_blank" rel="noopener">中央選舉委員會公告，115 年 8 月 28 日中選務字第 1153150284 號（含主文、理由書）</a></li>
+        <li id="rf-2"><a href="https://bulletin.cec.gov.tw/02%E5%85%AC%E6%B0%91%E6%8A%95%E7%A5%A8%E5%85%AC%E5%A0%B1/%E5%85%A8%E5%9C%8B%E6%80%A7%E5%85%AC%E6%B0%91%E6%8A%95%E7%A5%A8/115%E7%AC%AC22%E6%A1%88/%E7%B4%99%E6%9C%AC%E5%85%AC%E5%A0%B1/%E5%85%A8%E5%9C%8B%E6%80%A7%E5%85%AC%E6%B0%91%E6%8A%95%E7%A5%A8%E6%A1%88%E7%AC%AC22%E6%A1%88%E5%85%AC%E6%B0%91%E6%8A%95%E7%A5%A8%E5%85%AC%E5%A0%B1.pdf" target="_blank" rel="noopener">中央選舉委員會，全國性公民投票案第 22 案公民投票公報</a></li>
+        <li id="rf-3"><a href="https://www.ey.gov.tw/File/22E6273E924CC54?A=C" target="_blank" rel="noopener">中央選舉委員會，115 年地方公職人員選舉及全國性公民投票選務工作籌辦情形報告（行政院網站）</a></li>
+      </ol>
+    </details>
+  </section>
   <div class="search">
     <label for="q">搜尋候選人</label>
     <input id="q" type="search" placeholder="輸入姓名，例如：陳" autocomplete="off" enterkeyhint="search">
@@ -146,7 +176,7 @@
   <section id="sources"></section>
   <footer>
     改作自 <a href="https://github.com/g0v/2020voting-guide">g0v 2020voting-guide</a>（CC BY-NC 3.0 TW），僅供非商業使用。資料整理：個人製作，非任何政黨或候選人製作。<br>
-    工具版本：2026-11-16
+    工具版本：2026-11-18
   </footer>
 </div>
 <script>
@@ -297,7 +327,7 @@
       ["li", "村里長", town ? nCand(liRaces) : null],
     ];
     if (!tabs.some(t => t[0] === TAB)) TAB = "mayor";
-    if (town && village) {   // 我的選票：這個村里的選民會拿到的三張票
+    if (town && village) {   // 我的選票：這個村里的選民會拿到的選票（含全國性公投）
       const chip = (r, c, tab) => `<button type="button" class="vchip" data-tab="${tab}" data-cid="${esc(c.id)}">${c.number != null ? `<b>${esc(c.number)}</b> ` : ""}${esc(c.name)}<small>${esc(c.party || "")}${c.incumbent ? "・2022當選" : (c.elected_2022_elsewhere ? `・2022當選（${esc(c.elected_2022_elsewhere)}）` : "")}</small></button>`;
       const general = councilRaces.filter(r => !r.indigenous);
       const rowsHtml = [
@@ -305,8 +335,9 @@
         ...general.map(r => [r.name, `應選 ${r.seats ?? "?"} 名`, r, "council"]),
         ...liRaces.map(r => [r.name, "應選 1 名", r, "li"]),
       ].map(([t, sub, r, tab]) => `<div class="vrow"><div class="vhead">${esc(t)}<small>${esc(sub)}｜${(r.candidates || []).length} 位候選人</small></div><div class="vchips">${ordered(r.candidates || []).map(c => chip(r, c, tab)).join("") || '<span class="empty">無人登記</span>'}</div></div>`).join("");
-      main.insertAdjacentHTML("beforeend", `<section class="ballot"><h2>🗳️ ${esc(town)}${esc(village)} 的選票</h2>${rowsHtml}<p class="qnote">具原住民身分的選民，議員改投原住民選區（見「議員」分頁）。<span class="noprint">點姓名可看詳細資料。</span></p></section>`);
-      main.querySelectorAll(".ballot .vchip").forEach(b => b.addEventListener("click", () => {
+      const refRow = `<div class="vrow"><div class="vhead">全國性公民投票案第 22 案<small>白色公投票｜滿 18 歲可投</small></div><div class="vchips"><a class="vchip" href="#referendum">看主文與投票資訊</a></div></div>`;
+      main.insertAdjacentHTML("beforeend", `<section class="ballot"><h2>🗳️ ${esc(town)}${esc(village)} 的選票</h2>${rowsHtml}${refRow}<p class="qnote">具原住民身分的選民，議員改投原住民選區（見「議員」分頁）。<span class="noprint">點姓名可看詳細資料。</span></p></section>`);
+      main.querySelectorAll(".ballot button.vchip").forEach(b => b.addEventListener("click", () => {
         TAB = b.dataset.tab; FOCUS = b.dataset.cid; setHash(); render();
       }));
     }
@@ -565,6 +596,19 @@
       $("#sel-county").value = idx.counties.some(x => x.code === c) ? c : "";
       onCounty(t, v);
     }
+    // 頁內錨點（出處 [n]、公投）只捲動，不改網址 hash，免得被當成選區參數而清掉目前選的縣市
+    document.addEventListener("click", e => {
+      const a = e.target.closest && e.target.closest('a[href^="#"]');
+      const id = a && a.getAttribute("href").slice(1);
+      if (!id || id.includes("=")) return;
+      const el = document.getElementById(id);
+      if (!el) return;
+      e.preventDefault();
+      const d = el.closest("details"); if (d) d.open = true;
+      document.querySelectorAll(".tgt").forEach(x => x.classList.remove("tgt"));
+      if (el.tagName === "LI") el.classList.add("tgt");   // 取代原本 li:target 的標示
+      el.scrollIntoView({ block: el.tagName === "LI" ? "center" : "start" });
+    });
     window.addEventListener("hashchange", applyHash);
     applyHash();
   }).catch(e => { $("#races").innerHTML = `<p class="err">讀取資料失敗（${esc(e.message)}）。若是直接用檔案開啟，請改用網頁伺服器。</p>`; });

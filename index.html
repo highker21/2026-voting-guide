@@ -116,6 +116,22 @@
   #referendum ul { padding-left: 1.2em; margin: 6px 0; font-size: .92rem; }
   #referendum ol { padding-left: 1.6em; margin: 6px 0; font-size: .82rem; overflow-wrap: anywhere; }
   #referendum summary { cursor: pointer; color: var(--accent); font-size: .92rem; }
+  #referendum > details + details { margin-top: 6px; }
+  #rf-forums .fnote { font-size: .82rem; color: var(--muted); margin: 6px 0; }
+  #rf-forums details.fsess { margin: 8px 0; padding: 6px 8px; border: 1px solid var(--line); border-radius: 8px; }
+  #rf-forums details.fsess > summary { font-weight: 700; color: var(--ink); }
+  #rf-forums .fmeta { font-size: .8rem; color: var(--muted); margin: 4px 0; overflow-wrap: anywhere; }
+  #rf-forums .pc { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  @media (max-width: 640px) { #rf-forums .pc { grid-template-columns: 1fr; } }
+  #rf-forums .pc > div { min-width: 0; padding: 6px 8px; border-radius: 8px; background: var(--chip); }
+  #rf-forums .pc h3 { margin: 0 0 2px; font-size: .92rem; }
+  #rf-forums .pc ul { padding-left: 1.1em; margin: 2px 0; font-size: .88rem; }
+  #rf-forums a { color: var(--accent); }
+  #rf-forums a.ts { font-variant-numeric: tabular-nums; font-size: .78rem; margin-right: 4px; white-space: nowrap; }
+  #rf-forums .tx { font-size: .86rem; line-height: 1.7; }
+  #rf-forums .tx p { margin: 6px 0; overflow-wrap: anywhere; }
+  #rf-forums .tx b { margin-right: 4px; }
+  #rf-forums .corr { font-size: .8rem; overflow-wrap: anywhere; }
   @media (max-width: 420px) { .picker { grid-template-columns: 1fr 1fr; } .picker label:last-child { grid-column: 1 / -1; } }
   @media print {
     .picker, .issue-bar { display: none; }
@@ -151,7 +167,13 @@
         <li id="rf-1"><a href="https://web.cec.gov.tw/api/file/3ea9497f-7945-49a2-bd4b-375e3d6f1ddf.pdf" target="_blank" rel="noopener">中央選舉委員會公告，115 年 8 月 28 日中選務字第 1153150284 號（含主文、理由書）</a></li>
         <li id="rf-2"><a href="https://bulletin.cec.gov.tw/02%E5%85%AC%E6%B0%91%E6%8A%95%E7%A5%A8%E5%85%AC%E5%A0%B1/%E5%85%A8%E5%9C%8B%E6%80%A7%E5%85%AC%E6%B0%91%E6%8A%95%E7%A5%A8/115%E7%AC%AC22%E6%A1%88/%E7%B4%99%E6%9C%AC%E5%85%AC%E5%A0%B1/%E5%85%A8%E5%9C%8B%E6%80%A7%E5%85%AC%E6%B0%91%E6%8A%95%E7%A5%A8%E6%A1%88%E7%AC%AC22%E6%A1%88%E5%85%AC%E6%B0%91%E6%8A%95%E7%A5%A8%E5%85%AC%E5%A0%B1.pdf" target="_blank" rel="noopener">中央選舉委員會，全國性公民投票案第 22 案公民投票公報</a></li>
         <li id="rf-3"><a href="https://www.ey.gov.tw/File/22E6273E924CC54?A=C" target="_blank" rel="noopener">中央選舉委員會，115 年地方公職人員選舉及全國性公民投票選務工作籌辦情形報告（行政院網站）</a></li>
+        <li id="rf-4"><a href="https://web.cec.gov.tw/central/article/65456" target="_blank" rel="noopener">中央選舉委員會新聞稿，全國性公民投票案第 22 案 5 場電視發表會主持人與正反方代表人名單</a></li>
       </ol>
+    </details>
+    <details id="rf-forums" class="noprint">
+      <summary>意見發表會：正反方各說了什麼（逐字稿整理）</summary>
+      <p class="fnote">中選會共辦 5 場意見發表會。<a class="src" href="#rf-4">[4]</a> 依各場主持人開場說明，正反方代表人各發言 2 輪、每輪 12 分鐘。以下是本站用語音辨識自製的逐字稿與發言重點，<b>不是官方紀錄，內容以影片為準</b>。重點正反方條數相同，只記代表人說了什麼，不查核、不評論。點時間可跳到影片中講這句話的地方；一條重點若整理自幾處發言，會附幾個時間。</p>
+      <div id="rf-forum-list"><p class="fnote">載入中…</p></div>
     </details>
   </section>
   <div class="search">
@@ -176,7 +198,7 @@
   <section id="sources"></section>
   <footer>
     改作自 <a href="https://github.com/g0v/2020voting-guide">g0v 2020voting-guide</a>（CC BY-NC 3.0 TW），僅供非商業使用。資料整理：個人製作，非任何政黨或候選人製作。<br>
-    工具版本：2026-11-18
+    工具版本：2026-11-19
   </footer>
 </div>
 <script>
@@ -612,6 +634,36 @@
     window.addEventListener("hashchange", applyHash);
     applyHash();
   }).catch(e => { $("#races").innerHTML = `<p class="err">讀取資料失敗（${esc(e.message)}）。若是直接用檔案開啟，請改用網頁伺服器。</p>`; });
+
+  // 公投意見發表會：打開才載入（逐字稿較大）
+  const fbox = $("#rf-forums");
+  let fLoaded = false;
+  const mmss = t => { t = Math.max(0, Math.floor(+t || 0)); const h = Math.floor(t / 3600), m = Math.floor(t % 3600 / 60), s = t % 60; return (h ? h + ":" + String(m).padStart(2, "0") : m) + ":" + String(s).padStart(2, "0"); };
+  const ytUrl = (id, t) => `https://www.youtube.com/watch?v=${encodeURIComponent(id)}&t=${Math.max(0, Math.floor(+t || 0))}s`;
+  const tsLink = (id, t) => `<a class="ts" href="${esc(ytUrl(id, t))}" target="_blank" rel="noopener">▶${mmss(t)}</a>`;
+  function renderForums(d) {
+    const html = (d.sessions || []).map(s => {
+      const role = r => r === "pro" ? `正方 ${s.pro}` : r === "con" ? `反方 ${s.con}` : `主持人 ${s.host}`;
+      const pts = side => `<ul>${(s.points[side] || []).map(p => `<li>${[].concat(p[0]).map(t => tsLink(s.video_id, t)).join("")}${esc(p[1])}</li>`).join("")}</ul>`;
+      const tx = (s.transcript || []).map(p => `<p>${tsLink(s.video_id, p[0])}<b>${esc(p[3] || role(p[1]))}</b>${esc(p[2])}</p>`).join("");
+      const corr = (s.corrections || []).map(c => `<li>${mmss(c[0])}「${esc(c[1])}」→「${esc(c[2])}」</li>`).join("");
+      return `<details class="fsess"><summary>第 ${s.n} 場｜${esc(s.when)}｜正方 ${esc(s.pro)}、反方 ${esc(s.con)}</summary>
+        <p class="fmeta">主持：${esc(s.host_title)} ${esc(s.host)}｜影片：<a href="${esc(ytUrl(s.video_id, 0))}" target="_blank" rel="noopener">${esc(s.video_title)}</a>（${esc(s.video_channel)} YouTube）</p>
+        <div class="pc"><div><h3>正方 ${esc(s.pro)} 發言重點</h3>${pts("pro")}</div><div><h3>反方 ${esc(s.con)} 發言重點</h3>${pts("con")}</div></div>
+        <details><summary>完整逐字稿</summary><p class="fnote">逐字稿照錄代表人發言，含不雅用語及對特定人士的指控，均為發言者個人主張，本站未查證，也不代表本站立場。</p><div class="tx">${tx.replace(/〔？〕/g, '<abbr title="語音辨識不確定">〔？〕</abbr>')}</div></details>
+        <details><summary>語音辨識校正紀錄（${(s.corrections || []).length} 處；〔？〕標記 ${s.uncertain_n || 0} 處）</summary><ul class="corr">${corr}</ul></details>
+      </details>`;
+    }).join("");
+    const pend = (d.pending || []).map(p => `<p class="fnote">第 ${p.n} 場｜${esc(p.when)}｜正方 ${esc(p.pro)}、反方 ${esc(p.con)}：播出後補上。</p>`).join("");
+    $("#rf-forum-list").innerHTML = html + pend + `<p class="fnote">逐字稿整理日期：${esc(d.updated)}。人名依中選會公告校正；其他校正與不確定處都列在各場紀錄裡。</p>`;
+  }
+  if (fbox) fbox.addEventListener("toggle", () => {
+    if (!fbox.open || fLoaded) return;
+    fLoaded = true;
+    fetch("data/referendum22/forums.json", { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+      .then(renderForums)
+      .catch(e => { fLoaded = false; $("#rf-forum-list").innerHTML = `<p class="err">讀取發表會資料失敗（${esc(e.message)}），請稍後再打開一次。</p>`; });
+  });
 })();
 </script>
 </body>

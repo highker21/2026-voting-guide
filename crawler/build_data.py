@@ -3,7 +3,7 @@
 
 用法：python3 build_data.py   （輸出到 ../data/）
 """
-import glob, json, os, re, shutil
+import glob, json, os, re, shutil, urllib.parse
 from collections import Counter, defaultdict
 from villages import load as load_villages, fix as fix_name
 
@@ -14,6 +14,7 @@ STAGE = "已審定（中選會 115/10/16 審定候選人資格；號次尚未公
 STAGE_LI = "已審定；村里長號次已抽籤，本站尚未整理（請以選委會公告或選舉公報為準）"
 STAGE_LI2 = "號次依各縣市選委會抽籤結果；學經歷與政見請點選舉公報原檔（本站陸續轉成文字）"
 UPDATED_LI = "2026-11-19"
+BUL_DIR = os.path.expanduser("~/claudecode/data/vg_bulletin_115")   # 首長、議員公報本機檔（只用來算檔案大小）
 PAGETEXT = os.path.expanduser("~/claudecode/data/vg_li_bulletin_115/pagetext")   # page_text.py 產出（repo 外）
 LI_OCR_COUNTIES = {"新北市", "彰化縣", "南投縣", "苗栗縣", "屏東縣", "金門縣", "連江縣"}   # 沒有全縣里長號次抽籤表，號次由公報影像讀取
 LI_NO_BULLETIN = {}   # 11/19 上午中選會補上基隆、新竹市里長公報
@@ -368,6 +369,15 @@ def main():
             k = f"P{len([1 for key in S if key.startswith('P')]) + 1}"
             S[k] = {"title": f"115 年選舉公報（中選會）：{fname}", "url": url, "accessed": BUL_ACCESSED}
             return k
+        def bul_link(url, fname, page=None, pages=None, k=None):
+            """首長、議員卡片：在政見欄最前面放可直接點開的公報連結（同里長版）。"""
+            loc = urllib.parse.unquote(url.split("bulletin.cec.gov.tw/", 1)[-1]).replace("01選舉公報/", "", 1).replace("/", "__")
+            lp = os.path.join(BUL_DIR, loc)
+            mb = os.path.getsize(lp) / 1e6 if os.path.exists(lp) else 0
+            label = f"選舉公報：{fname[:-4] if fname.endswith('.pdf') else fname}" + (f"（第 {page} 頁）" if page and (pages or 1) > 1 else "")
+            if mb >= 30:
+                label += f"（PDF {mb:.0f} MB，手機可能開不了，建議用電腦）"
+            return {"text": label, "url": url + (f"#page={page}" if page and (pages or 1) > 1 else ""), "src": [k], "tag": "選舉公報"}
         for r in races:
             for c in r["candidates"]:
                 b = bul["cards"].get(f"{cname}|{r['id']}|{c['id']}")
@@ -381,7 +391,7 @@ def main():
                     fl = bul["files"].get(f"{cname}|{r['id']}", [])
                     if fl:
                         ks = [psrc(x["url"], x["name"]) for x in fl]
-                        c["platform"] = [{"text": "公報已刊登，但這份 PDF 是圖片或字型無法轉成文字，本站未轉載學經歷與政見；請開公報原檔查看。", "src": ks, "tag": "選舉公報"}]
+                        c["platform"] = [bul_link(x["url"], x["name"], k=kk) for x, kk in zip(fl, ks)] + [{"text": "公報已刊登，但這份 PDF 是圖片或字型無法轉成文字，本站未轉載學經歷與政見；請開公報原檔查看。", "src": ks, "tag": "選舉公報"}]
                     continue
                 k = psrc(b["url"], b["fname"])
                 pg = f"第 {b['page']} 頁" if b.get("pages", 1) > 1 else ""
@@ -402,7 +412,7 @@ def main():
                     pl.append({"text": f"（公報政見欄空白；請見公報原檔{pg}）", "src": [k]})
                 for x in pl:
                     x["tag"] = "選舉公報"
-                c["platform"] = pl
+                c["platform"] = [bul_link(b["url"], b["fname"], b.get("page"), b.get("pages"), k)] + pl
                 if b.get("num") is not None:
                     if c["number"] is None:
                         c["number"] = b["num"]

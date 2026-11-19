@@ -3,7 +3,7 @@
 
 用法：python3 build_data.py   （輸出到 ../data/）
 """
-import json, os, re, shutil
+import glob, json, os, re, shutil
 from collections import Counter, defaultdict
 from villages import load as load_villages, fix as fix_name
 
@@ -12,6 +12,11 @@ OUT = os.path.join(HERE, "..", "data")
 UPDATED = "2026-11-16"
 STAGE = "已審定（中選會 115/10/16 審定候選人資格；號次尚未公布）"
 STAGE_LI = "已審定；村里長號次已抽籤，本站尚未整理（請以選委會公告或選舉公報為準）"
+STAGE_LI2 = "號次依各縣市選委會抽籤結果；學經歷與政見請點選舉公報原檔（本站陸續轉成文字）"
+UPDATED_LI = "2026-11-19"
+PAGETEXT = os.path.expanduser("~/claudecode/data/vg_li_bulletin_115/pagetext")   # page_text.py 產出（repo 外）
+LI_OCR_COUNTIES = {"新北市", "彰化縣", "南投縣", "苗栗縣", "屏東縣", "金門縣", "連江縣"}   # 沒有全縣里長號次抽籤表，號次由公報影像讀取
+LI_NO_BULLETIN = {}   # 11/19 上午中選會補上基隆、新竹市里長公報
 BALLOT = "ballot_numbers_20261027.json"
 BULLETIN = "bulletin_115.json"   # 115 年選舉公報（parse_bulletin → match_bulletin → ocr_check_bulletin → finalize_bulletin）
 BUL_ACCESSED = "2026-11-16"   # 縣市長／議員號次（各選委會公告；未公告者依媒體報導）
@@ -127,6 +132,7 @@ def main():
     vl = load_villages()
     dmap = jload("district_map.json", {})
     el = jload("elected_2022.json", {})
+    LB = jload("li_bulletin_115.json", {"files": {}, "villages": {}, "numbers": {}, "number_sources": {}})
     recm = jload("records_mayor.json", {})
     biom = jload("bio_mayor.json", {})
     for f in ("bio_mayor_news_B.json", "bio_mayor_party_B.json", "bio_mayor_party_B2.json"):
@@ -184,9 +190,14 @@ def main():
         vil_of[(v["county"], v["town"])].append(v["village"])
     full = {v["county"] + v["town"] + v["village"]: v for v in vl}
 
+    KEEP = {"referendum22"}   # 不是這支產生的資料（公投發表會逐字稿等），重建時保留
     if os.path.exists(OUT):
-        shutil.rmtree(OUT)
-    os.makedirs(OUT)
+        for x in os.listdir(OUT):
+            if x in KEEP:
+                continue
+            p_ = os.path.join(OUT, x)
+            shutil.rmtree(p_) if os.path.isdir(p_) else os.remove(p_)
+    os.makedirs(OUT, exist_ok=True)
     index = []
     nvb = 0
     stage_of = {}
@@ -406,7 +417,7 @@ def main():
             stage = STAGE
         else:
             how = "依選委會公告" if nnews == 0 else ("依媒體報導，待選委會公告" if nnews == nnum else "部分依媒體報導，待選委會公告")
-            stage = f"號次已抽定（{how}" + ("" if nnum == ntotal else f"；尚有 {ntotal - nnum} 位議員號次待補") + "）"
+            stage = f"首長、議員號次已抽定（{how}" + ("" if nnum == ntotal else f"；尚有 {ntotal - nnum} 位議員號次待補") + "）"
         if any(k.startswith(cname + "|") for k in bul["cards"]):
             stage += "；學經歷與政見已依 115 年選舉公報更新"
         elif any(k.startswith(cname + "|") for k in bul["files"]):
@@ -444,6 +455,7 @@ def main():
         nli = 0
         for town in towns_of[cname]:
             lraces = []
+            St = {}   # 本鄉鎮市區專用的出處（公報檔、號次表），不累積到其他鄉鎮市區
             for vil in vil_of[(cname, town)]:
                 rows = vs.get((town, vil), [])
                 lcands = [cand(r, "R9", f"li-{vil}-{j+1}",
@@ -474,14 +486,91 @@ def main():
                         else:
                             sid = next(k for k, v in S9.items() if k.startswith("S") and v.get("url") == x["src_url"])
                         c["bio"].append(bio_item(x, sid))
+                # 115 年村里長：號次（各縣市選委會抽籤結果）＋選舉公報原檔連結（中選會電子公報；嘉義市取自嘉義市選委會）
+                vkey = f"{cname}|{town}|{vil}"
+                vb = LB["villages"].get(vkey) or {}
+                bitems = []
+                for fk in vb.get("files", []):
+                    f = LB["files"][fk]
+                    pg = (vb.get("page") or {}).get(fk)
+                    pgs = pg if isinstance(pg, list) else ([pg] if pg else [])
+                    pg = pgs[0] if pgs else None
+                    sid = "B_" + f["md5"][:8]
+                    St[sid] = {"title": f"115 年村里長選舉公報（{'嘉義市選委會' if f.get('via') else '中選會電子公報'}）：{f['name']}", "url": f.get("via") or f["url"], "accessed": UPDATED_LI}
+                    if vb.get("how") == "village":
+                        label = f"選舉公報：{town}{vil}"
+                    else:
+                        where = f"第 {'、'.join(map(str, pgs))} 頁" if pgs else (f"共 {f['pages']} 頁，請找{vil}" if f.get("pages") else f"請找{vil}")
+                        label = f"選舉公報：{f['name']}（{where}）"
+                    mb = (f.get("bytes") or 0) / 1e6
+                    if mb >= 30:
+                        label += f"（PDF {mb:.0f} MB，手機可能開不了，建議用電腦）"
+                    bitems.append({"text": label, "url": f["url"] + (f"#page={pg}" if pg else ""), "src": [sid], "tag": "選舉公報"})
+                for j, a in enumerate(LB.get("additions", {}).get(vkey, [])):   # 號次抽籤結果有、登記名冊沒有（或里別不同）：依選委會抽籤結果補列
+                    St[a["src"]] = LB["number_sources"][a["src"]]
+                    lcands.append({"id": f"li-{vil}-{len(rows) + j + 1}", "name": a["name"] if a.get("readable", True) else "（姓名含罕用字，請見選委會號次抽籤結果）",
+                                   "party": party(a.get("party") or ""), "number": a["number"], "number_src": [a["src"]], "incumbent": None,
+                                   "bio": [], "record": [], "platform": [], "donation_2022": None,
+                                   "status_note": "依選委會號次抽籤結果補列（115/09/07 登記名冊上沒有此人或里別不同）"})
+                # 公報文字版（OCR 全頁文字）：該里所在頁；整份一里一檔則取各頁（投開票所頁沒有 OCR，自然略過）
+                ptitems = []
+                for fk in vb.get("files", []):
+                    f = LB["files"][fk]
+                    pg = (vb.get("page") or {}).get(fk)
+                    pgs = pg if isinstance(pg, list) else ([pg] if pg else [])
+                    if not pgs and vb.get("how") == "village":
+                        pgs = list(range(1, (f.get("pages") or 1) + 1))
+                    for p_ in pgs:
+                        src_pt = os.path.join(PAGETEXT, f["path"][:-4] + f".p{p_}.json")
+                        if not os.path.exists(src_pt):
+                            continue
+                        _t = "".join("".join(b_) for b_ in json.load(open(src_pt))["blocks"])
+                        if re.search(r"投[（(]?開[)）]?票所", _t) and not re.search(r"政\s*見|學\s*歷|經\s*歷", _t):
+                            continue   # 投開票所一覽表頁，不是候選人資料
+                        name_pt = f"{f['md5'][:10]}p{p_}.json"
+                        os.makedirs(os.path.join(OUT, code, "pt"), exist_ok=True)
+                        dst = os.path.join(OUT, code, "pt", name_pt)
+                        if not os.path.exists(dst):
+                            shutil.copy(src_pt, dst)
+                        ptitems.append({"text": f"公報文字版（OCR）：{town}{vil if vb.get('how') == 'village' else f['name']} 第 {p_} 頁",
+                                        "pt": f"{code}/pt/{name_pt}", "src": ["B_" + f["md5"][:8]], "tag": "選舉公報（OCR）"})
+                for c in lcands:
+                    rn = LB.get("renames", {}).get(f"{vkey}|{c['name']}")
+                    hit = LB["numbers"].get(f"{vkey}|{c['name']}")
+                    if rn:
+                        c["status_note"] = f"姓名依選舉公報與選委會號次抽籤結果為「{rn}」（115/09/07 登記名冊寫作「{c['name']}」）"
+                        c["reg_name"] = c["name"]   # 保留名冊寫法（li_links 對名冊時用）
+                        c["name"] = rn
+                    if hit:
+                        c["number"] = hit[0]
+                        c["number_src"] = [hit[1]]
+                        St[hit[1]] = LB["number_sources"][hit[1]]
+                    if cname in LI_OCR_COUNTIES and c.get("number") is None and not c.get("status_note"):
+                        # B 第2輪 Major：沒有官方抽籤表、號次也沒從公報讀到 → 不能暗示一定在選票上
+                        c["status_note"] = "本站尚未確認此人是否刊登於選舉公報（號次未讀到），請以選舉公報為準"
+                    nt = LB.get("notes", {}).get(f"{vkey}|{c['name']}")
+                    if nt == "NOT_IN_LIST":
+                        c["status_note"] = "未列於選委會號次抽籤結果（可能未通過資格審定或已撤回登記），請以選舉公報為準"
+                    elif nt:
+                        c["number_note"] = nt
+                    if bitems:
+                        c["platform"] = [dict(x, label=None if ptitems else "本站尚未轉成文字，請點開公報原檔") for x in bitems] + [dict(x, hl=c["name"]) for x in ptitems]
+                        if not c["bio"]:
+                            c["bio"] = [{"text": "學經歷與政見刊在同一份選舉公報，請點下方「政見」欄的公報連結。", "src": bitems[0]["src"], "tag": "選舉公報"}]
+                    elif cname in LI_NO_BULLETIN or vb.get("how") == "missing":
+                        nb = {"text": f"中選會電子公報網站目前沒有本{vil[-1]}的{vil[-1]}長選舉公報（本站 {UPDATED_LI} 查詢），公布後補上。", "src": []}
+                        c["platform"] = [nb]
+                        if not c["bio"]:
+                            c["bio"] = [nb]
                 lraces.append({"id": f"li-{vil}", "type": "村里長", "name": f"{town}{vil}{vil[-1]}長", "village": vil,
-                               "area": vil, "seats": 1, "note": "" if rows else "名冊上沒有人登記參選。",
+                               "area": vil, "seats": 1, "note": "" if lcands else "名冊上沒有人登記參選。",
                                "candidates": lcands})
-                nli += len(rows)
+                nli += len(lcands)
                 for c in lraces[-1]["candidates"]:
                     if not c.get("name_unreadable"):
                         search.append([c["name"], c["party"], code, f"{cname}{town}{vil}{vil[-1]}長", "li", town, vil, c["id"]])
-            json.dump({"meta": {"county": cname, "town": town, "updated": UPDATED, "stage": STAGE_LI if nnum else STAGE}, "sources": S9, "races": lraces},
+            has_li_num = any(c.get("number") is not None for r in lraces for c in r["candidates"])
+            json.dump({"meta": {"county": cname, "town": town, "updated": UPDATED_LI, "stage": STAGE_LI2 if has_li_num else (STAGE_LI if nnum else STAGE)}, "sources": {**S9, **St}, "races": lraces},
                       open(os.path.join(OUT, code, f"li-{town}.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
         # 村里界圖（內政部國土測繪中心，data.gov.tw 7438；mapshaper 簡化 12%）→ 給地址定位在瀏覽器內判斷村里
         for town in towns_of[cname]:
@@ -508,7 +597,15 @@ def main():
                          if ft["geometry"] and (ft["properties"]["VILLNAME"] or "").strip()]
                 json.dump(feats, open(os.path.join(OUT, code, f"vb-{town}.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
                 nvb += 1
-        index.append({"code": code, "name": cname, "file": f"{code}.json", "stage": stage, "updated": UPDATED,
+        li_all = [c for f_ in glob.glob(os.path.join(OUT, code, "li-*.json")) for r_ in json.load(open(f_))["races"] for c in r_["candidates"]]
+        li_num = [c for c in li_all if c.get("number") is not None]
+        li_ocr = [c for c in li_num if any(str(x).startswith("NB_") for x in c.get("number_src", []))]
+        if li_num:
+            how = "依選委會抽籤結果" if not li_ocr else ("由本站從選舉公報讀取" if len(li_ocr) == len(li_num) else "依選委會抽籤結果，部分由本站從選舉公報讀取")
+            stage += f"｜里長號次：{how}" + (f"（尚有 {len(li_all) - len(li_num)} 位待補）" if len(li_num) < len(li_all) else "")
+        else:
+            stage += "｜里長號次：待補（請以選舉公報為準）"
+        index.append({"code": code, "name": cname, "file": f"{code}.json", "stage": stage, "updated": UPDATED_LI,
                       "counts": {"mayor": len(races[0]["candidates"]), "council": sum(len(r["candidates"]) for r in races[1:]),
                                  "village": nli}})
     # 門牌 → 村里索引（各縣市開放門牌資料；crawler/addr_index/<code>/<區>.json）

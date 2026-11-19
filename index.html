@@ -48,6 +48,12 @@
   ul.facts { margin: 6px 0 4px; padding-left: 1.2em; }
   ul.facts li { margin: 3px 0; overflow-wrap: anywhere; }
   .src { font-size: .72rem; vertical-align: super; margin-left: 2px; color: var(--accent); text-decoration: none; }
+  a.bul { color: var(--accent); font-weight: 600; overflow-wrap: anywhere; }
+  details.ptx .fnote { font-size: .8rem; color: var(--muted); margin: 4px 0; }
+  details.ptx > summary { color: var(--accent); font-weight: 600; cursor: pointer; }
+  details.ptx .ptxt { font-size: .84rem; line-height: 1.6; max-height: 70vh; overflow-y: auto; border: 1px solid var(--line); border-radius: 8px; padding: 4px 8px; }
+  details.ptx .ptxt p { margin: 6px 0; overflow-wrap: anywhere; }
+  details.ptx .ptxt p.hit { background: var(--accent-soft); border-radius: 6px; padding: 2px 4px; }
   .unoff { display: inline-block; font-size: .72rem; margin-left: 4px; padding: 0 6px; border-radius: 8px; background: var(--warn-bg); color: var(--warn-ink); }
   .issue-label { font-size: .75rem; padding: 0 6px; margin-right: 4px; border-radius: 8px; background: var(--chip); color: var(--muted); }
   .empty { color: var(--muted); font-size: .9rem; font-style: italic; }
@@ -237,7 +243,11 @@
     const lab = (withIssue && f.issue ? `<span class="issue-label">${esc(ISSUES[f.issue] || f.issue)}</span>` : "") + (f.tag ? `<span class="issue-label">${esc(f.tag)}</span>` : "");
     const un = f.official === false ? `<span class="unoff">媒體報導，未經官方確認</span>` : "";
     const self = f.label ? `<span class="unoff">${esc(f.label)}</span>` : (f.self === true ? `<span class="unoff">候選人自述</span>` : "");
-    return `<li>${lab}${esc(f.text)}${srcLinks(ns, f.src)}${self}${un}</li>`;
+    if (f.pt && /^[a-z-]+\/pt\/[0-9a-f]+p\d+\.json$/.test(f.pt)) {   // 公報文字版（OCR 全頁文字，點開才載入）
+      return `<li>${lab}<details class="ptx" data-pt="${esc(f.pt)}" data-hl="${esc(f.hl || "")}"><summary>📝 ${esc(f.text)}</summary><div class="ptbody"><p class="fnote">載入中…</p></div></details>${srcLinks(ns, f.src)}</li>`;
+    }
+    const body = f.url && /^https:\/\//.test(f.url) ? `<a class="bul" href="${esc(f.url)}" target="_blank" rel="noopener">📄 ${esc(f.text)}</a>` : esc(f.text);
+    return `<li>${lab}${body}${srcLinks(ns, f.src)}${self}${un}</li>`;
   }
   function factList(ns, arr, withIssue, emptyText) {
     if (arr && arr.length) return `<ul class="facts">${arr.map(f => factItem(ns, f, withIssue)).join("")}</ul>`;
@@ -265,7 +275,8 @@
     const newsHtml = `<details${curated ? " open" : ""}><summary>相關新聞</summary>${curated ? `<ul class="news">${curated}</ul><p class="qnote">報導標題與連結由整理者收錄，不代表本頁立場；同名者請自行判斷。</p>` : ""}<p class="newslink"><a href="${gq}" target="_blank" rel="noopener">🔎 在 Google 新聞查「${esc(newsQuery(c, race))}」</a></p></details>`;
     return `<article class="card" data-cid="${esc(c.id)}">
       <header>${num}<span class="name">${esc(c.name)}</span><span class="party">${party}</span>${c.incumbent ? '<span class="tag" title="依中選會 2022 當選名單；任內補選、解職未計入">2022 當選</span>' : ""}</header>
-      ${c.reg ? `<p class="reg">${c.reg.date} 登記參選${srcLinks(ns, c.reg.src)}${c.incumbent == null ? "｜是否現任：尚未比對" : ""}${c.number != null ? `｜號次 ${esc(c.number)}${srcLinks(ns, c.number_src)}${c.number_note ? `（${esc(c.number_note)}）` : ""}` : ""}</p>` : ""}
+      ${c.status_note ? `<p class="reg"><span class="unoff">${esc(c.status_note)}</span></p>` : ""}
+      ${c.reg ? `<p class="reg">${c.reg.date} 登記參選${srcLinks(ns, c.reg.src)}${c.incumbent == null ? "｜是否現任：尚未比對" : ""}${c.number != null ? `｜號次 ${esc(c.number)}${srcLinks(ns, c.number_src)}${c.number_note ? `（${esc(c.number_note)}）` : ""}` : ""}</p>` : (c.number != null ? `<p class="reg">號次 ${esc(c.number)}${srcLinks(ns, c.number_src)}</p>` : "")}
       <details open><summary>學經歷</summary>${factList(ns, c.bio, false, PENDING)}</details>
       ${c.incumbent ? `<details open><summary>任內政績</summary>${factList(ns, c.record, false, "尚無任內政績資料")}</details>` : `<details><summary>過去紀錄</summary>${factList(ns, c.record, false)}</details>`}
       <details><summary>政見</summary>${factList(ns, c.platform, true, PENDING)}</details>
@@ -657,6 +668,21 @@
     const pend = (d.pending || []).map(p => `<p class="fnote">第 ${p.n} 場｜${esc(p.when)}｜正方 ${esc(p.pro)}、反方 ${esc(p.con)}：播出後補上。</p>`).join("");
     $("#rf-forum-list").innerHTML = html + pend + `<p class="fnote">逐字稿整理日期：${esc(d.updated)}。人名依中選會公告校正；其他校正與不確定處都列在各場紀錄裡。</p>`;
   }
+  // 公報文字版：toggle 不會冒泡，用 capture 監聽；每個 details 只載入一次
+  document.addEventListener("toggle", ev => {
+    const d = ev.target;
+    if (!(d instanceof HTMLDetailsElement) || !d.classList.contains("ptx") || !d.open || d.dataset.loaded) return;
+    d.dataset.loaded = "1";
+    const box = d.querySelector(".ptbody"), hl = d.dataset.hl || "";
+    fetch("data/" + d.dataset.pt).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(j => {
+      const blocks = (j.blocks || []).map(b => {
+        const t = b.join("\n"), on = hl && t.replace(/\s/g, "").includes(hl.replace(/\s/g, ""));
+        return `<p${on ? ' class="hit"' : ""}>${b.map(esc).join("<br>")}</p>`;
+      }).join("");
+      const anyHit = blocks.includes('class="hit"');
+      box.innerHTML = `<p class="fnote">以下是本站用 OCR 從公報影像轉出的第 ${esc(j.page)} 頁全部文字（含同頁其他候選人），可能有錯字或順序錯亂，內容以公報原檔為準。${hl ? (anyHit ? "有底色的段落含此候選人姓名。" : "本頁 OCR 未比對到此候選人姓名（可能是辨識錯字，也可能此人不在本頁），請以公報原檔為準。") : ""}</p><div class="ptxt">${blocks}</div>`;
+    }).catch(() => { d.dataset.loaded = ""; box.innerHTML = `<p class="fnote">載入失敗，請稍後再點一次。</p>`; });
+  }, true);
   if (fbox) fbox.addEventListener("toggle", () => {
     if (!fbox.open || fLoaded) return;
     fLoaded = true;
